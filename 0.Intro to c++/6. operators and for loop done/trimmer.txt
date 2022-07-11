@@ -1,0 +1,1 @@
+ffmpeg -i "video_20211214_025240.mp4" -ss 00:00:00 -to 00:46:12 -c:v copy -c:a copy "new111.mp4"
