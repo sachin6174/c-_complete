@@ -14,10 +14,11 @@ typedef pair<int,int> pi;
 #define S second
 #define PB push_back
 #define MP make_pair
+
 template<typename T>
 class node{
     public:
-    T data;
+    T data<int>;
     node<T>*next;
     node(int data){
         this->data=data;
@@ -55,7 +56,6 @@ class node{
                 head=p;
                 tail=p;
             }else{
-            //    node<T>* p=new node<T> ; 
                tail->next=p;
                tail=p;
                //or tail=tal->next;
@@ -135,20 +135,11 @@ class node{
         }
         return head;
     }
-
- node* partition(Node*head,int x ){
-     
-    //  if(head==NULL){
-    //      return NULL;
-    //  }
-    //  Node*second=head->next;
-    //  head->next=NULL;
-    //  Node* temp=partition(second);
-    //  if()
-    node*fs=NULL;
-    node*se=NULL;
-    node*ss=NULL;
-    node* p=new node(head->data);
+ node<int>* partition(node<int>*head,int x ){
+    node<int>*fs=NULL;
+    node<int>*se=NULL;
+    node<int>*ss=NULL;
+    node<int>* p=new node(head->data);
     while(head!=NULL){
         if(s==NULL){
             if(head->data<x){

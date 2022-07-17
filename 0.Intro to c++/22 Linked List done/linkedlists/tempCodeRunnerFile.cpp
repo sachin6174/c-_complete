@@ -1,2 +1,0 @@
-
-    cout<<second->data<<endl;
