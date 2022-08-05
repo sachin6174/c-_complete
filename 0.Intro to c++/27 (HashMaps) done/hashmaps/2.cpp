@@ -84,9 +84,9 @@ class ourmap {
 	}
 
 };
-$10-worth New Year Gift for You
-Make your 2022 productive
-with LINER Premium
+// $10-worth New Year Gift for You
+// Make your 2022 productive
+// with LINER Premium
 
-Dismiss
-Open the gift
+// Dismiss
+// Open the gift

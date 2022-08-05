@@ -21,7 +21,7 @@ int main() {
 
 	// find
 	unordered_map<string, int>::iterator it2 = ourmap.find("abc");
-	ourmap.erase(it2, it2 + 4);
+	ourmap.erase(it2, it2+4);
 	
 
 	vector<int> v;
@@ -39,9 +39,9 @@ int main() {
 
 }
 
-$10-worth New Year Gift for You
-Make your 2022 productive
-with LINER Premium
+// $10-worth New Year Gift for You
+// Make your 2022 productive
+// with LINER Premium
 
-Dismiss
-Open the gift
+// Dismiss
+// Open the gift
