@@ -1,0 +1,287 @@
+1
+00:00:01,680 --> 00:00:06,900
+Everyone's in this lecture, we're going to discuss this problem where we will take input and followed
+
+2
+00:00:06,900 --> 00:00:13,170
+by an input and binders, and we'll get to what is special about this problem that we have to read and
+
+3
+00:00:13,170 --> 00:00:16,310
+input first and then find there some way.
+
+4
+00:00:16,740 --> 00:00:21,120
+Let me give you an example if let's end this five and the numbers are.
+
+5
+00:00:22,380 --> 00:00:28,410
+Let's say 10, 20, 25, 15 and let's 40.
+
+6
+00:00:28,710 --> 00:00:28,890
+OK.
+
+7
+00:00:29,700 --> 00:00:35,460
+The way we're going to calculate the sum is that we are going to read all of these numbers one by one
+
+8
+00:00:36,090 --> 00:00:38,450
+and we are going to updatable some.
+
+9
+00:00:38,460 --> 00:00:44,070
+Okay, so the way we would do in our mind is we do not store all the numbers at once.
+
+10
+00:00:44,070 --> 00:00:44,610
+Okay, so easy.
+
+11
+00:00:44,610 --> 00:00:44,940
+OK?
+
+12
+00:00:45,240 --> 00:00:48,900
+Let me start with the value of some that is initially zero.
+
+13
+00:00:50,090 --> 00:00:55,160
+And let me see what is the correct term, but I'm it so I read the number and I make it as done right.
+
+14
+00:00:55,250 --> 00:00:58,240
+So this some is not that it was OK.
+
+15
+00:00:58,280 --> 00:00:58,940
+What is the next?
+
+16
+00:00:58,940 --> 00:00:59,300
+No.
+
+17
+00:00:59,510 --> 00:01:00,950
+What is the second number I'm reading?
+
+18
+00:01:01,670 --> 00:01:04,030
+That number is 20, so I make this an M.D..
+
+19
+00:01:04,470 --> 00:01:04,690
+OK?
+
+20
+00:01:05,480 --> 00:01:07,440
+What are the next number I'm going to read?
+
+21
+00:01:07,460 --> 00:01:08,960
+That is actually the third number.
+
+22
+00:01:09,410 --> 00:01:12,410
+I read it and I add 25.
+
+23
+00:01:12,530 --> 00:01:13,250
+So I make it does.
+
+24
+00:01:13,250 --> 00:01:13,880
+55.
+
+25
+00:01:14,510 --> 00:01:16,370
+OK, let me see what is the fourth number?
+
+26
+00:01:17,150 --> 00:01:18,650
+The default number is 15.
+
+27
+00:01:19,220 --> 00:01:23,180
+I make this as 78 and I took it.
+
+28
+00:01:23,210 --> 00:01:24,500
+What is the fifth number?
+
+29
+00:01:24,920 --> 00:01:25,400
+I feel good.
+
+30
+00:01:25,400 --> 00:01:31,880
+This is 40, and I make this final sum as how much the final term is not 100.
+
+31
+00:01:33,320 --> 00:01:38,090
+This is what the final sum would look like in order to build a program for this.
+
+32
+00:01:38,660 --> 00:01:44,860
+We need to create few bucket one bucket for the value of an OK one bucket to store.
+
+33
+00:01:45,080 --> 00:01:46,730
+What is the current number?
+
+34
+00:01:46,850 --> 00:01:48,740
+OK, what is the number we are currently reading?
+
+35
+00:01:49,280 --> 00:01:50,690
+And another bucket we will need.
+
+36
+00:01:52,000 --> 00:01:52,460
+They denote.
+
+37
+00:01:53,700 --> 00:01:59,700
+Availability, I so that I is noting what is the number we are reading or how many times we need to
+
+38
+00:01:59,700 --> 00:02:03,150
+run the loop so that we can read five numbers.
+
+39
+00:02:03,720 --> 00:02:11,160
+This we will do it using a loop and I will control how many times this loop is going to get executed.
+
+40
+00:02:11,670 --> 00:02:13,350
+Let us define few things.
+
+41
+00:02:13,740 --> 00:02:19,470
+First, we will define and which is a user input on this and decide to look at.
+
+42
+00:02:19,470 --> 00:02:21,990
+This is how many times the loop is going to run.
+
+43
+00:02:22,590 --> 00:02:23,010
+But.
+
+44
+00:02:24,330 --> 00:02:29,590
+In order to control it, which no, we are reading, we need available.
+
+45
+00:02:30,270 --> 00:02:37,140
+While I is less than equal to and is fixed, whereas I extending the value from one to and what is the
+
+46
+00:02:37,140 --> 00:02:44,580
+work that we need to do, the work is we will read a number from input on it to the same rate.
+
+47
+00:02:46,190 --> 00:02:46,730
+So.
+
+48
+00:02:49,480 --> 00:02:55,230
+So initially, we will define or get this missile, and there is a budget called No.
+
+49
+00:02:56,650 --> 00:02:57,940
+That we will read from you.
+
+50
+00:02:58,090 --> 00:03:06,880
+OK, so let's read this bucket and add added to the sums of some equals samplers number, so that finishes
+
+51
+00:03:06,880 --> 00:03:11,530
+our work, but not yet we have to write the update condition as well.
+
+52
+00:03:12,010 --> 00:03:18,430
+Update statement for the VI loop So we say this value is dependent upon the condition is less than equal
+
+53
+00:03:18,430 --> 00:03:21,370
+to N in order to go to the next position.
+
+54
+00:03:21,610 --> 00:03:26,470
+The next iteration, we need to remind the value of PHI so equal to plus one.
+
+55
+00:03:27,100 --> 00:03:30,280
+Or you can write A-plus plus water fine.
+
+56
+00:03:31,330 --> 00:03:36,040
+Finally, if you come out of the loop, right, if you come out of the loop, you will have the correct
+
+57
+00:03:36,040 --> 00:03:38,350
+value inside the very bottom, OK?
+
+58
+00:03:38,960 --> 00:03:43,810
+So the way the things are changing is this is how this number is changing.
+
+59
+00:03:44,440 --> 00:03:45,700
+This is how I work.
+
+60
+00:03:45,700 --> 00:03:46,270
+It is changing.
+
+61
+00:03:46,270 --> 00:03:50,080
+So I as one, as two, as three, as four.
+
+62
+00:03:51,340 --> 00:03:51,640
+OK.
+
+63
+00:03:52,300 --> 00:03:55,300
+So in this state like this?
+
+64
+00:03:55,810 --> 00:03:58,690
+And finally, I is actually five.
+
+65
+00:03:58,900 --> 00:03:59,320
+Yes.
+
+66
+00:04:00,420 --> 00:04:05,850
+In the fifth iteration I read, I read the number 40 and added to this.
+
+67
+00:04:05,970 --> 00:04:12,690
+So finally, if you come out of the loop, final sum would be 100 and so out some and.
+
+68
+00:04:14,560 --> 00:04:16,200
+So we have the code.
+
+69
+00:04:16,410 --> 00:04:17,460
+Now we can run it.
+
+70
+00:04:20,860 --> 00:04:30,450
+So I can assure you, we are running some of our numbers five numbers 10, 20, 30 or 25 59 40.
+
+71
+00:04:31,170 --> 00:04:33,760
+Yes, we are getting the correct answer.
+
+72
+00:04:34,690 --> 00:04:39,880
+I hope you have understood this very simple program and that's all for this with you.

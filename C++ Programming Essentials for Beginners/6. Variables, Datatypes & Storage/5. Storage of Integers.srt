@@ -1,0 +1,683 @@
+1
+00:00:01,010 --> 00:00:07,340
+Everyone, so we have already seen how the binary number system works on in this video, we are going
+
+2
+00:00:07,340 --> 00:00:15,050
+to talk about how the integers are stored inside the memory, OK, so basically of it integers that
+
+3
+00:00:15,050 --> 00:00:15,380
+are.
+
+4
+00:00:17,470 --> 00:00:23,130
+The first thing that we need to know is that given and indeed it how it is converted into the binary,
+
+5
+00:00:23,140 --> 00:00:30,850
+or because we are going to discuss an algorithm that will help us to understand how to get the binary
+
+6
+00:00:30,850 --> 00:00:32,300
+representation of any number.
+
+7
+00:00:32,320 --> 00:00:39,190
+OK, so we have already seen how do we convert a number from a decimal representation from a binary
+
+8
+00:00:39,190 --> 00:00:41,700
+representation into its decimal representation?
+
+9
+00:00:41,710 --> 00:00:41,980
+OK.
+
+10
+00:00:42,490 --> 00:00:47,050
+So for example, this is in the binary and you wanted to get the.
+
+11
+00:00:48,290 --> 00:00:51,900
+Decimal equivalent of this number, so you generate powers of two.
+
+12
+00:00:51,920 --> 00:00:58,850
+So you said this is 2.0 to cover one two squared, two cube to perform and to qualify, and then you
+
+13
+00:00:58,850 --> 00:01:00,870
+multiply and add the terms.
+
+14
+00:01:01,030 --> 00:01:09,860
+OK, one quick way of looking at it is that you can also directly say that I will just add this power,
+
+15
+00:01:10,040 --> 00:01:15,770
+this power, this power and this power, because only these powers have corresponding words as one.
+
+16
+00:01:15,890 --> 00:01:17,600
+This is to power five 32.
+
+17
+00:01:17,960 --> 00:01:18,740
+This is eight.
+
+18
+00:01:19,010 --> 00:01:22,800
+This is to power one that is two.
+
+19
+00:01:22,820 --> 00:01:24,330
+And this is to facilitate this one.
+
+20
+00:01:24,350 --> 00:01:25,820
+OK, so this number is 42.
+
+21
+00:01:26,750 --> 00:01:29,680
+But now suppose you want to do the other way around.
+
+22
+00:01:29,690 --> 00:01:37,160
+You want to get the binary of the number 42, so you want to convert a number from decimal number system
+
+23
+00:01:37,580 --> 00:01:38,240
+to a binary.
+
+24
+00:01:39,260 --> 00:01:44,960
+So first, we will look at an algorithm that will help us to generate a binary or a number on CNN.
+
+25
+00:01:45,260 --> 00:01:46,760
+OK, so what we are going to?
+
+26
+00:01:47,900 --> 00:01:53,720
+We are going to divide this number repeatedly with the number two, and we are going to find out the
+
+27
+00:01:53,720 --> 00:01:54,170
+remainder.
+
+28
+00:01:55,080 --> 00:01:58,140
+When you divide 43, which do what you get.
+
+29
+00:01:58,160 --> 00:01:59,180
+You get 21.
+
+30
+00:01:59,870 --> 00:02:03,380
+And what is the remainder to the remainder is one, right?
+
+31
+00:02:03,440 --> 00:02:09,290
+So basically, I'm saying that went to 21 plus one is what 43 is right.
+
+32
+00:02:10,070 --> 00:02:13,370
+This is the remainder and this is what is the quotient.
+
+33
+00:02:13,760 --> 00:02:15,350
+I'm writing these two terms here, right?
+
+34
+00:02:16,010 --> 00:02:18,830
+And we will do it until the number.
+
+35
+00:02:19,190 --> 00:02:20,940
+And it doesn't become zero.
+
+36
+00:02:20,960 --> 00:02:26,960
+OK, so now do unto our 10 as 20 and the remainder as one right?
+
+37
+00:02:27,620 --> 00:02:30,950
+And we're going to divide 10s or two into five is 10.
+
+38
+00:02:31,430 --> 00:02:34,100
+The remainder is zero to is for.
+
+39
+00:02:35,290 --> 00:02:44,200
+And the remainder is one right into one is to the remainder of zero and two and to zero is zero.
+
+40
+00:02:44,470 --> 00:02:49,240
+And the remainder is one because we will stop when this number and it becomes zero.
+
+41
+00:02:49,910 --> 00:02:53,110
+Now what is the binary representation of this number?
+
+42
+00:02:53,590 --> 00:02:56,800
+Basically, if you look carefully, if you go from bottom to top.
+
+43
+00:02:57,770 --> 00:03:05,000
+And if you interpret these reminders right from bottom to top directions, that is one zero one zero
+
+44
+00:03:05,030 --> 00:03:05,630
+one one.
+
+45
+00:03:06,690 --> 00:03:15,930
+This these numbers represent the binary representation of the number 43, OK, so we have got this number,
+
+46
+00:03:15,990 --> 00:03:17,590
+which is nothing but 43.
+
+47
+00:03:17,640 --> 00:03:17,910
+OK.
+
+48
+00:03:18,300 --> 00:03:22,110
+This is the pen and paper method of getting the binary off.
+
+49
+00:03:23,490 --> 00:03:24,790
+Any possible integer?
+
+50
+00:03:24,810 --> 00:03:32,020
+OK, so this is one way that you can do it, so it is kind of a division method, you can see.
+
+51
+00:03:32,700 --> 00:03:37,560
+And we'll also talk about there any shortcut ways of doing it.
+
+52
+00:03:37,950 --> 00:03:39,750
+They can beat you one shortcut as well.
+
+53
+00:03:39,810 --> 00:03:46,410
+So maybe what you can do for smaller numbers, you can have powers of two lets.
+
+54
+00:03:46,410 --> 00:03:53,810
+Let's do par zero to power one square or cube 2.4 2.5 lets it or what you want.
+
+55
+00:03:53,880 --> 00:04:00,210
+You can write these powers as one, two, four, eight, 16 and right.
+
+56
+00:04:00,660 --> 00:04:01,710
+So I fill these.
+
+57
+00:04:01,710 --> 00:04:04,770
+These are better because we don't need to compute it.
+
+58
+00:04:05,220 --> 00:04:08,970
+I suppose someone says, give me the number 43.
+
+59
+00:04:09,090 --> 00:04:11,430
+OK, so how you're going to do it?
+
+60
+00:04:12,030 --> 00:04:15,840
+So you need to make 43 by combining the powers of.
+
+61
+00:04:16,140 --> 00:04:19,620
+So first of all, you will look at what is the largest power I can use.
+
+62
+00:04:20,070 --> 00:04:22,170
+Obviously, we can use the 32.
+
+63
+00:04:22,680 --> 00:04:28,500
+OK, then how much is left so you are tired or category two plus something makes the number 43?
+
+64
+00:04:29,250 --> 00:04:31,890
+Of course you are left with the.
+
+65
+00:04:33,210 --> 00:04:37,920
+The number 11, right, so you want to make you want to add 11.
+
+66
+00:04:38,100 --> 00:04:41,130
+So how do you get 11 to what is the largest power of do?
+
+67
+00:04:41,730 --> 00:04:42,840
+That is less than 11?
+
+68
+00:04:42,930 --> 00:04:43,530
+That is it.
+
+69
+00:04:43,830 --> 00:04:44,130
+OK.
+
+70
+00:04:44,580 --> 00:04:46,560
+And then what is left?
+
+71
+00:04:46,800 --> 00:04:50,520
+So you have added three is left to what is the largest power of two.
+
+72
+00:04:50,550 --> 00:04:51,530
+That is less than three.
+
+73
+00:04:51,540 --> 00:04:53,140
+So you take eight.
+
+74
+00:04:53,520 --> 00:04:54,330
+How much is left?
+
+75
+00:04:55,140 --> 00:04:57,930
+You have already reached to less than what one has left.
+
+76
+00:04:57,930 --> 00:05:01,380
+So you make this bet as one, the rest, everything would be zero.
+
+77
+00:05:01,890 --> 00:05:04,530
+This actually gives you the number 43.
+
+78
+00:05:04,800 --> 00:05:05,100
+OK.
+
+79
+00:05:05,370 --> 00:05:06,840
+Let us try out another example.
+
+80
+00:05:06,840 --> 00:05:09,160
+For example, you want to generate the number 29.
+
+81
+00:05:09,270 --> 00:05:09,570
+OK.
+
+82
+00:05:10,260 --> 00:05:10,860
+What you will do.
+
+83
+00:05:11,190 --> 00:05:12,330
+Which power you will choose.
+
+84
+00:05:12,510 --> 00:05:13,280
+So you will choose.
+
+85
+00:05:13,290 --> 00:05:13,920
+16.
+
+86
+00:05:13,950 --> 00:05:14,340
+OK.
+
+87
+00:05:14,670 --> 00:05:15,570
+You will choose eight.
+
+88
+00:05:15,810 --> 00:05:18,240
+OK, if you have reached one before, you will choose four.
+
+89
+00:05:18,630 --> 00:05:22,010
+OK, you have reached 28 and you will choose one.
+
+90
+00:05:22,020 --> 00:05:23,220
+You have reached 29.
+
+91
+00:05:23,790 --> 00:05:26,930
+This number represents 29.
+
+92
+00:05:26,940 --> 00:05:33,420
+OK, so that is another way of looking at how do we get the binary off any given?
+
+93
+00:05:33,600 --> 00:05:34,290
+I'm like, OK.
+
+94
+00:05:34,920 --> 00:05:35,250
+And what?
+
+95
+00:05:35,250 --> 00:05:39,120
+We will write the binaries of the numbers from one to 10.
+
+96
+00:05:39,660 --> 00:05:44,370
+And we will try to observe one button that would be helpful for us.
+
+97
+00:05:44,580 --> 00:05:44,910
+OK.
+
+98
+00:05:46,120 --> 00:05:47,560
+Maybe up to 15, we can write.
+
+99
+00:05:49,450 --> 00:05:54,760
+OK, so I want to write the binary often, so you can verify this is an adequate one.
+
+100
+00:05:55,270 --> 00:05:55,700
+What is it?
+
+101
+00:05:56,200 --> 00:05:57,220
+It was one zero.
+
+102
+00:05:57,250 --> 00:05:58,990
+What is three one one?
+
+103
+00:05:59,380 --> 00:06:01,750
+What is four one double zero?
+
+104
+00:06:02,110 --> 00:06:03,880
+What is five one zero one?
+
+105
+00:06:04,210 --> 00:06:05,950
+What is six one one zero?
+
+106
+00:06:06,970 --> 00:06:08,740
+What is seven oil ones?
+
+107
+00:06:09,250 --> 00:06:09,910
+What is it?
+
+108
+00:06:10,150 --> 00:06:11,140
+One triple zero.
+
+109
+00:06:11,680 --> 00:06:13,900
+What is nine one triple zero one?
+
+110
+00:06:13,990 --> 00:06:15,610
+OK, you're adding one to it.
+
+111
+00:06:16,060 --> 00:06:20,680
+What is then you're adding two two eight eight plus two, so you will add one zero one zero.
+
+112
+00:06:20,710 --> 00:06:21,430
+What is 11?
+
+113
+00:06:21,890 --> 00:06:24,790
+Riding one 210 hit what is 12?
+
+114
+00:06:24,820 --> 00:06:34,060
+You're adding four to it as well was made by combining eight plus four, so it will be one zero three
+
+115
+00:06:34,060 --> 00:06:35,050
+one one zero zero.
+
+116
+00:06:35,080 --> 00:06:36,700
+OK, what is 13?
+
+117
+00:06:36,820 --> 00:06:37,660
+Add one here.
+
+118
+00:06:38,470 --> 00:06:39,310
+What is 14?
+
+119
+00:06:39,760 --> 00:06:41,500
+So one one one zero?
+
+120
+00:06:41,800 --> 00:06:42,610
+What is 15?
+
+121
+00:06:42,830 --> 00:06:45,040
+All went right and what is 16?
+
+122
+00:06:46,000 --> 00:06:46,960
+So what 16.
+
+123
+00:06:47,350 --> 00:06:50,370
+You you need actually more than four, but you need five bits.
+
+124
+00:06:50,950 --> 00:06:56,440
+It would be one, followed by four zero three eight one two four eight six.
+
+125
+00:06:56,600 --> 00:06:56,920
+Yes.
+
+126
+00:06:57,850 --> 00:06:58,270
+What?
+
+127
+00:06:58,570 --> 00:07:01,030
+What is the pattern that you are looking at?
+
+128
+00:07:01,630 --> 00:07:05,290
+Basically, as the number is increasing, right?
+
+129
+00:07:06,590 --> 00:07:08,120
+As the number is increasing.
+
+130
+00:07:10,260 --> 00:07:16,500
+The requirement of boots is also increasing the requirement of boats.
+
+131
+00:07:18,180 --> 00:07:24,000
+Is also increasing, so if you need more more space, right, if you need to store a larger number,
+
+132
+00:07:24,000 --> 00:07:29,430
+it will required more, but it's basically the large numbers required.
+
+133
+00:07:29,700 --> 00:07:30,310
+Woodward's.
+
+134
+00:07:30,750 --> 00:07:38,310
+OK, now it is to think in terms of your program, what is going to happen to suppose you created a
+
+135
+00:07:38,310 --> 00:07:42,500
+bucket index and you stored the number in it?
+
+136
+00:07:42,540 --> 00:07:42,870
+OK.
+
+137
+00:07:43,710 --> 00:07:50,850
+And later on you thought, No, I want to make this say, seven hours, maybe seven to eight or seven.
+
+138
+00:07:50,910 --> 00:07:56,850
+We know it only requires three bits, but 72 might require more number of books.
+
+139
+00:07:56,880 --> 00:07:57,150
+OK.
+
+140
+00:07:57,990 --> 00:07:59,280
+But on the hardware level?
+
+141
+00:07:59,460 --> 00:07:59,760
+Right.
+
+142
+00:08:00,330 --> 00:08:05,400
+And if we are storing some data, except maybe we are storing X there, we are storing some way.
+
+143
+00:08:05,400 --> 00:08:07,260
+Right here we are storing Z.
+
+144
+00:08:07,680 --> 00:08:13,980
+If you were storing a little tribute and when we updated Overvalued 72, maybe we acquired six bits.
+
+145
+00:08:14,040 --> 00:08:14,490
+Let's see.
+
+146
+00:08:15,510 --> 00:08:15,810
+OK.
+
+147
+00:08:16,320 --> 00:08:17,820
+So we we need tribute.
+
+148
+00:08:17,820 --> 00:08:19,580
+But maybe now we require six bits.
+
+149
+00:08:20,590 --> 00:08:21,990
+So is it possible that?
+
+150
+00:08:23,420 --> 00:08:25,070
+We dynamically expandable storage.
+
+151
+00:08:26,260 --> 00:08:29,590
+The answer is, no, we cannot expand the storage because.
+
+152
+00:08:30,640 --> 00:08:32,080
+The memory might be occupied, right?
+
+153
+00:08:32,460 --> 00:08:33,430
+So we cannot do it.
+
+154
+00:08:33,970 --> 00:08:35,770
+So how do we handle this situation?
+
+155
+00:08:36,370 --> 00:08:45,220
+This is the reason that when the compiler allocates buckets for integers, these buckets have fixed
+
+156
+00:08:45,220 --> 00:08:45,700
+sizes.
+
+157
+00:08:45,710 --> 00:08:46,000
+OK?
+
+158
+00:08:46,690 --> 00:08:48,100
+These buckets are fixed.
+
+159
+00:08:48,100 --> 00:08:48,550
+Say this.
+
+160
+00:08:48,910 --> 00:08:57,100
+So by default, the size of it in most systems, this is going to be four bytes or bytes means 32 bits.
+
+161
+00:08:57,820 --> 00:09:02,980
+That means you are given a bucket that can hold up to 32 bits.
+
+162
+00:09:03,400 --> 00:09:03,700
+OK.
+
+163
+00:09:04,420 --> 00:09:05,410
+And if you're required.
+
+164
+00:09:07,570 --> 00:09:13,810
+Something larger than this, and there is a concept of a data type modified which gives you a bigger
+
+165
+00:09:13,810 --> 00:09:19,810
+bucket, which is of 64 bit, which is of 64 bit by default.
+
+166
+00:09:20,230 --> 00:09:22,850
+Indeed, it would be stored as a 32 bit numbers.
+
+167
+00:09:22,850 --> 00:09:27,070
+So even if you're storing two, it would be stored as zero zero zero one zero.
+
+168
+00:09:27,070 --> 00:09:30,880
+So there would be a lot of zeros followed by one and you.
+
+169
+00:09:31,270 --> 00:09:33,130
+This is how the number two is getting stored.
+
+170
+00:09:35,290 --> 00:09:42,030
+So that is why understanding the binary was little important to tell you that the larger is the indeed
+
+171
+00:09:42,070 --> 00:09:49,150
+it more say that it is going to take on the dog in more detail about this in the next lecture.

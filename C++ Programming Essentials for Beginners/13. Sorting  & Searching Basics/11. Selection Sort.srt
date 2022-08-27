@@ -1,0 +1,159 @@
+1
+00:00:01,830 --> 00:00:07,920
+Everyone in this lecture will talk about elections, our algorithm, so it's again, a very simple algorithm
+
+2
+00:00:07,930 --> 00:00:13,920
+and based upon the very basic idea that we every time what we will do will find out the minimum element
+
+3
+00:00:13,920 --> 00:00:18,090
+from the unsorted part of that, and we will put it to the beginning, OK?
+
+4
+00:00:18,300 --> 00:00:23,400
+So if it is not clear like this, let us go through one example to understand it better.
+
+5
+00:00:23,400 --> 00:00:29,060
+For example, we have added like, let's say, three to one five on foot.
+
+6
+00:00:29,970 --> 00:00:35,250
+Let's say I want to sort the city using selections out so I can break this error into parts.
+
+7
+00:00:35,250 --> 00:00:40,410
+Let's say currently, I'm at this particular position and the rest of the error is unsorted.
+
+8
+00:00:40,410 --> 00:00:47,130
+Eddie, let's say two one five foot so we can see we will pick one element that is minimum from the
+
+9
+00:00:47,130 --> 00:00:51,180
+unsorted part and we will bring it to the current position, OK?
+
+10
+00:00:51,600 --> 00:00:55,020
+So what is the element that is minimum in this part?
+
+11
+00:00:55,050 --> 00:00:56,430
+We know this element is one.
+
+12
+00:00:56,850 --> 00:01:02,280
+So we will iterate over this unsorted, but we will take one element that is minimum and we will bring
+
+13
+00:01:02,280 --> 00:01:05,040
+it to the fact we know one is minimum.
+
+14
+00:01:05,040 --> 00:01:09,690
+So we will put one here and we will swap with three here, OK?
+
+15
+00:01:11,120 --> 00:01:18,080
+So now we know that at least this element is in the right position and we can go to this particular
+
+16
+00:01:18,080 --> 00:01:20,990
+element, okay, so now what we have, we have one comma two.
+
+17
+00:01:21,380 --> 00:01:25,790
+This is the position we are talking about and the rest of the is not sorted.
+
+18
+00:01:26,030 --> 00:01:27,290
+That is three five foot.
+
+19
+00:01:28,220 --> 00:01:32,810
+We figured out what is the minimum element in the rest of the body, including this element.
+
+20
+00:01:33,350 --> 00:01:37,760
+We can see the minimum element unto itself and it means it is in the right position.
+
+21
+00:01:37,820 --> 00:01:39,290
+We don't do anything OK.
+
+22
+00:01:39,740 --> 00:01:43,310
+So next time what we do, we know we have one two which are in the right position.
+
+23
+00:01:43,700 --> 00:01:45,770
+We are the position of this element.
+
+24
+00:01:45,950 --> 00:01:46,370
+Three.
+
+25
+00:01:47,090 --> 00:01:52,460
+And again, if you see what is a minimum in these three elements.
+
+26
+00:01:52,730 --> 00:01:54,730
+So it's again three, we will not do anything.
+
+27
+00:01:54,740 --> 00:01:56,210
+We will move on to the next element.
+
+28
+00:01:56,720 --> 00:01:59,030
+We have one two three that in the right position.
+
+29
+00:01:59,390 --> 00:02:01,610
+We move to the next element that is five.
+
+30
+00:02:01,940 --> 00:02:07,910
+This is in the current position and we have this part of that is underwater right now.
+
+31
+00:02:08,360 --> 00:02:11,230
+We take what is the minimum element in this area.
+
+32
+00:02:11,240 --> 00:02:16,010
+So we know this is for two weeks rapid with the element, which is the current position.
+
+33
+00:02:16,010 --> 00:02:18,050
+So we get one two three four.
+
+34
+00:02:18,590 --> 00:02:25,250
+And if you start n minus one elements of the three, that means you have already figured out the N minus
+
+35
+00:02:25,250 --> 00:02:29,990
+one elements that should come in the first and minus one positions.
+
+36
+00:02:30,410 --> 00:02:33,670
+Then automatically the last element would be in the right position.
+
+37
+00:02:33,680 --> 00:02:33,920
+OK?
+
+38
+00:02:34,790 --> 00:02:37,670
+So this is the whole idea of doing this election.
+
+39
+00:02:37,670 --> 00:02:43,910
+So OK, so it's a very simple and easy algorithm to implement, and in the next lecture, we will discuss
+
+40
+00:02:43,910 --> 00:02:46,210
+the implementation of selection talked.

@@ -1,0 +1,379 @@
+1
+00:00:00,420 --> 00:00:02,660
+Everyone, so you've already seen given a number.
+
+2
+00:00:02,910 --> 00:00:04,000
+How do we reverse it?
+
+3
+00:00:04,020 --> 00:00:09,030
+OK, and how do we print the digits of the number in the it was in this lecture, I'm going to show
+
+4
+00:00:09,030 --> 00:00:14,310
+you if you actually want to reverse the original number and what should be above reproach again.
+
+5
+00:00:14,580 --> 00:00:21,600
+So for example, if I'm given a number like 123 and I want this end to be country 21.
+
+6
+00:00:21,930 --> 00:00:23,880
+OK, so let's see, how do we do it?
+
+7
+00:00:24,360 --> 00:00:31,440
+If you look at 123 how it is made, it is made by combining these digits multiplied with certain powers
+
+8
+00:00:31,440 --> 00:00:31,980
+of ten.
+
+9
+00:00:32,010 --> 00:00:35,490
+OK, so one is multiplied with 10 squared.
+
+10
+00:00:35,850 --> 00:00:42,630
+It was multiplied with ten point one and three is multiplied with ten but zero and adding this hundred
+
+11
+00:00:42,630 --> 00:00:43,860
+plus twenty plus three.
+
+12
+00:00:44,310 --> 00:00:46,260
+This makes the number 123 OK.
+
+13
+00:00:46,740 --> 00:00:53,100
+And if you want to get the number 321, so you actually have to multiply three with 10 square two with
+
+14
+00:00:53,110 --> 00:00:55,650
+10 by one, one with ten point zero.
+
+15
+00:00:56,610 --> 00:01:04,860
+And I think this would become 300 plus 20 plus one, leading to 321 right now, what we can do is we
+
+16
+00:01:04,860 --> 00:01:08,250
+have seen how do they extract digits and.
+
+17
+00:01:09,800 --> 00:01:14,690
+But in the digital and reverse order, so instead of now just printing their digits, we are also going
+
+18
+00:01:14,690 --> 00:01:15,480
+to form a number.
+
+19
+00:01:15,480 --> 00:01:17,480
+OK, so let's look at what we are going to do.
+
+20
+00:01:18,050 --> 00:01:20,330
+Let me call this number as 123.
+
+21
+00:01:20,810 --> 00:01:26,260
+And let me call this number, which is zero in the beginning as my answer to what I will do.
+
+22
+00:01:26,270 --> 00:01:32,600
+I will extract the last digit and I will move the digit to the answer.
+
+23
+00:01:32,600 --> 00:01:35,630
+OK, so I will say I will apply this operation.
+
+24
+00:01:36,200 --> 00:01:41,690
+Answer equals answer into 10 plus the last digit that I'm getting.
+
+25
+00:01:43,300 --> 00:01:46,210
+Now you see the significance of this operation, OK?
+
+26
+00:01:46,540 --> 00:01:50,980
+Why it is important to in the first step, we get the digital three.
+
+27
+00:01:51,790 --> 00:01:57,510
+And the answer would become zero into 10 plus three and which is equal to three.
+
+28
+00:01:57,910 --> 00:02:03,800
+OK, and will reduce this number by dividing it with 10 to end becomes 12, right?
+
+29
+00:02:03,820 --> 00:02:05,800
+So we segregate 12 and three.
+
+30
+00:02:06,220 --> 00:02:09,130
+And this is what our answer is in the next step.
+
+31
+00:02:09,400 --> 00:02:13,270
+I'm going to find out the last digit again to that last digit would be two.
+
+32
+00:02:14,050 --> 00:02:17,290
+And my number would be reduced by end by then, which is No.
+
+33
+00:02:17,290 --> 00:02:17,590
+One.
+
+34
+00:02:18,280 --> 00:02:21,310
+Now how do we combine this two with this three?
+
+35
+00:02:21,340 --> 00:02:21,650
+OK.
+
+36
+00:02:22,120 --> 00:02:25,150
+So effectively, I want this three to become 32.
+
+37
+00:02:25,210 --> 00:02:29,980
+So how it will become so it will do whatever is the correct answer.
+
+38
+00:02:30,010 --> 00:02:34,510
+OK, so what will be multiplied with 10 to train to 10 makes it 30?
+
+39
+00:02:35,140 --> 00:02:37,210
+And we add the last digit to it.
+
+40
+00:02:37,360 --> 00:02:39,420
+So it becomes a No.32, right?
+
+41
+00:02:40,330 --> 00:02:40,690
+Great.
+
+42
+00:02:40,700 --> 00:02:44,020
+So this is what we are actually trying to achieve next time.
+
+43
+00:02:44,020 --> 00:02:44,590
+What you get.
+
+44
+00:02:44,800 --> 00:02:50,290
+You will get the last digit, which is one, and you will reduce this number by dividing it with 10.
+
+45
+00:02:50,380 --> 00:02:52,360
+So it becomes zero, it becomes zero.
+
+46
+00:02:53,020 --> 00:02:53,890
+That's a good thing.
+
+47
+00:02:54,370 --> 00:02:58,040
+And now we have this reminder as one.
+
+48
+00:02:58,060 --> 00:03:02,380
+So what we want, we want to attach this one with 32.
+
+49
+00:03:02,470 --> 00:03:04,830
+So how do we attach one with 32?
+
+50
+00:03:04,840 --> 00:03:06,970
+So we have to multiply 32 with 10?
+
+51
+00:03:07,480 --> 00:03:09,640
+That is again, this operation.
+
+52
+00:03:09,640 --> 00:03:11,200
+Multiply your previous Andrew.
+
+53
+00:03:11,200 --> 00:03:12,130
+It's 10, right?
+
+54
+00:03:13,090 --> 00:03:14,080
+And add.
+
+55
+00:03:15,000 --> 00:03:17,520
+One, do it, so it becomes the number 321.
+
+56
+00:03:18,030 --> 00:03:19,830
+And your original number is now zero.
+
+57
+00:03:20,250 --> 00:03:24,330
+And that means we can nonstop and you'll find a land that is now 321.
+
+58
+00:03:24,510 --> 00:03:26,400
+And that is what we wanted to get, right?
+
+59
+00:03:26,880 --> 00:03:32,520
+So how we will modify this code, so we'll keep one more bucket, that is answer that was initially
+
+60
+00:03:32,520 --> 00:03:32,910
+zero.
+
+61
+00:03:33,720 --> 00:03:39,510
+And instead of printing the last digit, we will add this digit to our answered.
+
+62
+00:03:40,140 --> 00:03:44,100
+So answer would be answered in 210 plus last digit.
+
+63
+00:03:44,100 --> 00:03:47,790
+So this is a way of combining the last digit with the correct answer.
+
+64
+00:03:48,330 --> 00:03:52,140
+And again, we are reducing the number by a factor of 10.
+
+65
+00:03:52,230 --> 00:03:58,590
+So finally, what are you doing to put your link to output your answer, which is the reverse of the
+
+66
+00:03:59,070 --> 00:04:00,690
+actual number that you have got, right?
+
+67
+00:04:01,170 --> 00:04:05,130
+So we have built the code and now we are ready to test our code.
+
+68
+00:04:06,210 --> 00:04:13,200
+So maybe I can say it like it was actual device number actually.
+
+69
+00:04:13,200 --> 00:04:13,490
+Yes.
+
+70
+00:04:13,500 --> 00:04:13,890
+Yes.
+
+71
+00:04:14,490 --> 00:04:17,880
+So maybe one two three four I get four three two one.
+
+72
+00:04:18,000 --> 00:04:18,480
+Great.
+
+73
+00:04:18,960 --> 00:04:27,180
+I have one zero zero one one zero zero one two two one zero zero one and if I have one.
+
+74
+00:04:27,900 --> 00:04:28,500
+And now you can do.
+
+75
+00:04:28,500 --> 00:04:30,920
+In this case, the output is actually one.
+
+76
+00:04:30,930 --> 00:04:33,630
+It is not zero zero one.
+
+77
+00:04:33,630 --> 00:04:36,480
+Okay, so that is a difference between two approaches.
+
+78
+00:04:37,050 --> 00:04:42,900
+And here you are actually reversing the number, whereas in the previous one, you were only printing
+
+79
+00:04:42,900 --> 00:04:43,320
+the number.
+
+80
+00:04:43,320 --> 00:04:44,920
+OK, so reverse it.
+
+81
+00:04:45,660 --> 00:04:49,010
+Finally, if you want, you can do any word once it and you can talk.
+
+82
+00:04:49,010 --> 00:04:51,420
+I have reversed the actual number itself.
+
+83
+00:04:52,110 --> 00:04:53,160
+That is also OK.
+
+84
+00:04:53,580 --> 00:04:56,910
+So I hope you have understood how we can use a loop here.
+
+85
+00:04:56,940 --> 00:04:57,270
+OK.
+
+86
+00:04:57,570 --> 00:04:59,670
+You could even have used a for loop.
+
+87
+00:04:59,670 --> 00:05:04,980
+You could have said four and greater than zero and an equal to end by ten.
+
+88
+00:05:06,330 --> 00:05:08,040
+And I don't want to do this.
+
+89
+00:05:08,250 --> 00:05:08,970
+That's OK.
+
+90
+00:05:09,630 --> 00:05:12,090
+And you understood the last digit as end model is.
+
+91
+00:05:13,020 --> 00:05:13,980
+That is all talk.
+
+92
+00:05:14,190 --> 00:05:17,820
+So you can simplify this code for the by using the for loop.
+
+93
+00:05:18,240 --> 00:05:26,490
+But it does not affect the execution time because what the loops have similar performance are now,
+
+94
+00:05:26,490 --> 00:05:29,580
+you will get the same output, but now we are using a four wheel.
+
+95
+00:05:30,240 --> 00:05:34,020
+So I hope you have understood what these approaches and that's all.

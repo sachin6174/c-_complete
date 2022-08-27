@@ -1,0 +1,91 @@
+1
+00:00:01,270 --> 00:00:06,180
+Hello, everyone, so we are going to start with the new module that is on character, that is strength.
+
+2
+00:00:06,550 --> 00:00:10,480
+And we will also discuss about the gadget today in little more detail.
+
+3
+00:00:11,260 --> 00:00:14,050
+What we are going to do is we are going to talk about three things.
+
+4
+00:00:14,080 --> 00:00:20,680
+One is how connectors work, how they are stored on what are some available functions which you can
+
+5
+00:00:20,680 --> 00:00:23,830
+use on the catheter Typekit.
+
+6
+00:00:23,890 --> 00:00:27,340
+So the part one is only about a single character.
+
+7
+00:00:27,520 --> 00:00:34,600
+And so we'll talk about gadget today on what library functions we can use in the park to really talk
+
+8
+00:00:34,600 --> 00:00:39,640
+about those new style strings, which are also known as connected areas.
+
+9
+00:00:40,300 --> 00:00:48,430
+And we will also look at what are the various functions available like to input output or to find the
+
+10
+00:00:48,430 --> 00:00:51,370
+length of the string or get these character arrays.
+
+11
+00:00:51,370 --> 00:00:56,820
+They're used to store things like these, either also known as string laterals.
+
+12
+00:00:57,280 --> 00:01:03,770
+And if you want to perform, read, write operations on those strings, and this is where the character
+
+13
+00:01:03,820 --> 00:01:04,120
+is.
+
+14
+00:01:04,150 --> 00:01:05,430
+They are helpful.
+
+15
+00:01:05,890 --> 00:01:08,650
+They are also known as E style strings.
+
+16
+00:01:09,720 --> 00:01:18,060
+And talking about the modern C++, the modern C++ support something which is known as a string class.
+
+17
+00:01:18,990 --> 00:01:23,580
+Which is an object oriented programming way of dealing with things will get.
+
+18
+00:01:23,700 --> 00:01:32,880
+So we'll also talk about the string glass and which is based on the principles of object oriented programming
+
+19
+00:01:33,420 --> 00:01:34,620
+more than C++.
+
+20
+00:01:34,710 --> 00:01:42,900
+We use the strings very frequently, but we learn this ISA style strings as well, starting from the
+
+21
+00:01:42,900 --> 00:01:44,460
+basics of the candidate.
+
+22
+00:01:44,700 --> 00:01:45,270
+All right.
+
+23
+00:01:45,630 --> 00:01:49,710
+So that's a quick intro of what we're going to do on to you in the next video.

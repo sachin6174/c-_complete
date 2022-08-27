@@ -1,0 +1,275 @@
+1
+00:00:00,970 --> 00:00:05,920
+Hello, everyone, so in this lecture, we are going to talk about nested loops, what are nested loops
+
+2
+00:00:05,920 --> 00:00:07,510
+basically in many problems.
+
+3
+00:00:07,690 --> 00:00:14,290
+You were required to write a loop inside another loop, for example, in Britain, problems or injury
+
+4
+00:00:14,290 --> 00:00:18,330
+based problems or in some other problems that relate to what we're doing.
+
+5
+00:00:18,470 --> 00:00:25,690
+We're going to show you that two loops or multiple loops can exist inside each of that.
+
+6
+00:00:25,710 --> 00:00:31,080
+For example, I want to do something like, maybe I want to print something like a matrix.
+
+7
+00:00:31,120 --> 00:00:40,900
+Maybe I want to print one two three four five six seven eight nine 10, 11, 12, 13, 14, 15 16.
+
+8
+00:00:41,080 --> 00:00:48,490
+OK, now what I'm looking at is that in this kind of a problem, I have those and I also have columns
+
+9
+00:00:48,490 --> 00:00:49,420
+to be printed, right?
+
+10
+00:00:50,350 --> 00:00:51,190
+So this is a little.
+
+11
+00:00:55,800 --> 00:00:58,530
+Yeah, so this is a little and this is another.
+
+12
+00:00:58,830 --> 00:00:59,670
+This is another.
+
+13
+00:00:59,850 --> 00:01:02,010
+And this is another and this is another right?
+
+14
+00:01:02,490 --> 00:01:07,130
+What I need to do, I need to iterate over multiple rules letters starting from low No.
+
+15
+00:01:07,210 --> 00:01:09,570
+Zero till the rule.
+
+16
+00:01:09,570 --> 00:01:10,110
+No.
+
+17
+00:01:10,470 --> 00:01:12,800
+It's a one, two and three.
+
+18
+00:01:12,810 --> 00:01:13,680
+OK, I will.
+
+19
+00:01:13,950 --> 00:01:19,580
+I will be given or go on to print odd number of rules and I want to print some number of columns.
+
+20
+00:01:19,800 --> 00:01:25,830
+Is number of columns and maybe I want to print the values which are in a linearly increasing fashion.
+
+21
+00:01:26,280 --> 00:01:27,360
+Let's see how we can do it.
+
+22
+00:01:28,470 --> 00:01:35,460
+So firstly, we need to iterate over all the rows right back into four integral to zero I list then
+
+23
+00:01:35,850 --> 00:01:45,000
+are eight a plus plus we need to define what is the rule number eight and R and C.
+
+24
+00:01:45,210 --> 00:01:47,340
+So I'll take those as input from the user.
+
+25
+00:01:48,430 --> 00:01:51,220
+Now we know, OK, I need to three rows and four columns.
+
+26
+00:01:52,030 --> 00:01:55,870
+What we will, we'll go over every row and for every row.
+
+27
+00:01:56,230 --> 00:01:58,750
+We also have some work, which is repetitive.
+
+28
+00:01:58,960 --> 00:02:05,710
+We are printing a number and the number is not being initially from one for the first two and then it
+
+29
+00:02:05,710 --> 00:02:07,930
+is continuously getting increment.
+
+30
+00:02:07,990 --> 00:02:12,070
+So we will define a value that is one outside of this.
+
+31
+00:02:12,790 --> 00:02:18,300
+Or look, because we need this initialization only once we don't need to initialize one in every eight.
+
+32
+00:02:20,310 --> 00:02:27,210
+What we will do, it will say, OK, for every do I have to print column number of numbers?
+
+33
+00:02:27,540 --> 00:02:31,380
+OK, so I will need a loop for printing the columns.
+
+34
+00:02:31,500 --> 00:02:34,110
+So Jake called zero dollars, then see.
+
+35
+00:02:35,330 --> 00:02:36,860
+And as a jobless rate.
+
+36
+00:02:37,940 --> 00:02:38,930
+And what is the reality?
+
+37
+00:02:38,960 --> 00:02:40,640
+I want to print in every column.
+
+38
+00:02:41,030 --> 00:02:48,260
+Well, guess what, that is actually this value, which is initially one we can print value followed
+
+39
+00:02:48,260 --> 00:02:53,930
+by some space and we can increment that value to a local value plus one.
+
+40
+00:02:54,200 --> 00:02:54,500
+OK.
+
+41
+00:02:55,310 --> 00:02:55,640
+And.
+
+42
+00:02:56,760 --> 00:03:01,800
+After reading a video of what we have do, we have to go to the new rate so we have to go to new lines
+
+43
+00:03:01,800 --> 00:03:07,770
+of illiteracy out and that finishes our work and it looks like we are good.
+
+44
+00:03:08,040 --> 00:03:14,910
+So what we have seen here is that this loop is going to run multiple times for every.
+
+45
+00:03:15,150 --> 00:03:21,840
+So when I zero, the day is changing from zero to six day gets the value zero letters these three digits,
+
+46
+00:03:21,840 --> 00:03:24,840
+the value one day get the value to OK.
+
+47
+00:03:25,230 --> 00:03:28,770
+Then when I is one day again, get the value zero one two.
+
+48
+00:03:29,220 --> 00:03:31,740
+When I used to it again, get zero one two.
+
+49
+00:03:32,250 --> 00:03:34,160
+When I used three, it again gets zero one.
+
+50
+00:03:34,290 --> 00:03:39,420
+And what we are doing, we are printing a value that was declared outside initially one.
+
+51
+00:03:39,420 --> 00:03:40,440
+Then it became two.
+
+52
+00:03:40,470 --> 00:03:41,490
+Then it became three.
+
+53
+00:03:41,940 --> 00:03:48,200
+Then we came to the next to begin four five six seven eight nine 10 11 12.
+
+54
+00:03:48,210 --> 00:03:48,480
+OK.
+
+55
+00:03:48,570 --> 00:03:50,430
+So four rows and three columns.
+
+56
+00:03:51,090 --> 00:03:55,260
+So this is going to feel it is going to print in this fashion.
+
+57
+00:03:55,920 --> 00:04:02,490
+And after printing every row, we are going to come out of the inner loop and we are going to hit this
+
+58
+00:04:02,490 --> 00:04:02,850
+new line.
+
+59
+00:04:02,850 --> 00:04:03,150
+Correct?
+
+60
+00:04:03,200 --> 00:04:03,440
+OK.
+
+61
+00:04:03,780 --> 00:04:09,600
+So this is an example of an attitude, and you will required nested loops in some problems.
+
+62
+00:04:10,050 --> 00:04:13,630
+Let me show you the output as well so I can see.
+
+63
+00:04:17,940 --> 00:04:19,320
+Look, we have one errors.
+
+64
+00:04:19,830 --> 00:04:21,570
+This needs to be commented out.
+
+65
+00:04:28,690 --> 00:04:29,560
+So we have.
+
+66
+00:04:34,020 --> 00:04:37,930
+OK, let's for those entry columns.
+
+67
+00:04:38,220 --> 00:04:42,090
+I knew going to this is what we are getting, OK, loud protests, correct?
+
+68
+00:04:42,300 --> 00:04:45,840
+And this is what is expected from this particular program.
+
+69
+00:04:45,990 --> 00:04:49,770
+And I hope you understood this one as well.

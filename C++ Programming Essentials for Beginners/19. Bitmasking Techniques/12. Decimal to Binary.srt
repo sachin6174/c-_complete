@@ -1,0 +1,247 @@
+1
+00:00:01,970 --> 00:00:08,690
+Everyone in this lecture, we're going to discuss how we can convert a decimal number into its binary
+
+2
+00:00:08,690 --> 00:00:13,490
+representation using the Bitwise operators, OK?
+
+3
+00:00:13,730 --> 00:00:19,310
+So what I'm going to do, I'm going to write a method, invert and convert to.
+
+4
+00:00:20,550 --> 00:00:22,790
+Binary, and I'm going to get to Digit.
+
+5
+00:00:23,220 --> 00:00:29,430
+And let's say they're indeed it is nine, I will return a number which looks like one zero zero one.
+
+6
+00:00:29,520 --> 00:00:29,880
+OK.
+
+7
+00:00:29,910 --> 00:00:31,530
+So am I doing this or this enough?
+
+8
+00:00:31,530 --> 00:00:31,970
+I'm over.
+
+9
+00:00:32,610 --> 00:00:33,120
+Indeed, it.
+
+10
+00:00:34,410 --> 00:00:38,280
+Now, let's see how we can solve this problem, so it's easy.
+
+11
+00:00:38,610 --> 00:00:41,190
+What we need to do is, let's say this is a no.
+
+12
+00:00:42,180 --> 00:00:47,850
+And we know how to extract the last breath every time we will extract this bit and we'll create the
+
+13
+00:00:47,850 --> 00:00:48,690
+answer variable.
+
+14
+00:00:48,780 --> 00:00:52,730
+OK, the answer is initially zero, we will add one to it.
+
+15
+00:00:52,740 --> 00:00:53,700
+It will become one.
+
+16
+00:00:53,880 --> 00:00:59,910
+OK, our next time we're going to discard this bit by doing the right shift and equal to end right shift
+
+17
+00:00:59,910 --> 00:01:00,240
+one.
+
+18
+00:01:01,350 --> 00:01:07,380
+And we are also going to maintain a power is initially one that will multiply one with one and add to
+
+19
+00:01:07,380 --> 00:01:09,330
+the undertow because it is exactly one into one.
+
+20
+00:01:09,770 --> 00:01:12,750
+We next time this is actually 10 days to depart zero.
+
+21
+00:01:12,810 --> 00:01:14,550
+This is ten days to the one.
+
+22
+00:01:14,570 --> 00:01:17,940
+This is ten square and desist and what we're going to do.
+
+23
+00:01:17,940 --> 00:01:21,240
+We're going to generate the powers of time in the next iteration.
+
+24
+00:01:21,240 --> 00:01:25,620
+This power would be come in and we see this better zero.
+
+25
+00:01:25,770 --> 00:01:28,530
+OK, so this is what we will do will do zero.
+
+26
+00:01:28,530 --> 00:01:35,610
+And then the answer is not going to change, but we are going to discard this and we are going to go
+
+27
+00:01:35,610 --> 00:01:37,710
+ahead and the pilot will become 10 squid.
+
+28
+00:01:37,740 --> 00:01:42,070
+So next time we get this bit, this is zero and multiply 10 squid.
+
+29
+00:01:42,090 --> 00:01:44,340
+This is zero and it is not going to change.
+
+30
+00:01:45,620 --> 00:01:47,410
+It is still still one.
+
+31
+00:01:48,140 --> 00:01:53,990
+But next time, what is going to happen will discard this debate is going to become 10Q and we see this
+
+32
+00:01:54,000 --> 00:01:54,650
+better one.
+
+33
+00:01:54,770 --> 00:02:00,860
+OK, so this bit is one basically we can see for this big move on the island one thousand over answered.
+
+34
+00:02:00,950 --> 00:02:04,640
+So we will add one in ten days to the power three.
+
+35
+00:02:05,030 --> 00:02:09,770
+If you see what would be your final answer, it would be one plus and is do three.
+
+36
+00:02:10,220 --> 00:02:12,290
+That is, it's going to be one thousand one.
+
+37
+00:02:12,650 --> 00:02:17,580
+And this is how the binary representation of nine would look like.
+
+38
+00:02:17,600 --> 00:02:17,900
+OK.
+
+39
+00:02:18,290 --> 00:02:22,220
+So I hope you understood the logic now and try to go to it yourself.
+
+40
+00:02:22,670 --> 00:02:26,090
+And if you are stuck, then take the help from this tutorial.
+
+41
+00:02:26,210 --> 00:02:33,290
+So what I'm going to do and when you take input and I'm going to convert it into binary, OK?
+
+42
+00:02:33,770 --> 00:02:37,940
+And what I can do, I can see initially, the answer is zero.
+
+43
+00:02:38,180 --> 00:02:39,560
+The power is one.
+
+44
+00:02:40,130 --> 00:02:47,450
+And while this end is greater than zero, I'm going to extract the last bit that is and then one.
+
+45
+00:02:48,350 --> 00:02:50,810
+And I'm going to add something to my answer.
+
+46
+00:02:50,930 --> 00:02:58,250
+So answer would be incremented by a value of power in the last bit.
+
+47
+00:02:59,270 --> 00:03:03,560
+And for the next iteration, power will be multiplied with the then.
+
+48
+00:03:04,540 --> 00:03:09,570
+Initially, it is one then a decision, then then good and then Dan Gilbert and and would be there to
+
+49
+00:03:09,580 --> 00:03:11,610
+that end, right shift one.
+
+50
+00:03:11,710 --> 00:03:12,280
+That's it.
+
+51
+00:03:12,550 --> 00:03:13,480
+And we are done.
+
+52
+00:03:13,900 --> 00:03:17,110
+And from here, we can return the incident.
+
+53
+00:03:17,770 --> 00:03:24,070
+Let's build the gold, so begin to see out, convert to binary and we give the input and here.
+
+54
+00:03:25,340 --> 00:03:29,630
+And now let us boast over cold weather, it looks fine or not.
+
+55
+00:03:31,070 --> 00:03:36,320
+So what we need to do is go to the terminal and I can convert.
+
+56
+00:03:38,550 --> 00:03:39,390
+Decimal, divine.
+
+57
+00:03:39,570 --> 00:03:39,930
+OK.
+
+58
+00:03:41,560 --> 00:03:42,400
+No, Austin.
+
+59
+00:03:57,360 --> 00:04:04,200
+OK, so if I give then as in bodyguard, one zero one zero as the output, which is fine, if I give
+
+60
+00:04:04,410 --> 00:04:11,120
+15, then I get one one one, which is the binary representation of this particular number.
+
+61
+00:04:11,820 --> 00:04:12,450
+That's all.
+
+62
+00:04:12,570 --> 00:04:13,070
+Thank you.

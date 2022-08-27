@@ -1,0 +1,311 @@
+1
+00:00:01,670 --> 00:00:06,950
+Everyone in this lecture will talk about the difference operator, which is also the note reducing us.
+
+2
+00:00:07,770 --> 00:00:14,630
+So till now, we have seen multiple use cases, a start one use case in multiplying two numbers and
+
+3
+00:00:14,760 --> 00:00:17,870
+their use case when you create a pointer variable look.
+
+4
+00:00:18,020 --> 00:00:25,250
+For example, you create data type followed by a star, followed by some pointed variable.
+
+5
+00:00:25,700 --> 00:00:31,340
+This is another use case, and the third use case we are going to look at is our data put in as a different
+
+6
+00:00:31,340 --> 00:00:31,760
+operator.
+
+7
+00:00:31,760 --> 00:00:32,030
+OK?
+
+8
+00:00:32,600 --> 00:00:36,740
+So let's see what does this or different operator does?
+
+9
+00:00:37,250 --> 00:00:42,800
+And we have also talked about that if you do and and of some bucket.
+
+10
+00:00:43,130 --> 00:00:43,370
+OK.
+
+11
+00:00:45,230 --> 00:00:48,830
+And of some bucket, let's say we have a bucket index.
+
+12
+00:00:50,100 --> 00:00:53,340
+Equals ten, so X is a bucket which contains a value then.
+
+13
+00:00:53,850 --> 00:00:59,640
+And this is that in the memory, and if you do end of X, this gives you the address of that particular
+
+14
+00:00:59,640 --> 00:00:59,950
+bucket.
+
+15
+00:00:59,970 --> 00:01:00,240
+OK.
+
+16
+00:01:01,020 --> 00:01:05,940
+So basically, this D reference operator works in the exactly opposite manner.
+
+17
+00:01:06,150 --> 00:01:08,760
+What what it does, it takes an address.
+
+18
+00:01:09,270 --> 00:01:09,600
+OK.
+
+19
+00:01:09,900 --> 00:01:11,820
+So you do start of some address.
+
+20
+00:01:13,030 --> 00:01:14,830
+And it will give you the bucket.
+
+21
+00:01:15,040 --> 00:01:20,530
+OK, so this is what you need to remember about and and be a plant operator.
+
+22
+00:01:21,290 --> 00:01:21,700
+So.
+
+23
+00:01:22,970 --> 00:01:23,730
+This is it, OK?
+
+24
+00:01:23,900 --> 00:01:28,880
+I will give you one example now, if I do, OK, if I have, let's say.
+
+25
+00:01:30,490 --> 00:01:32,470
+And starred retired.
+
+26
+00:01:33,680 --> 00:01:41,900
+Equals two and of X, that means BP is storing the value of a treasure of its excess storage summer
+
+27
+00:01:41,900 --> 00:01:42,290
+dress.
+
+28
+00:01:42,530 --> 00:01:49,040
+ABC exit this ABC is the address of X, then BP are well stored.
+
+29
+00:01:49,790 --> 00:01:50,360
+ABC.
+
+30
+00:01:51,480 --> 00:01:51,810
+OK.
+
+31
+00:01:52,260 --> 00:01:57,630
+And if I said what would be the output if I print out the idea?
+
+32
+00:01:59,070 --> 00:02:03,720
+What I'm going to get, I'm simply going to get a mixed output, but if I do see out.
+
+33
+00:02:04,690 --> 00:02:05,530
+Sort of pretty.
+
+34
+00:02:05,710 --> 00:02:10,870
+OK, now you're going to be using the start operated with address.
+
+35
+00:02:10,990 --> 00:02:17,350
+So Peter is address the start of some address will give us the bucket and what is the bucket X?
+
+36
+00:02:17,650 --> 00:02:21,640
+And if you do Code X, what you will get, you will actually get the value that is there inside the
+
+37
+00:02:21,640 --> 00:02:21,940
+bucket.
+
+38
+00:02:21,940 --> 00:02:23,740
+So you're going to get an OK.
+
+39
+00:02:24,070 --> 00:02:31,180
+I hope you are now able to understand the difference between doing media and sort of media.
+
+40
+00:02:31,180 --> 00:02:38,740
+OK, so here we are using a star to create a pointed variable, but here we are using Star as a beta
+
+41
+00:02:38,740 --> 00:02:39,870
+French operator.
+
+42
+00:02:40,030 --> 00:02:40,420
+OK?
+
+43
+00:02:40,900 --> 00:02:43,000
+So this is our Data France operator.
+
+44
+00:02:43,510 --> 00:02:45,750
+This is the meaning of beta fencing.
+
+45
+00:02:45,760 --> 00:02:51,760
+If you want to access a value through its address, then we will use different operator.
+
+46
+00:02:51,760 --> 00:02:52,000
+OK?
+
+47
+00:02:52,330 --> 00:02:59,770
+All you can do is if I say End of X will give me the address, and if you put a stop to it, then then
+
+48
+00:02:59,770 --> 00:03:01,130
+also you will get the same result.
+
+49
+00:03:01,180 --> 00:03:07,780
+It would be nothing but your first finding the address, then using Star are finding the bucket so effectively
+
+50
+00:03:07,780 --> 00:03:09,690
+this is equal to X only.
+
+51
+00:03:09,790 --> 00:03:10,090
+OK.
+
+52
+00:03:10,720 --> 00:03:14,070
+This will give you the value that is resident and X.
+
+53
+00:03:14,070 --> 00:03:16,900
+So if you do something like this, then you will get.
+
+54
+00:03:18,050 --> 00:03:22,100
+Then there's the outward, OK, so this is what this different operator does.
+
+55
+00:03:22,610 --> 00:03:30,470
+So what we have learned is that pointers can be used to access the variable.
+
+56
+00:03:31,190 --> 00:03:34,820
+They point to directly OK, so Peter was pointing to X.
+
+57
+00:03:36,170 --> 00:03:41,150
+And through media, I can access the value of X by doing sort of media.
+
+58
+00:03:42,410 --> 00:03:48,200
+This is done by proceeding the Poynter name with their data print operator stored on.
+
+59
+00:03:48,290 --> 00:03:51,740
+This is also known as well-appointed to buy.
+
+60
+00:03:51,770 --> 00:03:55,780
+So this operator is also known as well-appointed Dubai.
+
+61
+00:03:56,450 --> 00:04:00,710
+So, yeah, this is what beat a print operator is OK.
+
+62
+00:04:00,960 --> 00:04:04,580
+So one small concept that you may know also noise.
+
+63
+00:04:04,760 --> 00:04:07,130
+Sometimes you will encounter a null pointer.
+
+64
+00:04:07,340 --> 00:04:07,640
+OK.
+
+65
+00:04:08,810 --> 00:04:13,100
+So for example, this is an example of an elbow in the U.K. So this.
+
+66
+00:04:14,250 --> 00:04:21,030
+We can't do it in a dress, but it is not binding to any work, so we can see if it is not binding to
+
+67
+00:04:21,030 --> 00:04:21,360
+anybody.
+
+68
+00:04:21,480 --> 00:04:22,970
+We can put this value zero.
+
+69
+00:04:22,980 --> 00:04:29,100
+So by default, this is garbage, but we can initialize this pointer with the value zero or we can initialize
+
+70
+00:04:29,310 --> 00:04:30,320
+it with the value.
+
+71
+00:04:30,810 --> 00:04:34,070
+Know what can happen if you try to do a difference.
+
+72
+00:04:34,580 --> 00:04:39,990
+This if you do start off beat, then you may get the segmentation fault.
+
+73
+00:04:40,020 --> 00:04:41,940
+You cannot be different and null pointer.
+
+74
+00:04:41,940 --> 00:04:45,510
+Okay, so this will give you a segmentation fault.
+
+75
+00:04:46,810 --> 00:04:51,820
+Of it, which is a memory related error, OK, because this address does not exist.
+
+76
+00:04:52,360 --> 00:04:52,630
+OK.
+
+77
+00:04:54,390 --> 00:05:00,450
+So that's another thing that you should know, and that's it for this lecture.
+
+78
+00:05:00,600 --> 00:05:01,140
+Thank you.

@@ -1,0 +1,491 @@
+1
+00:00:02,120 --> 00:00:06,150
+Everyone in this section, we will talk about multidimensional areas.
+
+2
+00:00:06,180 --> 00:00:10,340
+OK, so we have already seen whatever linearity or one dimensionality.
+
+3
+00:00:10,730 --> 00:00:14,120
+But now we're going to talk about what is a multidimensional array, OK?
+
+4
+00:00:14,510 --> 00:00:17,030
+So one day it is something that we have seen.
+
+5
+00:00:17,030 --> 00:00:20,420
+It looks like this one on a multidimensional area.
+
+6
+00:00:20,420 --> 00:00:23,690
+That means it has more than one dimension to it can be étudier.
+
+7
+00:00:23,690 --> 00:00:26,180
+It can be 3D at, it can be afforded.
+
+8
+00:00:26,210 --> 00:00:29,000
+It could also be the end dimensional.
+
+9
+00:00:29,150 --> 00:00:35,180
+OK, so beyond 3D areas, we cannot visualize how that it would look like, but you can assume that
+
+10
+00:00:35,180 --> 00:00:37,550
+the data exists in and dimension.
+
+11
+00:00:38,000 --> 00:00:42,050
+That's something that actually exists in the memory.
+
+12
+00:00:42,470 --> 00:00:48,920
+And we do also have some applications of energy at IS, especially when we talk about machine learning
+
+13
+00:00:49,310 --> 00:00:50,720
+and deep learning, OK?
+
+14
+00:00:51,320 --> 00:00:59,390
+So if you go into those subjects and you will find that the data is often represented as these end dimensional
+
+15
+00:00:59,540 --> 00:01:04,820
+eddies, that will give you a few examples in real life where these eddies can be useful.
+
+16
+00:01:05,510 --> 00:01:06,930
+The one data we have already seen.
+
+17
+00:01:07,370 --> 00:01:13,630
+Maybe you want to store the marks of any number of students, then maybe you can make an dimensionality,
+
+18
+00:01:13,650 --> 00:01:13,950
+OK?
+
+19
+00:01:13,970 --> 00:01:14,830
+So you can have a.
+
+20
+00:01:15,870 --> 00:01:16,780
+So one day.
+
+21
+00:01:18,540 --> 00:01:25,200
+Let's say you have a one degree, let's suppose, let's say you want to store the marks, OK, maybe
+
+22
+00:01:25,530 --> 00:01:26,520
+there are 10 students.
+
+23
+00:01:26,550 --> 00:01:30,540
+So you create a mock city for 10 number of students.
+
+24
+00:01:31,090 --> 00:01:36,430
+But now suppose the marks are there, but they are in three subjects.
+
+25
+00:01:36,450 --> 00:01:38,010
+OK, let's see.
+
+26
+00:01:38,010 --> 00:01:42,870
+There are three subjects, and for each subject you want to store the marks of the student and maybe
+
+27
+00:01:42,870 --> 00:01:46,800
+what you can do is you can actually measure two degree returns.
+
+28
+00:01:46,950 --> 00:01:47,940
+And number of rows.
+
+29
+00:01:48,660 --> 00:01:50,220
+And it has three columns.
+
+30
+00:01:50,430 --> 00:01:50,730
+OK.
+
+31
+00:01:51,330 --> 00:01:57,270
+The first column later denotes the marks for physics, next for chemistry and the third for mathematics.
+
+32
+00:01:57,820 --> 00:02:04,320
+Maybe you can say I have a student as one or stored 10, 15 and 18 months.
+
+33
+00:02:04,680 --> 00:02:10,230
+I have a student as to who's told 11, 13 and 22 marks and so on.
+
+34
+00:02:10,350 --> 00:02:10,650
+OK.
+
+35
+00:02:10,980 --> 00:02:15,660
+So basically, I can say OK if I want to get the marks off.
+
+36
+00:02:15,660 --> 00:02:22,980
+I had student, so I can say I will pick Dietro, and that will represent all the marks of the eight
+
+37
+00:02:23,010 --> 00:02:23,490
+students.
+
+38
+00:02:23,490 --> 00:02:29,130
+So if I want to get the marks for the physics, I can simply write it would be nothing would say of
+
+39
+00:02:29,250 --> 00:02:34,680
+zero if I want to get the marks for chemistry again to say off one.
+
+40
+00:02:35,010 --> 00:02:45,000
+OK, on the device format, it would be off I off so we can use the square bracket notation to find
+
+41
+00:02:45,000 --> 00:02:49,230
+out the particular rule and a particular column.
+
+42
+00:02:49,230 --> 00:02:52,830
+For example, let's say this is at or x ungual invite.
+
+43
+00:02:53,280 --> 00:02:57,860
+The marks would be available at s off x comma y.
+
+44
+00:02:59,400 --> 00:03:04,230
+So this is how you can say a data can be represented in the form of a duty matrix.
+
+45
+00:03:04,770 --> 00:03:11,190
+Let us also talk about really metrics, OK, so where we can see a 3D matrix?
+
+46
+00:03:12,400 --> 00:03:16,800
+So very real life use kids would be images, OK?
+
+47
+00:03:17,290 --> 00:03:23,080
+All the images that you see on your computer, on your device, on your mobile phone, those images
+
+48
+00:03:23,080 --> 00:03:25,240
+are nothing, but those are a matrix of pixels.
+
+49
+00:03:25,330 --> 00:03:30,340
+So if you zoom in to an image, you will find that the image does nothing, but it's so good.
+
+50
+00:03:30,640 --> 00:03:34,450
+OK, so image is nothing but a grid.
+
+51
+00:03:35,200 --> 00:03:38,770
+If it is a and white image, then it is a 2D matrix.
+
+52
+00:03:39,160 --> 00:03:42,110
+But if it is a colored image, it is actually a 3D matrix.
+
+53
+00:03:42,130 --> 00:03:42,460
+OK?
+
+54
+00:03:42,580 --> 00:03:45,340
+So I will tell you why it is a 3D matrix.
+
+55
+00:03:45,790 --> 00:03:49,120
+Let's say you have an image in which the first.
+
+56
+00:03:51,250 --> 00:03:54,940
+Pixels, let's divide, let's add this this color is white.
+
+57
+00:03:55,930 --> 00:04:01,270
+White is represented using IGB colors, OK, so they're there for each pixel.
+
+58
+00:04:02,340 --> 00:04:09,930
+OK, let me let me try try to show you how each pixel is stored, each pixel has three components one
+
+59
+00:04:09,930 --> 00:04:15,600
+a component of red, and that a component of blue and another component of green.
+
+60
+00:04:17,210 --> 00:04:21,850
+So it would have added value, it would have a green value, it would have a blue value.
+
+61
+00:04:21,860 --> 00:04:25,310
+So when you mix these values together, you see a gold.
+
+62
+00:04:25,430 --> 00:04:25,730
+OK?
+
+63
+00:04:25,940 --> 00:04:31,640
+For example, the black pixel is represented as zero zero zero.
+
+64
+00:04:31,730 --> 00:04:32,060
+OK.
+
+65
+00:04:32,420 --> 00:04:38,210
+Similarly, the white pixel is represented at 255 255 255.
+
+66
+00:04:38,840 --> 00:04:39,170
+OK.
+
+67
+00:04:39,590 --> 00:04:44,690
+And maybe a gray pixel would have something like 100 100 100.
+
+68
+00:04:45,740 --> 00:04:47,690
+Similarly, red pixel would have.
+
+69
+00:04:48,350 --> 00:04:55,460
+So the first number represents the component of red that can represent blue and represents the blue.
+
+70
+00:04:55,580 --> 00:04:55,850
+OK.
+
+71
+00:04:56,000 --> 00:04:57,110
+So red, green and blue.
+
+72
+00:04:57,560 --> 00:05:03,770
+So maybe if I want to have a deep red pixel, then it would be the maximum value that actually it can
+
+73
+00:05:03,770 --> 00:05:03,980
+take.
+
+74
+00:05:04,100 --> 00:05:06,290
+It has to be five for red.
+
+75
+00:05:06,440 --> 00:05:10,200
+Red would be full, green would be zero and blue would be like zero.
+
+76
+00:05:10,220 --> 00:05:17,030
+OK, so these numbers can be stored in a 3D matrix and then you store images.
+
+77
+00:05:17,390 --> 00:05:21,440
+OK, so let's say you have an image which takes Automator bytes of memory.
+
+78
+00:05:21,870 --> 00:05:23,840
+Then how is this size calculated?
+
+79
+00:05:23,840 --> 00:05:31,490
+So this is calculated by finding the number of arrows in total, the number of columns in two three.
+
+80
+00:05:32,280 --> 00:05:38,660
+OK, because you're storing these many integers roles in two columns into three into the size taken
+
+81
+00:05:38,660 --> 00:05:39,290
+by each.
+
+82
+00:05:39,290 --> 00:05:41,090
+Indeed, the let's say each.
+
+83
+00:05:41,090 --> 00:05:44,510
+Indeed, it is eight bit into the let's say it's a eight billion budget.
+
+84
+00:05:44,780 --> 00:05:45,070
+OK.
+
+85
+00:05:45,770 --> 00:05:46,160
+Why?
+
+86
+00:05:46,290 --> 00:05:49,070
+And he did because the maximum value is 255.
+
+87
+00:05:49,520 --> 00:05:52,530
+And we can represent this data using Edwards.
+
+88
+00:05:52,550 --> 00:05:55,190
+OK, because do this to the voters who have this.
+
+89
+00:05:55,730 --> 00:06:00,080
+So we just need Edwards to represent one and bidder effectively.
+
+90
+00:06:00,410 --> 00:06:03,200
+We would end up getting these many bids.
+
+91
+00:06:04,310 --> 00:06:10,850
+And you can convert this into megabytes or kilobytes, and you will obviously need an image which has
+
+92
+00:06:10,850 --> 00:06:14,930
+a high resolution or higher resolution image.
+
+93
+00:06:15,410 --> 00:06:19,950
+Basically means you have more number of rows and a. number of columns.
+
+94
+00:06:19,980 --> 00:06:31,220
+OK, so basically it's a a 4K image would occupy four times more space on your SD card or on your drive.
+
+95
+00:06:32,000 --> 00:06:32,330
+OK.
+
+96
+00:06:32,660 --> 00:06:37,780
+Because the number of pixels have also increased by that particular factor.
+
+97
+00:06:37,790 --> 00:06:38,030
+OK?
+
+98
+00:06:38,930 --> 00:06:47,510
+So maybe if the board wrote in column that increased by four times, then it would occupy 16 times more
+
+99
+00:06:47,510 --> 00:06:49,850
+space on your SD card.
+
+100
+00:06:50,000 --> 00:06:50,270
+OK.
+
+101
+00:06:50,570 --> 00:06:57,180
+So basically, this is something that you can see that these days a year that actually related with
+
+102
+00:06:57,180 --> 00:06:58,760
+the day to day life.
+
+103
+00:06:59,210 --> 00:07:01,340
+And then you will go into machine learning.
+
+104
+00:07:01,640 --> 00:07:06,170
+You will also come across the full 4G data.
+
+105
+00:07:06,500 --> 00:07:12,020
+So if I give you one example of auto data, I give you one example of image what example?
+
+106
+00:07:12,020 --> 00:07:13,430
+You have a sequence of images.
+
+107
+00:07:13,430 --> 00:07:17,330
+OK, maybe sequence of images is nothing but a video.
+
+108
+00:07:17,990 --> 00:07:21,020
+Basically, you're getting one image, but second, let's see.
+
+109
+00:07:21,470 --> 00:07:21,680
+OK.
+
+110
+00:07:21,890 --> 00:07:22,940
+So what is going to happen?
+
+111
+00:07:22,970 --> 00:07:29,140
+Each image is a 3D image, and we're adding another dimension that there are multiple such images behind
+
+112
+00:07:29,150 --> 00:07:29,270
+us.
+
+113
+00:07:29,270 --> 00:07:31,610
+We have another image, then another image.
+
+114
+00:07:32,030 --> 00:07:36,920
+So basically, we have added one more dimension the dimension of time.
+
+115
+00:07:37,160 --> 00:07:37,440
+OK.
+
+116
+00:07:37,460 --> 00:07:40,400
+Or the number of frames if you want to store VIDEO.
+
+117
+00:07:40,430 --> 00:07:44,180
+So we would be nothing without kind of a 4D matrix, you can see.
+
+118
+00:07:44,240 --> 00:07:44,510
+OK.
+
+119
+00:07:45,230 --> 00:07:52,760
+So yeah, so that's a little bit about the multidimensional areas.
+
+120
+00:07:53,030 --> 00:07:56,540
+And in the next lecture, we will discuss the details.
+
+121
+00:07:56,990 --> 00:07:59,260
+How do we create multidimensional?
+
+122
+00:07:59,870 --> 00:08:04,130
+How do we take input output and how they're stored in memory?
+
+123
+00:08:04,640 --> 00:08:06,020
+That's I'll see you in the next.

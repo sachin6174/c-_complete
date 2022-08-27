@@ -1,0 +1,243 @@
+1
+00:00:01,100 --> 00:00:07,040
+Everyone in this lecture, we're going to see how do we compute the binomial coefficient INSEAD, given
+
+2
+00:00:07,040 --> 00:00:08,880
+the value of and not?
+
+3
+00:00:08,900 --> 00:00:09,260
+OK.
+
+4
+00:00:09,680 --> 00:00:15,050
+So we would be given and and we would be given out and we want to compute INSEAD.
+
+5
+00:00:15,110 --> 00:00:15,410
+OK.
+
+6
+00:00:15,680 --> 00:00:18,920
+The nearest denoted as the binomial coefficients.
+
+7
+00:00:18,920 --> 00:00:20,090
+I will tell you an example.
+
+8
+00:00:20,090 --> 00:00:29,090
+Let's say you have five cards and the name of the cards are a, b, c, d e or you want to choose Dugard's
+
+9
+00:00:29,460 --> 00:00:34,880
+within the binomial coefficient tells us in how many ways we can select Dugard's.
+
+10
+00:00:35,960 --> 00:00:38,300
+Out of lifeguards, OK?
+
+11
+00:00:38,690 --> 00:00:40,040
+What problems like these?
+
+12
+00:00:40,820 --> 00:00:46,370
+Either we make all the possible combinations, for example, I choose the guard Abby or I choose the
+
+13
+00:00:46,370 --> 00:00:51,260
+guard AC or I choose Eddie or I choose a night.
+
+14
+00:00:52,330 --> 00:00:59,470
+Or I choose B C, B D, we e but I choose C, B B or I choose the.
+
+15
+00:00:59,800 --> 00:01:06,290
+Okay, so clearly how many ways we are, it is four plus three plus two plus one, which is 10 ways.
+
+16
+00:01:07,060 --> 00:01:13,550
+Either you make all the possible combinations and then you compute the other ways to use the binomial
+
+17
+00:01:13,570 --> 00:01:16,570
+option in zero in this case and is five.
+
+18
+00:01:17,080 --> 00:01:19,950
+And how many objects we own the juice out of N objects do.
+
+19
+00:01:20,230 --> 00:01:27,760
+We will compute 5C to get two entities denoted as n Victorian, divided by and minus are factorial.
+
+20
+00:01:28,870 --> 00:01:36,160
+In do our federal let us try to put this formula for 5C to so it is five factorial five minus two,
+
+21
+00:01:36,160 --> 00:01:39,590
+that is three Victoria into our victory letters to Victoria.
+
+22
+00:01:39,610 --> 00:01:46,390
+Now this five actually can be written as three victories in the vote in the five so that we can cancel
+
+23
+00:01:46,390 --> 00:01:47,530
+out three factorial.
+
+24
+00:01:48,190 --> 00:01:54,810
+And here we are left with two Victoria with just two to the vote by Tuesday night.
+
+25
+00:01:55,570 --> 00:02:01,690
+Either you use this formula in theory or you generate all possibilities obviously generating and yet
+
+26
+00:02:01,690 --> 00:02:04,990
+is more convenient to us and we can get the answer.
+
+27
+00:02:05,900 --> 00:02:11,180
+By just computing the binomial opportunity, this is what the significance of binomial coefficient is,
+
+28
+00:02:12,170 --> 00:02:13,040
+what we are doing.
+
+29
+00:02:13,310 --> 00:02:17,840
+We are going to write a function that compute the binomial coefficient for us.
+
+30
+00:02:18,350 --> 00:02:19,880
+Let us try to do that.
+
+31
+00:02:20,400 --> 00:02:24,650
+Will right and not we will take input and they're not.
+
+32
+00:02:25,610 --> 00:02:32,960
+That means we want to choose in how many ways we can choose our objects out of a set off an object.
+
+33
+00:02:33,110 --> 00:02:37,130
+So for that, we're going to compute the binomial coefficient.
+
+34
+00:02:39,130 --> 00:02:45,700
+Given and not right, so clearly, we will write a function that returns an integer, right?
+
+35
+00:02:46,180 --> 00:02:53,560
+So in binomial coefficient, we get in, then indeed and now how we're going to do it right.
+
+36
+00:02:53,920 --> 00:02:58,690
+So we know that the onthat is in Victoria divided by and minus odd factorial.
+
+37
+00:03:00,020 --> 00:03:03,320
+And what victory late, so maybe I can answer is.
+
+38
+00:03:03,780 --> 00:03:09,470
+And Victoria divided by n minus advertorial in dour Victorian, right?
+
+39
+00:03:09,980 --> 00:03:11,450
+And this goes in denominator.
+
+40
+00:03:11,990 --> 00:03:15,680
+One thing is very clear that here is some work, which is repetitive.
+
+41
+00:03:15,980 --> 00:03:18,620
+That means we need to compute Victoria repeatedly.
+
+42
+00:03:19,370 --> 00:03:20,880
+What would be a better idea?
+
+43
+00:03:21,200 --> 00:03:27,680
+So you can make a stand alone function for factorial like we have already done will reduce that go ahead.
+
+44
+00:03:28,400 --> 00:03:33,890
+And that called that function is going to be used three times in this example.
+
+45
+00:03:33,980 --> 00:03:40,190
+So and there would be factorial of and divided by factorial off and minus are.
+
+46
+00:03:42,400 --> 00:03:44,310
+Into Victoria Law.
+
+47
+00:03:44,790 --> 00:03:48,640
+I nodded and reconsidered and answered.
+
+48
+00:03:49,330 --> 00:03:57,640
+This actually simplifies our code of binomial confusion a lot because we don't need to compute and victory
+
+49
+00:03:57,730 --> 00:03:58,750
+here, here, here.
+
+50
+00:03:58,840 --> 00:04:05,220
+So all of these calculations are burdened by a function which is a reusable block of code.
+
+51
+00:04:05,260 --> 00:04:06,550
+OK, so it is reusable.
+
+52
+00:04:06,550 --> 00:04:12,610
+We can use it three times in this computation, and it is going to work for us.
+
+53
+00:04:13,520 --> 00:04:17,350
+Let us try to run this code and see what do we get right?
+
+54
+00:04:17,380 --> 00:04:18,370
+So we have built the code.
+
+55
+00:04:19,530 --> 00:04:23,340
+And now I can run and dodge large binomial coefficient.
+
+56
+00:04:24,240 --> 00:04:27,300
+And let's end as five artists do, so I get done today.
+
+57
+00:04:27,330 --> 00:04:27,660
+OK?
+
+58
+00:04:28,110 --> 00:04:31,140
+How about 63 if and in six areas?
+
+59
+00:04:31,140 --> 00:04:36,330
+Three I you're done to 20 years working perfectly fine for all of these cases.
+
+60
+00:04:36,930 --> 00:04:41,190
+And I hope now you've understood that functions are indeed helpful.
+
+61
+00:04:41,790 --> 00:04:43,500
+And that's all for this video.

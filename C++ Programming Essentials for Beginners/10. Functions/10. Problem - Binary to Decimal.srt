@@ -1,0 +1,339 @@
+1
+00:00:00,600 --> 00:00:03,300
+Everyone's in this lecture, we're going to solve this problem.
+
+2
+00:00:03,720 --> 00:00:07,920
+We are given a number and which is having binary digits, that means zeros and ones.
+
+3
+00:00:08,490 --> 00:00:12,030
+We want to interpret this, interpret the decimal equivalent of this.
+
+4
+00:00:12,360 --> 00:00:15,780
+Basically, we need to write a function that converts.
+
+5
+00:00:17,240 --> 00:00:20,360
+A number from binary to decimal rate.
+
+6
+00:00:21,200 --> 00:00:24,380
+So we are getting some number, which is in the form of zeros and ones.
+
+7
+00:00:24,920 --> 00:00:26,000
+So let's see how we can do it.
+
+8
+00:00:26,000 --> 00:00:31,120
+So if the number is, let's say, one one zero one, you know how to interpret this number, right?
+
+9
+00:00:31,340 --> 00:00:35,660
+So we know that this number is made up of powers of two.
+
+10
+00:00:35,690 --> 00:00:37,010
+So this is two par zero.
+
+11
+00:00:37,170 --> 00:00:38,250
+This is two about one.
+
+12
+00:00:38,270 --> 00:00:39,230
+This is two squared.
+
+13
+00:00:39,710 --> 00:00:42,000
+And those two will get in simpler terms.
+
+14
+00:00:42,020 --> 00:00:47,900
+These bars are one, two, four and eight and we are going to multiply the corresponding powers.
+
+15
+00:00:48,830 --> 00:00:50,360
+And these digits?
+
+16
+00:00:50,540 --> 00:00:53,210
+It is eight plus four plus zero plus one.
+
+17
+00:00:53,450 --> 00:00:55,700
+So this number is nothing but the number 13.
+
+18
+00:00:56,210 --> 00:01:02,520
+So that is what we want to find out to how we're going to do it in order to do this.
+
+19
+00:01:02,540 --> 00:01:07,240
+What we need is we need to extract all the digits, mate.
+
+20
+00:01:07,310 --> 00:01:11,510
+So first, we will extract the last digit that we know it is easy.
+
+21
+00:01:11,810 --> 00:01:16,080
+How do we get the last digit too busy, last digit of any number?
+
+22
+00:01:16,080 --> 00:01:17,300
+It is involved.
+
+23
+00:01:17,300 --> 00:01:17,540
+10.
+
+24
+00:01:17,720 --> 00:01:18,290
+All right.
+
+25
+00:01:18,320 --> 00:01:19,460
+We got the last digit.
+
+26
+00:01:20,090 --> 00:01:22,210
+You need to multiply this with some power.
+
+27
+00:01:22,220 --> 00:01:25,130
+So initially the power is one that is to power zero eight.
+
+28
+00:01:25,970 --> 00:01:26,240
+OK.
+
+29
+00:01:26,780 --> 00:01:33,500
+So, OK, it will multiply this last digit with some power, and we will add it to do an answer.
+
+30
+00:01:33,500 --> 00:01:37,220
+So answer equal to 200 plus last digit into Zimbabwe power.
+
+31
+00:01:38,030 --> 00:01:40,280
+And that power was initially one eight.
+
+32
+00:01:40,460 --> 00:01:42,020
+The power was initially one.
+
+33
+00:01:43,480 --> 00:01:49,180
+And our answer was initially zero, but this this thing, we have to do it for every place we get.
+
+34
+00:01:49,180 --> 00:01:52,870
+That means once we are done with this place, we have to move to the next place.
+
+35
+00:01:53,230 --> 00:01:54,820
+How do we go to the next place?
+
+36
+00:01:55,380 --> 00:01:56,460
+We need two things.
+
+37
+00:01:56,470 --> 00:01:59,770
+I need to find out the last digit promised millennium.
+
+38
+00:01:59,830 --> 00:02:04,330
+That means I need to reduce my number by a factor of 10.
+
+39
+00:02:05,230 --> 00:02:07,300
+OK, that will remove the last digit.
+
+40
+00:02:07,900 --> 00:02:11,520
+And I also need to increase my power from 2.0 to two per one.
+
+41
+00:02:12,130 --> 00:02:14,680
+That means the power is getting multiplied with two.
+
+42
+00:02:15,340 --> 00:02:20,020
+I have to say power equals two power, and I keep wondering this is OK.
+
+43
+00:02:20,770 --> 00:02:22,450
+I added one in the.
+
+44
+00:02:24,420 --> 00:02:32,400
+One to my answer, and there is one next time I will add what I will add something to my answer, which
+
+45
+00:02:32,400 --> 00:02:36,540
+is zero into two that is still one standard is still one.
+
+46
+00:02:37,110 --> 00:02:38,040
+This is also gone.
+
+47
+00:02:38,430 --> 00:02:45,630
+Next time, I'm going to put everything inside the loop right next time, the next digit is this number
+
+48
+00:02:45,780 --> 00:02:46,260
+11.
+
+49
+00:02:46,410 --> 00:02:49,070
+The last digit is one, and the previous answer is one.
+
+50
+00:02:49,080 --> 00:02:55,040
+So is it one plus one into the next ballot every time the power is getting multiplied with two?
+
+51
+00:02:55,050 --> 00:02:57,120
+So this power is for one in two four.
+
+52
+00:02:57,360 --> 00:02:59,670
+OK, so this number becomes five.
+
+53
+00:03:00,360 --> 00:03:04,830
+We're going to we have processed these three digits and equal in number.
+
+54
+00:03:04,830 --> 00:03:06,120
+We have got this till now.
+
+55
+00:03:06,120 --> 00:03:06,960
+It is five, right?
+
+56
+00:03:07,560 --> 00:03:10,890
+Next time, we're going to remove this using an equal one button.
+
+57
+00:03:11,010 --> 00:03:14,950
+So the number that is left as one, the last digit, it would be also one.
+
+58
+00:03:14,970 --> 00:03:20,170
+So easy answer equal to under plus five plus the ballot.
+
+59
+00:03:20,190 --> 00:03:23,670
+The power is going to be eight when we go to the next position.
+
+60
+00:03:24,750 --> 00:03:25,910
+Last digit in the power.
+
+61
+00:03:25,920 --> 00:03:28,560
+So the last digit is one into eight eight.
+
+62
+00:03:28,890 --> 00:03:33,520
+We add eight plus five, that is not 13 and we discard this off.
+
+63
+00:03:34,260 --> 00:03:35,280
+Finally, what is left?
+
+64
+00:03:35,530 --> 00:03:39,510
+So we have these birds with Detlev and they represent the number zero.
+
+65
+00:03:40,260 --> 00:03:46,170
+So what we can see, while the number is not equal to zero or while the number is greater than zero.
+
+66
+00:03:46,770 --> 00:03:49,530
+What we are doing, we are going to find out the last digit.
+
+67
+00:03:50,850 --> 00:03:54,120
+Multiplied with suitable power of two at that position.
+
+68
+00:03:55,010 --> 00:03:57,930
+And for a bit, we are going to update two things.
+
+69
+00:03:57,950 --> 00:04:04,290
+One is the power as we are going to the next index or the next place, the power of two gets double
+
+70
+00:04:04,340 --> 00:04:10,880
+eight and the number itself gets reduced by a factor of 10 because we are removing one digit rate.
+
+71
+00:04:11,480 --> 00:04:17,960
+And finally, from there, we considered under and said now we can dig and put some number and begin
+
+72
+00:04:17,960 --> 00:04:24,110
+to see out binary to decimal and the number is this.
+
+73
+00:04:24,950 --> 00:04:25,280
+OK.
+
+74
+00:04:26,030 --> 00:04:29,660
+OK, we got some go into last digit.
+
+75
+00:04:30,410 --> 00:04:31,010
+All right.
+
+76
+00:04:31,460 --> 00:04:35,980
+Now the belt is successful and let me show you show it to you, right?
+
+77
+00:04:38,030 --> 00:04:39,260
+Binary to decimal.
+
+78
+00:04:39,710 --> 00:04:42,710
+OK, let's say the number is one zero zero.
+
+79
+00:04:43,040 --> 00:04:46,100
+So it is actually the number four one zero one.
+
+80
+00:04:46,190 --> 00:04:48,530
+It is five one one zero one.
+
+81
+00:04:48,710 --> 00:04:49,550
+It is 13.
+
+82
+00:04:50,060 --> 00:04:56,090
+And how about this number one zero one zero one one one zero one zero one one?
+
+83
+00:04:56,780 --> 00:04:57,860
+The number is 43.
+
+84
+00:04:57,860 --> 00:05:05,660
+OK, so our code is working fine for all the cases, and I hope you have understood this logic and that's
+
+85
+00:05:05,660 --> 00:05:06,560
+all for this video.

@@ -1,0 +1,303 @@
+1
+00:00:00,830 --> 00:00:07,100
+Everyone in this lecture, we're going to solve a problem where we have to complete this function uncomment,
+
+2
+00:00:07,100 --> 00:00:14,000
+OK, so what we would be given we would be given a string is and it would be no delay in the form of
+
+3
+00:00:14,000 --> 00:00:15,110
+a multi line comment.
+
+4
+00:00:15,470 --> 00:00:23,060
+For example, this string is in the form of a Maryland command, which begins with start leisure and
+
+5
+00:00:23,060 --> 00:00:27,170
+a start, and it does end with Dot in the box again in between.
+
+6
+00:00:27,200 --> 00:00:28,490
+It does have some content.
+
+7
+00:00:29,300 --> 00:00:31,250
+So we want to return a new string.
+
+8
+00:00:31,370 --> 00:00:37,040
+So the return type is string, which does not contain this command to give it does not contain this
+
+9
+00:00:37,040 --> 00:00:38,150
+thing right now.
+
+10
+00:00:38,150 --> 00:00:39,320
+How do we solve this problem?
+
+11
+00:00:40,250 --> 00:00:41,150
+So it's pretty easy.
+
+12
+00:00:41,660 --> 00:00:46,010
+One thing we can do is we can take some help from the inbuilt library methods.
+
+13
+00:00:46,460 --> 00:00:50,690
+One thing is we need to find out the location of star and box.
+
+14
+00:00:51,110 --> 00:00:57,230
+You cannot always assume that it would be odd those you don't index because there might be spaces in
+
+15
+00:00:57,230 --> 00:00:59,840
+the beginning, or you might have something like in the beginning.
+
+16
+00:01:00,110 --> 00:01:02,710
+For example, there is an empty space here.
+
+17
+00:01:02,720 --> 00:01:04,840
+OK, so it it gets shifted.
+
+18
+00:01:04,850 --> 00:01:06,430
+It is at some other index.
+
+19
+00:01:06,440 --> 00:01:07,730
+It does not add zero one.
+
+20
+00:01:08,420 --> 00:01:13,280
+What I can do, I can find out the index very easily using as defined method.
+
+21
+00:01:14,270 --> 00:01:20,060
+And I can tell you, tell me, where where do you find backslash with this start?
+
+22
+00:01:20,330 --> 00:01:20,870
+All right.
+
+23
+00:01:21,470 --> 00:01:27,260
+And also tell me, where do you find the last start and the backlash?
+
+24
+00:01:27,630 --> 00:01:31,930
+So that is a start and a box backslash then.
+
+25
+00:01:32,180 --> 00:01:34,200
+There are two different kind of tokens.
+
+26
+00:01:35,040 --> 00:01:41,450
+So we used the find function will get the first occurrence that is the index of this one and will also
+
+27
+00:01:41,450 --> 00:01:43,100
+get the index of this one right?
+
+28
+00:01:44,300 --> 00:01:50,780
+This is indexed to life, I try to show you what are these indices index one, they would be integers
+
+29
+00:01:51,260 --> 00:01:54,740
+as we know this is what the find function does return to us.
+
+30
+00:01:56,040 --> 00:01:56,340
+OK.
+
+31
+00:01:56,910 --> 00:02:01,410
+And let us just underscored by returning home testing for as of now.
+
+32
+00:02:02,850 --> 00:02:11,040
+And let me say, I want to run this function, remove comment helmet the index forward under the night
+
+33
+00:02:11,690 --> 00:02:15,300
+before corresponds to zero one, two, three and four.
+
+34
+00:02:15,420 --> 00:02:18,720
+So it gives me the starting index of backslash.
+
+35
+00:02:19,170 --> 00:02:23,370
+And it also gives me the starting index of this dot, which is 18 in this case.
+
+36
+00:02:23,370 --> 00:02:25,710
+And this is for what I want to do.
+
+37
+00:02:25,920 --> 00:02:28,740
+I want to remove this part of the string.
+
+38
+00:02:28,740 --> 00:02:33,850
+I want to just get this part of the string, which which is useful for it.
+
+39
+00:02:34,710 --> 00:02:37,620
+So clearly, we are looking at this problem.
+
+40
+00:02:37,620 --> 00:02:43,980
+We are extracting a small string from a bigger string so we can take help off the substring method so
+
+41
+00:02:43,980 --> 00:02:46,320
+we can see as dark.
+
+42
+00:02:48,760 --> 00:02:49,990
+Sub SDR, OK.
+
+43
+00:02:50,470 --> 00:02:56,410
+And it does accept the starting index and the Lento, guess what would be the starting index?
+
+44
+00:02:56,770 --> 00:03:00,850
+Obviously, the starting index would be four plus two, right?
+
+45
+00:03:00,970 --> 00:03:01,870
+So what is this?
+
+46
+00:03:02,000 --> 00:03:03,010
+So it would be six.
+
+47
+00:03:03,730 --> 00:03:05,140
+That would be index one.
+
+48
+00:03:05,710 --> 00:03:08,770
+Let's do right on what would be the length.
+
+49
+00:03:09,250 --> 00:03:13,150
+How many characters I do need to pick from the starting index.
+
+50
+00:03:13,720 --> 00:03:17,650
+That would be nothing but this index that is index two.
+
+51
+00:03:18,370 --> 00:03:19,570
+And you subtract.
+
+52
+00:03:22,130 --> 00:03:24,860
+This basically this index, right?
+
+53
+00:03:26,300 --> 00:03:28,020
+So you will get the length as well.
+
+54
+00:03:29,470 --> 00:03:37,710
+So what we can do is the length would be nothing, but if I just show you this is 18, right and this
+
+55
+00:03:37,710 --> 00:03:41,520
+index we got for, we don't need four, we don't need five.
+
+56
+00:03:41,550 --> 00:03:47,130
+So effectively from Index six will index 17, we need everything, right?
+
+57
+00:03:47,670 --> 00:03:49,080
+So how many letters do we have?
+
+58
+00:03:49,560 --> 00:03:54,220
+17 minus six plus one, which is 11 and 12, right?
+
+59
+00:03:55,140 --> 00:04:00,660
+We need to have 12 letters so we can do 18 minus four minus two, right?
+
+60
+00:04:01,320 --> 00:04:06,270
+So effectively we can set the letters nothing but index two minus Typekit.
+
+61
+00:04:06,630 --> 00:04:09,120
+That is the length of the string that we need.
+
+62
+00:04:11,070 --> 00:04:12,660
+And that's it, that's it.
+
+63
+00:04:13,490 --> 00:04:18,540
+So let's see if it does work as we are going to uncommitted.
+
+64
+00:04:19,660 --> 00:04:21,220
+And let's try to run the good.
+
+65
+00:04:22,850 --> 00:04:27,500
+Yes, it does work, so we are getting the output as Helloworld, which is working perfectly fine.
+
+66
+00:04:27,860 --> 00:04:32,600
+You can have a bigger string and you can have some dogs.
+
+67
+00:04:33,380 --> 00:04:34,870
+You can have some spaces.
+
+68
+00:04:35,330 --> 00:04:38,330
+It's if it does work in this way as well.
+
+69
+00:04:38,900 --> 00:04:40,070
+Yes, it does work.
+
+70
+00:04:40,460 --> 00:04:43,610
+It is able to uncomment the entire string.
+
+71
+00:04:43,620 --> 00:04:52,130
+OK, that this is how cool it is to work with the string methods and make our work a lot easier when
+
+72
+00:04:52,130 --> 00:04:53,180
+solving problems.
+
+73
+00:04:53,190 --> 00:04:59,540
+And that is why I asked you to go through some of the functions which are available on because they
+
+74
+00:04:59,540 --> 00:05:01,880
+are going to help you in solving problems.
+
+75
+00:05:02,390 --> 00:05:04,230
+That's all for this video.
+
+76
+00:05:04,250 --> 00:05:04,820
+Thank you.

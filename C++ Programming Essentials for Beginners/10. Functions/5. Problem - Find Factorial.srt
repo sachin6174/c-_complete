@@ -1,0 +1,279 @@
+1
+00:00:01,320 --> 00:00:05,970
+Hi, everyone, in this lecture, we're going to discuss this problem where we want to write a function
+
+2
+00:00:05,970 --> 00:00:10,360
+that returns the factory often, no, OK, now this is a very easy problem.
+
+3
+00:00:10,380 --> 00:00:14,250
+The only thing is how do we write a function that returns the factory look?
+
+4
+00:00:14,730 --> 00:00:17,790
+Let us try to strengthen our concepts of function.
+
+5
+00:00:17,820 --> 00:00:24,720
+So the first thing is we are given a number like five on five nothing, but it is a product of all the
+
+6
+00:00:24,720 --> 00:00:26,900
+terms from one to five, right?
+
+7
+00:00:27,120 --> 00:00:28,980
+And this product is nothing but one.
+
+8
+00:00:30,330 --> 00:00:32,050
+In order to compute this product.
+
+9
+00:00:32,070 --> 00:00:33,990
+What we would required is a loop.
+
+10
+00:00:33,990 --> 00:00:39,680
+Right on that loop, we will write inside a function because the problem asks us to write the function.
+
+11
+00:00:39,690 --> 00:00:39,930
+OK?
+
+12
+00:00:40,710 --> 00:00:42,840
+Let us start defining the function.
+
+13
+00:00:42,960 --> 00:00:44,400
+So what would be the return type?
+
+14
+00:00:44,820 --> 00:00:46,130
+It's going to run an integer.
+
+15
+00:00:46,830 --> 00:00:47,340
+All right.
+
+16
+00:00:47,970 --> 00:00:49,710
+What should be the name of the function?
+
+17
+00:00:49,890 --> 00:00:52,410
+It should be something logical, like factorial.
+
+18
+00:00:52,650 --> 00:00:52,980
+OK.
+
+19
+00:00:53,460 --> 00:00:55,260
+What should be the input to the function?
+
+20
+00:00:55,530 --> 00:00:57,060
+It should be the value of end.
+
+21
+00:00:57,750 --> 00:01:03,030
+And now at this point, we can see that how we are going to compute this answer.
+
+22
+00:01:03,330 --> 00:01:07,080
+OK, now think think of a logic to compute the factorial.
+
+23
+00:01:07,980 --> 00:01:14,850
+So let's say we have and that is five to one thing is very clear we need to store it on foot in some
+
+24
+00:01:14,850 --> 00:01:15,210
+bucket.
+
+25
+00:01:15,870 --> 00:01:17,700
+And let us answer is initially one.
+
+26
+00:01:18,330 --> 00:01:25,890
+So what I can do, I can generate numbers in the range one twin and I can multiply my answer with those
+
+27
+00:01:25,890 --> 00:01:26,250
+numbers.
+
+28
+00:01:26,260 --> 00:01:28,860
+For example, I, as one on one and two one is one.
+
+29
+00:01:29,130 --> 00:01:35,520
+I update my answer every time that one comes it and they increment, the value of that is two.
+
+30
+00:01:35,670 --> 00:01:39,210
+So one thing to do is to undo is my current answer.
+
+31
+00:01:39,420 --> 00:01:42,870
+OK, so I am basically doing this operation until equals.
+
+32
+00:01:42,870 --> 00:01:44,340
+Previous answer into I.
+
+33
+00:01:44,610 --> 00:01:44,940
+OK.
+
+34
+00:01:45,570 --> 00:01:47,840
+Then I generate the next number that is three.
+
+35
+00:01:47,850 --> 00:01:48,390
+So doing two.
+
+36
+00:01:48,390 --> 00:01:49,230
+Three, that is six.
+
+37
+00:01:49,530 --> 00:01:50,100
+All right.
+
+38
+00:01:50,460 --> 00:01:51,330
+Six comes here.
+
+39
+00:01:52,350 --> 00:01:53,640
+Six into the next number.
+
+40
+00:01:53,640 --> 00:01:54,360
+That is four.
+
+41
+00:01:54,420 --> 00:01:55,430
+That is 24.
+
+42
+00:01:55,550 --> 00:02:00,240
+So 24 comes here and twenty four into five, that is 120.
+
+43
+00:02:00,450 --> 00:02:08,070
+120 is the final number that we would return from this function, right?
+
+44
+00:02:08,460 --> 00:02:11,550
+So let's let's see how we can just do it right.
+
+45
+00:02:11,980 --> 00:02:21,930
+So let me say that my answer is initially one, then I'll put a four loop and I call the one I then
+
+46
+00:02:21,930 --> 00:02:25,930
+equal to, let's say, and A-plus.
+
+47
+00:02:25,950 --> 00:02:32,520
+Plus, in every step, I'm saying that my answer would be multiplied with I after this loop.
+
+48
+00:02:32,520 --> 00:02:38,070
+I know that answer is going to store the factory of the number, and I can return that answer from me.
+
+49
+00:02:38,170 --> 00:02:38,430
+OK.
+
+50
+00:02:39,680 --> 00:02:40,250
+Now.
+
+51
+00:02:41,340 --> 00:02:47,670
+Again, this year old factory love the number and where and as an input by the user, right?
+
+52
+00:02:48,630 --> 00:02:51,690
+So we have we are going to build a code red.
+
+53
+00:02:52,990 --> 00:02:54,260
+Oh, OK.
+
+54
+00:02:54,310 --> 00:02:55,780
+The world is successful.
+
+55
+00:02:56,530 --> 00:03:01,150
+And now let us try to run this one again to dodge large factorial.
+
+56
+00:03:02,730 --> 00:03:03,810
+And here we go.
+
+57
+00:03:04,040 --> 00:03:10,410
+So if then we're just five to this one to integrate, if it has six, it is seven twenty.
+
+58
+00:03:11,070 --> 00:03:14,160
+If it is nine, it is some number No.
+
+59
+00:03:14,160 --> 00:03:16,680
+One word of caution for Victoria to give.
+
+60
+00:03:17,160 --> 00:03:22,980
+So as the value of and it is going to increase and Victoria is going to increase a lot, OK?
+
+61
+00:03:23,430 --> 00:03:28,920
+And the largest range of intermediate, we know it is up to approximately 10 at night.
+
+62
+00:03:30,030 --> 00:03:36,180
+If you try to multiply letter 20 numbers, 20 numbers would mean somewhere around 20 digits.
+
+63
+00:03:37,540 --> 00:03:41,980
+Which is obviously beyond the range of this.
+
+64
+00:03:42,700 --> 00:03:42,970
+Indeed.
+
+65
+00:03:43,210 --> 00:03:43,450
+OK.
+
+66
+00:03:43,840 --> 00:03:47,020
+And in this case, what you're going to get, you're not going.
+
+67
+00:03:47,030 --> 00:03:52,750
+You will not be able to store the answer inside the book, so you have to do something else.
+
+68
+00:03:53,940 --> 00:04:00,240
+So that's one word of caution that you cannot compute a bigger factory and store it inside integer.
+
+69
+00:04:00,450 --> 00:04:06,290
+You actually need something like a to store all the digits of a factory look.
+
+70
+00:04:06,630 --> 00:04:09,750
+So that's all for this video and thanks a lot.

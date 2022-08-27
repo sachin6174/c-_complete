@@ -1,0 +1,271 @@
+1
+00:00:01,800 --> 00:00:06,290
+Everyone in this lecture, we will see one example how we can use stained glass.
+
+2
+00:00:06,860 --> 00:00:11,580
+So if you look carefully, there are a lot of functions that this string glass provides.
+
+3
+00:00:12,260 --> 00:00:17,310
+So I'm going to show you one example that is very useful, though string also has functions like push
+
+4
+00:00:17,310 --> 00:00:18,210
+back bob back.
+
+5
+00:00:18,210 --> 00:00:22,660
+If you want to add some character at the end of the string, then you can use push back function.
+
+6
+00:00:23,430 --> 00:00:26,460
+This operator is used if you want to access the iith connector.
+
+7
+00:00:26,460 --> 00:00:31,470
+Inside a string insert is to insert something in the middle of the string front gives you the first
+
+8
+00:00:31,470 --> 00:00:31,950
+character.
+
+9
+00:00:32,430 --> 00:00:37,920
+There are a lot of functions, but one function that is very powerful and it can be used in solving
+
+10
+00:00:37,920 --> 00:00:38,370
+problems.
+
+11
+00:00:38,370 --> 00:00:40,380
+Also, that is the main function.
+
+12
+00:00:40,770 --> 00:00:48,780
+For example, you are given a paragraph and you want to search a particular word inside this particular
+
+13
+00:00:48,780 --> 00:00:49,200
+string.
+
+14
+00:00:49,560 --> 00:00:51,540
+But this this whole thing is a big string.
+
+15
+00:00:51,540 --> 00:00:53,130
+It's not a vector, it's not a list.
+
+16
+00:00:53,130 --> 00:00:54,750
+It's a paragraph.
+
+17
+00:00:55,290 --> 00:00:57,540
+Let's see how this find function works.
+
+18
+00:00:57,540 --> 00:00:59,430
+So I took one word.
+
+19
+00:00:59,430 --> 00:01:04,860
+I dig into that word, and now I want to find this word inside this paragraph.
+
+20
+00:01:04,860 --> 00:01:13,680
+So what I can do, I can see out paragraph dot find and I give the word it, OK, I want to find the
+
+21
+00:01:13,680 --> 00:01:17,490
+location of this world inside this particular paragraph.
+
+22
+00:01:17,790 --> 00:01:19,740
+Let's see what happens in this case.
+
+23
+00:01:24,380 --> 00:01:24,610
+Yes.
+
+24
+00:01:24,710 --> 00:01:25,430
+So.
+
+25
+00:01:31,860 --> 00:01:33,920
+Look, these are warnings we can just ignore.
+
+26
+00:01:34,680 --> 00:01:37,530
+Or maybe let me just put it like this.
+
+27
+00:01:38,740 --> 00:01:42,100
+So let's see if I.
+
+28
+00:01:45,150 --> 00:01:53,380
+Run Discord now darts last spring, find and I give the word to isstill, then it says it is President
+
+29
+00:01:53,380 --> 00:01:57,870
+Dad, the 22nd and so zero one two three four five six seven.
+
+30
+00:01:59,130 --> 00:02:04,800
+This dislocation is the 22nd index, so this is where the world is still is present.
+
+31
+00:02:05,130 --> 00:02:12,420
+But now you may ask, you know, I want to find the next truck rental, so maybe I can say OK, or let's
+
+32
+00:02:12,420 --> 00:02:14,320
+say there is some word, but is not there.
+
+33
+00:02:14,360 --> 00:02:18,900
+If I say, OK, God, then you can see I'm getting a very, very large number.
+
+34
+00:02:19,590 --> 00:02:28,830
+So this large number is actually the largest number for fought for unsigned integer value.
+
+35
+00:02:28,830 --> 00:02:36,930
+OK, so this can be stored inside a variable of their type size underscored B and begin to index.
+
+36
+00:02:37,170 --> 00:02:40,560
+OK, this index will be equal to.
+
+37
+00:02:43,050 --> 00:02:45,870
+This index is equal to minus one.
+
+38
+00:02:46,410 --> 00:02:53,100
+If you convert this unsigned integer into assigned one, OK, you can say this is the case you're going
+
+39
+00:02:53,100 --> 00:02:56,010
+to see out string not found.
+
+40
+00:02:57,590 --> 00:03:04,580
+So this this is actually if you convert it into individuality, let's say this could build this, this
+
+41
+00:03:04,580 --> 00:03:13,340
+works and we are converting or unsigned long into a signed integer and that values equivalent to minus
+
+42
+00:03:13,340 --> 00:03:13,580
+one.
+
+43
+00:03:13,850 --> 00:03:18,050
+So if I say if this is the case, then it will this string not found.
+
+44
+00:03:18,790 --> 00:03:26,650
+So you can say, if I give God it says string not found, if I give are learning, then it is present
+
+45
+00:03:26,840 --> 00:03:28,340
+and I don't get any output.
+
+46
+00:03:28,880 --> 00:03:33,980
+So if it is not equal to minus one, then we can say, OK, it is dead.
+
+47
+00:03:34,620 --> 00:03:39,200
+So you begin to if index is not equal to minus one.
+
+48
+00:03:42,190 --> 00:03:47,420
+Then maybe I also want to find the next occurrence now, what I can do, I can do it.
+
+49
+00:03:47,440 --> 00:03:50,650
+We found a first occurrence at this particular location.
+
+50
+00:03:51,190 --> 00:03:55,690
+Then if they still find the still in the remaining part, then I can do okay.
+
+51
+00:03:55,930 --> 00:03:57,050
+It's pretty easy.
+
+52
+00:03:57,070 --> 00:04:03,460
+If your index is not equal to minus one, I can see out maybe first occurrences I did.
+
+53
+00:04:04,670 --> 00:04:17,180
+That is index on for the second occurrence, I can say index is equal to paragraph, not find word.
+
+54
+00:04:17,570 --> 00:04:25,260
+And here they give the index index plus one that means not looking one index after all.
+
+55
+00:04:25,280 --> 00:04:25,640
+Three.
+
+56
+00:04:25,970 --> 00:04:27,470
+Plus the length off.
+
+57
+00:04:28,220 --> 00:04:30,740
+Or maybe we can start judging from this dislocation two.
+
+58
+00:04:30,770 --> 00:04:34,100
+Which is fine index plus one that is perfectly fine.
+
+59
+00:04:34,430 --> 00:04:38,330
+And again, if index is not equal to minus one, I can to see out.
+
+60
+00:04:38,870 --> 00:04:41,810
+We were second occurrence that is equal to.
+
+61
+00:04:43,350 --> 00:04:43,950
+Again and.
+
+62
+00:04:45,540 --> 00:04:53,790
+So let us try to run this cold, and I can still first us it into that 22 seconds it into that 35.
+
+63
+00:04:54,300 --> 00:04:55,830
+This is how I'm doing it.
+
+64
+00:04:56,190 --> 00:05:01,530
+But now I'm going to give you an assignment in the next coding challenge what you need to do.
+
+65
+00:05:01,620 --> 00:05:06,430
+You need to find all occurrences of a given word inside a string.
+
+66
+00:05:06,460 --> 00:05:12,780
+OK, so this you will solve by yourself by using this fine method, and I'm leaving this as a homework
+
+67
+00:05:12,780 --> 00:05:13,140
+for you.
+
+68
+00:05:13,170 --> 00:05:14,870
+See you in the next coding talent.

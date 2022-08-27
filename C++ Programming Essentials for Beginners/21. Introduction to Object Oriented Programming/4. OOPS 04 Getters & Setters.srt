@@ -1,0 +1,275 @@
+1
+00:00:02,540 --> 00:00:09,590
+So now we have learned how to use private and public access modifiers.
+
+2
+00:00:10,440 --> 00:00:15,860
+And but now we're going to learn a concept in which we are going to fix this problem.
+
+3
+00:00:15,860 --> 00:00:19,190
+That selling price should not be less than what we are going to do.
+
+4
+00:00:19,700 --> 00:00:23,030
+We are going to restrict the access of these data members.
+
+5
+00:00:23,360 --> 00:00:30,800
+Firstly, we are going to make them as private and we are going to provide some public methods that
+
+6
+00:00:30,800 --> 00:00:34,180
+will modify the MRP and the selling price.
+
+7
+00:00:34,190 --> 00:00:38,680
+Okay, so maybe there is a method void that might be OK.
+
+8
+00:00:39,470 --> 00:00:43,610
+And it is a method wide that selling price.
+
+9
+00:00:45,760 --> 00:00:53,050
+Now, let's say we get some price and we say, OK, this MRP should be equal to price.
+
+10
+00:00:53,800 --> 00:01:00,040
+And here we get some selling price and we say, OK, maybe again we may be passing somebody the price
+
+11
+00:01:00,640 --> 00:01:04,510
+and we say, OK, the link price should be called the price.
+
+12
+00:01:05,180 --> 00:01:06,260
+Now what is going to happen?
+
+13
+00:01:06,280 --> 00:01:07,570
+We are going to remove this code.
+
+14
+00:01:09,030 --> 00:01:10,800
+And instead of calling this method.
+
+15
+00:01:13,930 --> 00:01:19,780
+We will call instead of directly accessing the property, we will call the method September BNZ selling
+
+16
+00:01:19,780 --> 00:01:20,230
+price.
+
+17
+00:01:21,200 --> 00:01:29,990
+So I can see camaraderie that it might be, let's drag on camera, Dodd said selling price later to
+
+18
+00:01:29,990 --> 00:01:30,350
+wounded.
+
+19
+00:01:30,620 --> 00:01:35,930
+It is not going to fix the issue and it is again going to cause one problem that.
+
+20
+00:01:37,430 --> 00:01:42,680
+You can see this is again, a private number, and we cannot noted the values of price, and that might
+
+21
+00:01:42,680 --> 00:01:44,230
+be so what we need, right?
+
+22
+00:01:44,240 --> 00:01:49,790
+I know the function that we have great known as sectors that is taking some property off the camera.
+
+23
+00:01:50,690 --> 00:01:53,720
+But we are going to also create ghettos.
+
+24
+00:01:54,280 --> 00:02:05,350
+Are going to return some property of the product and get MRP that is going to return the MRP and get
+
+25
+00:02:05,390 --> 00:02:09,940
+selling price that is going to there, done the selling price.
+
+26
+00:02:10,210 --> 00:02:11,450
+OK, now.
+
+27
+00:02:13,300 --> 00:02:13,630
+OK.
+
+28
+00:02:14,190 --> 00:02:14,320
+Oh.
+
+29
+00:02:24,900 --> 00:02:25,190
+Yeah.
+
+30
+00:02:25,290 --> 00:02:31,560
+So again, here we will see Cameron not get out, so we are now going to call the method instead of
+
+31
+00:02:31,560 --> 00:02:34,440
+accessing the property and get selling price.
+
+32
+00:02:35,190 --> 00:02:38,790
+And you can see other problem will now be solved.
+
+33
+00:02:52,590 --> 00:02:55,110
+OK, this should be camera, don't go telling place.
+
+34
+00:03:01,690 --> 00:03:02,090
+All right.
+
+35
+00:03:02,650 --> 00:03:09,770
+So if I underscored now so we can see again, we have a mighty period, but we have selling prices 200
+
+36
+00:03:09,770 --> 00:03:10,720
+but should not happen.
+
+37
+00:03:11,440 --> 00:03:19,120
+What it means is now we are able to replicate the same functionality that we have done earlier using
+
+38
+00:03:19,120 --> 00:03:21,310
+the concepts of greater intelligence.
+
+39
+00:03:21,940 --> 00:03:25,690
+But these are more powerful by because.
+
+40
+00:03:27,420 --> 00:03:33,990
+Here we have a matter in which we can pull back and be strategic, so we can say when we are sending
+
+41
+00:03:33,990 --> 00:03:38,040
+a selling price, we can put additional checks here that.
+
+42
+00:03:39,630 --> 00:03:50,160
+If Price is greater than what might be, then we can say we will set the selling price equal to MRP.
+
+43
+00:03:50,340 --> 00:03:54,840
+OK, otherwise we can set the selling price equal the price.
+
+44
+00:03:55,110 --> 00:04:01,860
+That means if you put a price that is lower than or equal to MRP, then you will, then this price will
+
+45
+00:04:01,860 --> 00:04:04,470
+get updated, otherwise it will not get updated.
+
+46
+00:04:05,250 --> 00:04:07,310
+So that's what we are doing it.
+
+47
+00:04:07,320 --> 00:04:07,590
+OK?
+
+48
+00:04:08,810 --> 00:04:14,160
+So let let me let me show it to you if I said selling price equal to 200.
+
+49
+00:04:14,520 --> 00:04:20,680
+And if I underscored again so you can see both MRP and selling price are now 100.
+
+50
+00:04:21,120 --> 00:04:21,420
+OK.
+
+51
+00:04:21,810 --> 00:04:26,190
+And if I say no, the selling price should be 90.
+
+52
+00:04:26,640 --> 00:04:30,090
+And I what we should Bernard, then this will get updated.
+
+53
+00:04:30,270 --> 00:04:32,490
+So selling prices 19 MRP under OK.
+
+54
+00:04:32,910 --> 00:04:37,410
+And if I say it should be 190, then it would be made as it.
+
+55
+00:04:37,530 --> 00:04:43,920
+OK, so you're going to so we can see the concept of greater than traders are quite powerful when we
+
+56
+00:04:43,920 --> 00:04:47,970
+are going to work with glasses and object.
+
+57
+00:04:48,560 --> 00:04:52,050
+So that's all for this lecture and I hope you understood.
+
+58
+00:04:52,380 --> 00:05:00,120
+Now we have used both data members and we have provided methods to the public in order to work with
+
+59
+00:05:00,600 --> 00:05:07,410
+these drivers, and we can put additional stakes and constraints when the values of these data members
+
+60
+00:05:07,410 --> 00:05:07,770
+are set.
+
+61
+00:05:07,800 --> 00:05:08,100
+OK.
+
+62
+00:05:09,210 --> 00:05:17,400
+So that's all for this lecture, and maybe you can also check that the price should be greater than
+
+63
+00:05:17,400 --> 00:05:17,720
+zero.
+
+64
+00:05:17,910 --> 00:05:21,660
+So if is negative, then this price will not update.
+
+65
+00:05:21,690 --> 00:05:21,990
+OK.
+
+66
+00:05:22,650 --> 00:05:26,040
+Only then you should update the price.
+
+67
+00:05:27,770 --> 00:05:33,350
+Maybe if someone says, OK, let me said the ad might be as miners are injured, then this is not going
+
+68
+00:05:33,350 --> 00:05:33,760
+to work.
+
+69
+00:05:35,330 --> 00:05:38,050
+All right, so that's all for this lecture, thank you.

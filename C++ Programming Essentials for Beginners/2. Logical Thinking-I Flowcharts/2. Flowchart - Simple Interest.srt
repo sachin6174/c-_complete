@@ -1,0 +1,159 @@
+1
+00:00:01,680 --> 00:00:02,280
+Everyone.
+
+2
+00:00:02,490 --> 00:00:08,190
+So let us discuss this problem of finding simple interest and in order to compute simple interest,
+
+3
+00:00:09,030 --> 00:00:12,060
+we need three things we need to know the principal amount.
+
+4
+00:00:12,570 --> 00:00:15,300
+The rate of interest on diamond years.
+
+5
+00:00:15,990 --> 00:00:21,080
+And if given to these three things, you can simply compute the simple interest OK.
+
+6
+00:00:21,360 --> 00:00:23,610
+So you might have done it in school level maths.
+
+7
+00:00:24,240 --> 00:00:32,070
+We also know the formula for simple interest is given as principal that is denoted using be multiplied,
+
+8
+00:00:32,070 --> 00:00:36,300
+but it multiplied by time and divided by 100 OK.
+
+9
+00:00:36,810 --> 00:00:42,780
+For example, if your principal is 100, the rate is five and dime is two.
+
+10
+00:00:43,470 --> 00:00:50,820
+And if you divide it with 100, it gives you the value, then it gives you the value and.
+
+11
+00:00:52,570 --> 00:00:55,240
+Now, this is what the simple interest is.
+
+12
+00:00:55,270 --> 00:01:01,690
+Now suppose we want to write a program or we want to write a flowchart for this problem.
+
+13
+00:01:02,200 --> 00:01:04,270
+Let's see what steps we have to follow.
+
+14
+00:01:05,290 --> 00:01:11,740
+So as we discussed, the first step would always be start, OK, the next step in this problem is to
+
+15
+00:01:11,740 --> 00:01:16,450
+take input because once you have the input only, then you can process your data.
+
+16
+00:01:17,020 --> 00:01:20,080
+That will take input and we will read three numbers.
+
+17
+00:01:20,440 --> 00:01:23,200
+That is the principal date and time.
+
+18
+00:01:23,320 --> 00:01:27,550
+OK, so doing this step will create three buckets in the memory.
+
+19
+00:01:27,940 --> 00:01:30,760
+OK, so one bucket will store the principal.
+
+20
+00:01:31,180 --> 00:01:32,920
+Another bucket will store the read.
+
+21
+00:01:33,190 --> 00:01:35,160
+Another bucket will store the name.
+
+22
+00:01:35,500 --> 00:01:40,540
+OK, and now we are saying that, OK, we are going to process simple interest.
+
+23
+00:01:40,690 --> 00:01:45,370
+So we are creating another bucket whose name is simple interest.
+
+24
+00:01:45,910 --> 00:01:50,060
+And we are evaluating the value of this expression.
+
+25
+00:01:50,080 --> 00:01:56,770
+So we are multiplying three numbers 1.5 and two dividing it with a constant that is under it, and we
+
+26
+00:01:56,770 --> 00:02:03,240
+are storing the result here that is going to store the value in here.
+
+27
+00:02:03,280 --> 00:02:03,570
+OK.
+
+28
+00:02:04,030 --> 00:02:10,600
+That means if we deposit 200 rupees at a five percent interest for a period of two years, we will get.
+
+29
+00:02:11,680 --> 00:02:13,990
+Ben Rubies as a simple interest.
+
+30
+00:02:15,080 --> 00:02:22,550
+So let's see, let's put it in the simple interest that will bring the value of this bucket that Dennis
+
+31
+00:02:22,550 --> 00:02:23,060
+printed.
+
+32
+00:02:23,690 --> 00:02:27,380
+And here we were, consuming three inputs under advisement.
+
+33
+00:02:28,010 --> 00:02:28,310
+OK.
+
+34
+00:02:28,790 --> 00:02:30,140
+They go as input.
+
+35
+00:02:30,620 --> 00:02:33,020
+And this simple interest is the output.
+
+36
+00:02:33,410 --> 00:02:34,160
+And that's it.
+
+37
+00:02:34,580 --> 00:02:37,600
+Now we are done with the process and hence we write them.
+
+38
+00:02:37,970 --> 00:02:39,430
+And that's it.
+
+39
+00:02:39,470 --> 00:02:41,990
+That is how simple it is to draw a flowchart.
+
+40
+00:02:42,020 --> 00:02:45,170
+So I hope this problem is clear for you in the next video.

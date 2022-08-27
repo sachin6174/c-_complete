@@ -1,0 +1,475 @@
+1
+00:00:01,980 --> 00:00:03,220
+Hi and welcome back.
+
+2
+00:00:03,310 --> 00:00:08,820
+And now we are going to deal with the first example of the good and that is how to compute the factory
+
+3
+00:00:08,820 --> 00:00:09,450
+floor of a number.
+
+4
+00:00:09,960 --> 00:00:17,010
+So we have already seen that often what factorial can be written and multiplied by f of n minus one.
+
+5
+00:00:17,790 --> 00:00:23,840
+And for example, if we have five factories, you can build an aspiring to perfect total.
+
+6
+00:00:24,420 --> 00:00:29,820
+And we discussed when we are going to solve recursive problem, we will figure out two guesses.
+
+7
+00:00:29,970 --> 00:00:31,170
+One is a base case.
+
+8
+00:00:32,790 --> 00:00:39,210
+And second into the records is OK, in the base case, I know when the value of an is equal to zero,
+
+9
+00:00:39,900 --> 00:00:43,590
+the answer off a total should be one and American civilians.
+
+10
+00:00:43,590 --> 00:00:48,180
+I know the formula is nothing and multiplied by 11 minus one.
+
+11
+00:00:48,720 --> 00:00:51,480
+These are the only two things that we need to know the ones we know.
+
+12
+00:00:51,480 --> 00:00:53,940
+These two things we can write the code on.
+
+13
+00:00:53,940 --> 00:01:00,270
+Right after writing the code, I will tell you how the call stack works and why we are getting the right
+
+14
+00:01:00,270 --> 00:01:00,600
+answer.
+
+15
+00:01:00,600 --> 00:01:06,780
+OK, so we will also talk about file stack integration and why it is correct.
+
+16
+00:01:07,320 --> 00:01:10,860
+So let us first dive into the code and then we will see.
+
+17
+00:01:11,280 --> 00:01:14,610
+So I'm going to make recursive program for Factorial.
+
+18
+00:01:15,880 --> 00:01:21,730
+So let us say we have a function, in fact, total, the return type isn't needed because the function
+
+19
+00:01:21,730 --> 00:01:24,430
+is going to return an integer, so we get some value input.
+
+20
+00:01:25,450 --> 00:01:29,740
+And we have a base case, and we also have a recursive case.
+
+21
+00:01:31,600 --> 00:01:36,250
+What is going to happen in the best case, we are going to see if any zero, then we know the answer
+
+22
+00:01:36,250 --> 00:01:37,090
+is going to be one.
+
+23
+00:01:37,180 --> 00:01:39,030
+That's it and the recursive case.
+
+24
+00:01:39,040 --> 00:01:47,920
+We know that the given problem has often gone better than us and multiplied by the fact of n minus one.
+
+25
+00:01:48,010 --> 00:01:50,140
+That's it, and we can do that on the sunset.
+
+26
+00:01:51,170 --> 00:01:51,830
+And we are done.
+
+27
+00:01:51,880 --> 00:01:59,150
+OK, so this is the complete federal program, and now we are going to test of a good bill, maybe take
+
+28
+00:01:59,150 --> 00:02:04,340
+input from the user and then the factorial of that particular number and.
+
+29
+00:02:05,930 --> 00:02:07,700
+The builders successful.
+
+30
+00:02:09,390 --> 00:02:10,350
+So let's run it.
+
+31
+00:02:11,760 --> 00:02:19,050
+So if I go five, I get done one 120, if I give six Dhanteras 720, that means it's working perfectly
+
+32
+00:02:19,050 --> 00:02:19,470
+fine.
+
+33
+00:02:19,960 --> 00:02:23,400
+And now let us also look what happened, actually.
+
+34
+00:02:24,000 --> 00:02:25,680
+So then your program started.
+
+35
+00:02:25,890 --> 00:02:29,790
+OK, so there is a cost.
+
+36
+00:02:29,970 --> 00:02:32,520
+There is a concept of a call stack.
+
+37
+00:02:32,910 --> 00:02:36,360
+The what is called stack stock is a special memory.
+
+38
+00:02:36,780 --> 00:02:41,610
+So it's like a container and all the functions that are called.
+
+39
+00:02:41,790 --> 00:02:43,410
+There they go inside the stock.
+
+40
+00:02:43,420 --> 00:02:45,930
+So first of all, the main function?
+
+41
+00:02:46,470 --> 00:02:47,910
+It went into the stock.
+
+42
+00:02:49,880 --> 00:02:55,820
+And all the local variables like and here we have only one local variable, so that is defined it and
+
+43
+00:02:55,820 --> 00:03:02,090
+let's say we took this values in what then is defined as five from where we call the flag function and
+
+44
+00:03:02,090 --> 00:03:07,090
+we tell, OK, we have to compute the factory love and equal to faith.
+
+45
+00:03:07,670 --> 00:03:10,100
+This takes whether the best guess is true.
+
+46
+00:03:10,250 --> 00:03:11,420
+So this is not true.
+
+47
+00:03:11,660 --> 00:03:13,550
+It makes the recursive call.
+
+48
+00:03:14,450 --> 00:03:14,840
+OK.
+
+49
+00:03:14,870 --> 00:03:17,110
+You can see it computer value on set.
+
+50
+00:03:17,570 --> 00:03:20,480
+So there is a variable answer that is not yet computed.
+
+51
+00:03:20,910 --> 00:03:21,320
+There it is.
+
+52
+00:03:21,320 --> 00:03:26,430
+Five and do something so that something is what that is factorial offer.
+
+53
+00:03:26,450 --> 00:03:32,330
+So you make another recursive call to the fact total that call gets pushed into the stock market and
+
+54
+00:03:32,330 --> 00:03:32,780
+is for.
+
+55
+00:03:34,080 --> 00:03:39,340
+And here we also create another local variable because there is a local variable in every call.
+
+56
+00:03:39,630 --> 00:03:41,310
+We are going to create these local variables.
+
+57
+00:03:41,990 --> 00:03:47,940
+The value of is forward and do something that something is another function call will done OK and equal
+
+58
+00:03:47,940 --> 00:03:48,440
+to three.
+
+59
+00:03:48,450 --> 00:03:53,280
+Here we have until equal to trained to something that something is nothing but another function.
+
+60
+00:03:53,280 --> 00:03:58,310
+Call an equal to two and very close to doing something that is f of one.
+
+61
+00:03:58,960 --> 00:04:00,420
+We make another function call.
+
+62
+00:04:02,840 --> 00:04:05,180
+And that to this one and two zero victory.
+
+63
+00:04:05,330 --> 00:04:09,100
+So we make another function, call with any call to zero the No.
+
+64
+00:04:09,110 --> 00:04:10,250
+One and zero.
+
+65
+00:04:10,280 --> 00:04:11,510
+We say it's done one.
+
+66
+00:04:11,540 --> 00:04:16,200
+So this function actually returns one, it gets removed from the call stack.
+
+67
+00:04:16,220 --> 00:04:18,560
+So here I will change my goal.
+
+68
+00:04:18,590 --> 00:04:20,830
+Now we're going to work in a different direction.
+
+69
+00:04:20,840 --> 00:04:22,990
+Now we have reached the base case, OK?
+
+70
+00:04:23,630 --> 00:04:29,180
+The base case is you done one to the point from where it was called, so it was called from here.
+
+71
+00:04:29,210 --> 00:04:30,380
+So we return to one here.
+
+72
+00:04:30,390 --> 00:04:32,330
+So it becomes and that is one into one.
+
+73
+00:04:32,750 --> 00:04:35,690
+Now I, for one, is going to done one.
+
+74
+00:04:35,990 --> 00:04:41,000
+And you can to return on that note, this statement a little what happened is when you were computing,
+
+75
+00:04:41,000 --> 00:04:41,540
+this answered.
+
+76
+00:04:42,500 --> 00:04:49,100
+This function was paused at line number 12 and it was waiting for the value of fact of N minus one.
+
+77
+00:04:50,410 --> 00:04:56,390
+It wanted a value from fact of n minus one, it returned tons of that is one into one that is one.
+
+78
+00:04:56,850 --> 00:05:01,220
+This gets removed from the constant and this until one is stored here.
+
+79
+00:05:01,670 --> 00:05:02,600
+They're just doing the one.
+
+80
+00:05:02,870 --> 00:05:05,900
+A dysfunction was waiting for the value of f of one.
+
+81
+00:05:06,860 --> 00:05:11,000
+And now it has got the value because this function returned to its parent.
+
+82
+00:05:11,480 --> 00:05:15,860
+This will get removed, so it will return to the one that is due to will come here.
+
+83
+00:05:16,520 --> 00:05:19,340
+Similarly, this function was waiting for of two.
+
+84
+00:05:19,370 --> 00:05:22,640
+Now that value has arrived and it will return.
+
+85
+00:05:23,120 --> 00:05:23,600
+Six.
+
+86
+00:05:23,870 --> 00:05:24,830
+The six will come here.
+
+87
+00:05:25,350 --> 00:05:30,080
+It would become 05:46 that is 24 and it would return 24 hit.
+
+88
+00:05:30,080 --> 00:05:31,770
+It would become five and 224.
+
+89
+00:05:32,330 --> 00:05:33,320
+That is one 20.
+
+90
+00:05:33,620 --> 00:05:37,940
+And this value would come here because Maine is waiting for this value.
+
+91
+00:05:37,940 --> 00:05:40,640
+So here you will get an answer off 120.
+
+92
+00:05:41,180 --> 00:05:41,630
+That's it.
+
+93
+00:05:42,820 --> 00:05:50,140
+And finally, once your mean is also over video, this also gets removed from the cluster we've heard
+
+94
+00:05:50,140 --> 00:05:52,540
+talk about how much time it will take.
+
+95
+00:05:53,200 --> 00:05:53,980
+We actually.
+
+96
+00:05:55,280 --> 00:06:03,530
+Miracles take off and levels deep, so we are making a number of calls, each call takes concerned time.
+
+97
+00:06:03,740 --> 00:06:06,020
+So the time taken is all that often.
+
+98
+00:06:06,440 --> 00:06:06,720
+OK.
+
+99
+00:06:07,250 --> 00:06:09,200
+Time is order of it.
+
+100
+00:06:09,530 --> 00:06:11,060
+And what about the space complex?
+
+101
+00:06:11,210 --> 00:06:16,680
+OK, Bill Gates, ever talk about how is this space complexity changing throughout the entire program?
+
+102
+00:06:16,720 --> 00:06:23,660
+So initially, you can see there was only one start frame that it increased to two two three four five
+
+103
+00:06:23,660 --> 00:06:24,170
+six.
+
+104
+00:06:25,280 --> 00:06:28,220
+So then it came back to again like zero.
+
+105
+00:06:29,000 --> 00:06:37,730
+During the point when the base case was hit, the space utilization was maximum and that was equal to
+
+106
+00:06:37,730 --> 00:06:38,330
+all that often.
+
+107
+00:06:38,510 --> 00:06:38,720
+OK.
+
+108
+00:06:38,960 --> 00:06:48,160
+So in the worst case, during this entire execution to this is space and this time of execution, at
+
+109
+00:06:48,170 --> 00:06:51,890
+a particular point, the space utilization was maximum.
+
+110
+00:06:52,460 --> 00:06:58,010
+So we would say this space complexity of this program is also ordered often, although we're not taking
+
+111
+00:06:58,010 --> 00:06:58,540
+any extra.
+
+112
+00:06:58,970 --> 00:07:01,940
+But we are using the cores stack.
+
+113
+00:07:02,950 --> 00:07:09,870
+Which takes memory, and you can see for maximum depth of and we have created a number of under variables,
+
+114
+00:07:10,300 --> 00:07:15,640
+each storing a different value at a particular point in the program, the space utilization went up
+
+115
+00:07:15,640 --> 00:07:22,210
+to linear, so we can see both space and time are going to be harder often for this problem.
+
+116
+00:07:22,930 --> 00:07:29,820
+And you run when you need to remember that all recursive problems will take up extra space.
+
+117
+00:07:29,860 --> 00:07:36,760
+OK, so the Guardian actually takes extra space because of the concept of this implicit stack.
+
+118
+00:07:39,110 --> 00:07:45,800
+So that's it, that's all for this lecture, and now I hope you understood how it goes and actually
+
+119
+00:07:45,800 --> 00:07:48,320
+works for this particular problem.

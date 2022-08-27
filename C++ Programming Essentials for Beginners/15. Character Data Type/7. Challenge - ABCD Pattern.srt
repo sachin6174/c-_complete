@@ -1,0 +1,495 @@
+1
+00:00:00,890 --> 00:00:01,550
+Hello, everyone.
+
+2
+00:00:01,790 --> 00:00:07,220
+In this lecture, we are going to solve this problem where we have to print the burden of the following
+
+3
+00:00:07,220 --> 00:00:12,440
+form on for a given value often, for example, and it's forward for this example.
+
+4
+00:00:13,130 --> 00:00:17,990
+What we need to do, we need to print multiple rules on each row.
+
+5
+00:00:17,990 --> 00:00:19,580
+Has multiple letters, OK?
+
+6
+00:00:20,150 --> 00:00:23,780
+Let us try to break this pattern of every problem.
+
+7
+00:00:24,560 --> 00:00:28,060
+Every pattern problem follows the friend of a brick and make gift.
+
+8
+00:00:28,520 --> 00:00:33,590
+So how we are going to break it and let's see how we are going to make it.
+
+9
+00:00:34,290 --> 00:00:35,720
+So how do we break this rule?
+
+10
+00:00:35,750 --> 00:00:42,380
+So first of all, we have this big part, and the first thing that we can break is we can break over
+
+11
+00:00:42,890 --> 00:00:43,910
+multiple rules.
+
+12
+00:00:44,480 --> 00:00:45,230
+We can talk.
+
+13
+00:00:45,680 --> 00:00:47,430
+This is rule number one.
+
+14
+00:00:47,450 --> 00:00:48,800
+This is rule number two.
+
+15
+00:00:48,860 --> 00:00:51,170
+This is row number three and zero four.
+
+16
+00:00:52,200 --> 00:00:55,020
+Each row follows a certain formula.
+
+17
+00:00:55,710 --> 00:00:58,200
+The one thing that we can observe is that.
+
+18
+00:00:59,590 --> 00:01:01,960
+Every row begins with a.
+
+19
+00:01:02,950 --> 00:01:04,830
+That is what we know it.
+
+20
+00:01:05,940 --> 00:01:10,900
+And then we have some number of letters in every talk.
+
+21
+00:01:10,980 --> 00:01:14,880
+So, for example, in the first row, we do have two letters, OK?
+
+22
+00:01:15,510 --> 00:01:17,310
+One letter on one more letter.
+
+23
+00:01:18,480 --> 00:01:22,800
+And in the second row, we have two letters which are increasing.
+
+24
+00:01:23,330 --> 00:01:30,060
+They come here, we go to B and then two letters which are decreasing, OK, in the third row, we have
+
+25
+00:01:30,090 --> 00:01:34,470
+three letters which are increasing, followed by three letters which are decreasing.
+
+26
+00:01:34,950 --> 00:01:40,110
+And in the third row, we have four letters which are increasing on four letters which are decreasing.
+
+27
+00:01:40,360 --> 00:01:44,460
+Basically, the second observation is that Inayat row.
+
+28
+00:01:46,390 --> 00:01:52,450
+You have a number of letters which are in the increasing order and you have a number of letters which
+
+29
+00:01:52,450 --> 00:01:54,040
+are in the decrease in Iraq.
+
+30
+00:01:54,370 --> 00:01:56,090
+And these are letters.
+
+31
+00:01:56,110 --> 00:01:57,370
+They always begin with.
+
+32
+00:01:58,300 --> 00:02:06,100
+But what about the decrease in letters a day, basically a resume from a value where we left it?
+
+33
+00:02:06,120 --> 00:02:09,700
+So if we talk about equal to three, we had eight.
+
+34
+00:02:10,180 --> 00:02:14,520
+We made it as b, then we printed T.
+
+35
+00:02:15,160 --> 00:02:16,300
+I'm in the memory.
+
+36
+00:02:16,520 --> 00:02:20,110
+Like, when you're printing three letters, you will make an update.
+
+37
+00:02:20,110 --> 00:02:25,570
+Always, OK, I'm going to the next letters and the next letter is supposed to be B, but you only wanted
+
+38
+00:02:25,570 --> 00:02:27,010
+to print three letters.
+
+39
+00:02:27,010 --> 00:02:27,230
+OK?
+
+40
+00:02:27,940 --> 00:02:32,290
+Now you again, you want to resume printing, starting from C.
+
+41
+00:02:32,650 --> 00:02:33,340
+Look at this.
+
+42
+00:02:33,990 --> 00:02:40,240
+You want to print C, you want to go one step behind B and then you want to print it.
+
+43
+00:02:40,280 --> 00:02:43,060
+OK, so again, you have three letters which are in the decreasing order.
+
+44
+00:02:43,750 --> 00:02:51,880
+What I'm going to tell you is maybe you have a loop that runs three times and every time you print some
+
+45
+00:02:51,880 --> 00:02:55,830
+value later, the value was initially unusual.
+
+46
+00:02:56,110 --> 00:02:58,330
+Let me bring the blue and I do value plus plus.
+
+47
+00:02:58,450 --> 00:03:06,010
+That means if you increment a three times so it becomes you print the increment it, it becomes B,
+
+48
+00:03:06,340 --> 00:03:10,720
+you print B increment, it becomes you print C and increment it.
+
+49
+00:03:11,290 --> 00:03:16,570
+And this letter or this character in the memory will be actually D.
+
+50
+00:03:16,780 --> 00:03:24,580
+It will not be C because every time you print a letter, you increment write this incremental letter.
+
+51
+00:03:24,580 --> 00:03:30,420
+We are not printing, but we need this value to generate the next letter that is actually C.
+
+52
+00:03:30,640 --> 00:03:37,990
+Effectively, what I have to do is when I'm putting a loop for decreasing letters, I have to reset
+
+53
+00:03:37,990 --> 00:03:40,090
+my value by going one step back.
+
+54
+00:03:40,240 --> 00:03:41,590
+That is what we need to do, right?
+
+55
+00:03:42,100 --> 00:03:46,720
+Let me start building the code and then you will observe what is happening.
+
+56
+00:03:47,470 --> 00:03:52,720
+So let us go here and we will try to write the code from these observations.
+
+57
+00:03:52,750 --> 00:03:57,130
+So first we will read and and then will build our part.
+
+58
+00:03:57,140 --> 00:04:03,490
+I guess we need to print some number of rules so I can afford and I to one.
+
+59
+00:04:04,950 --> 00:04:11,670
+I less than equal to any idlis, plus this look is for roads, OK now in each row.
+
+60
+00:04:11,700 --> 00:04:15,750
+What I need to do, I need to print numbers which are in the increasing order.
+
+61
+00:04:15,750 --> 00:04:25,680
+So I need how many numbers I need I numbers or II letters in increasing order, starting from a.
+
+62
+00:04:27,370 --> 00:04:37,300
+And then I need I letters in decreasing order, starting from the last printed letter, right?
+
+63
+00:04:37,330 --> 00:04:38,500
+That is what we have.
+
+64
+00:04:39,430 --> 00:04:43,630
+If I need to print I letters, I can put a loop that runs.
+
+65
+00:04:43,630 --> 00:04:47,220
+It aims to count less than equal to I count.
+
+66
+00:04:47,550 --> 00:04:48,730
+But that's OK.
+
+67
+00:04:49,600 --> 00:04:51,640
+But what about the value of the letter?
+
+68
+00:04:51,640 --> 00:04:51,860
+OK?
+
+69
+00:04:51,910 --> 00:04:53,100
+Do I need to print account?
+
+70
+00:04:53,140 --> 00:04:54,800
+No, I don't need to bring the account.
+
+71
+00:04:54,820 --> 00:04:57,130
+I need to print a letter which starts from me.
+
+72
+00:04:57,280 --> 00:05:04,120
+Maybe I can see card value that is equal to each and every time I'm printing the value.
+
+73
+00:05:06,160 --> 00:05:09,820
+I'm going to increment it OK to the value now gets implemented.
+
+74
+00:05:10,390 --> 00:05:11,410
+Let me build the code.
+
+75
+00:05:11,500 --> 00:05:16,720
+And let me just show you the intermediate output we had in this problem.
+
+76
+00:05:17,050 --> 00:05:18,110
+ABCD partner.
+
+77
+00:05:18,890 --> 00:05:25,300
+If as a fault, OK, we just forgot to add a new line every time we're going to the new.
+
+78
+00:05:25,540 --> 00:05:27,550
+We should also present a new line.
+
+79
+00:05:28,540 --> 00:05:33,500
+If it is full, so we get a b, ABC, ABC to be great.
+
+80
+00:05:34,030 --> 00:05:41,350
+We are getting the letters in the increasing order and the next step is we need to print the letters
+
+81
+00:05:41,350 --> 00:05:42,310
+in the decreasing order.
+
+82
+00:05:42,310 --> 00:05:42,550
+OK?
+
+83
+00:05:42,910 --> 00:05:49,540
+The first let me show you what is the value of the letter after the end of the loop.
+
+84
+00:05:49,780 --> 00:05:56,440
+So maybe just printing like this, so the loop ends and the value is actually value, right?
+
+85
+00:05:56,500 --> 00:05:59,380
+So let me show you what this value is.
+
+86
+00:06:00,470 --> 00:06:03,650
+So I read it for an equal two foot when the loop ends.
+
+87
+00:06:03,830 --> 00:06:06,290
+The values actually be the blueprint.
+
+88
+00:06:06,290 --> 00:06:10,190
+Maybe you increment, be it become C to the loop and the value is.
+
+89
+00:06:11,700 --> 00:06:16,610
+But in the actual output you need to print be after B, right?
+
+90
+00:06:16,650 --> 00:06:19,740
+That means you have to take one step back.
+
+91
+00:06:20,220 --> 00:06:22,710
+You have to say, OK, well, look, we'll do voluminous.
+
+92
+00:06:23,550 --> 00:06:27,000
+And now you can start printing letters in the decreasing order.
+
+93
+00:06:27,000 --> 00:06:28,350
+So I'll just copy this loop.
+
+94
+00:06:28,920 --> 00:06:29,340
+I will be.
+
+95
+00:06:29,580 --> 00:06:34,680
+Do I need a loop that runs eight times and every time it brings the value?
+
+96
+00:06:35,190 --> 00:06:39,450
+And the next letter is one less than the currently.
+
+97
+00:06:39,600 --> 00:06:40,380
+And we can do well.
+
+98
+00:06:40,380 --> 00:06:44,450
+Luke will do value minus minus those since characters.
+
+99
+00:06:44,460 --> 00:06:45,780
+They are stored as integers.
+
+100
+00:06:45,960 --> 00:06:51,480
+So these increment agreement operators, they would work perfectly fine.
+
+101
+00:06:51,930 --> 00:06:53,850
+And that's all we are done with the good.
+
+102
+00:06:54,270 --> 00:06:57,960
+So now what we can do, we can run this on now.
+
+103
+00:06:57,990 --> 00:07:02,670
+If I give any call before you can see I'm getting the expected output.
+
+104
+00:07:03,180 --> 00:07:03,780
+All right.
+
+105
+00:07:04,380 --> 00:07:04,970
+Two.
+
+106
+00:07:05,340 --> 00:07:07,890
+Well, that's all how we could solve this solution.
+
+107
+00:07:08,040 --> 00:07:09,960
+If you're not there, I just give you a break.
+
+108
+00:07:10,590 --> 00:07:17,190
+We have our outer four loop, which works for those we have in there for, which brings letters in the
+
+109
+00:07:17,190 --> 00:07:17,920
+increasing order.
+
+110
+00:07:17,940 --> 00:07:21,540
+For example, if I is three, it prints a b c.
+
+111
+00:07:22,440 --> 00:07:27,060
+And value is what holds the value of the letter that is getting printed.
+
+112
+00:07:28,050 --> 00:07:33,840
+And so when we come here, the value is actually what do we want to start printing again?
+
+113
+00:07:33,840 --> 00:07:34,250
+Clumsy.
+
+114
+00:07:34,260 --> 00:07:38,640
+So we re initialize our value add value minus one to the value it was.
+
+115
+00:07:38,640 --> 00:07:40,490
+D it now becomes C.
+
+116
+00:07:40,500 --> 00:07:42,680
+So we printed and we reduce it.
+
+117
+00:07:42,690 --> 00:07:45,540
+So we make it be reprinted and we reduce it.
+
+118
+00:07:45,540 --> 00:07:46,020
+We make it.
+
+119
+00:07:46,260 --> 00:07:47,880
+So we printed and we reduce it.
+
+120
+00:07:47,880 --> 00:07:48,780
+It becomes active.
+
+121
+00:07:48,810 --> 00:07:49,230
+What?
+
+122
+00:07:49,230 --> 00:07:50,120
+We don't print it.
+
+123
+00:07:50,120 --> 00:07:57,450
+So after this, we hit the new line and the same thing repeats for the next byte as well, right?
+
+124
+00:07:58,400 --> 00:08:05,850
+That is the big can strategy for our Biden problem, and I hope you like this video.

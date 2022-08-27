@@ -1,0 +1,283 @@
+1
+00:00:01,590 --> 00:00:07,170
+Everyone in the last lecture, we saw one example of possible reference using reference variables.
+
+2
+00:00:07,620 --> 00:00:15,120
+Now we can also achieve the same thing using pointers and data frames operated and using the address
+
+3
+00:00:15,120 --> 00:00:16,350
+of operator as well.
+
+4
+00:00:16,950 --> 00:00:23,780
+So we want to build a function what we do, which gets what is the total number of views for a particular
+
+5
+00:00:23,790 --> 00:00:24,540
+video right now?
+
+6
+00:00:25,170 --> 00:00:27,210
+And here is some logic which we'll skip.
+
+7
+00:00:27,630 --> 00:00:33,690
+And what we just want is the view count should be incremental by a value of one.
+
+8
+00:00:34,680 --> 00:00:37,320
+And this return can be made void.
+
+9
+00:00:37,500 --> 00:00:37,770
+OK.
+
+10
+00:00:40,410 --> 00:00:42,240
+So this should be void.
+
+11
+00:00:42,570 --> 00:00:47,280
+And we want to update this value so that the changes are reflected here as well.
+
+12
+00:00:47,280 --> 00:00:47,550
+OK?
+
+13
+00:00:48,000 --> 00:00:52,860
+But if you do something like this, you call this function what we do views.
+
+14
+00:00:53,340 --> 00:00:59,700
+And here you write music world views, +1 and you simply do see our views.
+
+15
+00:01:00,390 --> 00:01:06,060
+We know that this is not going to work because again, there are two copies one in Maine and one in
+
+16
+00:01:06,480 --> 00:01:07,740
+watch with your method.
+
+17
+00:01:08,850 --> 00:01:10,080
+And I can tell you also.
+
+18
+00:01:12,500 --> 00:01:16,280
+So if I do something like this, I get the same output.
+
+19
+00:01:17,210 --> 00:01:19,070
+Now I want to make this work.
+
+20
+00:01:19,640 --> 00:01:25,520
+So what I can do is I can say, let me show you what we can do here.
+
+21
+00:01:26,000 --> 00:01:26,270
+OK.
+
+22
+00:01:33,010 --> 00:01:39,760
+We don't want to make a copy, but what we can do, we can actually pass the address of this bucket.
+
+23
+00:01:40,570 --> 00:01:43,900
+And since we are passing an address, we need to point the variable here.
+
+24
+00:01:43,960 --> 00:01:47,860
+OK, let's call it as views on what we can call it.
+
+25
+00:01:47,860 --> 00:01:55,450
+As views pointed and what we can do using this pointer, we can update this bucket so we can to start
+
+26
+00:01:55,450 --> 00:02:03,790
+off use pointed equal to start of use point at +1 to whatever it is the old value increment that value
+
+27
+00:02:03,790 --> 00:02:04,870
+by a factor of one.
+
+28
+00:02:05,320 --> 00:02:07,930
+Now you would think what is going to happen?
+
+29
+00:02:07,960 --> 00:02:10,900
+So let me build a good answer to you.
+
+30
+00:02:12,150 --> 00:02:15,480
+So now you're going to doubt what is one zero one, it is working perfectly fine.
+
+31
+00:02:15,980 --> 00:02:19,680
+Let me explain your memory level what is happening in this case.
+
+32
+00:02:20,430 --> 00:02:27,780
+So this is I mean, and here we have this method in the mean we have this.
+
+33
+00:02:29,610 --> 00:02:34,730
+Variable, which is known as views on distorting of L200.
+
+34
+00:02:35,010 --> 00:02:36,390
+This is our variable here.
+
+35
+00:02:37,510 --> 00:02:42,190
+And we are trying to update this variable via this method, so when we call this method.
+
+36
+00:02:43,180 --> 00:02:44,020
+Watch video.
+
+37
+00:02:45,270 --> 00:02:51,240
+So we have in this dark frame, this is what we do.
+
+38
+00:02:52,230 --> 00:02:57,600
+And here we have a variable which can store the address.
+
+39
+00:02:57,780 --> 00:03:00,000
+OK, so it can store the address.
+
+40
+00:03:00,750 --> 00:03:03,930
+This variable is known as use pointer.
+
+41
+00:03:05,470 --> 00:03:10,150
+Uncensored is of the type, and this is of the type in start, you can see.
+
+42
+00:03:10,570 --> 00:03:14,090
+That means this will point to this because when you're passing this will you?
+
+43
+00:03:14,600 --> 00:03:19,450
+What is happening is inside of you is one that is getting equal to and of abuse.
+
+44
+00:03:20,720 --> 00:03:26,590
+That means does this during the address of this object to later this address addresses ABC viewers is
+
+45
+00:03:26,600 --> 00:03:27,530
+equal to ABC.
+
+46
+00:03:28,380 --> 00:03:33,270
+And here's what we're doing, sort of ABC what is sort of ABC, if we discussed.
+
+47
+00:03:34,630 --> 00:03:39,250
+If you do start with some address like ABC, that means we are talking about this book.
+
+48
+00:03:39,280 --> 00:03:45,040
+So this is actually called this bucket, which is the actual use, but bucket in the mean, and we are
+
+49
+00:03:45,160 --> 00:03:48,190
+creating this by a value fun.
+
+50
+00:03:48,700 --> 00:03:49,030
+OK?
+
+51
+00:03:49,390 --> 00:03:53,450
+Effectively using this address, we are changing this bucket by a value fund.
+
+52
+00:03:53,920 --> 00:03:56,740
+And you can see if you know, print views here.
+
+53
+00:03:58,890 --> 00:04:02,100
+You're going to get an output of one zero one.
+
+54
+00:04:02,160 --> 00:04:09,480
+OK, so this is how Barbara print works and we are passing up instead of passing the object, we're
+
+55
+00:04:09,480 --> 00:04:12,330
+passing the address and using that address.
+
+56
+00:04:12,330 --> 00:04:17,400
+We are directly making changes at that particular address using this be different operator.
+
+57
+00:04:17,410 --> 00:04:19,350
+So had we used all the operators?
+
+58
+00:04:19,830 --> 00:04:21,120
+This is a pointer variable.
+
+59
+00:04:21,660 --> 00:04:23,340
+This is a different operator.
+
+60
+00:04:23,430 --> 00:04:24,960
+This is a different operator.
+
+61
+00:04:25,440 --> 00:04:27,990
+And this is the address of operator.
+
+62
+00:04:27,990 --> 00:04:28,260
+OK?
+
+63
+00:04:28,860 --> 00:04:31,990
+Either you do this or simply use reference variables.
+
+64
+00:04:32,010 --> 00:04:33,330
+It's totally your choice.
+
+65
+00:04:33,810 --> 00:04:35,580
+I prefer using reference variables.
+
+66
+00:04:35,730 --> 00:04:40,440
+For most examples where I need to pass the object by reference.
+
+67
+00:04:40,950 --> 00:04:41,250
+OK.
+
+68
+00:04:41,460 --> 00:04:48,090
+So that actually made makes the code a little simpler and easier to understand, and we avoid this confusing
+
+69
+00:04:48,300 --> 00:04:49,440
+concept of pointers.
+
+70
+00:04:49,680 --> 00:04:52,740
+In that case, that's all for this lecture.
+
+71
+00:04:52,830 --> 00:04:53,370
+Thank you.

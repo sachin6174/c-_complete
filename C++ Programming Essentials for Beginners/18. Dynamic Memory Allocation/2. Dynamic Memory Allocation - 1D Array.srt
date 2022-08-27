@@ -1,0 +1,235 @@
+1
+00:00:01,970 --> 00:00:06,890
+Everyone in this lecture, I'm going to give you a demo of working with dynamic areas.
+
+2
+00:00:07,040 --> 00:00:09,270
+So let's see how we can create one at it.
+
+3
+00:00:09,830 --> 00:00:11,540
+And also we can delete it.
+
+4
+00:00:12,110 --> 00:00:15,140
+So we have main.
+
+5
+00:00:16,330 --> 00:00:23,830
+And suppose I take and put away Lewin, and I want to create a dynamic area of size and.
+
+6
+00:00:25,300 --> 00:00:28,120
+They will write and study equals Nuland.
+
+7
+00:00:28,420 --> 00:00:34,960
+And here I can give, say then and then you can also do initialization, maybe using a loop or something.
+
+8
+00:00:35,290 --> 00:00:38,950
+I lived in Ecuador, I lived in an A-plus place.
+
+9
+00:00:39,460 --> 00:00:41,140
+I knew in the area of I.
+
+10
+00:00:42,260 --> 00:00:43,570
+Equals LHC.
+
+11
+00:00:44,450 --> 00:00:46,820
+And maybe we want to print these values as well.
+
+12
+00:00:47,060 --> 00:00:49,000
+I can see that if they.
+
+13
+00:00:49,910 --> 00:00:51,340
+So let's build this good.
+
+14
+00:00:52,810 --> 00:00:57,580
+And try to run it, we have dynamic that is demo.
+
+15
+00:01:00,150 --> 00:01:05,550
+So maybe I won't do have an array of 10 elements, and you can see this is how we can create area of
+
+16
+00:01:05,850 --> 00:01:07,980
+an image as oppose.
+
+17
+00:01:08,190 --> 00:01:09,820
+At this point, my work is done.
+
+18
+00:01:09,870 --> 00:01:11,520
+I want to free up this memory.
+
+19
+00:01:12,150 --> 00:01:16,920
+I can delete the city and I can say, OK, let's delete.
+
+20
+00:01:18,420 --> 00:01:28,050
+This edit, and that's it, so this memory will get freed at this point before coming to return zero.
+
+21
+00:01:28,260 --> 00:01:33,480
+What happened is we have at every level in mean we have a dynamic it in heap.
+
+22
+00:01:34,810 --> 00:01:35,860
+So this is your family.
+
+23
+00:01:36,520 --> 00:01:42,910
+So when we come to this line by this line, we have already deleted this part of the memory, but this
+
+24
+00:01:42,910 --> 00:01:48,010
+video will still store the address of this address later.
+
+25
+00:01:48,010 --> 00:01:49,240
+This values to zero four.
+
+26
+00:01:49,660 --> 00:01:52,910
+So this and this will still persist in the memory, OK?
+
+27
+00:01:52,990 --> 00:01:53,530
+Because.
+
+28
+00:01:54,770 --> 00:01:55,580
+It doesn't the.
+
+29
+00:01:56,700 --> 00:02:02,590
+Starting memory, OK, so it is the memory of the main function and main function is not yet over.
+
+30
+00:02:02,640 --> 00:02:02,940
+OK.
+
+31
+00:02:03,280 --> 00:02:07,380
+Main function is over when this block is finished.
+
+32
+00:02:08,190 --> 00:02:14,280
+Even if I do see out error here, I will still get the address of that particular day.
+
+33
+00:02:14,490 --> 00:02:14,760
+OK.
+
+34
+00:02:15,240 --> 00:02:16,560
+So let me show it to you.
+
+35
+00:02:17,430 --> 00:02:23,940
+So if those are 10 elements so you can do this is the address of the area on this address would be same
+
+36
+00:02:23,940 --> 00:02:24,980
+as this one.
+
+37
+00:02:31,310 --> 00:02:32,900
+OK, I'm just going to.
+
+38
+00:02:34,050 --> 00:02:37,110
+Trying to clear the concepts, OK, so when you delete the.
+
+39
+00:02:38,340 --> 00:02:44,420
+So the static address doesn't get deleted until the long term goal is over or the scope of variable
+
+40
+00:02:44,450 --> 00:02:52,140
+as it is there, then it will not get destroyed, but the dynamic memory will definitely get destroyed.
+
+41
+00:02:53,440 --> 00:03:00,040
+So if I give 10 hit so you can do these two addresses are same, but maybe let us try to print what
+
+42
+00:03:00,040 --> 00:03:03,850
+is the right area of two maybe sealed area off to?
+
+43
+00:03:05,810 --> 00:03:08,480
+Now, let's see what what happened in this case.
+
+44
+00:03:12,170 --> 00:03:18,430
+Although we're still getting to oh, we're still getting to, but there is a possibility that.
+
+45
+00:03:19,970 --> 00:03:25,790
+So what happened is in this case, we had a heap at a particular memory location.
+
+46
+00:03:25,790 --> 00:03:26,540
+We are there to do.
+
+47
+00:03:26,890 --> 00:03:28,880
+We put it on.
+
+48
+00:03:28,880 --> 00:03:31,370
+We had appointed to this memory.
+
+49
+00:03:31,840 --> 00:03:36,650
+Now when we use the delete command, this record destroyed.
+
+50
+00:03:37,250 --> 00:03:43,730
+But that doesn't mean the data which is presented may or may not have the same value case or data that
+
+51
+00:03:43,730 --> 00:03:44,800
+is present at this look.
+
+52
+00:03:45,590 --> 00:03:46,790
+Data present aren't.
+
+53
+00:03:49,080 --> 00:03:52,860
+Address, it may get overridden by some other.
+
+54
+00:03:54,780 --> 00:04:01,050
+Some other data on the old data may persist, or you may might get segmentation fault as well.
+
+55
+00:04:01,200 --> 00:04:05,040
+So this behavior is not predictable, so ideally we should not do this.
+
+56
+00:04:05,400 --> 00:04:09,180
+So this is not recommended because we have deleted the edit.
+
+57
+00:04:09,600 --> 00:04:13,770
+So I hope this short demo about one bit is this clear.
+
+58
+00:04:14,250 --> 00:04:19,980
+And in the next lecture, I will give you an example of how we can create 2D dynamic videos.
+
+59
+00:04:20,010 --> 00:04:21,240
+OK, so let's see.

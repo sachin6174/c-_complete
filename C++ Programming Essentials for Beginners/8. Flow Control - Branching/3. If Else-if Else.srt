@@ -1,0 +1,299 @@
+1
+00:00:00,870 --> 00:00:01,450
+Hi, everyone.
+
+2
+00:00:01,480 --> 00:00:02,900
+So we have seen the blog.
+
+3
+00:00:03,000 --> 00:00:08,590
+We have also seen the health blog in this video getting to see something known as a live blog.
+
+4
+00:00:08,610 --> 00:00:16,350
+OK, so now you might require to write a code which behaves differently on different conditions, OK?
+
+5
+00:00:16,860 --> 00:00:23,280
+So basically, what we're going to do, we are going to define a new type of block that is as if we'll
+
+6
+00:00:23,360 --> 00:00:24,270
+get another.
+
+7
+00:00:24,280 --> 00:00:30,360
+One thing I will tell you is if you're writing a f block, OK, then after each block, you can write
+
+8
+00:00:30,360 --> 00:00:32,000
+multiple live blogs.
+
+9
+00:00:32,010 --> 00:00:35,580
+OK, you can have a live blog you can have in a live blog.
+
+10
+00:00:36,060 --> 00:00:40,260
+You can have another live blog as many as you want, OK?
+
+11
+00:00:40,740 --> 00:00:44,580
+And finally, you can have as blog, which is again optional.
+
+12
+00:00:44,730 --> 00:00:47,700
+If you want to do something in this blog, you can do otherwise.
+
+13
+00:00:47,700 --> 00:00:49,260
+You can skip this blog.
+
+14
+00:00:50,850 --> 00:00:52,440
+Know why this is useful.
+
+15
+00:00:52,800 --> 00:01:02,130
+So when you have a structure like this, OK, and it basically executes the first blog where the condition
+
+16
+00:01:02,130 --> 00:01:05,340
+gets so you can do your writing or condition inside if blog.
+
+17
+00:01:05,760 --> 00:01:09,480
+They're also writing organization ZAYDA as a blog, OK?
+
+18
+00:01:10,020 --> 00:01:15,660
+Now, for example, if you get 70 marks, so we know that this condition is not a total matter, not
+
+19
+00:01:15,660 --> 00:01:16,380
+greater than 80.
+
+20
+00:01:16,770 --> 00:01:18,390
+So this will not get executed.
+
+21
+00:01:18,750 --> 00:01:19,050
+OK.
+
+22
+00:01:19,380 --> 00:01:25,560
+So we come to the next blog and we get the deletions, which is much greater than sixty nine is yes.
+
+23
+00:01:25,950 --> 00:01:27,930
+So this blog will get executed.
+
+24
+00:01:27,990 --> 00:01:28,290
+OK.
+
+25
+00:01:29,340 --> 00:01:37,080
+And if none of these conditions is true, then obviously that is and the blog that will get executed
+
+26
+00:01:37,080 --> 00:01:38,920
+if none of these conditions is traded.
+
+27
+00:01:39,810 --> 00:01:45,700
+So basically, if you have a blog intro like this where the first condition as far as the next as follows,
+
+28
+00:01:46,140 --> 00:01:53,460
+and I suppose this is right, let us assume that this is also true and this we don't care right now
+
+29
+00:01:53,460 --> 00:01:54,750
+what what is going to happen.
+
+30
+00:01:54,760 --> 00:01:59,100
+It is not going to execute the two blogs, which it is only going to execute.
+
+31
+00:01:59,730 --> 00:02:05,730
+The blog, which is forced to write the blog, which got forced right.
+
+32
+00:02:05,790 --> 00:02:11,490
+So in this case, this is the blog which got first drew, then coming from top to bottom.
+
+33
+00:02:11,970 --> 00:02:14,090
+So only this blog is going to get executed.
+
+34
+00:02:14,550 --> 00:02:19,740
+OK, so that means in this call, if I had something like as if Mox greater than 50.
+
+35
+00:02:21,120 --> 00:02:26,790
+And I thought, OK, great or something like that, dialogue will not get executed if they put this
+
+36
+00:02:26,790 --> 00:02:29,610
+block below this block below the edit.
+
+37
+00:02:30,210 --> 00:02:32,550
+Let me show you a --.
+
+38
+00:02:32,980 --> 00:02:35,050
+And that would offer you more clarity.
+
+39
+00:02:35,070 --> 00:02:40,560
+OK, so let us jump into the code and show you the demo here.
+
+40
+00:02:41,620 --> 00:02:47,340
+So what I'm going to do I have if Mark's greater than 70.
+
+41
+00:02:47,700 --> 00:02:50,760
+OK, maybe I can put some grades here.
+
+42
+00:02:51,000 --> 00:02:51,820
+Let's party.
+
+43
+00:02:51,900 --> 00:02:55,290
+We got greedy and sealed.
+
+44
+00:02:56,190 --> 00:02:56,750
+Maybe very.
+
+45
+00:02:57,810 --> 00:03:06,150
+I would grade B and as if it's a marks greater than 60.
+
+46
+00:03:10,650 --> 00:03:18,720
+And what I'm going to do, I'm saying, okay, see, okay, um, keep it up and I can do great.
+
+47
+00:03:19,200 --> 00:03:19,620
+Let's see.
+
+48
+00:03:22,760 --> 00:03:25,670
+Now I've made this call, and I'm going to run it.
+
+49
+00:03:26,450 --> 00:03:27,920
+So let me show you.
+
+50
+00:03:34,440 --> 00:03:40,770
+Now I'm waiting for the marks, so I give something like, let's say, when do I get there, done grade
+
+51
+00:03:40,770 --> 00:03:43,960
+B and then this line of code is always executed.
+
+52
+00:03:43,980 --> 00:03:44,940
+So what is happening?
+
+53
+00:03:45,390 --> 00:03:47,460
+So marks 72, right?
+
+54
+00:03:48,750 --> 00:03:54,150
+And if I talk about this condition, this blog will not get executed because it is false.
+
+55
+00:03:54,600 --> 00:03:57,750
+And if I go on to the next block, which is this one?
+
+56
+00:03:58,470 --> 00:04:00,420
+Yes, I got 72 marks.
+
+57
+00:04:00,900 --> 00:04:01,740
+And this is true.
+
+58
+00:04:02,010 --> 00:04:03,330
+And this will get executed.
+
+59
+00:04:03,340 --> 00:04:09,990
+OK, now, although the below below this one, this block, right?
+
+60
+00:04:15,470 --> 00:04:24,170
+So this is also true, but it will not get executed because the only first elusive block in the gene
+
+61
+00:04:24,350 --> 00:04:28,490
+that will get executed, OK, I'm similarly this will not get executed.
+
+62
+00:04:29,120 --> 00:04:31,400
+None of these conditions are going to get checked as well.
+
+63
+00:04:31,610 --> 00:04:38,510
+So nothing below the block where the condition is true, it is going to take longer to execute it.
+
+64
+00:04:38,510 --> 00:04:44,470
+OK, because now when you use as it blocks, all of them are connected.
+
+65
+00:04:44,480 --> 00:04:46,310
+All of them are part of the same view.
+
+66
+00:04:46,370 --> 00:04:50,270
+So that means only one of them will get executed.
+
+67
+00:04:50,630 --> 00:04:57,680
+And once this block gets executed, nothing below these blocks, which is part of the same floor, will
+
+68
+00:04:57,680 --> 00:04:59,750
+get you will get executed, OK?
+
+69
+00:05:00,020 --> 00:05:05,630
+So that is why even you got the marks when you do this block of good will not get executed, although
+
+70
+00:05:05,630 --> 00:05:10,770
+this condition is true, but it is not going to get sick because we have already executed this final,
+
+71
+00:05:10,790 --> 00:05:17,270
+because that is what you need to remember about, as if only the first block where the condition becomes
+
+72
+00:05:17,270 --> 00:05:19,450
+true will get executed.
+
+73
+00:05:19,460 --> 00:05:19,730
+OK?
+
+74
+00:05:20,570 --> 00:05:21,310
+So that's it.
+
+75
+00:05:21,320 --> 00:05:23,000
+That's all for this video.

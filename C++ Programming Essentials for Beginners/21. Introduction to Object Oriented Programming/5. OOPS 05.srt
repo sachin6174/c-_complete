@@ -1,0 +1,387 @@
+1
+00:00:02,000 --> 00:00:08,090
+Everyone in this lecture, we're going to talk about new default methods which are presented by default
+
+2
+00:00:08,090 --> 00:00:09,060
+in every class.
+
+3
+00:00:09,080 --> 00:00:17,690
+OK, so these methods are known as one of these methods is constructed that we will talk about and that
+
+4
+00:00:17,690 --> 00:00:20,360
+is a copy constructor that is a copy assignment operator.
+
+5
+00:00:20,360 --> 00:00:22,820
+And also there is a distraction as well.
+
+6
+00:00:23,390 --> 00:00:25,850
+We are going to talk about all of them one by one.
+
+7
+00:00:26,300 --> 00:00:30,260
+And for this video, we will focus on constructing only, OK.
+
+8
+00:00:31,220 --> 00:00:34,100
+So we'll talk about what is this method constructed?
+
+9
+00:00:34,520 --> 00:00:41,780
+Why it is helpful and how we can use it or modify it to basically control through the special method
+
+10
+00:00:41,780 --> 00:00:44,120
+whose name is same as the class name.
+
+11
+00:00:44,810 --> 00:00:48,920
+This method is responsible for constructing the object.
+
+12
+00:00:49,370 --> 00:00:52,430
+OK, so right now we have not called constructor.
+
+13
+00:00:53,460 --> 00:00:57,840
+We have not seen how the contractor is called, but it is called in the code that we have written,
+
+14
+00:00:57,840 --> 00:01:02,370
+OK, so the role of the contractor is in constructing the object.
+
+15
+00:01:04,360 --> 00:01:09,510
+And it is called automatically when the object is created, OK, so let let me show you OK.
+
+16
+00:01:09,790 --> 00:01:15,040
+The memory allocation also happens when this contractor scored and contractor is called only once or
+
+17
+00:01:15,040 --> 00:01:15,790
+each object.
+
+18
+00:01:16,270 --> 00:01:17,050
+Each object.
+
+19
+00:01:19,010 --> 00:01:21,910
+So like these are these methods set selling price.
+
+20
+00:01:22,250 --> 00:01:28,630
+They can be called multiple times, but contractor is a special method whose name is same as the class
+
+21
+00:01:28,630 --> 00:01:28,840
+name.
+
+22
+00:01:29,470 --> 00:01:32,250
+By default, this constructor exists.
+
+23
+00:01:32,260 --> 00:01:35,560
+OK, so this piece of code was there, but it was it.
+
+24
+00:01:35,680 --> 00:01:39,130
+OK, so this this is how the constructor looks like.
+
+25
+00:01:41,200 --> 00:01:44,200
+Let me let me show you unstrap.
+
+26
+00:01:45,550 --> 00:01:49,020
+Let me show you code inside constructor.
+
+27
+00:01:49,540 --> 00:01:54,760
+We have not called this method, but it is called automatically add line number 47.
+
+28
+00:01:54,790 --> 00:01:58,330
+OK, so now we have written some reinstatement inside this.
+
+29
+00:01:58,840 --> 00:02:01,150
+So what we will see will see that.
+
+30
+00:02:02,140 --> 00:02:08,670
+You can see inside contractors getting printed because this method is getting called automatically,
+
+31
+00:02:08,680 --> 00:02:08,950
+OK?
+
+32
+00:02:09,430 --> 00:02:15,410
+Now, since this method is getting called automatically, we can use it to do some work as well.
+
+33
+00:02:15,430 --> 00:02:18,310
+OK, so maybe let us make another contractor.
+
+34
+00:02:19,570 --> 00:02:23,260
+This contractor is going to accept parameters in.
+
+35
+00:02:24,620 --> 00:02:27,020
+Oh, God, my name.
+
+36
+00:02:27,290 --> 00:02:27,590
+OK.
+
+37
+00:02:28,640 --> 00:02:31,880
+And maybe I might be on and selling price.
+
+38
+00:02:32,510 --> 00:02:38,430
+What are we going to begin to leak worldwide so we can initialize the object using this contract?
+
+39
+00:02:38,440 --> 00:02:39,860
+But we're now there is one problem.
+
+40
+00:02:40,520 --> 00:02:44,120
+Here it is not clear which it is, which one because of what we have.
+
+41
+00:02:44,510 --> 00:02:50,120
+Each plus as a hidden has a special property which is known as this.
+
+42
+00:02:50,780 --> 00:02:57,770
+I want to read for this particular lady, so I will write this I.D. It would be equal to it.
+
+43
+00:02:58,340 --> 00:03:01,760
+Basically, this I.D. goes it and this I.D. comes in.
+
+44
+00:03:02,060 --> 00:03:02,720
+What is this?
+
+45
+00:03:03,320 --> 00:03:08,620
+This is a special pointer which points to the current object.
+
+46
+00:03:08,630 --> 00:03:10,850
+Okay, so this basically points to the current object.
+
+47
+00:03:11,930 --> 00:03:16,610
+So what we will do if the attributes are seen, for example, let's to this is.
+
+48
+00:03:17,750 --> 00:03:19,040
+This is and then.
+
+49
+00:03:20,310 --> 00:03:23,940
+Then we don't need this for this property, because we can say it.
+
+50
+00:03:23,970 --> 00:03:25,930
+Naomi Goldwyn but this would be wrong.
+
+51
+00:03:25,950 --> 00:03:28,260
+We actually don't want to copy the address.
+
+52
+00:03:28,260 --> 00:03:29,850
+We actually want to copy the edit.
+
+53
+00:03:30,530 --> 00:03:33,240
+We will use a method print copy.
+
+54
+00:03:34,300 --> 00:03:37,190
+But Iman Poppy, all the added into the name.
+
+55
+00:03:38,630 --> 00:03:47,060
+And Wiggins said this NORAD equal to 80 and this arrow might be equal to it might be this arrow selling
+
+56
+00:03:47,060 --> 00:03:48,980
+price equal to selling price.
+
+57
+00:03:49,820 --> 00:03:54,590
+So you may also ask me about this ad operator what this operator is.
+
+58
+00:03:55,220 --> 00:03:56,840
+So this is a pointer.
+
+59
+00:03:57,740 --> 00:03:59,590
+And this is an object.
+
+60
+00:04:00,290 --> 00:04:04,910
+This points to this object and it has some property.
+
+61
+00:04:05,290 --> 00:04:06,140
+There is some property.
+
+62
+00:04:06,890 --> 00:04:09,080
+If you want to refer this property, there are two ways.
+
+63
+00:04:09,260 --> 00:04:15,830
+One ways you first get the object using this pointer, using their data friend, operator and then you
+
+64
+00:04:15,830 --> 00:04:21,650
+write x rays using the arrow notation to this arrow, which basically means you are talking about this
+
+65
+00:04:21,650 --> 00:04:22,850
+x property of this object.
+
+66
+00:04:22,910 --> 00:04:23,210
+OK.
+
+67
+00:04:24,050 --> 00:04:25,580
+We are doing this.
+
+68
+00:04:26,630 --> 00:04:29,810
+Around my typical time in this area, selling price equal to selling price.
+
+69
+00:04:30,750 --> 00:04:39,350
+Now what we can do, we have done something which is known as an struttura overloading that means.
+
+70
+00:04:41,300 --> 00:04:42,350
+We have defined.
+
+71
+00:04:44,140 --> 00:04:46,900
+New contractors do method, which have the same name.
+
+72
+00:04:47,360 --> 00:04:51,550
+And that's why this concept is known as overloading, but only one of them will get caught, OK?
+
+73
+00:04:52,210 --> 00:04:58,960
+Now if you see if I run this cold and if I do product camera, then the first contractor is going to
+
+74
+00:04:58,960 --> 00:05:02,950
+get called OK, and you're going to be inside this particular contractor.
+
+75
+00:05:03,580 --> 00:05:11,080
+But if I initialize this camera like this and I pass in some I.D., let's say one 01 is 90.
+
+76
+00:05:12,220 --> 00:05:19,990
+And then maybe the name is, let's say, Sunni or little GoPro, you know, eight, eight or nine.
+
+77
+00:05:21,140 --> 00:05:29,270
+And maybe then I can say MRP is 28000 and maybe selling prices 26000.
+
+78
+00:05:29,780 --> 00:05:30,020
+OK.
+
+79
+00:05:31,890 --> 00:05:33,140
+So OK.
+
+80
+00:05:33,170 --> 00:05:35,510
+And maybe now we can just comento this code.
+
+81
+00:05:35,810 --> 00:05:36,860
+This is not required.
+
+82
+00:05:39,710 --> 00:05:44,960
+And we can simply do the MRP and the selling price, OK?
+
+83
+00:05:46,360 --> 00:05:46,840
+And.
+
+84
+00:05:48,240 --> 00:05:48,930
+OK, let's see.
+
+85
+00:05:52,050 --> 00:05:52,920
+Let's build a good.
+
+86
+00:05:57,250 --> 00:05:57,970
+So.
+
+87
+00:06:00,150 --> 00:06:02,700
+We have a warning this warning can be ignored.
+
+88
+00:06:06,290 --> 00:06:10,490
+So again, the MRP is set to 28000 and selling prices to 26000.
+
+89
+00:06:11,180 --> 00:06:15,350
+So this is happening because of the parameterized contracts that we have.
+
+90
+00:06:15,650 --> 00:06:15,880
+OK.
+
+91
+00:06:16,430 --> 00:06:19,040
+This is the constructor with barometers.
+
+92
+00:06:19,760 --> 00:06:23,720
+And this is where the contractor comes very useful.
+
+93
+00:06:24,200 --> 00:06:31,040
+So we will use this parameter is contracted to do the initialization of the object that we want to get.
+
+94
+00:06:32,140 --> 00:06:38,470
+So I hope you understood the concept of defining the construct that and it is getting called automatically
+
+95
+00:06:38,470 --> 00:06:39,760
+when the object is created.
+
+96
+00:06:40,210 --> 00:06:43,210
+And for each object, it can be called only once.
+
+97
+00:06:43,810 --> 00:06:48,010
+So I hope these concepts are clear, and that's all for this lecture.

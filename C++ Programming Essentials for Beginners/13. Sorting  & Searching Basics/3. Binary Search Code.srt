@@ -1,0 +1,379 @@
+1
+00:00:01,780 --> 00:00:06,700
+Everyone, now let's look at the implementation of binary search algorithm that we have just discussed.
+
+2
+00:00:07,210 --> 00:00:12,130
+So what we said, we said we will get the eddy we will get and and we will get the key.
+
+3
+00:00:12,520 --> 00:00:19,030
+So creativity was one important that is zero one is four and that is and minus one.
+
+4
+00:00:19,600 --> 00:00:25,690
+And why I'm baking in minus one because and minus one is the index of the last element, OK?
+
+5
+00:00:25,780 --> 00:00:29,950
+So if you have an element in entry, then last element desert and minus one.
+
+6
+00:00:30,410 --> 00:00:34,120
+So then we said we will do some work while star does less than equal doing.
+
+7
+00:00:34,720 --> 00:00:37,840
+And if that exceeds the value of end, this will break the loop.
+
+8
+00:00:37,840 --> 00:00:40,960
+We will come out of the loop and begin there, done minus one.
+
+9
+00:00:40,960 --> 00:00:43,210
+That means the element does not present.
+
+10
+00:00:43,870 --> 00:00:51,430
+So first, we will compute the midpoint that is dog plus end by two and then we can do a comparison.
+
+11
+00:00:51,430 --> 00:00:58,120
+If at F Med equals e, that means it is equal to the element that we are looking for.
+
+12
+00:00:58,570 --> 00:01:01,180
+Then our answer is nothing but the index made.
+
+13
+00:01:01,750 --> 00:01:05,530
+What if it is not the case if at f made?
+
+14
+00:01:08,220 --> 00:01:11,190
+Is greater than what we're looking for.
+
+15
+00:01:11,280 --> 00:01:16,140
+OK, so let's say at the middle, we have 15, but we're looking for an element three.
+
+16
+00:01:17,550 --> 00:01:20,970
+In that case, what we should do, we should reduce this part of the tree.
+
+17
+00:01:21,360 --> 00:01:24,150
+That means the end which is binding, it should come here.
+
+18
+00:01:24,420 --> 00:01:27,990
+That means end should be equal to maybe minus one.
+
+19
+00:01:28,500 --> 00:01:32,010
+So let's see and should come to the minus one.
+
+20
+00:01:32,460 --> 00:01:36,990
+Otherwise, the area of mate is smaller than what we are looking for.
+
+21
+00:01:36,990 --> 00:01:39,150
+Let's say the middle element is 15.
+
+22
+00:01:39,510 --> 00:01:40,890
+And we're looking for 20.
+
+23
+00:01:40,890 --> 00:01:47,490
+In that case, what we should do, we should discard this part of the tree and this diet should go ahead.
+
+24
+00:01:47,880 --> 00:01:50,370
+This dog should come to mate plus one.
+
+25
+00:01:51,960 --> 00:01:54,960
+So let's start equals mate plus one.
+
+26
+00:01:55,110 --> 00:01:55,710
+That's it.
+
+27
+00:01:56,310 --> 00:01:57,570
+And this will go on.
+
+28
+00:01:58,260 --> 00:02:04,530
+And finally, what we will get will get the correct index builder called on.
+
+29
+00:02:04,530 --> 00:02:08,340
+Let us try to donate their dogs like binary search.
+
+30
+00:02:09,090 --> 00:02:12,380
+Let's search for an element, let's say 30.
+
+31
+00:02:13,140 --> 00:02:14,940
+So it should be are indexed to.
+
+32
+00:02:16,770 --> 00:02:23,820
+Yes, it is correct that search for 70, so we have zero one two three four five six.
+
+33
+00:02:24,980 --> 00:02:28,250
+So it should be at Index six, which is fine.
+
+34
+00:02:28,730 --> 00:02:30,320
+Let's search for eighty nine.
+
+35
+00:02:32,140 --> 00:02:32,860
+Index seven.
+
+36
+00:02:33,280 --> 00:02:35,620
+And led search for, let's say, 77.
+
+37
+00:02:36,260 --> 00:02:40,750
+It says 77 not found that means all equities are working as expected.
+
+38
+00:02:41,350 --> 00:02:45,930
+The one last thing I want to talk about is how much work we are doing in terms of time.
+
+39
+00:02:45,940 --> 00:02:49,090
+So we are going to talk about time complexity.
+
+40
+00:02:51,230 --> 00:02:53,810
+How many iterations this loop is going to take?
+
+41
+00:02:54,350 --> 00:03:01,790
+So we have the first iteration, we have Eddie, which is our size, and we can say this is nothing
+
+42
+00:03:01,790 --> 00:03:03,950
+but and divided by two race to Dubai to zero.
+
+43
+00:03:04,670 --> 00:03:07,580
+That is one in the next iteration.
+
+44
+00:03:07,610 --> 00:03:10,580
+This Eddie is reduced by a factor of two.
+
+45
+00:03:11,030 --> 00:03:11,330
+OK.
+
+46
+00:03:11,720 --> 00:03:13,800
+We're digging this area by factor of two.
+
+47
+00:03:13,870 --> 00:03:21,020
+So that means let's say this is iteration number iteration zero iteration number one.
+
+48
+00:03:21,030 --> 00:03:23,240
+It does end divided by two ways to divide one.
+
+49
+00:03:23,690 --> 00:03:25,940
+In the next generation, it will become in by foot.
+
+50
+00:03:25,970 --> 00:03:27,740
+That means it would be end by.
+
+51
+00:03:28,340 --> 00:03:29,030
+It was good.
+
+52
+00:03:29,360 --> 00:03:30,500
+Attrition number two.
+
+53
+00:03:31,310 --> 00:03:33,860
+And after later, k number of iterations.
+
+54
+00:03:34,190 --> 00:03:34,480
+OK.
+
+55
+00:03:35,510 --> 00:03:37,820
+The addresses would become.
+
+56
+00:03:40,490 --> 00:03:41,300
+And by.
+
+57
+00:03:42,780 --> 00:03:49,080
+It would to park again, that should be called the one case after calibrations, it would be equal to
+
+58
+00:03:49,080 --> 00:03:54,960
+one because we're left with one element or zero elements after calibration, it would be to rated.
+
+59
+00:03:55,920 --> 00:03:57,270
+And it must be equal to one.
+
+60
+00:03:57,570 --> 00:04:02,120
+So what we can see, how many steps, how many times this loop is going to run?
+
+61
+00:04:02,130 --> 00:04:03,840
+OK, so we are doing a concerned world.
+
+62
+00:04:04,530 --> 00:04:09,570
+This work does not depend upon the value of N, but this loop depends upon the value of it.
+
+63
+00:04:09,600 --> 00:04:13,970
+OK, so we can say it in my duty to the basket.
+
+64
+00:04:14,010 --> 00:04:20,670
+This is equal to one that means and is equal to do this to the park and begin to gaze the equal the
+
+65
+00:04:20,680 --> 00:04:21,420
+log often.
+
+66
+00:04:23,220 --> 00:04:30,090
+OK, so this loop is going to run long and times, and that is why you will come across this dome that
+
+67
+00:04:30,420 --> 00:04:33,960
+the time complexity of binary searches are that of log of often.
+
+68
+00:04:35,890 --> 00:04:42,670
+So this look is going to take long and hydration look, if, for example, if it is off size 16, then
+
+69
+00:04:42,670 --> 00:04:43,570
+it will become eight.
+
+70
+00:04:43,930 --> 00:04:45,010
+Then it will become four.
+
+71
+00:04:45,340 --> 00:04:47,830
+Then it will become dull and finally it will become one.
+
+72
+00:04:48,250 --> 00:04:50,650
+What is log of 16 to the base?
+
+73
+00:04:51,190 --> 00:04:51,580
+Two?
+
+74
+00:04:51,650 --> 00:04:54,920
+So it is equal to four in exactly four steps.
+
+75
+00:04:54,940 --> 00:04:59,950
+We can find out where this particular element is present inside this particular area.
+
+76
+00:05:00,220 --> 00:05:01,600
+That is going to be the worst case.
+
+77
+00:05:01,870 --> 00:05:09,920
+For example, of one thousand in log of one thousand, the base two is approximately 10.
+
+78
+00:05:09,940 --> 00:05:10,270
+OK.
+
+79
+00:05:10,780 --> 00:05:17,980
+That means in an area of size 1000 in just 10 iterations, you can figure out where a particular element
+
+80
+00:05:17,980 --> 00:05:18,580
+is present.
+
+81
+00:05:18,580 --> 00:05:26,920
+A binary search is very fast and efficient algorithm, but it works only if your works.
+
+82
+00:05:27,370 --> 00:05:31,090
+Your search phase is a sorted search space, OK?
+
+83
+00:05:31,890 --> 00:05:37,030
+So the only condition required is your search space should be sorted.
+
+84
+00:05:37,330 --> 00:05:41,650
+But in other terms, we can see the search space is monotonic.
+
+85
+00:05:41,800 --> 00:05:42,070
+OK?
+
+86
+00:05:43,080 --> 00:05:49,800
+The monotonic means the values should be either non decreasing, you're going to have a service like
+
+87
+00:05:49,800 --> 00:05:56,510
+this or there should be on increasing OK, the the values should either decrease or they should remain
+
+88
+00:05:56,530 --> 00:05:59,550
+same only then the binary search will work.
+
+89
+00:05:59,820 --> 00:06:03,170
+When they're done, it means not decreasing.
+
+90
+00:06:05,640 --> 00:06:07,920
+Or non increasing.
+
+91
+00:06:13,880 --> 00:06:17,340
+So this govt is a non decreasing of this as a non increasing.
+
+92
+00:06:17,570 --> 00:06:23,000
+Okay, so in this example, we go into all the values are in increasing order and we could use binary
+
+93
+00:06:23,000 --> 00:06:24,770
+search in this particular example.
+
+94
+00:06:25,130 --> 00:06:26,690
+I hope you understood the concept.
+
+95
+00:06:26,930 --> 00:06:28,130
+See you in the next lecture.

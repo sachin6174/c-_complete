@@ -1,0 +1,303 @@
+1
+00:00:02,240 --> 00:00:07,440
+Everyone, so in this lecture, we're going to talk about the storage of floating point numbers, especially
+
+2
+00:00:07,450 --> 00:00:08,600
+especially turned up, it's OK.
+
+3
+00:00:09,380 --> 00:00:14,990
+So the storage is a little more complex than indeed just because floating point numbers are a little
+
+4
+00:00:14,990 --> 00:00:15,710
+tricky to handle.
+
+5
+00:00:15,740 --> 00:00:22,190
+For example, if you have a number like thirty point one to five, you have the magnitude.
+
+6
+00:00:22,430 --> 00:00:26,120
+You also have floating port and you also have the sign.
+
+7
+00:00:26,140 --> 00:00:33,890
+OK, so if you have a floating bucket, which generally takes 32 bit odd, if you have a double bucket,
+
+8
+00:00:33,890 --> 00:00:35,870
+which takes 64 bit, OK?
+
+9
+00:00:37,100 --> 00:00:38,060
+There are three parts.
+
+10
+00:00:39,220 --> 00:00:40,660
+Those to store the numbers.
+
+11
+00:00:40,720 --> 00:00:45,190
+So one part is for the saying, OK, which can be zero or one, which you can look at.
+
+12
+00:00:45,880 --> 00:00:51,730
+Another part is for the magnitude, let's say the number is 30 so that you can convert into binary very
+
+13
+00:00:51,730 --> 00:00:52,140
+easily.
+
+14
+00:00:52,150 --> 00:00:54,070
+So that part will go ahead.
+
+15
+00:00:54,880 --> 00:00:57,820
+And then we have a part for the procedure.
+
+16
+00:00:57,990 --> 00:01:02,920
+Wizard Double is known as double precision, and fraud is known as single precision, so you can see
+
+17
+00:01:03,400 --> 00:01:09,310
+23 bits that deserved for precision and float on about 52 bits.
+
+18
+00:01:09,310 --> 00:01:12,580
+That is old for precision and in case of double.
+
+19
+00:01:13,300 --> 00:01:18,160
+That is why we said that double can handle higher precision.
+
+20
+00:01:18,190 --> 00:01:18,490
+OK.
+
+21
+00:01:18,880 --> 00:01:25,210
+And if you have scientific calculations which need a lot of precision, you should go into double digit
+
+22
+00:01:25,210 --> 00:01:28,360
+type instead of going with floor to get that being.
+
+23
+00:01:28,630 --> 00:01:34,210
+This gives you a high level idea of how floating point numbers are getting stored.
+
+24
+00:01:35,200 --> 00:01:42,040
+Apart from it, I will tell you one more thing for example, how the numbers after decimal they're actually
+
+25
+00:01:42,040 --> 00:01:42,400
+stored.
+
+26
+00:01:43,210 --> 00:01:49,690
+What example you are storing something like, uh, let's say, twenty three point six seven five.
+
+27
+00:01:49,750 --> 00:01:50,860
+OK, something like this.
+
+28
+00:01:51,350 --> 00:01:51,700
+Now how?
+
+29
+00:01:52,060 --> 00:01:53,200
+How is this number stored?
+
+30
+00:01:53,540 --> 00:01:54,550
+223 we know.
+
+31
+00:01:54,550 --> 00:01:56,830
+So 23 is nothing, but it is.
+
+32
+00:01:58,270 --> 00:02:07,270
+If I just make something like one two four eight 16 to 23 is sixteen plus four plus two plus one.
+
+33
+00:02:07,900 --> 00:02:10,330
+This gives me the integer right of twenty three.
+
+34
+00:02:10,750 --> 00:02:12,310
+But what about this number, OK?
+
+35
+00:02:12,790 --> 00:02:16,930
+We discussed that this is two bar zero two bar one.
+
+36
+00:02:17,560 --> 00:02:21,370
+From this point, we start to get the negative powers of two.
+
+37
+00:02:21,400 --> 00:02:21,760
+OK.
+
+38
+00:02:22,800 --> 00:02:31,280
+So we have to go over minus one two by one minus two, 12 or minus three to power minus four over minus
+
+39
+00:02:31,280 --> 00:02:33,320
+five to power minus six and so on.
+
+40
+00:02:34,050 --> 00:02:36,980
+So what is to power minus one, which is point five?
+
+41
+00:02:37,460 --> 00:02:41,450
+What is doable over minus two with one one four, which is 0.05?
+
+42
+00:02:42,350 --> 00:02:46,640
+What is doable minus three one one eight, which is 0.05 one two three.
+
+43
+00:02:47,420 --> 00:02:50,030
+What you try to do is given a number.
+
+44
+00:02:50,030 --> 00:02:52,490
+Let's say you want to represent the number one seven five.
+
+45
+00:02:53,490 --> 00:02:55,340
+So how you are going to represent, OK?
+
+46
+00:02:55,850 --> 00:03:00,960
+You are going to say, OK, I'm going to take this power of two, which is blind faith, and I'm going
+
+47
+00:03:00,960 --> 00:03:01,560
+to add.
+
+48
+00:03:03,040 --> 00:03:06,910
+This power, which is one to five.
+
+49
+00:03:07,780 --> 00:03:09,520
+And this gives me the exact number.
+
+50
+00:03:10,620 --> 00:03:17,040
+Won't do so, we will put one one hit and rest, everything would be all zeros, OK, we're now suppose
+
+51
+00:03:17,040 --> 00:03:20,470
+you have a number like one seven five eight one.
+
+52
+00:03:20,490 --> 00:03:29,370
+So what you will you will try to accommodate powers so that you reach a value that is either equal to
+
+53
+00:03:30,060 --> 00:03:31,890
+or the closest possible look at.
+
+54
+00:03:31,890 --> 00:03:33,540
+Maybe you're acting very small powers.
+
+55
+00:03:33,580 --> 00:03:38,670
+It's a point to five, then maybe plus something something point zero.
+
+56
+00:03:41,720 --> 00:03:44,670
+One zero two five zero zero two five something like this.
+
+57
+00:03:44,690 --> 00:03:49,220
+OK, so you're going to generate a number that is very close to this value.
+
+58
+00:03:49,220 --> 00:03:53,600
+Maybe your starting point seven seven seven eight two five zero zero.
+
+59
+00:03:54,650 --> 00:03:57,440
+This might be the actual representation in the memory.
+
+60
+00:03:58,010 --> 00:04:04,820
+And when you're going to rounded off, you might get something close 2.7 five eight one eight two something
+
+61
+00:04:04,820 --> 00:04:05,270
+like this.
+
+62
+00:04:06,050 --> 00:04:13,340
+So that is why we say the floating point numbers they they have, they don't store the exact values,
+
+63
+00:04:13,340 --> 00:04:16,220
+but they're a close approximation of given values.
+
+64
+00:04:16,970 --> 00:04:23,360
+That being said, if you use a type like double which has high precision, OK, that means you can have
+
+65
+00:04:24,350 --> 00:04:31,970
+more options so you can reach a more closer value because you also have very small numbers, very small
+
+66
+00:04:31,970 --> 00:04:35,110
+deltas that you cannot and you can reach close to that value.
+
+67
+00:04:35,120 --> 00:04:40,010
+So that that is why we say they're double has higher precision, OK?
+
+68
+00:04:40,370 --> 00:04:43,190
+Double has higher resilience because.
+
+69
+00:04:44,260 --> 00:04:51,550
+It can support a lot of small values that you can add and add together more equity, it places, you
+
+70
+00:04:51,550 --> 00:04:57,130
+know, because that is a high level idea behind the storage of floating and doubles.
+
+71
+00:04:57,430 --> 00:04:58,930
+And that's all for this with you.
+
+72
+00:04:59,320 --> 00:05:05,380
+If you are interested, you can learn more about I triple standards and how this is actually done using
+
+73
+00:05:05,380 --> 00:05:07,650
+the concept of Mendoza and Exponent.
+
+74
+00:05:08,080 --> 00:05:11,320
+But I've given you a very high level overview of the storage.
+
+75
+00:05:11,890 --> 00:05:12,970
+That's all for this video.
+
+76
+00:05:12,970 --> 00:05:13,420
+Thank you.

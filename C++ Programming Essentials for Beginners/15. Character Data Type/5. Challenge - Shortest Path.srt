@@ -1,0 +1,295 @@
+1
+00:00:01,010 --> 00:00:01,670
+Hello, everyone.
+
+2
+00:00:01,790 --> 00:00:05,960
+In this lecture, we're going to solve a problem and problem name is shortage spot.
+
+3
+00:00:06,240 --> 00:00:08,510
+And it's a pretty interesting problem on strength.
+
+4
+00:00:09,260 --> 00:00:09,970
+There it is.
+
+5
+00:00:09,980 --> 00:00:14,120
+You want to go to a certain location which is located at X Como Y.
+
+6
+00:00:15,690 --> 00:00:20,100
+And you have to start from origin, okay, so doctors aren't zero zero.
+
+7
+00:00:22,420 --> 00:00:29,050
+And your friend is telling you a long way by telling the steps you should walk in each direction and
+
+8
+00:00:29,050 --> 00:00:31,810
+the directions are northwest, east or south.
+
+9
+00:00:32,320 --> 00:00:34,270
+You have to find out the shortest spot.
+
+10
+00:00:34,270 --> 00:00:38,410
+Okay, so let us look at one example where we have this input and output.
+
+11
+00:00:39,220 --> 00:00:43,390
+So let me just draw to that extent.
+
+12
+00:00:44,260 --> 00:00:46,060
+It's a this is not.
+
+13
+00:00:47,000 --> 00:00:51,230
+This is east, this is West, and this is salt.
+
+14
+00:00:52,390 --> 00:00:57,550
+And the first step, you have to go north to get the go one step not.
+
+15
+00:00:58,650 --> 00:01:07,920
+Then again, go not OK, then again, go north, which is like these steps, not then you have two steps
+
+16
+00:01:07,920 --> 00:01:08,910
+towards the east.
+
+17
+00:01:08,970 --> 00:01:17,550
+OK, and then you have one step towards West and then you have one step towards south to get this is
+
+18
+00:01:17,550 --> 00:01:22,980
+the final location where you will reach to get in order to reach this location.
+
+19
+00:01:23,310 --> 00:01:26,580
+What could be the shortest spot so you could have simply done?
+
+20
+00:01:26,580 --> 00:01:33,810
+You could have said, OK, I will go two steps north and I will go one step east and I will arrive at
+
+21
+00:01:33,810 --> 00:01:35,100
+this particular coordinate.
+
+22
+00:01:35,250 --> 00:01:38,270
+This is what you wanted to do and out.
+
+23
+00:01:38,280 --> 00:01:38,790
+What do you see?
+
+24
+00:01:38,790 --> 00:01:40,410
+It is north, not on these.
+
+25
+00:01:41,380 --> 00:01:48,310
+Other thing is, how do we find out what the final guardian index gumawa is starting from the origin
+
+26
+00:01:48,310 --> 00:01:49,300
+that is zero zero.
+
+27
+00:01:50,490 --> 00:01:52,920
+So the thing is, it's pretty simple.
+
+28
+00:01:53,370 --> 00:01:58,710
+So effectively, what you get is that if you're going through steps, not and if you're going few steps
+
+29
+00:01:59,100 --> 00:01:59,430
+out.
+
+30
+00:02:01,150 --> 00:02:05,530
+You're actually reducing your distance traveled along by axis.
+
+31
+00:02:05,560 --> 00:02:08,110
+This is your Y-axis and this is your x axis.
+
+32
+00:02:09,800 --> 00:02:10,530
+What do you need to do?
+
+33
+00:02:10,550 --> 00:02:16,460
+You need to find out the net displacement in the vertical direction and also in the horizontal direction.
+
+34
+00:02:16,550 --> 00:02:22,550
+You need to find out how much we have to walk horizontally and how much we have to walk in the vertical
+
+35
+00:02:22,550 --> 00:02:22,960
+direction.
+
+36
+00:02:22,970 --> 00:02:23,990
+That is what you need to do.
+
+37
+00:02:24,990 --> 00:02:34,260
+That means whenever you see a north or south, you will update your y coordinate, and whenever you
+
+38
+00:02:34,260 --> 00:02:38,220
+will see east or west, you will update your X coordinate, OK?
+
+39
+00:02:38,790 --> 00:02:41,470
+In the beginning, both X and Y the R zero right.
+
+40
+00:02:41,520 --> 00:02:43,070
+So x zero by zero.
+
+41
+00:02:43,770 --> 00:02:44,460
+You are going north.
+
+42
+00:02:44,460 --> 00:02:47,250
+That means you are going towards the positive axis.
+
+43
+00:02:47,790 --> 00:02:53,490
+Your Y becomes one again, not it becomes two again, not it becomes three.
+
+44
+00:02:54,030 --> 00:02:56,400
+Then you go east, so your X becomes one.
+
+45
+00:02:57,060 --> 00:02:57,990
+One, that is two.
+
+46
+00:02:58,410 --> 00:02:59,590
+Now you go west.
+
+47
+00:02:59,610 --> 00:03:04,260
+So this means you are going in this direction, so you will reduce your X coordinate by one.
+
+48
+00:03:05,010 --> 00:03:06,270
+It becomes minus one.
+
+49
+00:03:06,750 --> 00:03:07,170
+Then you will.
+
+50
+00:03:07,170 --> 00:03:08,810
+So that means you are going down.
+
+51
+00:03:08,870 --> 00:03:11,190
+So you reduce your y coordinate by one.
+
+52
+00:03:11,250 --> 00:03:18,660
+So effectively, you have all for the y axis and you have x coordinate as one.
+
+53
+00:03:18,870 --> 00:03:24,000
+Basically, your final location x gumawa is actually one to.
+
+54
+00:03:24,990 --> 00:03:31,890
+Now, depending on the Guardian, it took a quadrant so it can lie in quadrant one, you one, it can
+
+55
+00:03:31,890 --> 00:03:36,540
+lie in Quadrant two, it can lie in Quadrant three and it can also line Quadrant four.
+
+56
+00:03:36,750 --> 00:03:37,080
+OK.
+
+57
+00:03:37,710 --> 00:03:42,270
+It lies in Q1, so you will print the value of.
+
+58
+00:03:43,810 --> 00:03:44,980
+Not two times.
+
+59
+00:03:45,070 --> 00:03:52,420
+So you will see an alternate on since the X coordinate is one that means we are on the positive side,
+
+60
+00:03:52,690 --> 00:03:54,910
+the positive side means we are in the East.
+
+61
+00:03:55,360 --> 00:03:58,870
+You will be one thing if that is what you are going to do.
+
+62
+00:03:58,870 --> 00:04:05,680
+So output would be an any or it could be CNN and then both are fine.
+
+63
+00:04:06,070 --> 00:04:14,830
+And if you are asked to print this in lexical graphical sorted manner, you can print it first and you
+
+64
+00:04:14,830 --> 00:04:16,540
+can print and later on.
+
+65
+00:04:16,570 --> 00:04:21,930
+OK, so it could be CNN, or it could be in any water fine as output.
+
+66
+00:04:22,400 --> 00:04:24,280
+I hope you have understood this problem.
+
+67
+00:04:24,310 --> 00:04:25,270
+So what do you need to do?
+
+68
+00:04:25,930 --> 00:04:31,720
+Firstly, you need to find out the final displacement, the final value of X and Y coordinates, and
+
+69
+00:04:31,720 --> 00:04:35,050
+then you need to convert this into a corresponding string.
+
+70
+00:04:35,200 --> 00:04:35,500
+OK.
+
+71
+00:04:36,460 --> 00:04:38,410
+Which again, can be done using a loop.
+
+72
+00:04:40,490 --> 00:04:40,790
+OK.
+
+73
+00:04:41,990 --> 00:04:47,120
+So let us try to see how we can go this problem up in the next lecture.
+
+74
+00:04:47,260 --> 00:04:48,770
+And that's all for this video.

@@ -1,0 +1,223 @@
+1
+00:00:01,420 --> 00:00:07,500
+Hello, everyone, in this lecture, we're going to see how do we work with input using strings?
+
+2
+00:00:07,510 --> 00:00:13,510
+OK, so we have seen how to input characters, how to input character at ease, and now we are going
+
+3
+00:00:13,510 --> 00:00:18,440
+to see how do we take input from the user and put it inside the string object?
+
+4
+00:00:18,510 --> 00:00:28,420
+OK, now one thing we're going to do is maybe I can string input demo and we are going to use some of
+
+5
+00:00:28,420 --> 00:00:29,050
+the code.
+
+6
+00:00:30,860 --> 00:00:37,670
+As a boss, we have created a string on instead of initializing it what we want, we want to take user
+
+7
+00:00:37,670 --> 00:00:38,030
+input.
+
+8
+00:00:38,420 --> 00:00:40,940
+Maybe I can say, bring me.
+
+9
+00:00:44,540 --> 00:00:46,160
+And I want you to seen me.
+
+10
+00:00:46,220 --> 00:00:49,950
+So let's see, does it accept the name correctly or not?
+
+11
+00:00:49,960 --> 00:00:52,160
+So maybe out high plus name.
+
+12
+00:00:52,700 --> 00:00:57,710
+And we have seen the plus operator does work with those translate.
+
+13
+00:01:02,820 --> 00:01:03,750
+OK, we have.
+
+14
+00:01:04,830 --> 00:01:06,060
+Yeah, this is fine.
+
+15
+00:01:06,840 --> 00:01:16,890
+And maybe I can say dodge lasting input, though, so it's waiting for names, so I can say the nodding.
+
+16
+00:01:17,610 --> 00:01:20,030
+And it only gives me the first word, OK?
+
+17
+00:01:20,470 --> 00:01:23,340
+The same issue we did solve it corrected.
+
+18
+00:01:23,340 --> 00:01:24,030
+It is as well.
+
+19
+00:01:24,120 --> 00:01:28,430
+So Sign does not read once it sees us space.
+
+20
+00:01:28,440 --> 00:01:36,840
+OK, so that that means we need some other method to read these strings, which are which do contain
+
+21
+00:01:36,840 --> 00:01:37,530
+spaces, OK?
+
+22
+00:01:37,950 --> 00:01:39,150
+The scene will not work.
+
+23
+00:01:39,460 --> 00:01:44,280
+It does not work with strings containing spaces.
+
+24
+00:01:44,440 --> 00:01:52,140
+It will just go into doubt and will use a function which is actually known as guideline on guideline
+
+25
+00:01:52,140 --> 00:01:53,850
+function can be used in two ways.
+
+26
+00:01:54,060 --> 00:01:57,510
+So in the first, it accepts this in object.
+
+27
+00:01:58,350 --> 00:02:04,950
+It uses the scene object to read something and then it tries to store it inside.
+
+28
+00:02:05,550 --> 00:02:12,660
+And the object that have to give because we are saying, OK, I'm going to read something from the user
+
+29
+00:02:12,660 --> 00:02:16,050
+and not input would be copied inside it.
+
+30
+00:02:16,170 --> 00:02:19,650
+Now, if you don't put it, will fix of an issue.
+
+31
+00:02:20,190 --> 00:02:26,520
+And if I give the name to the Ignite and it does read the entire name book including spaces as well.
+
+32
+00:02:27,660 --> 00:02:33,540
+Now, another way of doing it, maybe you are interested to read a paragraph, maybe.
+
+33
+00:02:34,580 --> 00:02:42,620
+Some paragraph which is extending multiple lines right down, there is no such way of giving this input,
+
+34
+00:02:42,710 --> 00:02:44,960
+so I've got a paragraph as we hit a new line.
+
+35
+00:02:45,800 --> 00:02:49,010
+The input reading it does terminate because what we want.
+
+36
+00:02:49,490 --> 00:02:51,830
+We don't want to store at the new line.
+
+37
+00:02:52,190 --> 00:02:58,010
+We want to stop and maybe some other character that is little toilet or not something like that.
+
+38
+00:02:58,400 --> 00:03:00,710
+It's totally your choice where you want to stop.
+
+39
+00:03:01,370 --> 00:03:02,160
+Now you can do it.
+
+40
+00:03:02,180 --> 00:03:05,320
+I want to read everything until I hit the dollar.
+
+41
+00:03:05,330 --> 00:03:13,820
+OK, maybe I got maybe some, some dollars, maybe one one two two, three, three or four or five six
+
+42
+00:03:13,970 --> 00:03:15,190
+on some string hello.
+
+43
+00:03:15,200 --> 00:03:20,810
+And then I have a dollar or it is going to read everything until you don't see your dollar.
+
+44
+00:03:20,820 --> 00:03:23,240
+So this little is known as a delimited.
+
+45
+00:03:23,840 --> 00:03:29,060
+And by default, if you don't pass anything, it assumes this to be a box lesson.
+
+46
+00:03:29,570 --> 00:03:33,490
+Or if you tell, No, I don't want the starboard box lesson, I want to stop at it.
+
+47
+00:03:33,870 --> 00:03:39,560
+It does acknowledge that, OK, so that is another way of using the Great Line function.
+
+48
+00:03:39,620 --> 00:03:42,560
+I hope are reading input is now clear.
+
+49
+00:03:42,740 --> 00:03:49,610
+So what we have seen till now is not if you want to read a character you use seeing Dot Gate, which
+
+50
+00:03:49,610 --> 00:03:56,330
+reads as in the letter, if you want to read a character you do use seemed odd.
+
+51
+00:03:56,480 --> 00:03:58,210
+Great line method, which we have seen.
+
+52
+00:03:58,970 --> 00:04:05,780
+And if you want to read a string you don't use, not get like you actually use a method great line which
+
+53
+00:04:05,780 --> 00:04:12,440
+does accept string and a fine object, which is being input to this method.
+
+54
+00:04:12,440 --> 00:04:12,710
+OK?
+
+55
+00:04:13,550 --> 00:04:18,380
+So these are different ways of reading strings that we have seen so far.
+
+56
+00:04:19,630 --> 00:04:23,910
+And I hope you understood this one, and that's all for this video.

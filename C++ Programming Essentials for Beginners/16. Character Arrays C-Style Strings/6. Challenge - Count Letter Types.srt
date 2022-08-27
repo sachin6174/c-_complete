@@ -1,0 +1,487 @@
+1
+00:00:01,660 --> 00:00:02,410
+Hello, everyone.
+
+2
+00:00:02,440 --> 00:00:07,900
+In this lecture will solve a problem where we want to take put a string which is terminated by our dialogue
+
+3
+00:00:08,500 --> 00:00:14,470
+and we count the number of letters, digit and white spaces and other special symbols.
+
+4
+00:00:14,650 --> 00:00:19,870
+Before we hit the toilet, OK, for example, a sample input might look something like this.
+
+5
+00:00:20,470 --> 00:00:21,870
+Hello, five world.
+
+6
+00:00:22,770 --> 00:00:26,950
+Maybe someday in this case, you can see there are five plus five.
+
+7
+00:00:26,950 --> 00:00:29,770
+There are 10 letters that has one digit.
+
+8
+00:00:30,010 --> 00:00:31,960
+OK, two letters means Alphabet.
+
+9
+00:00:33,670 --> 00:00:38,310
+And there is a toilet and there are two white spaces, because that is what we need to print.
+
+10
+00:00:38,930 --> 00:00:42,460
+So the count of letters, alphabets and so on.
+
+11
+00:00:42,490 --> 00:00:46,770
+So first of all, we need a character ready to store the strength.
+
+12
+00:00:46,810 --> 00:00:55,340
+Maybe I can take that input and let us assume the largest string can fit in thousand size of error of
+
+13
+00:00:55,360 --> 00:00:56,320
+size 1000.
+
+14
+00:00:56,350 --> 00:00:56,980
+That's OK.
+
+15
+00:00:57,620 --> 00:01:01,090
+And it will actually depend upon the constraints of the problem.
+
+16
+00:01:02,110 --> 00:01:07,930
+So for now, we can assume that one doesn't is big enough to satisfy the constraints.
+
+17
+00:01:08,530 --> 00:01:10,210
+And then we will take input, right?
+
+18
+00:01:10,750 --> 00:01:16,510
+Obviously, we cannot use scene input because it also contains white spaces.
+
+19
+00:01:16,790 --> 00:01:20,720
+Those in will not work because of the behavior we have discussed.
+
+20
+00:01:20,770 --> 00:01:26,620
+We have to use in indoor guideline and we have total input.
+
+21
+00:01:27,100 --> 00:01:33,580
+And we have also to tell that this input can store maximum of 1000 letters.
+
+22
+00:01:33,670 --> 00:01:35,980
+So we have to pass that limit here as well.
+
+23
+00:01:36,760 --> 00:01:41,560
+And another thing is we have to tell, when do you stop reading this input?
+
+24
+00:01:41,560 --> 00:01:45,340
+So we stop reading this input and OK, do not entered new line.
+
+25
+00:01:45,970 --> 00:01:50,020
+By default, it terminates at New Line, but we want to tell it, OK, you stop reading.
+
+26
+00:01:50,020 --> 00:01:50,350
+Tell.
+
+27
+00:01:51,880 --> 00:01:56,410
+If I just show you, what is this input now, it would be the.
+
+28
+00:01:57,810 --> 00:01:58,470
+Same thing, right?
+
+29
+00:01:59,080 --> 00:02:02,430
+Maybe the problem is big problem.
+
+30
+00:02:04,490 --> 00:02:06,140
+Strange letter counting problem.
+
+31
+00:02:06,820 --> 00:02:08,400
+Maybe Halo five.
+
+32
+00:02:08,660 --> 00:02:10,640
+And how are you?
+
+33
+00:02:10,670 --> 00:02:13,160
+Five some star.
+
+34
+00:02:13,790 --> 00:02:15,770
+OK, question mark.
+
+35
+00:02:15,770 --> 00:02:20,810
+And maybe right now you're going to be getting the same string.
+
+36
+00:02:20,810 --> 00:02:22,010
+This is coming in the output.
+
+37
+00:02:22,040 --> 00:02:24,620
+That means the storage is correct.
+
+38
+00:02:24,830 --> 00:02:26,870
+All of them, they are stored in a linearity.
+
+39
+00:02:27,620 --> 00:02:34,520
+And what what actually happened is so in the input when we saw a download, it restored and null end
+
+40
+00:02:34,520 --> 00:02:35,960
+up in poverty.
+
+41
+00:02:36,410 --> 00:02:37,760
+I'll just repeat this thing.
+
+42
+00:02:37,760 --> 00:02:44,240
+So in words like say hello, followed by some space and maybe some toilet in the area that is created,
+
+43
+00:02:44,870 --> 00:02:47,530
+the great learning function is written down.
+
+44
+00:02:47,540 --> 00:02:53,720
+It will copy all the letters until it finds this monitor that we have specified.
+
+45
+00:02:54,290 --> 00:02:59,300
+It will replace this with an null letter because if we don't, we are not actually storing dial-up.
+
+46
+00:02:59,310 --> 00:02:59,970
+So you going to die?
+
+47
+00:03:00,140 --> 00:03:08,600
+Is not the part of the output, and printing happens unless we unless we don't see a null and output
+
+48
+00:03:08,600 --> 00:03:09,490
+in this satellite.
+
+49
+00:03:09,530 --> 00:03:13,440
+So it is printing up to this particular point right now.
+
+50
+00:03:14,120 --> 00:03:15,500
+Getting back to hit, right?
+
+51
+00:03:15,650 --> 00:03:18,080
+So what are we going to do in this case?
+
+52
+00:03:18,650 --> 00:03:23,360
+We are going to work with both the functions, which are on connectors.
+
+53
+00:03:23,480 --> 00:03:30,050
+So we include the see-through type library and we're going to include the C string library because it
+
+54
+00:03:30,050 --> 00:03:31,250
+might be required as well, right?
+
+55
+00:03:33,130 --> 00:03:36,570
+What we need to do, we need to iterate over this area.
+
+56
+00:03:36,780 --> 00:03:37,020
+It.
+
+57
+00:03:38,560 --> 00:03:43,360
+And we have to go go through a list of the characters, are those George, maybe what I can say are
+
+58
+00:03:43,360 --> 00:03:44,200
+equal to zero.
+
+59
+00:03:44,740 --> 00:03:49,970
+I list then OK, how do we attract rehydrate tell input of aid?
+
+60
+00:03:49,990 --> 00:03:57,700
+This is not equal unless we don't see unless we are going to iterate over the entirety and I'm going
+
+61
+00:03:57,700 --> 00:04:00,880
+to say, OK, the current corrected, it is equal to input off.I.
+
+62
+00:04:01,060 --> 00:04:03,970
+So let us try to see what this current character is, right?
+
+63
+00:04:05,450 --> 00:04:08,410
+We are trading and we are saying this is important.
+
+64
+00:04:09,170 --> 00:04:10,640
+And this is some index.
+
+65
+00:04:11,300 --> 00:04:15,090
+We are saying, see, it is going to hold this input of it.
+
+66
+00:04:15,320 --> 00:04:15,950
+This is it.
+
+67
+00:04:16,340 --> 00:04:17,600
+This is actually actually.
+
+68
+00:04:18,410 --> 00:04:20,150
+So now we have to classify this.
+
+69
+00:04:20,610 --> 00:04:24,470
+We have to count the number of letters that is Alphabet.
+
+70
+00:04:25,130 --> 00:04:28,040
+We need to see the alphabet count.
+
+71
+00:04:28,400 --> 00:04:31,370
+That is let's zero the digits count.
+
+72
+00:04:31,790 --> 00:04:32,810
+That is also zero.
+
+73
+00:04:33,500 --> 00:04:37,850
+The white spaces that is also zero and special symbols.
+
+74
+00:04:39,420 --> 00:04:44,430
+That is also right in the beginning, we have initialized for values which are zero.
+
+75
+00:04:44,890 --> 00:04:47,300
+Now what we can do begins, OK, are.
+
+76
+00:04:48,850 --> 00:04:50,230
+If we have.
+
+77
+00:04:51,670 --> 00:04:58,090
+If this siege, if it is Alphabet again, so either you can do it like this, if it is greater than
+
+78
+00:04:58,090 --> 00:05:04,930
+equal to any less than equal duty like we have done in one of the problems, or even use some inbuilt
+
+79
+00:05:04,930 --> 00:05:06,520
+method from the library.
+
+80
+00:05:06,520 --> 00:05:10,060
+OK, so you can use is alpha, right?
+
+81
+00:05:10,270 --> 00:05:15,860
+So is alpha, which you can say Alphabet C++.
+
+82
+00:05:16,030 --> 00:05:21,130
+Let's increment the count of Alphabet as if if it is a white space.
+
+83
+00:05:21,280 --> 00:05:22,420
+So the method is.
+
+84
+00:05:24,610 --> 00:05:26,620
+The matter that we had discussed.
+
+85
+00:05:29,280 --> 00:05:31,430
+I just followed them at their name.
+
+86
+00:05:31,750 --> 00:05:33,650
+Yes, it is, is space.
+
+87
+00:05:34,810 --> 00:05:44,020
+And you can see the number of whites business less plus as if we have digit rate, so the method would
+
+88
+00:05:44,020 --> 00:05:45,850
+must be is digit.
+
+89
+00:05:47,350 --> 00:05:55,780
+That is, I can say, did C++ right now, how do we look for special symbols, OK, I don't remember
+
+90
+00:05:55,780 --> 00:05:59,080
+any method to check if it is a special symbol or not.
+
+91
+00:05:59,110 --> 00:06:01,320
+So what I can do to others, right?
+
+92
+00:06:01,330 --> 00:06:09,160
+So everything is in others what I can do I can from the total end of the string, I can subtract the
+
+93
+00:06:09,160 --> 00:06:13,370
+value of alphabet white spaces and digits to get their count.
+
+94
+00:06:13,870 --> 00:06:16,150
+So this I will do after my loop is over.
+
+95
+00:06:16,480 --> 00:06:21,820
+So after the loop, what we know, we know, we know the alphabet, OK?
+
+96
+00:06:21,880 --> 00:06:30,310
+So maybe you're going to see out Alphabet as alphabet and del digits as digits.
+
+97
+00:06:33,100 --> 00:06:37,300
+And Al and, you know, white space is white space.
+
+98
+00:06:39,400 --> 00:06:41,920
+And on maybe special symbols, right?
+
+99
+00:06:44,120 --> 00:06:47,390
+Don't count, let's try to see that.
+
+100
+00:06:49,290 --> 00:06:50,280
+Maybe I can say.
+
+101
+00:06:52,160 --> 00:06:57,990
+Symbol count, this should be actually equal to the total length of the string that does not include
+
+102
+00:06:58,550 --> 00:07:04,730
+eight, because it is not stored and it does not include as well, that is how its and works.
+
+103
+00:07:06,040 --> 00:07:13,030
+So the total length would be a straight line of input on this function is coming from C string or minus
+
+104
+00:07:13,060 --> 00:07:16,450
+alphabet minus digits on minus white spaces.
+
+105
+00:07:17,500 --> 00:07:20,560
+So this, I'm assuming, would be your special symbols.
+
+106
+00:07:20,920 --> 00:07:22,000
+And that's it.
+
+107
+00:07:23,440 --> 00:07:25,180
+No, let us try to run this code.
+
+108
+00:07:26,280 --> 00:07:28,080
+And the court is building fine.
+
+109
+00:07:29,280 --> 00:07:32,070
+And strangely, the accounting problem.
+
+110
+00:07:32,710 --> 00:07:34,410
+So maybe a little five.
+
+111
+00:07:35,670 --> 00:07:36,780
+How are you?
+
+112
+00:07:36,870 --> 00:07:39,210
+Five Bass not.
+
+113
+00:07:40,260 --> 00:07:42,780
+And or harsh and maybe a dollar, right?
+
+114
+00:07:43,590 --> 00:07:50,070
+It says we have 14 alphabet digits, two yes, five is coming to names wide spaces at four.
+
+115
+00:07:50,340 --> 00:07:55,740
+So one whitespace here, that is the new line, right?
+
+116
+00:07:56,310 --> 00:07:59,930
+We did a box and hit it with three and four.
+
+117
+00:07:59,940 --> 00:08:07,440
+Yes, we have three spaces and one new line, which is four correct and we have one special symbol,
+
+118
+00:08:07,440 --> 00:08:08,220
+which is this one.
+
+119
+00:08:08,520 --> 00:08:09,540
+Absolutely correct.
+
+120
+00:08:10,060 --> 00:08:11,990
+Circle is working perfectly fine.
+
+121
+00:08:12,000 --> 00:08:20,010
+So I think that this example we could quickly recap a lot of concepts that we have started till now.
+
+122
+00:08:20,010 --> 00:08:21,510
+And that's all for this video.

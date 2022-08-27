@@ -1,0 +1,935 @@
+1
+00:00:01,900 --> 00:00:08,140
+I in this lecture, we're going to talk about a problem in which we have to put internet in a spiral
+
+2
+00:00:08,140 --> 00:00:08,440
+order.
+
+3
+00:00:09,100 --> 00:00:15,010
+So let's see what is the meaning of spiral print and then we can solve this problem.
+
+4
+00:00:15,400 --> 00:00:17,230
+So let's see this example.
+
+5
+00:00:17,440 --> 00:00:24,070
+It says right in a function that takes in and cross-boundary cross-community on print, all the elements
+
+6
+00:00:24,070 --> 00:00:27,640
+in a spiral or that we have to start from the top left corner.
+
+7
+00:00:28,860 --> 00:00:34,470
+And we have to go towards right and then proceed in a spiral pattern until every element is OK.
+
+8
+00:00:34,550 --> 00:00:42,780
+So for example, in this case, we'll go from here, then we will go down and then we'll go hit and
+
+9
+00:00:42,780 --> 00:00:43,590
+then we'll go hit.
+
+10
+00:00:43,950 --> 00:00:46,430
+Then we'll go here, then down and then hit.
+
+11
+00:00:46,890 --> 00:00:54,330
+If you look at this order, it is one two three four eight 12, 6th, 16, 15, 14, 13, nine five
+
+12
+00:00:54,330 --> 00:00:55,290
+six seven 11.
+
+13
+00:00:55,300 --> 00:00:57,780
+And we are actually following this or that.
+
+14
+00:00:58,140 --> 00:00:58,440
+OK.
+
+15
+00:00:58,770 --> 00:01:05,970
+So I hope the idea is clear what we need to do, and now we need to think, how do we do it or how to
+
+16
+00:01:05,970 --> 00:01:06,180
+do?
+
+17
+00:01:06,240 --> 00:01:11,880
+OK, so what is clear and how we can do it is something that we should figure that out.
+
+18
+00:01:13,590 --> 00:01:21,030
+Basically, what we can do is in one iteration, we can define one nitrogen as one complete boundary
+
+19
+00:01:21,030 --> 00:01:26,940
+reversal of daddy because a boundary means let's in one iteration, we complete this boundary.
+
+20
+00:01:27,480 --> 00:01:30,430
+Then in the next iteration, we complete the inner boundary.
+
+21
+00:01:30,450 --> 00:01:30,750
+OK.
+
+22
+00:01:31,170 --> 00:01:33,330
+Basically, we're going to look like this.
+
+23
+00:01:34,580 --> 00:01:37,640
+So basically, in this case, we can then do alterations.
+
+24
+00:01:38,150 --> 00:01:45,880
+We can print all the elements in this barrel or that maybe if is a bigger matrix, approximately what
+
+25
+00:01:45,940 --> 00:01:52,840
+what is happening is if it has, let's say, in columns and number of rows, then we would need and
+
+26
+00:01:52,880 --> 00:01:53,510
+why do.
+
+27
+00:01:56,030 --> 00:01:58,320
+Iterations, roughly approximately, OK.
+
+28
+00:01:58,740 --> 00:02:04,290
+So let us assume desert and grassland matrix, but it can be an awesome matrix as well, so we will
+
+29
+00:02:04,290 --> 00:02:07,620
+see what happens when we have varying number of laws and columns.
+
+30
+00:02:08,070 --> 00:02:13,620
+But let us see or try to figure it out how we can actually solve this problem.
+
+31
+00:02:15,900 --> 00:02:22,560
+So what I'm going to do is I'm going to the north, I'm going to north down.
+
+32
+00:02:24,290 --> 00:02:26,150
+I'm going to take a few variables later.
+
+33
+00:02:26,480 --> 00:02:32,180
+There is a variable that denotes what is the starting role in the current iteration.
+
+34
+00:02:32,330 --> 00:02:34,550
+In the beginning, this would be my starting role.
+
+35
+00:02:34,980 --> 00:02:41,720
+OK, I can dig in little variable that will tell me, what is the column that I want to print in the
+
+36
+00:02:41,720 --> 00:02:42,080
+right?
+
+37
+00:02:42,320 --> 00:02:44,880
+So basically, I can take the ending column.
+
+38
+00:02:44,930 --> 00:02:51,020
+This could be an undeliverable that will be responsible for printing the last column, and we will not
+
+39
+00:02:51,020 --> 00:02:53,150
+print forward again because we have already printed.
+
+40
+00:02:53,930 --> 00:02:58,430
+Then we also need a variable to denote what is the ending row?
+
+41
+00:02:58,670 --> 00:03:05,600
+OK, so this will denote as a ningo, and then we will also take a variable that will denote the start
+
+42
+00:03:05,600 --> 00:03:05,960
+column.
+
+43
+00:03:07,010 --> 00:03:07,310
+OK.
+
+44
+00:03:07,670 --> 00:03:08,840
+So what is the idea?
+
+45
+00:03:09,110 --> 00:03:11,840
+The idea is first, you will print the starting role.
+
+46
+00:03:13,350 --> 00:03:14,670
+Starting from what index?
+
+47
+00:03:14,970 --> 00:03:17,130
+Starting from that column.
+
+48
+00:03:18,300 --> 00:03:19,250
+In the end column.
+
+49
+00:03:20,140 --> 00:03:21,320
+OK, this is what we will do.
+
+50
+00:03:22,410 --> 00:03:26,010
+In the same situation, we are also going to print the end column.
+
+51
+00:03:26,490 --> 00:03:26,730
+OK.
+
+52
+00:03:27,510 --> 00:03:32,400
+In order to print every element what we need, we need the raw number and we need the column numbers
+
+53
+00:03:32,400 --> 00:03:32,740
+of, he said.
+
+54
+00:03:32,760 --> 00:03:38,310
+We will keep that number fixed and we will iterate from start column at the end column.
+
+55
+00:03:38,790 --> 00:03:44,070
+OK, then for the end column, we can say we will iterate from start to.
+
+56
+00:03:45,240 --> 00:03:48,350
+Plus, one L, what is the ending?
+
+57
+00:03:48,960 --> 00:03:54,570
+OK, that's it, then we will see we will iterate on the end rule.
+
+58
+00:03:55,600 --> 00:04:03,700
+Starting from what we're starting from this point, this columnist and column minus one bill, what
+
+59
+00:04:04,540 --> 00:04:05,470
+they'll start column.
+
+60
+00:04:05,590 --> 00:04:05,920
+OK.
+
+61
+00:04:06,310 --> 00:04:08,680
+And we are going to read in this direction.
+
+62
+00:04:09,250 --> 00:04:15,550
+Then we said, Will I read on the stock column starting from where Andrew minus one?
+
+63
+00:04:18,970 --> 00:04:21,790
+Well, what a start problems one.
+
+64
+00:04:22,120 --> 00:04:22,450
+OK.
+
+65
+00:04:23,830 --> 00:04:30,910
+This is what we are going to do once we're done with these, these four loops, which are also part
+
+66
+00:04:30,910 --> 00:04:32,740
+of our outer loop.
+
+67
+00:04:32,920 --> 00:04:34,780
+OK, so in the outer look, we will have.
+
+68
+00:04:37,630 --> 00:04:40,130
+This we will also do repeatedly.
+
+69
+00:04:40,160 --> 00:04:44,150
+OK, so these are the inner loops, and we also will have our outlook as well.
+
+70
+00:04:44,720 --> 00:04:46,970
+It is very clear what we need to do in a loop.
+
+71
+00:04:47,270 --> 00:04:53,300
+And once these four steps are and what we need to do, we need to make these pointers point to the inertia
+
+72
+00:04:53,300 --> 00:04:58,250
+problems or the inertia problem would be nothing, but the start starter would be incremental by one.
+
+73
+00:04:58,460 --> 00:05:00,380
+So we will have start problems plus.
+
+74
+00:05:01,450 --> 00:05:05,650
+The end goal would be detrimental by one, so we will have an cola minus minus.
+
+75
+00:05:06,280 --> 00:05:10,960
+Then we can have Andrew decremental by one Andrew.
+
+76
+00:05:11,650 --> 00:05:12,460
+Minus minus.
+
+77
+00:05:12,820 --> 00:05:15,070
+And this column will be incremented by one.
+
+78
+00:05:15,070 --> 00:05:19,120
+It will come here, so we will have that column.
+
+79
+00:05:20,620 --> 00:05:23,710
+OK, so this is what we are going to do.
+
+80
+00:05:24,130 --> 00:05:24,850
+So I hope.
+
+81
+00:05:26,500 --> 00:05:28,420
+On a high level, the logic is clear.
+
+82
+00:05:28,870 --> 00:05:35,800
+And now we're going to implement this logic in the form of gold, and we will also see what other conditions
+
+83
+00:05:35,800 --> 00:05:36,580
+we need to write.
+
+84
+00:05:37,000 --> 00:05:38,300
+While discussing the gold?
+
+85
+00:05:38,350 --> 00:05:41,830
+OK, so let us jump in Dover gold fail.
+
+86
+00:05:42,960 --> 00:05:44,850
+And we are going to write some go ahead now.
+
+87
+00:05:47,180 --> 00:05:53,750
+So let's say we have a function wide friend and we are getting this to degree.
+
+88
+00:05:59,330 --> 00:06:01,640
+Maybe we can have a be at as well.
+
+89
+00:06:02,060 --> 00:06:07,550
+We are getting the number of those and we're getting the number of columns where they said we will take
+
+90
+00:06:07,550 --> 00:06:08,360
+four variables.
+
+91
+00:06:10,270 --> 00:06:17,230
+So these four variables are start rule that essentially zero the Andrew Card is nothing but the number
+
+92
+00:06:17,230 --> 00:06:18,430
+of columns minus one.
+
+93
+00:06:20,110 --> 00:06:20,770
+The.
+
+94
+00:06:22,480 --> 00:06:24,430
+But the number of those minus one.
+
+95
+00:06:25,060 --> 00:06:28,420
+And we are going to have the start column that is zero.
+
+96
+00:06:28,990 --> 00:06:32,710
+And we're going to have an column that is a number of columns minus one.
+
+97
+00:06:32,740 --> 00:06:33,010
+OK.
+
+98
+00:06:33,550 --> 00:06:35,620
+What we're going to do, we are going to put out a look.
+
+99
+00:06:37,000 --> 00:06:38,710
+That will reverse.
+
+100
+00:06:39,980 --> 00:06:40,790
+Everybody.
+
+101
+00:06:42,260 --> 00:06:43,580
+Using foreign loops.
+
+102
+00:06:44,660 --> 00:06:49,190
+So while certain conditions, we will look at those conditions a little later on.
+
+103
+00:06:49,880 --> 00:06:51,590
+But let us ride the inner cold.
+
+104
+00:06:51,590 --> 00:06:55,990
+So inside this first step is to traverse the starter.
+
+105
+00:06:56,690 --> 00:06:59,210
+We discussed the Star Trek will go from.
+
+106
+00:07:00,980 --> 00:07:05,550
+Let me close to start column, and it will go till the end column.
+
+107
+00:07:06,360 --> 00:07:10,260
+And we will do column plus plus, though here we can write.
+
+108
+00:07:11,650 --> 00:07:19,030
+The old adage of Dietro and the columnist ending that always fixed the column is changing, that's what
+
+109
+00:07:19,030 --> 00:07:19,360
+we do.
+
+110
+00:07:19,870 --> 00:07:22,510
+And this completes the printing of.
+
+111
+00:07:26,450 --> 00:07:31,010
+Yeah, so this this part, we will feel a little later on.
+
+112
+00:07:31,760 --> 00:07:36,050
+And then what we can do, we can say, let us bring.
+
+113
+00:07:38,290 --> 00:07:39,010
+This column.
+
+114
+00:07:39,100 --> 00:07:42,940
+OK, so what we are done, we have printed this rule from here to here.
+
+115
+00:07:43,480 --> 00:07:50,680
+Now we want to print this column, which we should start from start row plus one bill, Andrew.
+
+116
+00:07:51,130 --> 00:07:53,710
+OK, so surplus one billion.
+
+117
+00:07:54,190 --> 00:08:00,430
+And this column is and column, so we need to fix the column so we can see who is going to change.
+
+118
+00:08:02,120 --> 00:08:13,550
+The Ford and Raicaldo starter last one row less than equal to Andrew Ajio plus plus and began to see
+
+119
+00:08:13,560 --> 00:08:15,260
+out Eddie off.
+
+120
+00:08:17,130 --> 00:08:25,030
+Rule and end column, so and columnist fixed it, always changing, and we are done.
+
+121
+00:08:25,540 --> 00:08:28,120
+Now we need to print this part of the city.
+
+122
+00:08:28,780 --> 00:08:34,090
+We are going to start from Angola minus one and we are going to go to start to start column.
+
+123
+00:08:34,300 --> 00:08:34,600
+OK.
+
+124
+00:08:35,290 --> 00:08:39,070
+This is what we are going to do and we will change.
+
+125
+00:08:39,790 --> 00:08:41,320
+So so the column will change.
+
+126
+00:08:42,010 --> 00:08:50,650
+So we are going to print the Andrew Bell and heroic Aldo Sartre study and column minus one.
+
+127
+00:08:51,250 --> 00:08:51,820
+And.
+
+128
+00:08:57,550 --> 00:09:04,210
+No, sorry, we are bringing the end Russo column is going to change, so for column called.
+
+129
+00:09:05,360 --> 00:09:10,730
+And column minus one and column is greater than equal to start column.
+
+130
+00:09:11,240 --> 00:09:13,100
+We are going to do column minus minus.
+
+131
+00:09:14,200 --> 00:09:18,250
+And we can see the old adage of.
+
+132
+00:09:22,950 --> 00:09:25,140
+Andrew and the column.
+
+133
+00:09:25,500 --> 00:09:29,070
+That's it, and then we are going to print this part of the.
+
+134
+00:09:30,680 --> 00:09:34,400
+So this part is going from here to here.
+
+135
+00:09:35,030 --> 00:09:35,510
+Let's see.
+
+136
+00:09:36,210 --> 00:09:46,600
+So it is the starting column that will start from Roll Call to Andrew minus one and roll greater than
+
+137
+00:09:46,610 --> 00:09:50,900
+equal to start row last one American zero minus one.
+
+138
+00:09:52,060 --> 00:09:59,230
+So here we can see sealed area off the door and the start column.
+
+139
+00:10:02,460 --> 00:10:03,000
+That's it.
+
+140
+00:10:03,330 --> 00:10:09,660
+And now we need to update these variables so that they point to the inert Biden.
+
+141
+00:10:10,260 --> 00:10:16,200
+So update the variables to point to energy, Biden.
+
+142
+00:10:16,770 --> 00:10:18,720
+Everything will change where value of one.
+
+143
+00:10:19,410 --> 00:10:20,310
+So we need to.
+
+144
+00:10:21,950 --> 00:10:27,770
+Increment the starter, we need to decrement the Andrew, we need to increment the start column and
+
+145
+00:10:27,770 --> 00:10:31,240
+we need to decrement the end goal right now.
+
+146
+00:10:31,250 --> 00:10:34,160
+The code may say complete, but it is not complete yet.
+
+147
+00:10:34,610 --> 00:10:36,600
+We are left with two things.
+
+148
+00:10:36,620 --> 00:10:37,820
+One is this condition.
+
+149
+00:10:38,510 --> 00:10:40,310
+So when should we stop?
+
+150
+00:10:40,490 --> 00:10:40,790
+OK.
+
+151
+00:10:41,900 --> 00:10:43,400
+This is an important question.
+
+152
+00:10:44,000 --> 00:10:45,080
+When should we stop?
+
+153
+00:10:45,590 --> 00:10:50,540
+So we should stop when these variables are gone.
+
+154
+00:10:51,140 --> 00:10:53,540
+Let's say we have five number of columns.
+
+155
+00:10:53,660 --> 00:10:54,710
+OK, let's see.
+
+156
+00:10:57,180 --> 00:11:02,910
+And now what will happen is after two alterations in the secondary iteration, the column star column,
+
+157
+00:11:02,910 --> 00:11:04,410
+is it the end column?
+
+158
+00:11:04,410 --> 00:11:04,740
+Is it?
+
+159
+00:11:05,190 --> 00:11:10,890
+And after the desired direction is done due to the update condition that we have written it, what is
+
+160
+00:11:10,890 --> 00:11:11,640
+going to happen?
+
+161
+00:11:12,000 --> 00:11:12,810
+It is going to happen.
+
+162
+00:11:12,810 --> 00:11:16,080
+Both of both Start Coleman and Column will point to this one.
+
+163
+00:11:16,350 --> 00:11:21,990
+Both of them, that column and the column will point it if they write a condition like this.
+
+164
+00:11:22,170 --> 00:11:28,080
+If that column is less then and column, then this column will never get printed.
+
+165
+00:11:28,170 --> 00:11:28,500
+OK.
+
+166
+00:11:29,160 --> 00:11:30,450
+What if I write this condition?
+
+167
+00:11:30,450 --> 00:11:38,160
+If that column is less than equal one column, then this column may get printed twice way once it may
+
+168
+00:11:38,160 --> 00:11:44,130
+get printed while going from top to bottom in this direction, and another name would make it printed
+
+169
+00:11:44,130 --> 00:11:44,910
+in this direction.
+
+170
+00:11:44,940 --> 00:11:47,250
+OK, so it may get repeated as well.
+
+171
+00:11:47,850 --> 00:11:53,910
+So in both cases, there is a certain problem which needs to be fixed, but we definitely want to print
+
+172
+00:11:53,910 --> 00:11:54,630
+this column.
+
+173
+00:11:54,840 --> 00:11:55,170
+OK?
+
+174
+00:11:55,860 --> 00:12:00,870
+And but the problem is what we can do is to avoid double printing.
+
+175
+00:12:00,870 --> 00:12:03,510
+So first time it is going to print in this direction.
+
+176
+00:12:03,510 --> 00:12:05,550
+So we have when we are doing from top to bottom.
+
+177
+00:12:06,240 --> 00:12:07,710
+This will definitely get printed.
+
+178
+00:12:07,980 --> 00:12:17,070
+But what we can do is here, we can put a check that if we don't print this column again, then we are
+
+179
+00:12:17,070 --> 00:12:18,960
+going from bottom to top.
+
+180
+00:12:18,990 --> 00:12:19,290
+OK.
+
+181
+00:12:19,620 --> 00:12:23,280
+So for this, what we can do, we can actually put a brake statement.
+
+182
+00:12:23,280 --> 00:12:25,740
+We can check if that column.
+
+183
+00:12:26,960 --> 00:12:28,670
+Is equal to and column.
+
+184
+00:12:29,450 --> 00:12:31,040
+Then we can break this loop.
+
+185
+00:12:31,650 --> 00:12:39,770
+This will actually avoid duplicate printing of elements, avoid duplicate printing of elements.
+
+186
+00:12:40,220 --> 00:12:42,720
+The same thing is valid for roads as well.
+
+187
+00:12:42,830 --> 00:12:43,400
+So.
+
+188
+00:12:44,520 --> 00:12:50,760
+It may happen that the number of rows is less than the number of columns, OK, so what we want is,
+
+189
+00:12:50,760 --> 00:12:52,740
+let's say we have.
+
+190
+00:12:53,900 --> 00:12:55,690
+Rigorous five metrics.
+
+191
+00:12:55,900 --> 00:13:02,020
+We have a large number of rules, but we have less number of rules, but we have more number of columns
+
+192
+00:13:02,470 --> 00:13:06,820
+in this case, the columns will convert late, the rules will convert early.
+
+193
+00:13:06,820 --> 00:13:07,150
+OK?
+
+194
+00:13:07,600 --> 00:13:12,310
+We also need to stop if you have finished either the number of rows or the number of columns.
+
+195
+00:13:12,730 --> 00:13:15,740
+If one of them is finished, then we should stop printing.
+
+196
+00:13:15,910 --> 00:13:20,980
+So you print this rule, then you print digital, then would start and end broken to hit.
+
+197
+00:13:21,280 --> 00:13:24,820
+And we do not want duplicate printing at this particular rule.
+
+198
+00:13:24,850 --> 00:13:27,040
+OK, so same thing will happen for the rule as well.
+
+199
+00:13:27,760 --> 00:13:32,950
+So while you have the number of rules and you have the number of columns only, then you should print
+
+200
+00:13:32,990 --> 00:13:33,370
+elements.
+
+201
+00:13:33,370 --> 00:13:35,350
+So we would modify this condition.
+
+202
+00:13:35,830 --> 00:13:44,950
+While this third column is less than equal to and column, and this title is less than equal to Andrew.
+
+203
+00:13:45,250 --> 00:13:51,640
+Only then we should bring the number of elements because if and are different, then the value of it
+
+204
+00:13:51,640 --> 00:13:52,210
+is smaller.
+
+205
+00:13:52,240 --> 00:13:53,320
+That is, the number of rows.
+
+206
+00:13:53,320 --> 00:13:55,540
+If it is smaller, then it will convert first.
+
+207
+00:13:56,140 --> 00:13:58,950
+If the number of columns is smaller, then it will convert first.
+
+208
+00:13:58,960 --> 00:14:05,050
+So we should also put an addition here if DIETRO becomes equal to Andrew.
+
+209
+00:14:05,500 --> 00:14:07,390
+Then we don't want duplicate printing.
+
+210
+00:14:07,390 --> 00:14:09,500
+We should break this loop.
+
+211
+00:14:09,730 --> 00:14:10,060
+OK.
+
+212
+00:14:10,930 --> 00:14:15,790
+And I think we are done now and we can now test our code.
+
+213
+00:14:17,540 --> 00:14:21,590
+So this was a corner case, and it was a little tricky, I guess.
+
+214
+00:14:22,040 --> 00:14:28,820
+But if you think if you try to visualize what is happening is, let's say you have a large number of
+
+215
+00:14:30,230 --> 00:14:34,550
+your less number of rows where you have more number of columns than you will bring this row.
+
+216
+00:14:34,610 --> 00:14:38,600
+This column, this through this through this row and both.
+
+217
+00:14:39,600 --> 00:14:40,620
+Will come in this room.
+
+218
+00:14:40,650 --> 00:14:46,980
+So one will try to print like this and other will try to print like this, where the elements are saying
+
+219
+00:14:47,010 --> 00:14:50,550
+they will get repeated, OK, if we don't put this particular condition.
+
+220
+00:14:51,330 --> 00:14:57,240
+So this this is going to happen when the value of photos is art or the number of columns is.
+
+221
+00:14:58,350 --> 00:15:03,480
+So we will also try to run it for our number of rows and columns as well.
+
+222
+00:15:04,320 --> 00:15:06,120
+But yeah, so.
+
+223
+00:15:07,600 --> 00:15:12,040
+Let's let's run this code, so we have dot dot slash spiral print.
+
+224
+00:15:20,040 --> 00:15:23,190
+OK, we forgot to call the function spiral print.
+
+225
+00:15:25,790 --> 00:15:27,140
+OK, this is Brent only.
+
+226
+00:15:28,460 --> 00:15:31,350
+So we can see a print error and we give.
+
+227
+00:15:32,610 --> 00:15:34,320
+Water and food and.
+
+228
+00:15:40,620 --> 00:15:43,440
+OK, we should also give us base.
+
+229
+00:15:45,560 --> 00:15:46,850
+Between every element.
+
+230
+00:15:50,630 --> 00:15:55,130
+So that it looks a little nice and we can verify our output as well.
+
+231
+00:15:58,720 --> 00:16:05,130
+So we are getting one two three four five six seven eight nine, 10, 11, 12, 13, 14, 15, 16.
+
+232
+00:16:05,880 --> 00:16:11,130
+If you go through this one two three four five six seven eight nine 10, 11, 12, 13, 14, 15 16.
+
+233
+00:16:11,700 --> 00:16:17,820
+That window record is working perfectly fine, and I hope you really understood this logic.
+
+234
+00:16:18,300 --> 00:16:20,040
+And that's all for this lecture.

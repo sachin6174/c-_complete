@@ -1,0 +1,307 @@
+1
+00:00:01,860 --> 00:00:07,410
+Everyone in this lecture, we're going to discuss a problem in which we had given it already and this
+
+2
+00:00:07,410 --> 00:00:12,150
+to is sorted along the rows, and it is also sorted along the columns.
+
+3
+00:00:12,630 --> 00:00:15,600
+And what we want is we want to search for an element.
+
+4
+00:00:17,700 --> 00:00:23,260
+That is given, OK, so basically, we want to do some kind of searching on this building matrix.
+
+5
+00:00:23,300 --> 00:00:26,340
+So let's see this example and we have this tool, the matrix.
+
+6
+00:00:26,730 --> 00:00:31,110
+And let's say someone is maybe you want to search for an element 33.
+
+7
+00:00:32,190 --> 00:00:33,640
+Maybe you want to search for an element.
+
+8
+00:00:33,660 --> 00:00:35,700
+Twenty nine, how you are going to do it.
+
+9
+00:00:36,250 --> 00:00:38,280
+So we are going to discuss multiple approaches.
+
+10
+00:00:38,460 --> 00:00:45,150
+The first approach is a brute force approach in which we can simply iterate over the entirety robledo
+
+11
+00:00:45,150 --> 00:00:47,550
+or column by column and begin to look.
+
+12
+00:00:48,030 --> 00:00:53,190
+This is where this particular element is president, because that is going to take an interim name.
+
+13
+00:00:53,910 --> 00:00:57,360
+So we are going to traverse the entire matrix.
+
+14
+00:00:57,550 --> 00:01:04,080
+So this is nothing but a linear search on it already, and this will be a brute force technique that
+
+15
+00:01:04,110 --> 00:01:04,740
+Ken would be.
+
+16
+00:01:05,230 --> 00:01:08,010
+Daniel, do something of this sorted property.
+
+17
+00:01:08,010 --> 00:01:10,350
+We are not using this information that is sorted.
+
+18
+00:01:10,800 --> 00:01:13,290
+Can we think of something using sorting?
+
+19
+00:01:14,070 --> 00:01:14,850
+So let's see.
+
+20
+00:01:15,750 --> 00:01:19,470
+We had learned that we can use binary search on coordinates.
+
+21
+00:01:19,770 --> 00:01:27,720
+OK, so what we can do is we can say, OK, why not do binary search on each little on each row what
+
+22
+00:01:27,720 --> 00:01:28,090
+we can do?
+
+23
+00:01:28,140 --> 00:01:32,390
+We can say, OK, we can do a binary search.
+
+24
+00:01:32,400 --> 00:01:37,650
+OK, so maybe we do binary searching that is going to take log of him time.
+
+25
+00:01:38,160 --> 00:01:39,630
+And we have a number of rows.
+
+26
+00:01:39,630 --> 00:01:41,490
+We can do binary search on all the rows.
+
+27
+00:01:42,240 --> 00:01:47,220
+And in the worst case, it is going to take all that off and then do log of empty OK because binary
+
+28
+00:01:47,220 --> 00:01:49,950
+search takes logarithmic time complexity.
+
+29
+00:01:50,220 --> 00:01:51,210
+So this is another way.
+
+30
+00:01:51,630 --> 00:01:53,480
+But can we still do something better?
+
+31
+00:01:53,520 --> 00:01:59,940
+There is still some information that is present in this ocean, and we are not using it to get this
+
+32
+00:01:59,940 --> 00:02:00,330
+binary.
+
+33
+00:02:00,330 --> 00:02:03,390
+That would still work if the edit was not column by sorted.
+
+34
+00:02:03,390 --> 00:02:08,370
+OK, because we are not using this information, the error is all sorted across the columns.
+
+35
+00:02:08,790 --> 00:02:09,030
+OK.
+
+36
+00:02:09,240 --> 00:02:15,750
+So every problem you have to carefully analyze what information is given on how you can exploit it.
+
+37
+00:02:15,750 --> 00:02:19,350
+In the first method, we did not use this information that is sorted.
+
+38
+00:02:19,920 --> 00:02:21,720
+But when we use, the error is sorted.
+
+39
+00:02:21,870 --> 00:02:24,060
+We came up with a binary search idea.
+
+40
+00:02:24,540 --> 00:02:29,670
+But in this binary, totally just assuming that rows are sorted on the column that also started.
+
+41
+00:02:29,670 --> 00:02:35,580
+So can we think of something using which we can still reduce the complexity of the search?
+
+42
+00:02:35,580 --> 00:02:35,830
+OK?
+
+43
+00:02:36,270 --> 00:02:41,940
+So maybe what we can do, maybe I'll say, let me start with this element then, and I want to find
+
+44
+00:02:41,940 --> 00:02:45,540
+an element 33 in which direction should I go?
+
+45
+00:02:46,690 --> 00:02:48,840
+And that is not very clear, because if you go right?
+
+46
+00:02:49,910 --> 00:02:57,080
+OK, so you want to move towards a bigger element are the 33 from 10, if you go right, the date is
+
+47
+00:02:57,080 --> 00:02:57,610
+increasing.
+
+48
+00:02:57,620 --> 00:02:59,060
+If you go down there, it is.
+
+49
+00:02:59,060 --> 00:03:00,560
+Increasingly it is very confusing.
+
+50
+00:03:00,560 --> 00:03:02,390
+We cannot start from this point, OK?
+
+51
+00:03:02,780 --> 00:03:08,600
+But if you look at this point or this gardener, one of these, any one of these you can pick.
+
+52
+00:03:09,380 --> 00:03:15,800
+If you look at this point and you know, we are at 40 and we want to look for an element that is 33.
+
+53
+00:03:16,340 --> 00:03:18,890
+That means 33 is going to be smaller than 40.
+
+54
+00:03:19,220 --> 00:03:19,520
+OK.
+
+55
+00:03:20,000 --> 00:03:25,850
+So what we can do is we can move in this direction from this if you move left.
+
+56
+00:03:26,030 --> 00:03:29,400
+The data is going to decrease if you move down.
+
+57
+00:03:29,420 --> 00:03:32,880
+The data is going to increase in which direction should be moved.
+
+58
+00:03:32,960 --> 00:03:37,100
+We should move left because we want to find it an element 33.
+
+59
+00:03:37,640 --> 00:03:40,850
+Now we're at 30 and we want to find an element 33.
+
+60
+00:03:41,510 --> 00:03:47,960
+If you go one step left that it is going to decrease, so you will go one step down.
+
+61
+00:03:48,230 --> 00:03:48,530
+OK.
+
+62
+00:03:48,890 --> 00:03:51,950
+So at 34, you will see where should I go now?
+
+63
+00:03:52,070 --> 00:03:56,550
+You should go left because 33 is smaller than 35.
+
+64
+00:03:56,570 --> 00:04:01,880
+So you go ahead at 25, you want to go to 33, so you should go down.
+
+65
+00:04:02,060 --> 00:04:09,020
+So you come here at 29, you again want to increase your value so you will go down and you will end
+
+66
+00:04:09,020 --> 00:04:10,010
+up at 33.
+
+67
+00:04:10,040 --> 00:04:11,300
+So this was the key element.
+
+68
+00:04:11,820 --> 00:04:15,680
+And now we're able to figure it out in just a traversal like this.
+
+69
+00:04:16,160 --> 00:04:16,430
+OK.
+
+70
+00:04:16,640 --> 00:04:19,370
+So what is the worst case for this?
+
+71
+00:04:19,550 --> 00:04:28,010
+So we we can say in the worst case, we are traversing one row and one column, OK, so that means from
+
+72
+00:04:28,010 --> 00:04:31,850
+a quadratic complexity, we have reduced our complexity to linear.
+
+73
+00:04:32,450 --> 00:04:34,670
+We can solve this problem in order often.
+
+74
+00:04:35,680 --> 00:04:43,570
+And since this forms a kind of a staircase, but this algorithm is also known as staircase search.
+
+75
+00:04:43,670 --> 00:04:43,970
+OK.
+
+76
+00:04:44,400 --> 00:04:48,340
+I hope this idea of staircase search is clear on what they want.
+
+77
+00:04:48,350 --> 00:04:53,930
+As you try to implement this idea in your code and in the next lecture, I will show you the solution.

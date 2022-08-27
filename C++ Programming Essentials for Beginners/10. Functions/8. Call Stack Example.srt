@@ -1,0 +1,163 @@
+1
+00:00:00,870 --> 00:00:06,630
+Hello, once in this video, we'll see how the gold stock actually works in this example, where we
+
+2
+00:00:06,630 --> 00:00:13,560
+are computing the binomial option to give the first of all the first function to get a call is mean
+
+3
+00:00:13,890 --> 00:00:15,600
+and it is called automatically right.
+
+4
+00:00:17,380 --> 00:00:19,420
+So what happens in the coal stock?
+
+5
+00:00:19,570 --> 00:00:21,430
+We have the main function.
+
+6
+00:00:23,340 --> 00:00:30,060
+And now are calling the function by normal goldfish, and OK, so this gets pushed in the mean because
+
+7
+00:00:30,060 --> 00:00:32,010
+a new call is happening and this line.
+
+8
+00:00:33,890 --> 00:00:39,740
+Now it is going to call three functions, okay, so it calls affect all function with the value of and
+
+9
+00:00:39,740 --> 00:00:44,310
+let's say we are computing five, we do it compute and victory.
+
+10
+00:00:44,310 --> 00:00:46,640
+The first that is victory love five.
+
+11
+00:00:47,720 --> 00:00:48,500
+And what happens.
+
+12
+00:00:49,190 --> 00:00:55,410
+This returns some value back to the mean and it says, OK, my onto this one 20 and this gets this call.
+
+13
+00:00:56,000 --> 00:00:59,210
+OK, that means this memory gets destroyed.
+
+14
+00:01:01,230 --> 00:01:04,080
+But on the stock to this, this date is achieved.
+
+15
+00:01:04,180 --> 00:01:07,560
+Now what is the function that is executing this function is at the top.
+
+16
+00:01:07,680 --> 00:01:09,450
+And this is the one that is executing.
+
+17
+00:01:10,110 --> 00:01:13,770
+I would make the call for victory love and minus odd because it says.
+
+18
+00:01:16,290 --> 00:01:20,820
+Let's compute the value of actually love and minus five, minus two.
+
+19
+00:01:21,120 --> 00:01:22,800
+It makes a call to factor of three.
+
+20
+00:01:23,970 --> 00:01:27,480
+It does some configuration, it returns some value back to this function.
+
+21
+00:01:27,810 --> 00:01:28,110
+OK.
+
+22
+00:01:28,680 --> 00:01:31,020
+And this also gets over from the stock.
+
+23
+00:01:31,230 --> 00:01:32,820
+This all took it now again.
+
+24
+00:01:33,300 --> 00:01:35,940
+What is the function that is executing this function?
+
+25
+00:01:36,450 --> 00:01:42,030
+And now in this line, we are at this point, it again makes a function called again vector.
+
+26
+00:01:42,030 --> 00:01:43,800
+11th-Gen gets created in the stock.
+
+27
+00:01:44,070 --> 00:01:45,870
+It executes all this code.
+
+28
+00:01:45,870 --> 00:01:50,640
+It computes summons, which is vector love to, and it returns something back.
+
+29
+00:01:50,640 --> 00:01:54,470
+That is the only factor left to is due to what happens.
+
+30
+00:01:54,480 --> 00:01:56,460
+It also gets bobde from the stock.
+
+31
+00:01:56,820 --> 00:01:57,840
+It gets removed.
+
+32
+00:01:58,950 --> 00:02:00,000
+Now we are in this function.
+
+33
+00:02:00,090 --> 00:02:06,240
+We know that Vector Lo-Fi was 120 divided by three vector, and that was six divided by two.
+
+34
+00:02:07,140 --> 00:02:10,100
+This under comes out with 10 and unanswered redundancies.
+
+35
+00:02:10,140 --> 00:02:15,720
+This, then, is a returned back to the mean, and this is also destroyed from the memory.
+
+36
+00:02:15,720 --> 00:02:15,990
+OK?
+
+37
+00:02:16,560 --> 00:02:20,260
+This is how the function calls are actually happening in the stock.
+
+38
+00:02:20,280 --> 00:02:21,690
+Then you have multiple calls.
+
+39
+00:02:22,470 --> 00:02:30,390
+This diagram illustrates the process of having the stock calls, and I hope this example made the concept
+
+40
+00:02:30,480 --> 00:02:31,170
+more clear.
+
+41
+00:02:31,200 --> 00:02:32,610
+And that's all for this video.

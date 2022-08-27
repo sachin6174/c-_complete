@@ -1,0 +1,223 @@
+1
+00:00:01,050 --> 00:00:05,700
+Hello, everyone's in this lecture, we're going to talk about conditional statements, so conditional
+
+2
+00:00:05,700 --> 00:00:11,050
+statements are required when you want to execute some code based on a certain condition, OK?
+
+3
+00:00:11,610 --> 00:00:14,760
+For example, you want to go out and you want to dig in.
+
+4
+00:00:14,760 --> 00:00:22,620
+And if the weather is rainy or you want to go out and you want to dig sunglasses if the weather is a
+
+5
+00:00:22,620 --> 00:00:23,100
+sunny day.
+
+6
+00:00:23,940 --> 00:00:26,490
+The best ones are environment variables.
+
+7
+00:00:26,860 --> 00:00:28,620
+You want to do some actions, OK?
+
+8
+00:00:29,130 --> 00:00:35,010
+So for that, in every programming language, we have a concept of a if block.
+
+9
+00:00:35,130 --> 00:00:35,430
+OK.
+
+10
+00:00:36,000 --> 00:00:42,270
+So what we are going to do, we are going to say OK will define our condition that evaluates the bullet.
+
+11
+00:00:42,270 --> 00:00:49,800
+For example, we said, OK, the marks is 90, and if Marks is greater than 80, then we will do some
+
+12
+00:00:49,800 --> 00:00:50,040
+work.
+
+13
+00:00:50,050 --> 00:00:51,820
+We will print, let's party.
+
+14
+00:00:51,820 --> 00:00:54,810
+We having to do a bite if we get more than 80 marks.
+
+15
+00:00:55,390 --> 00:00:59,300
+So this is a condition that evaluates tubulin.
+
+16
+00:00:59,310 --> 00:01:06,120
+OK, so this is an expression that gives gives us the value to it can also give false.
+
+17
+00:01:06,510 --> 00:01:13,500
+So if it gives false, then the corresponding block of code, OK, this block of code, this will not
+
+18
+00:01:13,500 --> 00:01:14,460
+get executed, OK?
+
+19
+00:01:14,700 --> 00:01:18,330
+So you can have one or more lines inside the f block.
+
+20
+00:01:18,750 --> 00:01:23,880
+So let me show you in a good night how you're going to execute this code.
+
+21
+00:01:24,360 --> 00:01:32,490
+So maybe what I can do, I can see ink marks and I will take input the marks from the user and if marks
+
+22
+00:01:32,490 --> 00:01:33,480
+greater than 80.
+
+23
+00:01:34,050 --> 00:01:35,790
+OK, so I will print.
+
+24
+00:01:36,630 --> 00:01:40,480
+Let's party and see out.
+
+25
+00:01:40,650 --> 00:01:42,180
+Yeah, something like that.
+
+26
+00:01:44,280 --> 00:01:47,190
+So we are actually executing two lines of code, right?
+
+27
+00:01:48,480 --> 00:01:50,650
+So, OK, that's very good.
+
+28
+00:01:51,300 --> 00:01:52,800
+I let it out as well.
+
+29
+00:01:53,460 --> 00:01:57,180
+So I can say da slash if demo.
+
+30
+00:01:58,200 --> 00:02:00,120
+So it is waiting for the input.
+
+31
+00:02:00,120 --> 00:02:05,520
+I can say, OK, I got 92 marks, so it says, let's party on you now.
+
+32
+00:02:05,850 --> 00:02:07,800
+One more thing I want to inform you here.
+
+33
+00:02:08,070 --> 00:02:18,240
+If you have if you don't want to put this block, then this gold will still get compiled on a vote on
+
+34
+00:02:18,240 --> 00:02:18,690
+this code.
+
+35
+00:02:18,960 --> 00:02:25,240
+And if I get something like 70 now, you can see you're getting the output right.
+
+36
+00:02:25,260 --> 00:02:26,520
+So what actually happens?
+
+37
+00:02:26,730 --> 00:02:29,130
+What happens if you don't put curly brackets?
+
+38
+00:02:29,790 --> 00:02:32,460
+So basically, what happens if you don't put curly brackets?
+
+39
+00:02:32,880 --> 00:02:37,180
+So by default, one line of code, it is included with the f block.
+
+40
+00:02:37,200 --> 00:02:46,020
+OK, so if you don't put curly brackets, then this statement is assumed to be inside the block and
+
+41
+00:02:46,020 --> 00:02:48,630
+anything that is written outside it.
+
+42
+00:02:49,050 --> 00:02:49,320
+OK.
+
+43
+00:02:49,440 --> 00:02:51,540
+That is the second line or the third line.
+
+44
+00:02:51,960 --> 00:02:54,290
+It is assumed that it is outside the f block.
+
+45
+00:02:54,300 --> 00:02:58,180
+OK, so this line will always get executed.
+
+46
+00:02:58,560 --> 00:03:06,150
+What we saw is when we give a value of marks, that is 70, the second line of code always got executed.
+
+47
+00:03:06,150 --> 00:03:14,400
+OK, so this code or if you have more lines of code code always executed both these lines?
+
+48
+00:03:14,610 --> 00:03:18,220
+Yeah, and always executed this output.
+
+49
+00:03:18,240 --> 00:03:25,470
+You will always get printed irrespective of what is inside your inside the f block like arms so you
+
+50
+00:03:25,470 --> 00:03:25,800
+can keep.
+
+51
+00:03:25,810 --> 00:03:28,050
+These two lines are always getting executed.
+
+52
+00:03:28,500 --> 00:03:30,600
+So that means if you have.
+
+53
+00:03:32,030 --> 00:03:38,690
+A work that is a single instrument statement inside the block, you can skip working locally brackets,
+
+54
+00:03:38,690 --> 00:03:44,730
+but I would still recommend you do in these brackets because they are more clarity.
+
+55
+00:03:44,730 --> 00:03:48,350
+You get what you are trying to do inside the f block.
+
+56
+00:03:48,830 --> 00:03:53,510
+That's about half block in the next video I will teach you about the block.

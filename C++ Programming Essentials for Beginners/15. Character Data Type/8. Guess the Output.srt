@@ -1,0 +1,199 @@
+1
+00:00:01,400 --> 00:00:05,340
+Everyone, so in this, we do have a small video quiz for you.
+
+2
+00:00:05,630 --> 00:00:09,860
+And the question is, you have to guess the outputs I will type in some good on.
+
+3
+00:00:09,860 --> 00:00:13,160
+You need to tell me what the output is going to be, OK?
+
+4
+00:00:13,610 --> 00:00:18,260
+The one thing we're going to do, we are going to do C out C C-H plus one.
+
+5
+00:00:19,250 --> 00:00:19,610
+OK.
+
+6
+00:00:19,760 --> 00:00:26,300
+So, you know, tell me what line number nine is going to print and then I'm going to do C equals c
+
+7
+00:00:26,300 --> 00:00:27,230
+h plus one.
+
+8
+00:00:27,890 --> 00:00:30,830
+And then I'm going to print cottage.
+
+9
+00:00:31,640 --> 00:00:31,970
+OK.
+
+10
+00:00:32,180 --> 00:00:34,580
+That is the second thing you need to tell me.
+
+11
+00:00:35,270 --> 00:00:43,910
+I'm going to build the code, the positive you do it and think, how line number nine is it same as
+
+12
+00:00:44,450 --> 00:00:45,320
+line number 10?
+
+13
+00:00:45,320 --> 00:00:50,390
+Will they produce a different output or will they produce the output?
+
+14
+00:00:50,570 --> 00:00:52,220
+So just by this, we do anything.
+
+15
+00:00:52,250 --> 00:00:52,520
+OK?
+
+16
+00:00:53,360 --> 00:00:59,380
+And now I'm going to discuss the solution, so we know that C it equals it.
+
+17
+00:00:59,390 --> 00:01:02,510
+So is actually stored as the number sixty five.
+
+18
+00:01:03,480 --> 00:01:05,910
+That is what is actually stored inside the memory.
+
+19
+00:01:06,600 --> 00:01:14,760
+And when I'm going to run this school, this line will produce 5:54 and this line will actually produce
+
+20
+00:01:14,760 --> 00:01:16,350
+the number, be it.
+
+21
+00:01:16,680 --> 00:01:22,830
+And let me show you why and how this is happening and why it is true.
+
+22
+00:01:23,350 --> 00:01:26,310
+Maybe the Eiglarsh gets the output.
+
+23
+00:01:27,090 --> 00:01:34,620
+And yes, you can see the output is 66 and be, as I said, and the watching is why, why it is.
+
+24
+00:01:34,620 --> 00:01:43,050
+So let us look at line number nine right at this line, we are doing an Operation C-H plus one to see
+
+25
+00:01:43,050 --> 00:01:51,590
+it is as stored as 65 and we are adding this God with in trade.
+
+26
+00:01:52,040 --> 00:02:00,510
+So it is actually a higher rate as compared to got any operation you do of a lower rate.
+
+27
+00:02:00,510 --> 00:02:08,160
+With the higher rate, it will get converted into a higher rate and also the plus operator.
+
+28
+00:02:09,180 --> 00:02:15,630
+This is a mathematical operator, so it will assume the numbers are indeed doing this operation, it's
+
+29
+00:02:15,630 --> 00:02:25,070
+going to produce an integer and CO2 does not know CO2 only sees this thing as indeed it does not look,
+
+30
+00:02:25,080 --> 00:02:26,000
+there was a character.
+
+31
+00:02:26,250 --> 00:02:33,770
+It was dead, but before the addition, OK, after the addition happened, this is actually an integer.
+
+32
+00:02:33,780 --> 00:02:40,440
+Since it represents the numbers, 65 zero plus one would be printed as an integer that is 66.
+
+33
+00:02:41,160 --> 00:02:41,600
+All right.
+
+34
+00:02:42,210 --> 00:02:43,890
+Now let's look at line number 10.
+
+35
+00:02:43,890 --> 00:02:46,950
+So we are doing the eight equals CSI Plus one.
+
+36
+00:02:47,620 --> 00:02:54,040
+So here also it is an integer, but now we're putting it back inside a data type.
+
+37
+00:02:55,410 --> 00:02:56,730
+That is Scott.
+
+38
+00:02:56,760 --> 00:02:57,060
+OK.
+
+39
+00:02:57,540 --> 00:03:00,120
+That means now we have the number 66.
+
+40
+00:03:01,180 --> 00:03:03,550
+That is stored in a guard type of bucket.
+
+41
+00:03:04,000 --> 00:03:09,670
+And here we are seeing the old catch, the old will look at what value is this?
+
+42
+00:03:09,820 --> 00:03:15,410
+Of course, this will lose 5:54 but it is also going to look at what is a rip off.
+
+43
+00:03:15,430 --> 00:03:15,970
+See it.
+
+44
+00:03:16,420 --> 00:03:18,100
+See, it is still look at OK.
+
+45
+00:03:18,640 --> 00:03:27,340
+That is why this number will not be displayed as 66, but it will be displayed as I hope you found this
+
+46
+00:03:27,520 --> 00:03:34,150
+pretty interesting and you also got to learn a concept that adding an integer with a character leads
+
+47
+00:03:34,150 --> 00:03:34,840
+to an integer.
+
+48
+00:03:35,230 --> 00:03:42,040
+And if you put it back inside a but that would be printed as a character because the edge looks at the
+
+49
+00:03:42,040 --> 00:03:48,690
+data type of the number or the value that is we are getting, we had that we are going to print, OK.
+
+50
+00:03:49,390 --> 00:03:51,250
+I hope that's clear to you now.

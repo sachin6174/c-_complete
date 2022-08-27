@@ -1,0 +1,135 @@
+1
+00:00:01,400 --> 00:00:06,980
+Everyone's in this example, I'm going to show you that would the for loop and the Loop, they are equal
+
+2
+00:00:06,980 --> 00:00:07,400
+and OK.
+
+3
+00:00:08,030 --> 00:00:16,400
+So what we discussed in white Dindo, while Loop has some condition, then we have the body of the loop
+
+4
+00:00:16,400 --> 00:00:21,350
+and we're we have an update condition and in the beginning, we have some initial vision condition.
+
+5
+00:00:22,250 --> 00:00:29,600
+Now, if I want to write this for loop in a similar manner, what I can do, I can also declare galleries
+
+6
+00:00:29,600 --> 00:00:33,620
+outside the loop and I can initialize it with some value.
+
+7
+00:00:34,170 --> 00:00:39,350
+And this is also valid and this code will run as expected.
+
+8
+00:00:39,710 --> 00:00:48,110
+OK, so it is running as expected and what what you can see here is not giving this statement is actually
+
+9
+00:00:48,110 --> 00:00:48,500
+optional.
+
+10
+00:00:48,500 --> 00:00:50,270
+You can give it outside the loop as well.
+
+11
+00:00:50,870 --> 00:00:52,070
+You can give it here as well.
+
+12
+00:00:52,600 --> 00:00:57,470
+Similarly, this update, OK, you can apply this update it as well.
+
+13
+00:00:58,580 --> 00:01:05,210
+And now, if you look carefully at this index, the initial condition, a stopping criteria.
+
+14
+00:01:05,540 --> 00:01:05,840
+OK.
+
+15
+00:01:06,800 --> 00:01:13,420
+We are putting these goals because they help compiling all this is the stopping criteria.
+
+16
+00:01:13,430 --> 00:01:15,320
+This is not some initially conditional.
+
+17
+00:01:15,320 --> 00:01:16,850
+This is not the upgrade condition.
+
+18
+00:01:17,510 --> 00:01:24,410
+So these semicolons are still needed, although we are leaving these statements and as blank will get.
+
+19
+00:01:25,730 --> 00:01:28,310
+And here we do the work, and here we have doubled it.
+
+20
+00:01:28,340 --> 00:01:31,880
+Now you can see this for a loop is exactly behaving like a balloon.
+
+21
+00:01:32,000 --> 00:01:38,510
+So we have compiled the code and we are trying to run it so we can say, OK, again, this is running
+
+22
+00:01:39,020 --> 00:01:44,450
+as expected, and now you can see this is very similar to the structure of the loop.
+
+23
+00:01:45,170 --> 00:01:48,230
+And one more thing I can tell you is even this part is.
+
+24
+00:01:49,830 --> 00:01:54,630
+Optional, but what would happen in this case, you will end up in the infinite loop.
+
+25
+00:01:54,840 --> 00:01:58,110
+But maybe what you can do, you can break the loop from inside.
+
+26
+00:01:58,150 --> 00:02:03,480
+So later on, we will see the public statement as well so you can save calories becomes, then you break
+
+27
+00:02:03,480 --> 00:02:03,810
+the law.
+
+28
+00:02:04,590 --> 00:02:06,920
+If you build it, it is still going to run.
+
+29
+00:02:07,470 --> 00:02:09,900
+And now you're breaking the loop from the middle.
+
+30
+00:02:10,530 --> 00:02:15,630
+And yeah, so that is something we are trying to do here, right?
+
+31
+00:02:18,010 --> 00:02:20,650
+So that's all for this video.
+
+32
+00:02:20,680 --> 00:02:24,310
+We'll talk about the break statement, definitely, but in some other we do.
+
+33
+00:02:24,850 --> 00:02:25,420
+Thanks a lot.
+
+34
+00:02:25,540 --> 00:02:28,840
+I hope you understood that for and while they are equivalent.

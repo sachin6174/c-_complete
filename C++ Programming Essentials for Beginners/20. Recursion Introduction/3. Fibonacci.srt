@@ -1,0 +1,771 @@
+1
+00:00:01,520 --> 00:00:02,120
+Hi, everyone.
+
+2
+00:00:02,210 --> 00:00:07,760
+In this lecture, we're going to learn how to write recursive function to compute anatomy when I can.
+
+3
+00:00:08,000 --> 00:00:08,300
+OK.
+
+4
+00:00:08,600 --> 00:00:13,280
+So if you have not heard about V1 auxiliaries, I will tell you it is a very simple mathematical series
+
+5
+00:00:13,700 --> 00:00:21,740
+in which the first two dams are zero and one, and every time every item is the sum of previous two
+
+6
+00:00:21,740 --> 00:00:22,040
+dams.
+
+7
+00:00:22,040 --> 00:00:28,160
+Okay, so I can say that, and that's done is nothing better than some of the previous two terms you
+
+8
+00:00:28,170 --> 00:00:31,220
+have of and minus one less effort when minus two.
+
+9
+00:00:31,820 --> 00:00:34,850
+And if I talk about what would be the next and what would be some of these two?
+
+10
+00:00:35,000 --> 00:00:36,080
+That is one.
+
+11
+00:00:36,590 --> 00:00:37,580
+What would be the next dump?
+
+12
+00:00:37,580 --> 00:00:40,370
+Some of these two that to the next term would be three.
+
+13
+00:00:40,580 --> 00:00:41,660
+The next would be five.
+
+14
+00:00:41,990 --> 00:00:42,950
+Next would be eight.
+
+15
+00:00:43,370 --> 00:00:44,360
+The next would be 13.
+
+16
+00:00:44,750 --> 00:00:45,380
+And so on.
+
+17
+00:00:45,410 --> 00:00:45,710
+OK.
+
+18
+00:00:46,070 --> 00:00:51,820
+So what we are given, we are given a particular value of end and we want to look at what is the anatomy
+
+19
+00:00:51,860 --> 00:00:53,450
+of this particular series.
+
+20
+00:00:54,740 --> 00:01:02,180
+So, for example, zero one two three four five six seven the seventh film of the series is going to
+
+21
+00:01:02,180 --> 00:01:02,780
+be 13.
+
+22
+00:01:03,170 --> 00:01:05,300
+The 11th done is going to be some x y z.
+
+23
+00:01:05,720 --> 00:01:09,680
+The fifth term is nothing but five that we need to figure it out.
+
+24
+00:01:09,920 --> 00:01:10,190
+OK.
+
+25
+00:01:10,610 --> 00:01:14,090
+So as I said, when we are dealing with recursion, we will need two things.
+
+26
+00:01:14,090 --> 00:01:17,030
+One is a recursive case that we've already seen.
+
+27
+00:01:17,030 --> 00:01:18,620
+We already know about this problem.
+
+28
+00:01:19,100 --> 00:01:20,990
+And second is the base case if.
+
+29
+00:01:22,020 --> 00:01:27,180
+So the idea of picking this problem is not to reach the gold, because gold is very simple ideas to
+
+30
+00:01:27,180 --> 00:01:33,300
+teach you and the concept of records when there is more than one coin in the previous question we saw
+
+31
+00:01:33,300 --> 00:01:35,870
+there is only one goal happening from each one Jim Gold.
+
+32
+00:01:36,450 --> 00:01:40,340
+But in this case, from each function call, you guys are going to happen again.
+
+33
+00:01:40,770 --> 00:01:46,770
+So we will talk about how the record gentry would look like in this case and what would happen to the
+
+34
+00:01:46,770 --> 00:01:47,880
+gold stock and so on.
+
+35
+00:01:48,900 --> 00:01:51,120
+Let's talk a little bit about the baskets.
+
+36
+00:01:51,120 --> 00:01:57,220
+The baskets is going to be two cases of let's say you are competing for an equal to two.
+
+37
+00:01:57,240 --> 00:02:01,350
+So it was going to make two gold one on one and one on zero.
+
+38
+00:02:02,310 --> 00:02:03,370
+But now I had one.
+
+39
+00:02:03,420 --> 00:02:04,470
+What are you going to do?
+
+40
+00:02:04,830 --> 00:02:06,210
+Will you make two more gold?
+
+41
+00:02:06,660 --> 00:02:09,600
+Will you make a call on zero and minus one than that is?
+
+42
+00:02:09,750 --> 00:02:12,930
+We cannot make calls under negative indices.
+
+43
+00:02:13,110 --> 00:02:18,280
+That means we have to take one as a base case and we have to take zero as a base case.
+
+44
+00:02:18,310 --> 00:02:19,590
+So this part is not needed.
+
+45
+00:02:19,590 --> 00:02:20,770
+So we will have to base case.
+
+46
+00:02:20,800 --> 00:02:21,150
+Is it?
+
+47
+00:02:21,720 --> 00:02:28,920
+The value of an equal to zero is going to be zero and the value of an equal to one is going to be one.
+
+48
+00:02:29,280 --> 00:02:35,400
+Let me first show you the gold and then along with the gold, we will try to brighten how this gold
+
+49
+00:02:35,400 --> 00:02:36,240
+is going to work.
+
+50
+00:02:36,510 --> 00:02:41,640
+OK, so let's let's make a new program for Fibonacci.
+
+51
+00:02:45,050 --> 00:02:48,290
+And let's go up a little little bit from here.
+
+52
+00:02:51,390 --> 00:02:53,010
+This this is no fib.
+
+53
+00:02:54,580 --> 00:02:55,840
+Anderson on February.
+
+54
+00:02:56,910 --> 00:03:02,640
+So as I said, we are going to have to be asking this, OK, so I can put both of them in a single condition,
+
+55
+00:03:02,640 --> 00:03:05,940
+if any zero or in is one, we can return.
+
+56
+00:03:05,940 --> 00:03:10,920
+And that means if no zero, we are running zero, if any is one, we are attending one, actually.
+
+57
+00:03:11,430 --> 00:03:15,710
+Otherwise, we are going to say we are going to compute two values.
+
+58
+00:03:15,720 --> 00:03:22,050
+One is if one that is above and minus one, another value is F2 that is above and minus two.
+
+59
+00:03:22,500 --> 00:03:25,200
+And our answer would be nothing but a fun plus.
+
+60
+00:03:25,740 --> 00:03:26,010
+OK.
+
+61
+00:03:26,550 --> 00:03:32,940
+So we could have that included in return five off and minus one plus five above in minus two.
+
+62
+00:03:33,420 --> 00:03:38,100
+But just to make things easier for you for the first time, I would add in the cold.
+
+63
+00:03:38,100 --> 00:03:38,870
+Like this, OK?
+
+64
+00:03:40,560 --> 00:03:48,090
+Now this this will also make their understanding of Caltech more clear what is exactly happening now,
+
+65
+00:03:48,090 --> 00:03:48,840
+this is the cold.
+
+66
+00:03:48,870 --> 00:03:50,070
+Let us first run it.
+
+67
+00:03:51,290 --> 00:03:51,820
+And.
+
+68
+00:03:54,340 --> 00:03:59,050
+Regardless, if you want to get Fazilka, tell me this, haven't done it 13, tell me the fifth time
+
+69
+00:03:59,050 --> 00:04:01,870
+it is five, that means it is working perfectly fine.
+
+70
+00:04:02,890 --> 00:04:06,280
+Now let us see what happens and don't call stack level.
+
+71
+00:04:10,940 --> 00:04:15,380
+So let's say this is of a call stock.
+
+72
+00:04:18,240 --> 00:04:22,710
+And I'm going to run it for a small example, except for f an equal two foot.
+
+73
+00:04:23,130 --> 00:04:23,400
+OK.
+
+74
+00:04:24,150 --> 00:04:28,290
+And now in the in the beginning, we had only men.
+
+75
+00:04:30,040 --> 00:04:36,010
+What happened is from Maine, we made a call to if we were to give an equal to four.
+
+76
+00:04:36,760 --> 00:04:39,700
+So we called Fibonacci with the value of an equal to four.
+
+77
+00:04:40,240 --> 00:04:43,900
+And it tried to compute the value of our fine, so it made a call to three.
+
+78
+00:04:44,840 --> 00:04:49,120
+It called theabove and Nicole to OK.
+
+79
+00:04:49,790 --> 00:04:53,030
+And three, what it did we ask, is this not true?
+
+80
+00:04:53,390 --> 00:04:54,890
+It tried to make a call.
+
+81
+00:04:55,160 --> 00:04:57,740
+So another call it will make, but it will make later on.
+
+82
+00:04:58,130 --> 00:05:01,850
+That is true and equal to these calls are not executed yet.
+
+83
+00:05:02,480 --> 00:05:03,740
+This will be executed later.
+
+84
+00:05:04,260 --> 00:05:07,120
+The tremendous according to the tremendous call to do.
+
+85
+00:05:09,120 --> 00:05:09,420
+OK.
+
+86
+00:05:10,260 --> 00:05:12,170
+And what happened to you?
+
+87
+00:05:13,350 --> 00:05:17,430
+You must have made a call to one, OK, fib of two.
+
+88
+00:05:17,670 --> 00:05:21,760
+It made a call to a fourth and equal to one night and equal to one.
+
+89
+00:05:21,780 --> 00:05:23,220
+We saw their dysfunction.
+
+90
+00:05:24,210 --> 00:05:26,590
+It's the best case and it will not exude discord.
+
+91
+00:05:26,610 --> 00:05:28,380
+It will return a value of endless one.
+
+92
+00:05:28,450 --> 00:05:30,360
+So one actually returned one.
+
+93
+00:05:30,990 --> 00:05:35,430
+This actually got removed from the memory.
+
+94
+00:05:35,700 --> 00:05:36,030
+OK.
+
+95
+00:05:37,440 --> 00:05:39,660
+So this actually got removed from the memory.
+
+96
+00:05:40,290 --> 00:05:41,970
+And now what happened is.
+
+97
+00:05:44,160 --> 00:05:45,930
+This brand is also gone.
+
+98
+00:05:46,020 --> 00:05:51,510
+OK, so this branch returned one under it is now gone from the stack.
+
+99
+00:05:51,570 --> 00:05:57,270
+OK, so what is going to happen is it was going to computed the value of a fund.
+
+100
+00:05:57,660 --> 00:05:58,920
+It was not going to compute.
+
+101
+00:05:58,920 --> 00:06:04,680
+The value of this function will now execute line number 10 for the first time at this particular point.
+
+102
+00:06:04,680 --> 00:06:08,040
+Or it will make a call on zero and it will return a value of zero.
+
+103
+00:06:08,520 --> 00:06:11,590
+It will make a call on FIB, but any call to zero.
+
+104
+00:06:11,640 --> 00:06:15,540
+And this is going to return zero and this is again going to get fobbed off.
+
+105
+00:06:15,930 --> 00:06:19,740
+This is going to get removed from local stock at this point.
+
+106
+00:06:20,130 --> 00:06:21,990
+This is how the check is going to look like.
+
+107
+00:06:21,990 --> 00:06:25,110
+And Lord knows, man, that is one plus zero.
+
+108
+00:06:25,110 --> 00:06:27,150
+That is one who is going to tell Tree.
+
+109
+00:06:27,150 --> 00:06:28,020
+That means it is.
+
+110
+00:06:28,020 --> 00:06:35,830
+One tree not only knows one of dozens of bouquets of tree nodes done to have fun for tree is one, and
+
+111
+00:06:35,910 --> 00:06:39,480
+tree is now going to compute F2 for which it is going to make another call.
+
+112
+00:06:40,560 --> 00:06:43,050
+So this is going to get removed.
+
+113
+00:06:43,680 --> 00:06:44,910
+This is going to get removed.
+
+114
+00:06:45,780 --> 00:06:47,220
+And what is it going to do?
+
+115
+00:06:47,250 --> 00:06:49,020
+Tree is going to make a call on.
+
+116
+00:06:50,150 --> 00:06:55,970
+We both won, OK, so it is going to make it more fun, so everyone will get at it in the quarter and
+
+117
+00:06:55,970 --> 00:06:59,980
+it will again return one to three.
+
+118
+00:07:00,030 --> 00:07:00,830
+So it will return.
+
+119
+00:07:00,860 --> 00:07:01,700
+My answer is.
+
+120
+00:07:02,920 --> 00:07:03,550
+Also one.
+
+121
+00:07:03,970 --> 00:07:09,550
+OK, so an actress, what what it is going to do, neutrinos that I know one answer was one the another
+
+122
+00:07:09,550 --> 00:07:13,600
+one was also wondered is going to return one plus one that is two.
+
+123
+00:07:14,260 --> 00:07:21,150
+And now Ford knows that my fun is to get to know that one of the answers to OK.
+
+124
+00:07:21,970 --> 00:07:28,760
+And now Ford is going to make a call for F2 that does this line number 10 and this call will get executed.
+
+125
+00:07:28,870 --> 00:07:30,210
+OK, so we make a call.
+
+126
+00:07:30,220 --> 00:07:32,350
+Let's do the same story going to repeat.
+
+127
+00:07:32,380 --> 00:07:33,820
+Who is going to make a call on one?
+
+128
+00:07:33,830 --> 00:07:34,930
+One is going to Delmond.
+
+129
+00:07:34,930 --> 00:07:35,440
+That is one.
+
+130
+00:07:35,740 --> 00:07:39,910
+It will get added to the calls and then once it returns, it will get removed.
+
+131
+00:07:40,330 --> 00:07:41,890
+Then two will make a call to zero.
+
+132
+00:07:42,130 --> 00:07:46,120
+Zero will return again zero and one plus zero is going to be one.
+
+133
+00:07:46,510 --> 00:07:53,020
+And at Ford, we earlier knew that one answer was two and F2 is now one.
+
+134
+00:07:53,500 --> 00:07:58,240
+So it is going to return to plus one that is trying to do me a favor Ford is going to be.
+
+135
+00:07:59,740 --> 00:08:07,150
+So I'm not drawn to Goldstuck completely, but what I am trying to tell you is if you want to make it
+
+136
+00:08:07,150 --> 00:08:11,260
+easy, if you want to see how many calls are made or what calls are made.
+
+137
+00:08:11,530 --> 00:08:14,800
+So the ideal way is to draw drive using two cars in three.
+
+138
+00:08:15,100 --> 00:08:15,370
+OK?
+
+139
+00:08:15,700 --> 00:08:20,350
+And from this, you can easily estimate the space time complexity of the program as well.
+
+140
+00:08:20,800 --> 00:08:23,350
+What happens at the end equal to Ford?
+
+141
+00:08:23,590 --> 00:08:28,450
+Or let it let us do it for an equal to five, if I will make two calls for entry?
+
+142
+00:08:28,840 --> 00:08:30,350
+This call will happen later on.
+
+143
+00:08:30,370 --> 00:08:32,530
+Ford will make two goals three and two.
+
+144
+00:08:33,340 --> 00:08:35,150
+This call will happen later on.
+
+145
+00:08:35,170 --> 00:08:36,910
+It will make two goals to earn one.
+
+146
+00:08:37,390 --> 00:08:39,540
+This call will happen later on.
+
+147
+00:08:39,560 --> 00:08:41,160
+It will make two calls one in zero.
+
+148
+00:08:41,770 --> 00:08:45,220
+One will execute first, though one will return.
+
+149
+00:08:45,220 --> 00:08:46,480
+One zero will return.
+
+150
+00:08:46,480 --> 00:08:48,490
+Zero two will return.
+
+151
+00:08:48,880 --> 00:08:50,770
+One and one will return one.
+
+152
+00:08:51,160 --> 00:08:54,310
+He will return to one plus one and two.
+
+153
+00:08:54,430 --> 00:08:59,740
+Now to two is not going to have done anything directly because it is not the basket, so we need to
+
+154
+00:08:59,740 --> 00:09:00,670
+further expand it.
+
+155
+00:09:00,970 --> 00:09:01,930
+They will make two goals.
+
+156
+00:09:02,440 --> 00:09:04,750
+It is going great and one, it is going to return zero.
+
+157
+00:09:05,200 --> 00:09:08,200
+It is going to return to plus one plus zero.
+
+158
+00:09:08,200 --> 00:09:09,400
+That is one and four.
+
+159
+00:09:09,400 --> 00:09:15,340
+It is going to return to +1 three and five is going to make a call on three threes, not our base case.
+
+160
+00:09:15,340 --> 00:09:19,000
+It's going to call on two and one.
+
+161
+00:09:19,300 --> 00:09:21,160
+It's going to call on one and zero.
+
+162
+00:09:21,370 --> 00:09:22,470
+It will return one.
+
+163
+00:09:22,480 --> 00:09:23,680
+It will return zero.
+
+164
+00:09:24,070 --> 00:09:25,270
+It will return one.
+
+165
+00:09:25,540 --> 00:09:26,710
+It will return one.
+
+166
+00:09:26,980 --> 00:09:27,640
+It will return.
+
+167
+00:09:27,640 --> 00:09:30,100
+Two and five is going to return three plus two.
+
+168
+00:09:30,100 --> 00:09:30,760
+That is five.
+
+169
+00:09:31,860 --> 00:09:35,010
+OK, now these are the number of calls that we have made.
+
+170
+00:09:35,520 --> 00:09:41,610
+And roughly the number of calls in this case, if I talk about on the first level, I have one goal.
+
+171
+00:09:41,640 --> 00:09:44,550
+On the second level, I have two goals on the next level four goals.
+
+172
+00:09:45,300 --> 00:09:48,240
+It is a GP and we have roughly in levels.
+
+173
+00:09:48,900 --> 00:09:52,050
+Approximately we are making exponential number of calls.
+
+174
+00:09:52,560 --> 00:09:56,640
+The time taken would be the number of calls less time.
+
+175
+00:09:56,640 --> 00:09:58,000
+We need quite slow in each call.
+
+176
+00:09:58,020 --> 00:10:03,300
+We are doing OK trend work that is adding to numbers, so it is hard enough to raise to Ebola.
+
+177
+00:10:03,300 --> 00:10:05,110
+And what about this pace?
+
+178
+00:10:05,130 --> 00:10:11,730
+How much memory we have taken in the worst case, the maximum depth of the call stack would be this
+
+179
+00:10:11,730 --> 00:10:12,060
+much.
+
+180
+00:10:12,280 --> 00:10:12,600
+OK.
+
+181
+00:10:13,860 --> 00:10:14,160
+OK.
+
+182
+00:10:14,440 --> 00:10:20,280
+Because at any point, only one of the brands is going to exist in the call stack, OK, so the memory
+
+183
+00:10:20,280 --> 00:10:22,370
+of the program would look something like this.
+
+184
+00:10:22,380 --> 00:10:27,390
+It is increasing, then maybe decreasing, then increasing or decreasing, increasing, decreasing and
+
+185
+00:10:27,390 --> 00:10:32,410
+finally zero in this particular branch, the utilization is maximum.
+
+186
+00:10:32,490 --> 00:10:34,920
+OK, so it would be something like of this kind.
+
+187
+00:10:35,430 --> 00:10:41,310
+This is one and equal to one was at this point and this was an equal to 0.8 something like this.
+
+188
+00:10:43,240 --> 00:10:48,790
+At these two points, the space utilization is maximum, so the time is order of two days to devour
+
+189
+00:10:48,790 --> 00:10:51,700
+in space utilization this order thing.
+
+190
+00:10:53,050 --> 00:10:56,530
+This is how the Philharmonic is going to work.
+
+191
+00:10:57,130 --> 00:10:59,050
+I hope the concepts are clear.
+
+192
+00:10:59,080 --> 00:11:00,470
+That's all for this lecture.
+
+193
+00:11:00,490 --> 00:11:00,970
+Thank you.

@@ -1,0 +1,499 @@
+1
+00:00:01,650 --> 00:00:06,870
+Everyone in this lecture will talk about this auditing algorithm, which is known as binary search,
+
+2
+00:00:06,870 --> 00:00:07,170
+OK?
+
+3
+00:00:07,570 --> 00:00:09,060
+So what is this binary search?
+
+4
+00:00:09,090 --> 00:00:09,870
+We'll discuss.
+
+5
+00:00:10,410 --> 00:00:14,580
+So it's an algorithm that works on sorted at is guess what that means?
+
+6
+00:00:15,030 --> 00:00:18,810
+So that means the elements that arranged in alphabetical order order.
+
+7
+00:00:19,140 --> 00:00:24,450
+If it is integers that either increase arranged in increasing order or in decreasing order, OK.
+
+8
+00:00:24,870 --> 00:00:26,130
+So let's see.
+
+9
+00:00:26,370 --> 00:00:28,870
+Let's take the same restaurant example again.
+
+10
+00:00:28,890 --> 00:00:36,570
+Suppose you go to a restaurant, but this time your menu is arranged in the order in which the items
+
+11
+00:00:36,570 --> 00:00:39,180
+are in alphabetical order.
+
+12
+00:00:39,180 --> 00:00:41,310
+Let's say, OK, so maybe we have a burger.
+
+13
+00:00:41,850 --> 00:00:43,880
+Maybe we have Coke.
+
+14
+00:00:44,340 --> 00:00:46,140
+Maybe we have a dosa.
+
+15
+00:00:46,680 --> 00:00:47,880
+Maybe we have.
+
+16
+00:00:49,710 --> 00:00:58,110
+Maggie, we have let's appeaser in, let's say these are the items we have on, let's say, something
+
+17
+00:00:58,430 --> 00:00:59,940
+we assume as well.
+
+18
+00:01:00,900 --> 00:01:04,320
+Now you can see these are arranged in alphabetical order.
+
+19
+00:01:04,350 --> 00:01:07,550
+So we all took all this as a lexical graphic, Auchterarder.
+
+20
+00:01:07,920 --> 00:01:09,690
+And maybe you want to search for an item?
+
+21
+00:01:09,690 --> 00:01:10,410
+Let's appeaser.
+
+22
+00:01:10,590 --> 00:01:17,970
+OK, and some other randomly, you insert us today trading from the index zero.
+
+23
+00:01:18,150 --> 00:01:20,400
+You certainly look at you directly.
+
+24
+00:01:20,430 --> 00:01:26,940
+Look at those, OK, and you know, the menu is arranged in a proper order and you want to go overseas.
+
+25
+00:01:27,040 --> 00:01:30,810
+So what you will do in that case, you will never scan this list.
+
+26
+00:01:30,840 --> 00:01:35,940
+You know, if it is arranged in a proper order, then be the most come after those.
+
+27
+00:01:36,030 --> 00:01:39,110
+So maybe what you do use, can you start out reading from it?
+
+28
+00:01:39,120 --> 00:01:40,980
+OK, maybe you saw it in this particular bite.
+
+29
+00:01:42,460 --> 00:01:45,170
+So this is the whole idea of doing binary search.
+
+30
+00:01:45,570 --> 00:01:52,620
+We let us discuss the exact algorithm, and it will help us to save time if the error is sorted out.
+
+31
+00:01:52,710 --> 00:01:59,310
+OK, so let's say this is how the array looks like and what binary search will do.
+
+32
+00:01:59,670 --> 00:02:00,180
+We will.
+
+33
+00:02:01,180 --> 00:02:02,210
+Binary means two.
+
+34
+00:02:02,230 --> 00:02:07,360
+OK, so what we will do, we will divide that into two parts every time by the middle element, let's
+
+35
+00:02:07,360 --> 00:02:12,530
+say we are looking for an element that is led to nine being OK, we want to search for it.
+
+36
+00:02:13,010 --> 00:02:13,660
+19.
+
+37
+00:02:15,560 --> 00:02:20,870
+So what we do, we know this is the starting point of daddy, this is the ending point of day.
+
+38
+00:02:21,350 --> 00:02:25,010
+We find out what is the middle element and that is the middle element is.
+
+39
+00:02:26,190 --> 00:02:29,370
+Eleven, so we will divide the city by the midpoint.
+
+40
+00:02:30,300 --> 00:02:36,640
+Now if this is the area, so this is the middle point, we are looking for 19 and this that is a ordinary.
+
+41
+00:02:36,660 --> 00:02:38,460
+OK, so this should be 30.
+
+42
+00:02:39,570 --> 00:02:43,500
+Just, uh, there is a small mistake here.
+
+43
+00:02:43,590 --> 00:02:44,640
+This should be tightly.
+
+44
+00:02:46,470 --> 00:02:50,370
+This should be dirty, and let's say we are looking for.
+
+45
+00:02:53,080 --> 00:02:57,070
+19 to 19 must lie to the right of the merits of what we do.
+
+46
+00:02:57,130 --> 00:03:00,700
+We discard this part of the body or get out of an element.
+
+47
+00:03:01,090 --> 00:03:03,900
+We reduced our problem to a size, often by two.
+
+48
+00:03:04,870 --> 00:03:09,640
+Next time, what we're going to do, we are going to say, OK, you should surge only in this part of
+
+49
+00:03:09,640 --> 00:03:09,980
+the body.
+
+50
+00:03:10,210 --> 00:03:14,710
+That means the start will come here and we are not worried about Desmond and this diet.
+
+51
+00:03:14,770 --> 00:03:17,190
+This is now obsolete for the next iteration.
+
+52
+00:03:17,900 --> 00:03:18,850
+What we do again.
+
+53
+00:03:19,030 --> 00:03:20,620
+So we again do the same work.
+
+54
+00:03:20,650 --> 00:03:23,230
+We find out the midpoint this time.
+
+55
+00:03:23,710 --> 00:03:26,950
+We have a smaller ready 19, 29 and 30.
+
+56
+00:03:27,500 --> 00:03:27,790
+OK.
+
+57
+00:03:29,000 --> 00:03:35,090
+We know this is the midpoint, and we are looking for 19, OK, and this is and this time.
+
+58
+00:03:36,170 --> 00:03:40,220
+So we're looking for 19, that means this must come to the left of the mid.
+
+59
+00:03:40,340 --> 00:03:43,520
+Well, guess what, we discard everything that is.
+
+60
+00:03:44,860 --> 00:03:48,700
+They're on the right of the murder, including the murder itself, because murder does not equal to
+
+61
+00:03:48,700 --> 00:03:49,170
+90.
+
+62
+00:03:50,240 --> 00:03:50,560
+OK.
+
+63
+00:03:50,670 --> 00:03:53,540
+What will we bring our end to this particular point?
+
+64
+00:03:53,570 --> 00:03:58,070
+So Visa, OK, and now we have this is the first iteration.
+
+65
+00:03:58,070 --> 00:04:00,650
+This is the second iteration in the third iteration, what we have.
+
+66
+00:04:01,170 --> 00:04:03,170
+We start, we have end.
+
+67
+00:04:03,830 --> 00:04:06,410
+Both of them point to nineteen.
+
+68
+00:04:06,510 --> 00:04:06,830
+OK.
+
+69
+00:04:07,610 --> 00:04:12,430
+And what we are looking for, we are looking for an element that is equal to 19 to be final, the midpoint.
+
+70
+00:04:12,920 --> 00:04:17,270
+And we see this midpoint exactly contains a value that we require.
+
+71
+00:04:17,300 --> 00:04:19,850
+OK, so we actually redone this particular index.
+
+72
+00:04:20,360 --> 00:04:24,030
+But suppose instead of 19, we were looking for 20.
+
+73
+00:04:24,060 --> 00:04:27,110
+OK, so now the first step would be seen.
+
+74
+00:04:27,800 --> 00:04:29,210
+One of those 11 go to right.
+
+75
+00:04:29,220 --> 00:04:33,410
+We will get the city in the second step midpoint is twenty nine.
+
+76
+00:04:33,410 --> 00:04:37,090
+It will go the left and we will again get 19.
+
+77
+00:04:37,100 --> 00:04:41,840
+So at this point, what we will do, we will say we're looking for 20, where the middle point is 19,
+
+78
+00:04:42,440 --> 00:04:47,150
+that means it must come to the right of this particular element, OK?
+
+79
+00:04:48,110 --> 00:04:52,110
+So what we do is simply do the article to make plus one.
+
+80
+00:04:52,130 --> 00:04:53,240
+OK, start the column.
+
+81
+00:04:53,840 --> 00:04:57,650
+In that case, what is going to happen and is going to remain hit?
+
+82
+00:04:58,100 --> 00:05:01,130
+The start is going to come here, OK, the start is going to come here.
+
+83
+00:05:02,650 --> 00:05:02,950
+OK.
+
+84
+00:05:03,240 --> 00:05:10,300
+So as soon as this happens, that means start becomes greater then, and that means this element does
+
+85
+00:05:10,300 --> 00:05:18,580
+not present, OK, so that means if this happens, then we can see the element is not present inside
+
+86
+00:05:18,580 --> 00:05:19,450
+this particular area.
+
+87
+00:05:19,480 --> 00:05:21,670
+OK, so what will happen?
+
+88
+00:05:22,060 --> 00:05:27,520
+You start from an area of size in and then it will reduce to NY two, then it will reduce to end by
+
+89
+00:05:27,520 --> 00:05:30,010
+forward, then it will reduce to end by eight.
+
+90
+00:05:30,310 --> 00:05:31,840
+Eventually, it will reduce to one.
+
+91
+00:05:32,170 --> 00:05:38,800
+If that element does not equal to what you expected, your are condition will get it will get either
+
+92
+00:05:38,800 --> 00:05:42,060
+end will come before the start or start will come before.
+
+93
+00:05:42,250 --> 00:05:46,840
+And in that case, we can see Element does not present.
+
+94
+00:05:46,840 --> 00:05:49,270
+Okay, so that means we reduce it to a size of zero.
+
+95
+00:05:49,300 --> 00:05:50,410
+That means not found.
+
+96
+00:05:51,190 --> 00:05:53,200
+And here we can see the elements formed.
+
+97
+00:05:54,340 --> 00:05:58,760
+We will return the index for the index we have this may or may not happen.
+
+98
+00:05:58,880 --> 00:06:02,120
+OK, going from one to zero may or may not happen, OK?
+
+99
+00:06:02,810 --> 00:06:07,940
+So this is what the binary search algorithm is all about.
+
+100
+00:06:07,970 --> 00:06:11,690
+OK, so now let us summarize what we discussed.
+
+101
+00:06:11,900 --> 00:06:17,900
+OK, so algorithm summary we will need a start that is set to zero.
+
+102
+00:06:18,290 --> 00:06:25,900
+We will need the end to end minus one in the beginning, and we need to do certain work again and again.
+
+103
+00:06:25,910 --> 00:06:30,770
+So we will have while what started as less than equal to end, OK?
+
+104
+00:06:31,400 --> 00:06:36,050
+That means when start accedes end, break this loop, find the midpoint.
+
+105
+00:06:36,410 --> 00:06:36,710
+OK.
+
+106
+00:06:38,030 --> 00:06:43,680
+The midpoint is very easy, you simply do start losing by two I and you do a combat zone.
+
+107
+00:06:44,060 --> 00:06:45,830
+The admit no comparison.
+
+108
+00:06:47,590 --> 00:06:48,580
+At the midpoint.
+
+109
+00:06:51,330 --> 00:06:57,900
+And from this comparison, you can have three things either the element can be cold, homemade or it
+
+110
+00:06:57,900 --> 00:07:01,140
+can be greater than meat, or it can be less than right, OK?
+
+111
+00:07:01,680 --> 00:07:05,100
+Accordingly, you will move left or right.
+
+112
+00:07:05,220 --> 00:07:05,550
+OK.
+
+113
+00:07:06,980 --> 00:07:12,740
+In the next few days, we will see the exact quote, but this is the this is on the high level what
+
+114
+00:07:12,740 --> 00:07:17,720
+we are going to do in the algorithm if we are out of the loop, we consider done minus one.
+
+115
+00:07:18,050 --> 00:07:20,120
+And if it is equal, we're going to say are done.
+
+116
+00:07:20,450 --> 00:07:21,460
+And my point, OK?
+
+117
+00:07:23,160 --> 00:07:24,240
+This is what we're going to do.
+
+118
+00:07:24,690 --> 00:07:32,490
+So if the if the midpoint is greater, OK, so if it's OK, if the midpoint is greater than what is
+
+119
+00:07:32,490 --> 00:07:38,610
+expected, let's say we're looking forward to OK, in that case, what we will do, we will move this
+
+120
+00:07:38,610 --> 00:07:46,090
+end from here to here because that means we will move and towards maybe minus one.
+
+121
+00:07:46,620 --> 00:07:47,970
+But we're looking for 19.
+
+122
+00:07:47,970 --> 00:07:49,500
+That element is greater.
+
+123
+00:07:49,620 --> 00:07:54,090
+We will move over start from start to less one.
+
+124
+00:07:54,270 --> 00:07:56,070
+That's what we're going to do.
+
+125
+00:07:57,180 --> 00:08:00,090
+So let's see the goal in the next lecture.

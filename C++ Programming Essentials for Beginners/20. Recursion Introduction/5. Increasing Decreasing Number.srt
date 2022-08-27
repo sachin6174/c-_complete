@@ -1,0 +1,487 @@
+1
+00:00:01,470 --> 00:00:06,390
+Everyone in this lecture, I'm going to talk about a very simple problem, but it's very important to
+
+2
+00:00:06,390 --> 00:00:09,920
+take up this problem for strengthening your concept of the recursion.
+
+3
+00:00:09,930 --> 00:00:15,660
+Okay, so we will understand the concept of going towards the base case and coming back from the base
+
+4
+00:00:15,660 --> 00:00:17,010
+case through this example.
+
+5
+00:00:17,460 --> 00:00:19,260
+So you can also try this problem on your own.
+
+6
+00:00:19,290 --> 00:00:20,880
+Before we dive into the code.
+
+7
+00:00:21,420 --> 00:00:28,320
+So the question is very simple we just need to simulate the same functionality as of a fire loop using
+
+8
+00:00:28,320 --> 00:00:29,770
+this particular problem.
+
+9
+00:00:30,360 --> 00:00:38,490
+We have to print all the numbers one two in recursively, in decreasing order and in increasing orders.
+
+10
+00:00:38,490 --> 00:00:40,450
+We need to write two methods one.
+
+11
+00:00:40,470 --> 00:00:41,580
+Let's give an insulator.
+
+12
+00:00:41,590 --> 00:00:42,000
+Five.
+
+13
+00:00:42,420 --> 00:00:45,210
+The first method should print one two three four five.
+
+14
+00:00:45,390 --> 00:00:45,690
+OK.
+
+15
+00:00:46,320 --> 00:00:48,300
+The second method that is for the increasing one.
+
+16
+00:00:49,260 --> 00:00:55,980
+And the second method, if in his favorite children, they would put like five foot into one drastically
+
+17
+00:00:56,220 --> 00:00:57,090
+decreasing one.
+
+18
+00:00:57,160 --> 00:01:01,290
+OK, now let's see how we can actually do it.
+
+19
+00:01:01,380 --> 00:01:02,910
+So let's see.
+
+20
+00:01:02,970 --> 00:01:08,850
+We have a method decreasing, which brings the numbers in the decreasing order.
+
+21
+00:01:08,850 --> 00:01:15,470
+OK, so what we discussed was we will take one step and the rest of the steps will be taken by the record.
+
+22
+00:01:15,660 --> 00:01:21,780
+What I can do in this decreasing method, I can say, OK, no, the value of an I will put the value
+
+23
+00:01:21,780 --> 00:01:22,110
+of an.
+
+24
+00:01:23,230 --> 00:01:23,560
+OK.
+
+25
+00:01:24,010 --> 00:01:27,550
+And then I will call the method decreasing off and minus one.
+
+26
+00:01:28,180 --> 00:01:32,620
+That will automatically print all the numbers from N minus one to one.
+
+27
+00:01:32,650 --> 00:01:32,980
+OK.
+
+28
+00:01:33,340 --> 00:01:40,240
+And in the best case, we can have a case that, OK, if you are reducing and fifty each point, then
+
+29
+00:01:40,240 --> 00:01:42,010
+the number is zero, we can return, OK?
+
+30
+00:01:42,490 --> 00:01:45,940
+So let us see what is going to happen if, let's say end is five.
+
+31
+00:01:47,130 --> 00:01:54,660
+This is this is for the recursive case and for the basic is I can take if an is zero, we can return.
+
+32
+00:01:56,220 --> 00:01:57,090
+We don't do anything.
+
+33
+00:01:57,120 --> 00:01:57,390
+OK?
+
+34
+00:01:57,780 --> 00:02:02,730
+Are you going to have also another case, like if there is one friend one and then and that is also
+
+35
+00:02:02,730 --> 00:02:05,490
+fine, but either of these cases would book.
+
+36
+00:02:06,240 --> 00:02:08,220
+I can start from an equal to five.
+
+37
+00:02:08,970 --> 00:02:12,180
+What I will do, I will print, then I will print five.
+
+38
+00:02:12,270 --> 00:02:13,920
+I'll make a call on an equal to four.
+
+39
+00:02:14,790 --> 00:02:17,430
+A blueprint for I'll make a call on inequality.
+
+40
+00:02:17,580 --> 00:02:22,440
+I will Braintree, I'll make a call on an equal to two, Alperin told me to call on and equal to one
+
+41
+00:02:23,070 --> 00:02:25,980
+I then one, I'll make a call on any to zero.
+
+42
+00:02:26,010 --> 00:02:26,820
+I will say they're done.
+
+43
+00:02:26,970 --> 00:02:27,810
+It will get it done.
+
+44
+00:02:27,810 --> 00:02:28,650
+It will say they're done.
+
+45
+00:02:28,650 --> 00:02:30,140
+It was written, it was written.
+
+46
+00:02:30,660 --> 00:02:35,730
+Finally, what I got in the output is nothing but five four three two one.
+
+47
+00:02:36,270 --> 00:02:38,120
+That's how easy it is going to be.
+
+48
+00:02:38,120 --> 00:02:40,580
+You'll get what the grazing or what we need to do.
+
+49
+00:02:40,590 --> 00:02:42,780
+We need to do the work in this direction.
+
+50
+00:02:42,870 --> 00:02:50,820
+I will tell you what changes we would make, so let us first rate the function for decreasing, so again,
+
+51
+00:02:50,820 --> 00:02:53,460
+to avoid decreasing intent.
+
+52
+00:02:54,090 --> 00:02:55,860
+So we have a base case.
+
+53
+00:02:56,220 --> 00:02:58,560
+If an is zero, we will stop.
+
+54
+00:02:58,980 --> 00:03:01,350
+That is done and.
+
+55
+00:03:02,390 --> 00:03:05,660
+Otherwise, I can see out the value of an.
+
+56
+00:03:06,820 --> 00:03:10,210
+And followed by a function called two degrees in love and minus one.
+
+57
+00:03:10,390 --> 00:03:10,960
+That's it.
+
+58
+00:03:12,310 --> 00:03:19,810
+So any any statements that are written before the function call, OK, so these are executed when you're
+
+59
+00:03:19,810 --> 00:03:21,740
+going to the base case?
+
+60
+00:03:22,210 --> 00:03:22,510
+OK.
+
+61
+00:03:23,780 --> 00:03:25,930
+And you're going towards the basics.
+
+62
+00:03:26,330 --> 00:03:31,550
+Anything that is coming before the function call will be executed when you're going towards the biscuits.
+
+63
+00:03:32,000 --> 00:03:38,060
+Now let me also underscored onshore to you large lash increasing, decreasing.
+
+64
+00:03:38,180 --> 00:03:43,640
+And I think we should take in the value of often and then we should call this function.
+
+65
+00:03:47,320 --> 00:03:47,920
+Let's end his.
+
+66
+00:03:48,220 --> 00:03:50,560
+I get done outward as five, four three two one.
+
+67
+00:03:51,130 --> 00:03:57,940
+Now I don't want to make a similar function for increasing, but the good thing is there will be only
+
+68
+00:03:57,940 --> 00:04:03,860
+one lane of change that is you will change the order in which this statement is executed.
+
+69
+00:04:03,880 --> 00:04:10,210
+So if I put this statement here and does to make it more clear, I'm going to rename the function as
+
+70
+00:04:10,210 --> 00:04:10,870
+increasing.
+
+71
+00:04:11,980 --> 00:04:17,470
+And you will see this is going to work perfectly fine and we will see why it is going to work OK.
+
+72
+00:04:19,080 --> 00:04:26,070
+So let us try to think what this function is going to do to let us let me call decreasing and we will
+
+73
+00:04:26,110 --> 00:04:30,480
+then indulge and let me call an increasing function as well.
+
+74
+00:04:31,230 --> 00:04:37,500
+So if I say, OK, fine, if I get the numbers in the decreasing order, I get the numbers and the increasing
+
+75
+00:04:37,500 --> 00:04:38,190
+order as well.
+
+76
+00:04:38,730 --> 00:04:44,280
+Let us try to see what this function is saying today, saying if you want to print the number, then
+
+77
+00:04:44,280 --> 00:04:50,250
+the increasing order from one to N, you will first print all the numbers in the increasing order from
+
+78
+00:04:50,250 --> 00:04:51,480
+one to n minus one.
+
+79
+00:04:52,170 --> 00:04:52,530
+OK.
+
+80
+00:04:53,160 --> 00:04:58,470
+And then you will print the number and this is the work that is done by the goods and this is the work
+
+81
+00:04:58,470 --> 00:05:01,110
+that is done by you in the previous code.
+
+82
+00:05:01,110 --> 00:05:05,910
+What said you will footprint the number numbering and then you will print the numbers, I mean, minus
+
+83
+00:05:05,910 --> 00:05:08,470
+one l one in the decreasing order.
+
+84
+00:05:08,720 --> 00:05:18,510
+OK, now you you might be surprised how this single swapping of one line of code actually change the
+
+85
+00:05:18,510 --> 00:05:21,300
+order in which the output is coming.
+
+86
+00:05:21,750 --> 00:05:26,100
+Effectively, what is happening is both the functions will have the same goal stock.
+
+87
+00:05:26,250 --> 00:05:31,650
+So first of all, you have mean, then you call the function with any call to five.
+
+88
+00:05:32,310 --> 00:05:32,610
+OK.
+
+89
+00:05:32,850 --> 00:05:34,410
+Decreasing function footprint.
+
+90
+00:05:34,410 --> 00:05:35,880
+The value sort prince five.
+
+91
+00:05:35,970 --> 00:05:37,740
+It makes Ocalan and equal to four.
+
+92
+00:05:38,250 --> 00:05:39,450
+Then it prints four.
+
+93
+00:05:39,450 --> 00:05:41,100
+It makes a call on an equal to three.
+
+94
+00:05:41,220 --> 00:05:43,470
+Then it makes equal to an equal to two.
+
+95
+00:05:46,850 --> 00:05:52,040
+Then it makes a call to any call to one, and then it makes a call to an equal to do settle the same
+
+96
+00:05:52,040 --> 00:05:54,820
+calls are being raised but made by the increasing function as well.
+
+97
+00:05:54,840 --> 00:06:00,020
+OK, so if you pausing then and it makes a call to faith, then it makes a call for the next call to
+
+98
+00:06:00,020 --> 00:06:01,220
+three two one, OK.
+
+99
+00:06:01,700 --> 00:06:06,860
+But the changes it is printing the statement after the call has been executed.
+
+100
+00:06:06,860 --> 00:06:10,070
+OK, so after we have returned from the base case, it is going to print one.
+
+101
+00:06:10,490 --> 00:06:14,450
+After we have returned from one, it is going to print two, then it is going to print three, then
+
+102
+00:06:14,450 --> 00:06:17,090
+it is going to print four, then it is going to print five.
+
+103
+00:06:17,870 --> 00:06:18,740
+And that's it, OK?
+
+104
+00:06:18,980 --> 00:06:20,060
+So this output?
+
+105
+00:06:21,600 --> 00:06:25,680
+Is generated by the increase in function and this output five, four three two one.
+
+106
+00:06:25,890 --> 00:06:28,260
+It is generated by the decrease in function.
+
+107
+00:06:28,260 --> 00:06:28,740
+So here.
+
+108
+00:06:29,220 --> 00:06:32,280
+Anything that is written before the function call.
+
+109
+00:06:33,500 --> 00:06:34,430
+Is executed.
+
+110
+00:06:36,070 --> 00:06:39,940
+Vibe going toward the basket that is from the top to the bottom.
+
+111
+00:06:40,090 --> 00:06:43,240
+OK, calling bottom as the biscuits, OK?
+
+112
+00:06:43,630 --> 00:06:47,800
+And when you're coming from the bottom towards the main main thing, that is stop.
+
+113
+00:06:47,890 --> 00:06:51,640
+OK, this is Barbizon, and biscuits is zero.
+
+114
+00:06:52,540 --> 00:06:54,310
+The top is in biscuits, as you know.
+
+115
+00:06:54,340 --> 00:07:00,700
+So when you're coming from a smaller problem towards a bigger problem in that code is written after
+
+116
+00:07:00,700 --> 00:07:01,510
+the function gone.
+
+117
+00:07:01,570 --> 00:07:08,080
+OK, so that is something you should always remember, and it is going to help you a lot while solving
+
+118
+00:07:08,080 --> 00:07:09,130
+recurrent problems.
+
+119
+00:07:09,490 --> 00:07:15,520
+When you need some problem solutions to be solved first and then combined, then you would be doing
+
+120
+00:07:15,520 --> 00:07:17,680
+this work after the function call.
+
+121
+00:07:17,680 --> 00:07:17,950
+OK?
+
+122
+00:07:18,280 --> 00:07:23,290
+So I hope these two concepts are now clear, and that's all for this lecture.

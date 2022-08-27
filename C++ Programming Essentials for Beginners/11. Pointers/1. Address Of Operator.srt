@@ -1,0 +1,323 @@
+1
+00:00:02,090 --> 00:00:08,840
+Everyone in this lecture, we will talk about pointers and some related topics like address of operator
+
+2
+00:00:08,840 --> 00:00:10,730
+de reference variable reference variables.
+
+3
+00:00:11,270 --> 00:00:15,860
+This section is all dedicated to some C++ concept neither.
+
+4
+00:00:16,400 --> 00:00:23,950
+You may not find this concept in other languages, so pointers is one of the most powerful, as well
+
+5
+00:00:23,960 --> 00:00:28,370
+as one of the tricky and confusing things in the NCR Plus Plus language as well.
+
+6
+00:00:28,850 --> 00:00:34,170
+But I will try to make this easy for you so that you can understand and apply these concepts.
+
+7
+00:00:34,190 --> 00:00:41,330
+OK, so firstly, we will begin with a very small operator which has been noted using and you might
+
+8
+00:00:41,330 --> 00:00:44,870
+have seen this operator in some other places as well.
+
+9
+00:00:46,560 --> 00:00:52,140
+So this is an armed operator, so actually, this island comes at multiple places.
+
+10
+00:00:53,180 --> 00:00:54,920
+One is, if you want to do a bit why?
+
+11
+00:00:55,730 --> 00:00:56,960
+For example, if entry.
+
+12
+00:00:57,410 --> 00:01:02,090
+Then you must have seen this operator OK, so this is basically for Budweiser.
+
+13
+00:01:03,080 --> 00:01:04,700
+But there is another use case.
+
+14
+00:01:04,820 --> 00:01:06,560
+Suppose you have a variable X.
+
+15
+00:01:06,750 --> 00:01:07,060
+OK.
+
+16
+00:01:08,100 --> 00:01:15,630
+And it is storing some value that certain access a bucket in the memory under the storing some value
+
+17
+00:01:16,050 --> 00:01:18,240
+and this bucket may have some address later.
+
+18
+00:01:18,240 --> 00:01:21,060
+This addresses two zero one eight six.
+
+19
+00:01:22,350 --> 00:01:23,010
+This is a number.
+
+20
+00:01:23,010 --> 00:01:30,030
+OK, now when you are going to do something like this, let's say we are going to print and affix.
+
+21
+00:01:30,390 --> 00:01:33,340
+That means give us the address of the buckets.
+
+22
+00:01:33,340 --> 00:01:36,350
+So this is where this address of operator fits in.
+
+23
+00:01:37,380 --> 00:01:41,850
+So this island of X is basically the address of X.
+
+24
+00:01:42,000 --> 00:01:42,300
+OK.
+
+25
+00:01:42,570 --> 00:01:44,800
+So if you bring this value, you will get this output.
+
+26
+00:01:44,810 --> 00:01:46,650
+Two zero one eight six OK.
+
+27
+00:01:47,190 --> 00:01:54,050
+And then when you print and address or gives when you print and address, that number is printed as
+
+28
+00:01:54,060 --> 00:01:55,590
+an extra decimal number.
+
+29
+00:01:55,770 --> 00:02:01,770
+So you may see something like zero x if maybe something like this, or maybe one to something like this,
+
+30
+00:02:02,370 --> 00:02:10,350
+this zero x denote it's a hexadecimal number that means the base is 16 because it is written in a 16
+
+31
+00:02:10,380 --> 00:02:11,040
+base format.
+
+32
+00:02:11,040 --> 00:02:11,310
+OK?
+
+33
+00:02:11,550 --> 00:02:16,950
+So we are just converting one in digit that is in base 10 into base 16.
+
+34
+00:02:17,100 --> 00:02:19,650
+So you can this is the default behavior.
+
+35
+00:02:19,660 --> 00:02:22,140
+OK, so then you will do something of and of X.
+
+36
+00:02:22,140 --> 00:02:25,080
+You will see this kind of address output on the screen.
+
+37
+00:02:25,440 --> 00:02:27,750
+And I will show you one example as well.
+
+38
+00:02:28,260 --> 00:02:34,950
+The third use cases in creating a different variable that we will see a little later on.
+
+39
+00:02:35,400 --> 00:02:35,730
+OK.
+
+40
+00:02:36,960 --> 00:02:39,870
+But yes, there also we will see this use off.
+
+41
+00:02:40,140 --> 00:02:47,540
+And right now we are going to talk about this use case that is the address of a patent.
+
+42
+00:02:47,610 --> 00:02:47,880
+OK.
+
+43
+00:02:48,630 --> 00:02:55,440
+So as I said, OK, what we can do to get the address of a variable, we can use the address of a operator,
+
+44
+00:02:55,440 --> 00:02:56,820
+for example, index.
+
+45
+00:02:57,510 --> 00:03:01,770
+Then if you do and of X, this will give you the address.
+
+46
+00:03:01,830 --> 00:03:02,190
+OK.
+
+47
+00:03:02,790 --> 00:03:06,150
+And this address is not stored right now later on.
+
+48
+00:03:06,750 --> 00:03:11,940
+What we can do We can store this address in a special kind of a variable that is known as a pointer
+
+49
+00:03:11,940 --> 00:03:12,330
+variable.
+
+50
+00:03:12,330 --> 00:03:12,560
+OK?
+
+51
+00:03:13,170 --> 00:03:16,200
+I will show it to you with the help of one example.
+
+52
+00:03:17,190 --> 00:03:18,240
+So what's your address?
+
+53
+00:03:18,510 --> 00:03:20,460
+You can ask any variable by using that.
+
+54
+00:03:20,460 --> 00:03:22,980
+And so let's see one demo.
+
+55
+00:03:25,540 --> 00:03:27,520
+So let us see one example here.
+
+56
+00:03:27,560 --> 00:03:31,950
+Let's extend and I'm going to do Scott, and of course.
+
+57
+00:03:33,250 --> 00:03:34,930
+So let's see the output.
+
+58
+00:03:38,870 --> 00:03:42,650
+So we are going to run this large, large address of.
+
+59
+00:04:00,040 --> 00:04:00,330
+Yeah.
+
+60
+00:04:00,450 --> 00:04:01,510
+Dot slash.
+
+61
+00:04:06,880 --> 00:04:15,280
+So we can see we are getting this address here that is zero six, six one, maybe a foot effort favorite.
+
+62
+00:04:15,290 --> 00:04:19,030
+So this is a Hexham decimal address and not just integers.
+
+63
+00:04:19,030 --> 00:04:23,740
+You can also have some float wherever the memory.
+
+64
+00:04:26,200 --> 00:04:32,290
+Is there, and it will definitely have some addresses already stored in memory and all memory will have
+
+65
+00:04:32,300 --> 00:04:39,180
+certain address so I can look out and of and and you will see we would have a different address for
+
+66
+00:04:39,190 --> 00:04:39,520
+way.
+
+67
+00:04:39,640 --> 00:04:39,940
+OK.
+
+68
+00:04:40,630 --> 00:04:42,490
+The one interesting thing to note is.
+
+69
+00:04:44,060 --> 00:04:45,880
+They are just four bites of it, OK?
+
+70
+00:04:46,430 --> 00:04:50,640
+In memory, what happened is we have a bucket, right?
+
+71
+00:04:51,230 --> 00:04:52,970
+And we have a bucket here.
+
+72
+00:04:52,970 --> 00:04:56,480
+We are storing it and here we are storing afloat.
+
+73
+00:04:56,910 --> 00:04:59,750
+So this is taking four bites and this.
+
+74
+00:04:59,900 --> 00:05:05,210
+But as you can see, it is of this is 58.
+
+75
+00:05:05,300 --> 00:05:07,650
+This address is 58 and this is 54.
+
+76
+00:05:07,670 --> 00:05:07,970
+OK.
+
+77
+00:05:08,330 --> 00:05:13,370
+There are differences because because of this memory that is being given.
+
+78
+00:05:13,370 --> 00:05:15,990
+As for whites, it was this particular variable.
+
+79
+00:05:16,370 --> 00:05:16,670
+OK.
+
+80
+00:05:16,970 --> 00:05:20,660
+So I hope you really understood the concept of address of operator.
+
+81
+00:05:20,660 --> 00:05:22,670
+In the next lecture, we will talk about Pointer.

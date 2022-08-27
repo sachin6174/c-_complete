@@ -1,0 +1,363 @@
+1
+00:00:01,490 --> 00:00:07,160
+Everyone in this module, we will talk about flowcharts, the water flow times, the flowcharts Otto
+
+2
+00:00:07,180 --> 00:00:11,450
+diagrammatic representation illustrating a solution to a given problem we'll get.
+
+3
+00:00:11,870 --> 00:00:14,980
+So what is the problem so it can be any problem?
+
+4
+00:00:15,010 --> 00:00:17,480
+OK, for example, making a cup of coffee?
+
+5
+00:00:17,870 --> 00:00:18,890
+It can be a problem.
+
+6
+00:00:19,190 --> 00:00:24,290
+And you want to depict what are the steps needed to make a cup of coffee, OK?
+
+7
+00:00:24,620 --> 00:00:28,430
+So all the steps in a given order they can be represented.
+
+8
+00:00:28,430 --> 00:00:36,440
+Using a flowchart to a flowchart allows you to break down any process into smaller steps and display
+
+9
+00:00:36,440 --> 00:00:38,300
+them in a visually appealing way again.
+
+10
+00:00:38,300 --> 00:00:45,320
+So it it becomes very easy for the beginners to draw and understand a flowchart again without writing
+
+11
+00:00:45,320 --> 00:00:46,200
+complex code.
+
+12
+00:00:46,220 --> 00:00:50,720
+You can easily understand what steps you will perform in order to solve a problem.
+
+13
+00:00:51,020 --> 00:00:52,430
+That is what a flowchart is.
+
+14
+00:00:53,090 --> 00:01:00,080
+We have several components that are used inside logic, so you can call these components as building
+
+15
+00:01:00,080 --> 00:01:05,690
+blocks of the flowchart to get the first building block or the component is a Starbucks.
+
+16
+00:01:05,690 --> 00:01:08,210
+It denotes the starting step again.
+
+17
+00:01:08,210 --> 00:01:15,310
+That means the solution starts from this particular box, and it can also be used to terminate the process.
+
+18
+00:01:15,530 --> 00:01:22,100
+For example, if you want to end the process, then you can draw a box like this.
+
+19
+00:01:22,580 --> 00:01:28,910
+It's a oval shaped box, and you will draw this box to denote the start or the end of the process.
+
+20
+00:01:29,750 --> 00:01:33,020
+One thing that you would be doing very frequently is reading it.
+
+21
+00:01:33,140 --> 00:01:41,150
+For example, if you want to make coffee, you will read the input for how many guests you want to read
+
+22
+00:01:41,150 --> 00:01:42,320
+to make the coffee.
+
+23
+00:01:42,320 --> 00:01:48,530
+OK, so you will read the value of in the note the number of guests will want to have coffee.
+
+24
+00:01:49,380 --> 00:01:52,940
+OK, so we understood this value inside a bucket.
+
+25
+00:01:53,090 --> 00:01:55,820
+That bucket is created inside your room.
+
+26
+00:01:56,060 --> 00:01:57,530
+That is random access memory.
+
+27
+00:01:57,980 --> 00:02:02,120
+The way to depict the read statement is by using this.
+
+28
+00:02:03,740 --> 00:02:10,760
+Walks in a shape of a parallelogram and misread the value of so this will create a bucket inside Iran.
+
+29
+00:02:11,390 --> 00:02:16,320
+And for example, there are four guests, so this bucket will store the value for it.
+
+30
+00:02:16,380 --> 00:02:21,140
+OK, this will store the value for the middle if you want to put in.
+
+31
+00:02:21,580 --> 00:02:28,460
+OK, you want to print something you're going to print the value of in this kind of a box, which is
+
+32
+00:02:28,460 --> 00:02:29,930
+in the form of a parallelogram.
+
+33
+00:02:30,440 --> 00:02:32,270
+It is used for input and output.
+
+34
+00:02:32,870 --> 00:02:34,520
+The what you want to print something.
+
+35
+00:02:35,910 --> 00:02:38,630
+Directly, suppose you want to print high.
+
+36
+00:02:39,510 --> 00:02:42,930
+Anything that you want to display as it is, OK?
+
+37
+00:02:43,170 --> 00:02:45,090
+It is written inside double goods.
+
+38
+00:02:45,700 --> 00:02:46,710
+So these are the real goods.
+
+39
+00:02:47,430 --> 00:02:48,570
+And here you are writing.
+
+40
+00:02:48,570 --> 00:02:52,080
+And so this will actually print the value for it or it will not print.
+
+41
+00:02:52,080 --> 00:02:55,200
+And because it is, it will print the value of it.
+
+42
+00:02:56,160 --> 00:02:57,990
+So I hope these two components will clear.
+
+43
+00:02:58,740 --> 00:03:03,690
+The next component is a rectangle that is used anywhere.
+
+44
+00:03:03,690 --> 00:03:11,190
+You have to process some data, for example, you want to see that my marks of a particular student.
+
+45
+00:03:11,820 --> 00:03:14,490
+They will be average of marks in maths.
+
+46
+00:03:15,510 --> 00:03:18,180
+Less physics by two by example.
+
+47
+00:03:18,240 --> 00:03:19,590
+You want to do something like this.
+
+48
+00:03:20,250 --> 00:03:22,440
+So this is kind of a process.
+
+49
+00:03:22,600 --> 00:03:28,320
+So what you are doing, your calculating this value and you're putting this value inside a bucket called
+
+50
+00:03:28,320 --> 00:03:28,800
+marks.
+
+51
+00:03:29,280 --> 00:03:31,680
+But this is known as assignment statement.
+
+52
+00:03:31,980 --> 00:03:32,250
+OK.
+
+53
+00:03:32,820 --> 00:03:34,560
+This is known as assignment.
+
+54
+00:03:37,010 --> 00:03:41,540
+You're saying some equal to zero, so what you're doing, your assigning the value zero to a bucket
+
+55
+00:03:41,540 --> 00:03:43,250
+called some some is a bucket.
+
+56
+00:03:44,530 --> 00:03:46,030
+And that is not during a value.
+
+57
+00:03:47,440 --> 00:03:47,670
+OK.
+
+58
+00:03:48,490 --> 00:03:51,800
+All these instructions where the processing is happening.
+
+59
+00:03:51,820 --> 00:03:52,130
+OK.
+
+60
+00:03:52,150 --> 00:03:57,580
+Anything except from input output or you're assigning certain value, they will be depicted using a
+
+61
+00:03:57,580 --> 00:04:01,810
+rectangle the same as a bucket that is not storing the value beetle.
+
+62
+00:04:02,050 --> 00:04:02,320
+OK.
+
+63
+00:04:03,440 --> 00:04:08,750
+So this is known as assignment to later on, we will see the difference between the liquid, which is
+
+64
+00:04:08,770 --> 00:04:13,210
+known as assignment and the equal of which is known as equality.
+
+65
+00:04:13,780 --> 00:04:15,370
+These two are different.
+
+66
+00:04:16,740 --> 00:04:24,810
+Operators in programming, OK, so right now we have seen what as an assignment, the next component
+
+67
+00:04:25,290 --> 00:04:26,730
+is a decision box.
+
+68
+00:04:26,760 --> 00:04:30,570
+It has denoted using this diamond shape box, also known as rhombus.
+
+69
+00:04:31,170 --> 00:04:36,840
+So whenever you have a certain condition to check, that means you want to check whether this condition
+
+70
+00:04:36,840 --> 00:04:37,890
+is true or false.
+
+71
+00:04:38,220 --> 00:04:44,340
+You will have this kind of a box and based upon a condition, there can be two branches.
+
+72
+00:04:45,090 --> 00:04:48,570
+If the condition is true, then I will go in this yes branch.
+
+73
+00:04:49,020 --> 00:04:52,320
+If the condition is false, I will go in this particular branch.
+
+74
+00:04:52,740 --> 00:04:58,500
+An example of a condition could be is whether any OK is, is the weather rainy?
+
+75
+00:04:58,980 --> 00:04:59,670
+If it is raining?
+
+76
+00:04:59,690 --> 00:05:02,490
+OK, I want to go out with the umbrella.
+
+77
+00:05:02,970 --> 00:05:05,040
+If it does not, let us assume it is sunny.
+
+78
+00:05:05,460 --> 00:05:08,010
+I will go with sunglasses, something like this.
+
+79
+00:05:09,120 --> 00:05:14,790
+Every time you have to do some work based on a certain condition, then you will depict the condition
+
+80
+00:05:14,790 --> 00:05:18,480
+inside this both shape boxed.
+
+81
+00:05:18,900 --> 00:05:22,680
+OK, so this box is used to denote the condition.
+
+82
+00:05:23,430 --> 00:05:26,880
+The next thing that you will find in a flowchart is arrows.
+
+83
+00:05:26,880 --> 00:05:30,610
+OK, so these arrows are used to connect to different boxes, OK?
+
+84
+00:05:30,670 --> 00:05:33,510
+For example, I want to connect start with read.
+
+85
+00:05:33,930 --> 00:05:39,480
+That means after a start, go to this box, read and after you then go to this box.
+
+86
+00:05:39,900 --> 00:05:45,990
+These arrows are used to connect multiple building blocks inside the flowchart.
+
+87
+00:05:46,200 --> 00:05:46,500
+OK.
+
+88
+00:05:46,980 --> 00:05:54,600
+So in the next lecture, we will see certain examples and will solve some problems and will draw flowchart
+
+89
+00:05:54,600 --> 00:05:55,050
+for them.
+
+90
+00:05:55,140 --> 00:05:56,790
+So I hope the building blocks are clear.
+
+91
+00:05:56,820 --> 00:05:57,840
+See you in the next video.

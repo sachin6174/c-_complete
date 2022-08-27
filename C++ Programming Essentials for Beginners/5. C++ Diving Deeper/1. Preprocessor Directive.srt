@@ -1,0 +1,299 @@
+1
+00:00:00,900 --> 00:00:06,120
+Hello, everyone, in this section, we will dig deeper into C++ concept and we will talk about your
+
+2
+00:00:06,120 --> 00:00:11,640
+things like what is a pre processor that active water keywords on identifiers?
+
+3
+00:00:11,670 --> 00:00:15,870
+What is the significance of mean and what is the concept of namespaces, OK?
+
+4
+00:00:16,590 --> 00:00:22,410
+As a beginner, you might find some of these concept little Typekit, but as you get comfortable with
+
+5
+00:00:22,410 --> 00:00:26,480
+the course, the understanding of your these concepts would even become deeper.
+
+6
+00:00:26,760 --> 00:00:26,790
+OK.
+
+7
+00:00:27,330 --> 00:00:32,160
+This is a brief introduction about a few of the things that I've listed here.
+
+8
+00:00:32,850 --> 00:00:38,910
+So in the beginning, we'll start with the preprocessor that we need to understand two things at what
+
+9
+00:00:38,910 --> 00:00:45,360
+is a directive or directive is kind of a statement that that the compiler to do some kind of a book.
+
+10
+00:00:45,990 --> 00:00:54,030
+The processors are special kind of directives which give instructions to the compiler about reprocessing
+
+11
+00:00:54,030 --> 00:00:56,730
+some code before the actual compilation starts.
+
+12
+00:00:56,730 --> 00:00:57,000
+OK?
+
+13
+00:00:57,780 --> 00:01:07,520
+Now, in the previous module, we have seen that we can easily do input output using the incident.
+
+14
+00:01:07,860 --> 00:01:08,150
+OK.
+
+15
+00:01:08,580 --> 00:01:15,630
+But there is certain code that needs to be pre-processed before that functionality starts working for
+
+16
+00:01:15,630 --> 00:01:15,750
+you.
+
+17
+00:01:15,780 --> 00:01:16,040
+OK.
+
+18
+00:01:16,440 --> 00:01:23,160
+So it is a pre-processed directive is used to pre-processed some code before the actual compilation
+
+19
+00:01:23,160 --> 00:01:26,820
+starts, and you will observe the directive begins with the hash.
+
+20
+00:01:26,880 --> 00:01:30,210
+So we have seen the example of ash in glorious stream.
+
+21
+00:01:31,120 --> 00:01:39,040
+And the actual code is being compiled by the compiler only, so let us see an example the hash in glued
+
+22
+00:01:39,370 --> 00:01:41,230
+is an example of a preprocessor.
+
+23
+00:01:41,920 --> 00:01:42,190
+OK.
+
+24
+00:01:42,730 --> 00:01:46,600
+So what this hash include is the compiler.
+
+25
+00:01:47,000 --> 00:01:51,850
+OK, you go and be pre-processed the code that is there in the file stream.
+
+26
+00:01:51,850 --> 00:01:58,750
+So Extremism header file, which contains some code for doing input and output.
+
+27
+00:01:58,750 --> 00:02:00,760
+So the code for input and output.
+
+28
+00:02:03,830 --> 00:02:05,690
+Is written in a special fight.
+
+29
+00:02:05,780 --> 00:02:12,710
+That is a header file, and the name of the file is extremely harsh and stealing the compiler to include
+
+30
+00:02:12,710 --> 00:02:16,070
+this header file in the source code, I guess, or during compilation.
+
+31
+00:02:16,580 --> 00:02:21,140
+It is also going to pre-processed the code that is written in Io Stream.
+
+32
+00:02:21,620 --> 00:02:30,440
+It's only then you can use the in ENCODE because the code that is responsible for doing input and output
+
+33
+00:02:30,860 --> 00:02:32,400
+is present in this particular file.
+
+34
+00:02:32,400 --> 00:02:36,410
+Look, that is an example of a hash include directive.
+
+35
+00:02:37,100 --> 00:02:44,090
+So similarly, there are other examples also where you can have you can have other type of directives
+
+36
+00:02:44,090 --> 00:02:50,000
+also, for example, and in the day before that activist as defined, it will under different orders
+
+37
+00:02:50,000 --> 00:02:51,860
+that you can include one hydrofoil.
+
+38
+00:02:52,460 --> 00:02:57,200
+And later on, you will see that there are different data sectors like stock or queue.
+
+39
+00:02:57,730 --> 00:03:03,590
+You want to include the implementation of that particular data, as it did in your code, so you can
+
+40
+00:03:03,590 --> 00:03:06,740
+include the header file of that particular data center as well.
+
+41
+00:03:07,130 --> 00:03:16,280
+Using the ASH include that Active two has defined that active is used to define symbolic constants and
+
+42
+00:03:16,280 --> 00:03:17,450
+let us see an example.
+
+43
+00:03:18,230 --> 00:03:18,500
+OK.
+
+44
+00:03:19,070 --> 00:03:22,250
+These symbolic constants, they're also known as macro.
+
+45
+00:03:23,240 --> 00:03:29,690
+So what happens when you define something like this the user has defined I'm defining a constant by
+
+46
+00:03:29,720 --> 00:03:36,550
+that is based on the value of this by is three point one foot to what what does it happen is it's a
+
+47
+00:03:36,560 --> 00:03:37,550
+symbolic quantum.
+
+48
+00:03:37,580 --> 00:03:43,010
+That means whenever the compiler will encounter this symbol, OK?
+
+49
+00:03:44,020 --> 00:03:50,500
+The gold will be replaced by the value of that particular symbol or the value of by, we have defined
+
+50
+00:03:50,500 --> 00:03:58,620
+as 3.1 port in this score, whenever the compiler is going to process this line and in line number six
+
+51
+00:03:59,080 --> 00:04:05,200
+or in any line, wherever you have, wherever you encounter this constant buy, it will be replaced
+
+52
+00:04:05,200 --> 00:04:06,730
+with the value three point one four.
+
+53
+00:04:07,570 --> 00:04:11,920
+So that is the importance of this hash defined that it will get.
+
+54
+00:04:12,250 --> 00:04:14,140
+And this is also known as macros.
+
+55
+00:04:14,140 --> 00:04:18,430
+We have defined a macro byte whose value is 3.1 four.
+
+56
+00:04:19,300 --> 00:04:26,890
+So what we are saying is all subsequent occurrences of the macro in the source code will be replaced
+
+57
+00:04:26,890 --> 00:04:28,300
+by its replacement text.
+
+58
+00:04:28,780 --> 00:04:30,910
+So this is actually a replacement text.
+
+59
+00:04:31,270 --> 00:04:36,190
+This value is not stored in any memory like it out, it's just a replacement text.
+
+60
+00:04:36,300 --> 00:04:40,180
+OK, it's not creating any bucket in the memory.
+
+61
+00:04:40,180 --> 00:04:41,800
+It's just in your source code.
+
+62
+00:04:43,100 --> 00:04:49,040
+Wherever you write this content, it will be replaced by its replacement text, so replacement text
+
+63
+00:04:49,040 --> 00:04:53,200
+is a better term as compared to to value something that was stored inside.
+
+64
+00:04:53,750 --> 00:04:58,480
+So it's not actually a value, it's a replacement text before the program is compiled.
+
+65
+00:04:58,490 --> 00:05:02,870
+OK, and this replacement happens before this court is compiled.
+
+66
+00:05:02,960 --> 00:05:05,000
+Because of binary, you're going to compile this code.
+
+67
+00:05:05,000 --> 00:05:12,560
+It will process discordance three point one four multiplied by odd into this is what the macro is.
+
+68
+00:05:13,550 --> 00:05:19,030
+So I hope you have understood you've got an idea about preprocessor directives, so I've given you two
+
+69
+00:05:19,030 --> 00:05:19,630
+examples.
+
+70
+00:05:19,630 --> 00:05:21,790
+One is the hash include A..
+
+71
+00:05:22,330 --> 00:05:24,070
+There is a defined directive.
+
+72
+00:05:24,490 --> 00:05:27,280
+There are also directives like if?
+
+73
+00:05:27,950 --> 00:05:28,870
+Or something like that.
+
+74
+00:05:29,380 --> 00:05:32,290
+But this is sufficient for now.
+
+75
+00:05:32,680 --> 00:05:37,930
+In the next, we will talk about a next concept of identifies you in the next lecture.

@@ -1,0 +1,179 @@
+1
+00:00:01,030 --> 00:00:05,740
+I loved ones in this lecture, we're going to solve this problem, given a number, we want to find
+
+2
+00:00:05,740 --> 00:00:10,450
+the reverse of the item, but a discussion can be approached in two different ways.
+
+3
+00:00:10,630 --> 00:00:15,940
+So first way is very simple where we don't actually reverse the number, we just print the digits in
+
+4
+00:00:15,940 --> 00:00:16,660
+the reverse order.
+
+5
+00:00:16,690 --> 00:00:19,690
+For example, if the number is two three one four.
+
+6
+00:00:19,900 --> 00:00:20,230
+So what?
+
+7
+00:00:20,230 --> 00:00:22,570
+We will extract the last digit.
+
+8
+00:00:22,780 --> 00:00:23,080
+OK?
+
+9
+00:00:23,510 --> 00:00:28,660
+And you know, the last digit can be extracted by doing so and modern operation.
+
+10
+00:00:29,320 --> 00:00:31,660
+And maybe we print this last digit, right?
+
+11
+00:00:32,530 --> 00:00:35,830
+So we print the number four in the next iteration.
+
+12
+00:00:35,860 --> 00:00:38,740
+What I want to do, I actually want to get this digit.
+
+13
+00:00:38,860 --> 00:00:40,920
+So for that, I need to remove this digit, right?
+
+14
+00:00:40,930 --> 00:00:45,450
+So I I will remove four by doing any equal to anybody.
+
+15
+00:00:45,490 --> 00:00:48,880
+So we have reduced the number from two three one four.
+
+16
+00:00:49,300 --> 00:00:54,860
+We got the last digit and we reduced it to the number two three one right next name again.
+
+17
+00:00:54,880 --> 00:01:01,570
+What I want to do and I will do the same thing, get the last digit printed, OK and reduce the number.
+
+18
+00:01:02,260 --> 00:01:04,780
+So get the last digit, which is three.
+
+19
+00:01:05,470 --> 00:01:06,370
+Reduce the number.
+
+20
+00:01:06,670 --> 00:01:13,200
+Make it to get the last digit, that is to print it and reduce the number that is now zero.
+
+21
+00:01:13,210 --> 00:01:15,100
+So two divided by 10 is zero.
+
+22
+00:01:15,160 --> 00:01:17,020
+So every time we are doing the operation.
+
+23
+00:01:18,140 --> 00:01:22,160
+Anywhere in Britain, and we are printing the last digit.
+
+24
+00:01:22,460 --> 00:01:24,440
+OK, now this is very easy.
+
+25
+00:01:24,770 --> 00:01:26,120
+And if you do it for.
+
+26
+00:01:27,600 --> 00:01:30,450
+The number, the number is greater than zero.
+
+27
+00:01:30,990 --> 00:01:35,640
+You are actually going to print all the digits of the number in the reverse order, right?
+
+28
+00:01:37,950 --> 00:01:47,130
+So maybe we have and then and we take and put the value of and this loop is going to print all the digits
+
+29
+00:01:48,210 --> 00:01:51,330
+in the reverse order, so we end last digit here, right?
+
+30
+00:01:52,320 --> 00:01:58,050
+So now what we will do will run this code and will show you the output, right?
+
+31
+00:01:58,840 --> 00:02:02,850
+Let's say dodge, flash, reverse.
+
+32
+00:02:03,630 --> 00:02:08,790
+And the number is, let's say, two three one four.
+
+33
+00:02:09,030 --> 00:02:14,160
+So I get like four one three two three four one two three, which is correct.
+
+34
+00:02:14,850 --> 00:02:22,650
+And if I have a number like one zero zero one two two one zero zero one, which is fine, and if I have
+
+35
+00:02:22,650 --> 00:02:26,400
+a number like hundred, so I get the reverse as zero zero one.
+
+36
+00:02:26,490 --> 00:02:35,850
+OK, now this is a case where you might expect the reverse to be either zero zero one or you might expect
+
+37
+00:02:36,030 --> 00:02:38,460
+the reverse to be only one rate.
+
+38
+00:02:38,850 --> 00:02:44,100
+So if you store it, if you try to store zero zero one in an integer, you cannot store it, you will
+
+39
+00:02:44,100 --> 00:02:46,090
+store only one right now.
+
+40
+00:02:46,890 --> 00:02:52,560
+This will depend upon what is the sample input output is the problem statement expecting this kind of
+
+41
+00:02:52,560 --> 00:02:54,570
+output will with this approach.
+
+42
+00:02:55,020 --> 00:03:00,150
+If the problem expecting this kind of output, we need to change our approach slightly.
+
+43
+00:03:00,180 --> 00:03:00,510
+OK.
+
+44
+00:03:00,990 --> 00:03:07,170
+So now I will discuss the second approach as well, where we'll actually revise the number instead of
+
+45
+00:03:07,170 --> 00:03:08,880
+printing it in the next video.

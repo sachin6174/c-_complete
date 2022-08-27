@@ -1,0 +1,367 @@
+1
+00:00:01,220 --> 00:00:01,880
+Everyone.
+
+2
+00:00:02,210 --> 00:00:09,140
+So let's begin the implementation of selections, OK, so what we discussed, we will go from a position
+
+3
+00:00:09,140 --> 00:00:15,560
+that is initially zero and we will go till the second last element that is equal to N minus two.
+
+4
+00:00:16,130 --> 00:00:18,980
+And we will do position plus plus OK.
+
+5
+00:00:19,640 --> 00:00:22,990
+And every position we know what is the current element.
+
+6
+00:00:23,000 --> 00:00:28,040
+So the current element is nothing but area of position, that is the current element.
+
+7
+00:00:28,070 --> 00:00:29,800
+Let me draw one example 02.
+
+8
+00:00:30,350 --> 00:00:35,860
+Let's say we have a reverse order that is five, four, one, three and two.
+
+9
+00:00:35,870 --> 00:00:37,580
+Let's say this is how that it looks like.
+
+10
+00:00:38,420 --> 00:00:40,950
+So currently this is the position the entire date is and.
+
+11
+00:00:41,660 --> 00:00:45,350
+We will find out what is the minimum in this IndiaToday.
+
+12
+00:00:45,380 --> 00:00:46,760
+And we will put it to the front.
+
+13
+00:00:47,330 --> 00:00:56,420
+So we will say, OK, -- Variable G, that starts from position and it goes till the last element
+
+14
+00:00:56,750 --> 00:00:58,280
+and we do J Plus Plus.
+
+15
+00:00:59,620 --> 00:01:07,000
+So what we can take, we can find out the minimum element, OK, so using this loop to find out the
+
+16
+00:01:07,000 --> 00:01:07,840
+minimum element.
+
+17
+00:01:08,020 --> 00:01:13,510
+OK, so first we will find the minimum element once we know which is the minimum element we will do
+
+18
+00:01:13,510 --> 00:01:14,950
+swapping outside the loop.
+
+19
+00:01:15,250 --> 00:01:21,520
+OK, outside the loop, we will do the swapping so we can say, OK, the minimum sulphide is let's have
+
+20
+00:01:21,520 --> 00:01:25,660
+five, so we can initialize the minimum element.
+
+21
+00:01:25,840 --> 00:01:30,010
+So let's imagine a minimum so far we can see.
+
+22
+00:01:33,810 --> 00:01:37,140
+Or let us simply compare with the current itself, OK?
+
+23
+00:01:37,840 --> 00:01:42,630
+OK, let me just do something good if I can to area off.
+
+24
+00:01:42,630 --> 00:01:44,580
+Gee, that is the current element.
+
+25
+00:01:45,670 --> 00:01:48,450
+It is less than than sort of storing the element.
+
+26
+00:01:48,450 --> 00:01:50,220
+We can actually store the position, OK?
+
+27
+00:01:50,250 --> 00:01:53,310
+You can store what is the position of the minimum element.
+
+28
+00:01:53,310 --> 00:01:57,750
+So we can say this is a variable which will store the index of.
+
+29
+00:01:58,770 --> 00:02:00,400
+Minimum living, OK?
+
+30
+00:02:00,780 --> 00:02:02,160
+They need to define this variable.
+
+31
+00:02:03,780 --> 00:02:11,310
+So I can say in the beginning, the minimum position is same as position, but if you find an element
+
+32
+00:02:11,400 --> 00:02:19,710
+that is smaller than added off main position in that case, you can update many position as.
+
+33
+00:02:20,460 --> 00:02:22,410
+OK, so what is going to happen?
+
+34
+00:02:22,650 --> 00:02:24,330
+You move on to the next this element.
+
+35
+00:02:24,330 --> 00:02:29,510
+You see, this forward is smaller than what is at often positions.
+
+36
+00:02:29,550 --> 00:02:30,900
+I don't mean bush in his faith.
+
+37
+00:02:31,470 --> 00:02:33,860
+So you update your main position to this variable.
+
+38
+00:02:33,870 --> 00:02:36,540
+So your main comes here next time you go to one.
+
+39
+00:02:36,840 --> 00:02:38,290
+You take closely.
+
+40
+00:02:38,310 --> 00:02:38,760
+You go to bed.
+
+41
+00:02:38,760 --> 00:02:42,270
+Five is for less than five batteries.
+
+42
+00:02:42,270 --> 00:02:42,570
+Yes.
+
+43
+00:02:42,930 --> 00:02:43,800
+We update your mind.
+
+44
+00:02:44,130 --> 00:02:49,650
+Next time you compare one less, then forward because you have already updated main position.
+
+45
+00:02:49,650 --> 00:02:51,210
+So you are comes to this point.
+
+46
+00:02:52,200 --> 00:02:54,510
+Next time to take is three less than one.
+
+47
+00:02:54,970 --> 00:02:56,620
+That is no, we will not do anything.
+
+48
+00:02:56,910 --> 00:02:59,180
+Next time you check is to less than one Dhanteras.
+
+49
+00:03:00,030 --> 00:03:05,040
+Finally, your main position points to one and your position points to five.
+
+50
+00:03:05,400 --> 00:03:07,740
+You will strap five and one.
+
+51
+00:03:07,920 --> 00:03:17,520
+OK, so we can see outside the loop we are going to swap array off min position and area off position.
+
+52
+00:03:17,640 --> 00:03:18,240
+That's it.
+
+53
+00:03:19,350 --> 00:03:27,570
+And if you keep on doing this for all positions from zero to and minus two, this is in minus one.
+
+54
+00:03:27,930 --> 00:03:30,960
+This is n minus two, as we discussed in the last video.
+
+55
+00:03:31,230 --> 00:03:36,690
+We only need to do so at this point because if you thought and minus one element, the last element
+
+56
+00:03:36,690 --> 00:03:38,520
+would automatically get sorted.
+
+57
+00:03:38,700 --> 00:03:39,000
+OK.
+
+58
+00:03:39,450 --> 00:03:41,850
+So that's the whole idea of doing selection type.
+
+59
+00:03:41,910 --> 00:03:47,760
+So what we can do, we can then this court, and if it is not clear, we will do that right and also.
+
+60
+00:03:47,940 --> 00:03:48,210
+OK.
+
+61
+00:03:48,600 --> 00:03:50,760
+So this is it.
+
+62
+00:03:50,940 --> 00:03:51,940
+Let's build a code.
+
+63
+00:03:53,430 --> 00:03:53,790
+OK.
+
+64
+00:03:53,920 --> 00:03:56,020
+This this should be selections.
+
+65
+00:03:56,020 --> 00:03:56,280
+Art.
+
+66
+00:03:58,420 --> 00:04:00,010
+And now we are going to go.
+
+67
+00:04:05,610 --> 00:04:10,620
+And you can see we are getting this already, and this is working fine as well.
+
+68
+00:04:11,280 --> 00:04:13,200
+So that's good.
+
+69
+00:04:13,500 --> 00:04:19,140
+Let's quickly try it, and this could lead to five four one three two later.
+
+70
+00:04:19,170 --> 00:04:19,950
+This is the eddy.
+
+71
+00:04:20,520 --> 00:04:22,380
+In the beginning, position is zero.
+
+72
+00:04:22,410 --> 00:04:23,070
+We are here.
+
+73
+00:04:23,490 --> 00:04:27,640
+We start from day called opposition day LA than we are outraged over this.
+
+74
+00:04:27,640 --> 00:04:30,660
+Indeed, Eddy and we find out where is the main opposition.
+
+75
+00:04:30,690 --> 00:04:33,970
+OK, so we get to know about this element.
+
+76
+00:04:33,990 --> 00:04:34,890
+This is the minimum.
+
+77
+00:04:35,280 --> 00:04:38,940
+And after we know the minimum, we swap out of main position and position.
+
+78
+00:04:38,940 --> 00:04:40,260
+So we swap one in five.
+
+79
+00:04:40,260 --> 00:04:43,410
+It becomes one four five three two.
+
+80
+00:04:44,310 --> 00:04:49,470
+Next time we have this as untitled eddy, this is position the Sasman position as well.
+
+81
+00:04:49,830 --> 00:04:52,740
+Then we iterate on this part and we see what is the minimum.
+
+82
+00:04:52,740 --> 00:04:59,490
+So we see this is the minimum we swap for and do so it becomes one two five three four.
+
+83
+00:05:00,270 --> 00:05:05,730
+Next time we have this part, we see what is the minimum three is the minimum, so it becomes one two
+
+84
+00:05:05,730 --> 00:05:07,330
+three by foot.
+
+85
+00:05:07,770 --> 00:05:12,840
+Next time we have this part, this is position and this is in minus two.
+
+86
+00:05:12,870 --> 00:05:18,180
+We see what is the minimum in this part because it's for what we do one, two, three, four and five.
+
+87
+00:05:18,840 --> 00:05:19,560
+And that's it.
+
+88
+00:05:20,220 --> 00:05:26,790
+OK, we saw you worked for N minus one element and you can do this loop is actually running and minus
+
+89
+00:05:26,790 --> 00:05:31,530
+one times, OK, so from zero to n minus two, we have and minus one iterations.
+
+90
+00:05:32,130 --> 00:05:34,680
+And this element is automatically sorted.
+
+91
+00:05:35,100 --> 00:05:36,970
+So that's selection's out for you.
+
+92
+00:05:36,990 --> 00:05:39,870
+Let's let's discuss intelligence art in the next lecture.

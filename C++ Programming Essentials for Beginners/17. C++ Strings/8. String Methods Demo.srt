@@ -1,0 +1,275 @@
+1
+00:00:01,040 --> 00:00:06,440
+Hello, everyone, in this lecture, I want to talk about a few important methods that are available
+
+2
+00:00:06,440 --> 00:00:07,970
+with the C style strings.
+
+3
+00:00:08,450 --> 00:00:10,660
+So what have been upgraded or corrected?
+
+4
+00:00:11,330 --> 00:00:17,250
+And what I want to calculate the length of this that, okay, how many characters it has in Bluecoat
+
+5
+00:00:17,510 --> 00:00:18,270
+trillion.
+
+6
+00:00:18,290 --> 00:00:24,600
+This is a function that is available, and they can give the name of dairy the name of the character
+
+7
+00:00:24,600 --> 00:00:26,780
+credit for which I want to do this work.
+
+8
+00:00:27,990 --> 00:00:32,280
+So if I show you the output, it gives me five.
+
+9
+00:00:32,700 --> 00:00:34,530
+So you can see it has five letters.
+
+10
+00:00:34,860 --> 00:00:39,720
+And if you talk about storage, it actually has six letters because it is also note that we need it.
+
+11
+00:00:39,720 --> 00:00:42,300
+Okay, so that is the first function that we have seen.
+
+12
+00:00:42,690 --> 00:00:46,740
+If we want to calculate the length, we can use the Australian function.
+
+13
+00:00:47,160 --> 00:00:49,290
+The next function is string copy.
+
+14
+00:00:49,710 --> 00:00:55,590
+If we want to copy one string to another, this string, we can easily do it using string copy function.
+
+15
+00:00:55,590 --> 00:01:01,920
+We don't need to write off our look to do the work so we can just string copy copy the value of A to
+
+16
+00:01:01,920 --> 00:01:02,220
+B.
+
+17
+00:01:02,250 --> 00:01:05,040
+OK, so the first parameter is their destination.
+
+18
+00:01:05,040 --> 00:01:07,320
+But if we want the word and the second is the source.
+
+19
+00:01:07,770 --> 00:01:14,640
+So if they copy it from the value of A to B, and if I do see Old B, you can see B them to string.
+
+20
+00:01:14,640 --> 00:01:18,990
+But if I print B to here, I can see it will contain the word apple.
+
+21
+00:01:19,110 --> 00:01:19,440
+OK.
+
+22
+00:01:20,610 --> 00:01:26,190
+So you can see it contains the word apple, and that's how the string copy function works.
+
+23
+00:01:26,190 --> 00:01:30,720
+And obviously it is doing it later, later and it is going to take linear time.
+
+24
+00:01:30,720 --> 00:01:32,010
+So we have seen string copy.
+
+25
+00:01:32,430 --> 00:01:34,230
+The third is string compared.
+
+26
+00:01:34,350 --> 00:01:39,660
+So string compared basically tells us whether two strings are equal at night so I can check.
+
+27
+00:01:40,080 --> 00:01:40,930
+I can compare.
+
+28
+00:01:40,950 --> 00:01:46,080
+And B So if if all the letters match, this function is going to return zero.
+
+29
+00:01:46,590 --> 00:01:49,080
+So let us see what happens.
+
+30
+00:01:49,630 --> 00:01:54,840
+So yes, it is giving us a zero because both the strings are equal and if it is not equal, it will
+
+31
+00:01:54,840 --> 00:01:56,640
+give us plus y not a minus one.
+
+32
+00:01:56,640 --> 00:02:06,420
+So let us say let us add something to the B, so maybe I can see I can use this string concatenate function
+
+33
+00:02:07,560 --> 00:02:09,870
+that is that goes by the name S.T.A.R.T..
+
+34
+00:02:10,290 --> 00:02:12,300
+I want to concatenate two strings.
+
+35
+00:02:12,300 --> 00:02:15,640
+Maybe I can say, let me show you one example here.
+
+36
+00:02:16,320 --> 00:02:19,380
+So let's say God.
+
+37
+00:02:21,230 --> 00:02:28,130
+Web equals do W W W and Gad domain equals to.
+
+38
+00:02:30,020 --> 00:02:31,250
+Letter calling minutes.
+
+39
+00:02:31,370 --> 00:02:32,070
+Dot com.
+
+40
+00:02:32,090 --> 00:02:37,820
+I want to concatenate these two into one so I can to code SDR.
+
+41
+00:02:40,500 --> 00:02:45,600
+Eddie and I can to web and domain, and let's see.
+
+42
+00:02:48,150 --> 00:02:50,760
+And you can see we're getting W W W coding minutes.
+
+43
+00:02:50,910 --> 00:02:51,560
+Dot com.
+
+44
+00:02:51,660 --> 00:02:53,340
+OK, maybe I'll put a dotted.
+
+45
+00:02:54,330 --> 00:02:55,950
+And now we can see.
+
+46
+00:02:59,840 --> 00:03:04,940
+We are able to concatenate these two things now, I can also compared this string.
+
+47
+00:03:06,200 --> 00:03:13,310
+With with so this this is going to output a string and I can copy this value inside me, I can just
+
+48
+00:03:13,310 --> 00:03:19,070
+drink coffee this drink and to be OK, so let's see what happens now.
+
+49
+00:03:19,670 --> 00:03:25,220
+And if I do see or be here, it would be me would take the value coding when it start going.
+
+50
+00:03:25,640 --> 00:03:27,470
+OK, so we ask Non-coding when it start.
+
+51
+00:03:27,470 --> 00:03:36,860
+Come on, I can compare this with Apple, so I can this out string compared and b now this output will
+
+52
+00:03:36,860 --> 00:03:37,550
+not be zero.
+
+53
+00:03:37,550 --> 00:03:38,810
+It would be something else.
+
+54
+00:03:40,260 --> 00:03:41,400
+Let me show it to you.
+
+55
+00:03:43,570 --> 00:03:46,690
+So this output is actually negative.
+
+56
+00:03:46,720 --> 00:03:47,050
+OK.
+
+57
+00:03:49,200 --> 00:03:55,380
+And if I change this order, become a it would be positive, I guess.
+
+58
+00:03:55,410 --> 00:03:55,740
+OK.
+
+59
+00:03:57,290 --> 00:04:00,260
+So, yes, it is minus 22 and it is plus 22.
+
+60
+00:04:00,380 --> 00:04:06,420
+So it basically returns a positively or negatively or a zero.
+
+61
+00:04:06,500 --> 00:04:06,800
+OK.
+
+62
+00:04:07,130 --> 00:04:10,700
+So in three directions, this string compare can go.
+
+63
+00:04:11,060 --> 00:04:17,870
+And if you're interested in actually knowing how this value is computed, I will not tell you, go to
+
+64
+00:04:17,870 --> 00:04:22,640
+their documentation and read about what more functions are available.
+
+65
+00:04:22,640 --> 00:04:26,170
+And with this, see style strings.
+
+66
+00:04:26,180 --> 00:04:29,240
+OK, go and read about it on the web.
+
+67
+00:04:29,270 --> 00:04:29,570
+OK.
+
+68
+00:04:29,810 --> 00:04:31,290
+That's all for this lecture.
+
+69
+00:04:31,310 --> 00:04:32,870
+Thank you for joining.

@@ -1,0 +1,279 @@
+1
+00:00:01,940 --> 00:00:06,320
+I say in this lecture, we're going to talk about or to recruit terrorists.
+
+2
+00:00:07,160 --> 00:00:08,240
+And let's see.
+
+3
+00:00:10,570 --> 00:00:18,250
+So basically, in order to define a two degree activity, you can actually do use that I've got, followed
+
+4
+00:00:18,250 --> 00:00:19,180
+by name of the Eddy.
+
+5
+00:00:19,510 --> 00:00:25,060
+And this is one way in which you can in each laser to that it will get another way could be you can
+
+6
+00:00:25,060 --> 00:00:30,340
+write numbers off the number of rules and the maximum number of columns that you will support.
+
+7
+00:00:30,670 --> 00:00:31,480
+I will go ahead.
+
+8
+00:00:31,930 --> 00:00:33,430
+The number of rules is optional.
+
+9
+00:00:33,430 --> 00:00:36,130
+If you are giving a initialization list like this.
+
+10
+00:00:37,030 --> 00:00:43,200
+Then you can also do it like this, let's say a followed by B, followed by a C, followed by null.
+
+11
+00:00:44,680 --> 00:00:46,000
+This is one thing.
+
+12
+00:00:46,450 --> 00:00:50,590
+Then maybe second row second is easy or only.
+
+13
+00:00:51,070 --> 00:01:00,280
+And so the the thing is this way is not very this doesn't look good and it involves a lot of work to
+
+14
+00:01:00,280 --> 00:01:02,200
+write this kind of index as well.
+
+15
+00:01:02,230 --> 00:01:04,970
+So what we do, we write each row as a string.
+
+16
+00:01:05,560 --> 00:01:11,680
+So each row, each ring actually represents a linear idea because if you see in the memory level what
+
+17
+00:01:11,680 --> 00:01:13,990
+is going to happen, this is going to.
+
+18
+00:01:15,120 --> 00:01:22,320
+This is going to be a grid in which we are going to have approximately exactly 10 columns in each row.
+
+19
+00:01:23,420 --> 00:01:32,060
+So this is how it is going to get stored, and I will just show it to you how these are going to get
+
+20
+00:01:32,060 --> 00:01:32,450
+stored.
+
+21
+00:01:33,050 --> 00:01:35,920
+We have one, so we will have you here and here.
+
+22
+00:01:35,930 --> 00:01:37,040
+We had followed by an.
+
+23
+00:01:38,300 --> 00:01:41,750
+We have to be W or no.
+
+24
+00:01:42,260 --> 00:01:45,610
+We have three b h e none.
+
+25
+00:01:45,950 --> 00:01:46,490
+And so on.
+
+26
+00:01:46,550 --> 00:01:46,880
+OK.
+
+27
+00:01:47,470 --> 00:01:51,890
+The number of columnists and columns, that means this index was from zero to nine.
+
+28
+00:01:52,310 --> 00:01:57,080
+And the number of those is decided by how many elements we have here.
+
+29
+00:01:58,180 --> 00:01:59,290
+Up to this.
+
+30
+00:02:00,570 --> 00:02:01,170
+We have.
+
+31
+00:02:02,330 --> 00:02:07,810
+But this is how it would be corrected at a store, and now you may ask, OK, if I want to print a particular
+
+32
+00:02:07,810 --> 00:02:14,290
+role, how I can do it, so you can simply do see out numbers of some.
+
+33
+00:02:15,160 --> 00:02:18,130
+So I think this will print the entire rule.
+
+34
+00:02:18,400 --> 00:02:24,940
+And if you simply do numbers of like Ma0, it will print the zero correct provided or this will print
+
+35
+00:02:25,450 --> 00:02:26,640
+the first character off.
+
+36
+00:02:26,650 --> 00:02:32,020
+I had thought, maybe let's say I use five zero one two three.
+
+37
+00:02:33,030 --> 00:02:35,760
+Let's say is three, we are talking about digital.
+
+38
+00:02:36,540 --> 00:02:37,770
+And let me show it to you.
+
+39
+00:02:40,400 --> 00:02:42,230
+We should protocols and we call on here.
+
+40
+00:02:43,010 --> 00:02:44,420
+And if I had underscored.
+
+41
+00:02:48,510 --> 00:02:50,260
+I'd like to the connectivity.
+
+42
+00:02:51,340 --> 00:02:53,680
+And you going to be regarding the letter all here?
+
+43
+00:02:53,740 --> 00:02:57,230
+That means this we are talking about this letter.
+
+44
+00:02:57,250 --> 00:03:03,670
+And if I simply do OK, I want to print the I at all, then it is going to print.
+
+45
+00:03:07,120 --> 00:03:07,970
+The entire row.
+
+46
+00:03:08,010 --> 00:03:10,470
+OK, so you going to this is branding 40?
+
+47
+00:03:10,930 --> 00:03:15,760
+We're going to even read over all the rules I can say for integral to zero.
+
+48
+00:03:16,060 --> 00:03:17,050
+I less than.
+
+49
+00:03:19,920 --> 00:03:23,870
+Six plus plus, I can see out numbers of I.
+
+50
+00:03:25,990 --> 00:03:30,890
+If I were to scold, if I run it, you're going to be able to print all the strings.
+
+51
+00:03:30,910 --> 00:03:35,260
+So this is a behavior that is little different from the indeed it it is.
+
+52
+00:03:35,860 --> 00:03:38,860
+And if you simply do print this address.
+
+53
+00:03:39,130 --> 00:03:41,620
+So this this is actually the address.
+
+54
+00:03:41,650 --> 00:03:41,980
+OK.
+
+55
+00:03:42,520 --> 00:03:45,350
+This is not the entire thing.
+
+56
+00:03:45,370 --> 00:03:50,200
+The number of I actually print the entire electorate.
+
+57
+00:03:50,330 --> 00:03:50,650
+OK.
+
+58
+00:03:52,740 --> 00:03:56,680
+But if you printed foreign indeed it, Eddie, this is not going to happen.
+
+59
+00:03:56,790 --> 00:04:05,430
+Suppose if I change this day today and I finish laser in rigidity and then this is, then you will get
+
+60
+00:04:05,430 --> 00:04:06,330
+an address, OK?
+
+61
+00:04:06,730 --> 00:04:11,200
+So this is because code read character that is differently, OK?
+
+62
+00:04:11,220 --> 00:04:12,440
+See, outrage corrected.
+
+63
+00:04:12,440 --> 00:04:13,380
+That is differently.
+
+64
+00:04:14,190 --> 00:04:15,390
+And it is.
+
+65
+00:04:16,800 --> 00:04:21,300
+A behavior that is conditionally written inside, does the old statement look, it doesn't happen for
+
+66
+00:04:21,690 --> 00:04:25,410
+all types of errors, it only happens for the character it is.
+
+67
+00:04:25,760 --> 00:04:32,250
+OK, so I hope you understood how we can represent an array of strengths as a 2D character, Eddie.
+
+68
+00:04:32,850 --> 00:04:33,750
+So that's it.
+
+69
+00:04:33,840 --> 00:04:35,280
+That's all for this lecture.
+
+70
+00:04:35,310 --> 00:04:35,790
+Thank you.

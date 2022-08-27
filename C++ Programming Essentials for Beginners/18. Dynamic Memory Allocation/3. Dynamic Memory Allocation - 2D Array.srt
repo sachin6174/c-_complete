@@ -1,0 +1,487 @@
+1
+00:00:02,480 --> 00:00:07,490
+Hillary won in this lecture, we will talk about how we can create or to redefine McGeady.
+
+2
+00:00:08,360 --> 00:00:11,010
+We have seen how one dynamic that is created.
+
+3
+00:00:11,030 --> 00:00:15,620
+Now we want to create a two degree that's like a grid like structure like this.
+
+4
+00:00:16,990 --> 00:00:25,690
+And the problem here is we don't have any direct way of creating an initializing or to rely on me getting
+
+5
+00:00:26,200 --> 00:00:28,040
+like we have for a start degree.
+
+6
+00:00:28,060 --> 00:00:28,360
+OK.
+
+7
+00:00:28,840 --> 00:00:34,000
+So if you want to create a very simple delivery, you simply do entry, followed by the number of rules
+
+8
+00:00:34,000 --> 00:00:35,500
+and followed by the number of columns.
+
+9
+00:00:36,040 --> 00:00:40,410
+But this kind of initialization you cannot do for a dynamic area.
+
+10
+00:00:41,290 --> 00:00:47,740
+The what is going to happen is we have to allocate memory, Roberto.
+
+11
+00:00:47,950 --> 00:00:51,310
+OK, so we have to do work for each rule.
+
+12
+00:00:51,490 --> 00:00:54,670
+So first, we will allocate this little.
+
+13
+00:00:56,230 --> 00:01:03,490
+And we will store the address maybe later this addresses one zero zero, then we will allocate this
+
+14
+00:01:03,490 --> 00:01:11,500
+address this little and we will accept this addresses 800 and it is not necessary that they follow the
+
+15
+00:01:11,500 --> 00:01:12,250
+same order.
+
+16
+00:01:12,790 --> 00:01:18,850
+Then we will allocate the next crew and we will add to this addresses 600.
+
+17
+00:01:19,480 --> 00:01:25,480
+And maybe then we are allocate this one unless this addresses for fourteen hundred.
+
+18
+00:01:26,200 --> 00:01:33,790
+The idea is we will I over our laws and we will allocate these rows one by one.
+
+19
+00:01:33,870 --> 00:01:35,890
+OK, one by one.
+
+20
+00:01:37,380 --> 00:01:38,670
+We are going to allocate.
+
+21
+00:01:40,850 --> 00:01:44,720
+Roars on each row is a one deity.
+
+22
+00:01:44,750 --> 00:01:49,660
+Okay, so we are going to combine multiple one, there is two former two.
+
+23
+00:01:50,480 --> 00:01:55,640
+Now you may ask, what about these addresses, where we're going to store these addresses?
+
+24
+00:01:56,150 --> 00:01:57,630
+We will need another three.
+
+25
+00:01:58,400 --> 00:01:58,730
+OK.
+
+26
+00:02:00,280 --> 00:02:07,900
+And we will tour the address of the city and let me talk about the relationship we are storing there.
+
+27
+00:02:08,020 --> 00:02:09,640
+One two three four five.
+
+28
+00:02:10,510 --> 00:02:15,400
+Each of these bags is going to be in digit and the was.
+
+29
+00:02:16,530 --> 00:02:22,950
+Now you want to store the address of this little or so this is going to going to be of the type in.
+
+30
+00:02:24,270 --> 00:02:26,670
+This is going to be an array of pointers.
+
+31
+00:02:26,870 --> 00:02:30,320
+So this all or this, this is a special area.
+
+32
+00:02:30,330 --> 00:02:32,220
+This is going to be an area of pointers.
+
+33
+00:02:33,210 --> 00:02:37,160
+And we also need to store the address of this particular city.
+
+34
+00:02:37,260 --> 00:02:37,590
+OK.
+
+35
+00:02:38,130 --> 00:02:41,400
+We actually will make something like instant dot.
+
+36
+00:02:42,400 --> 00:02:48,790
+Followed by name of day, we have appointed variable that stores the address of this city and this at
+
+37
+00:02:48,880 --> 00:02:50,530
+store the address of each store.
+
+38
+00:02:51,010 --> 00:02:54,910
+This is how we are going to allocate to the dynamic.
+
+39
+00:02:55,690 --> 00:03:02,410
+Now this may sound confusing, so let us create a function that creates the city and returns the address
+
+40
+00:03:02,410 --> 00:03:03,370
+of this particular area.
+
+41
+00:03:03,400 --> 00:03:07,500
+OK, so now let me show it to you and start start.
+
+42
+00:03:08,050 --> 00:03:09,640
+It's a great story area.
+
+43
+00:03:11,100 --> 00:03:17,910
+It's a this is a function, this accepts the number of roles and the number of columns and sentences
+
+44
+00:03:17,910 --> 00:03:20,310
+are dynamic area we can return the area from.
+
+45
+00:03:20,310 --> 00:03:25,980
+This meant that it will not get destroyed even if we create this array inside of a particular function.
+
+46
+00:03:26,850 --> 00:03:34,410
+Now first, I will create this variable and start study and I will initialize it with.
+
+47
+00:03:36,090 --> 00:03:37,320
+With the area of.
+
+48
+00:03:40,520 --> 00:03:45,650
+And start OK on this would be besides would be equal to the number of troops.
+
+49
+00:03:45,860 --> 00:03:46,140
+OK.
+
+50
+00:03:46,960 --> 00:03:50,000
+What we did, we first created this part.
+
+51
+00:03:50,330 --> 00:03:51,650
+We first created the city.
+
+52
+00:03:52,220 --> 00:03:59,990
+And in this edit, each element is of the type done on this starting address is of the type of in-stores
+
+53
+00:03:59,990 --> 00:04:00,290
+done.
+
+54
+00:04:00,620 --> 00:04:00,920
+OK.
+
+55
+00:04:01,160 --> 00:04:08,210
+So I hope this this is cleared and now we are going to iterate over each at all.
+
+56
+00:04:09,140 --> 00:04:10,970
+Let me let me show it to you.
+
+57
+00:04:11,000 --> 00:04:19,670
+What we are trying to do before first, we created a bucket that can store the address of an array of.
+
+58
+00:04:21,530 --> 00:04:24,560
+That can store the address of an area of pointers.
+
+59
+00:04:24,590 --> 00:04:25,670
+OK, so we have.
+
+60
+00:04:29,060 --> 00:04:29,780
+Pointers.
+
+61
+00:04:29,930 --> 00:04:30,260
+OK.
+
+62
+00:04:30,830 --> 00:04:32,780
+This is an area in stocks.
+
+63
+00:04:33,940 --> 00:04:36,130
+This each bucket is of the diaper and stuff.
+
+64
+00:04:36,400 --> 00:04:41,230
+OK, so we have a roll number of elements in this.
+
+65
+00:04:41,670 --> 00:04:47,910
+Now we are going to iterate over the city and we are going to say, OK, you go over each row and look
+
+66
+00:04:47,950 --> 00:04:49,510
+at a new area like this.
+
+67
+00:04:50,850 --> 00:04:54,690
+So let me let me show it to you four and I equals two zero.
+
+68
+00:04:55,020 --> 00:04:58,590
+I less than the number of rows I + +.
+
+69
+00:04:58,950 --> 00:05:00,660
+And I can say at Delphi.
+
+70
+00:05:00,960 --> 00:05:05,010
+OK, so that means we are talking about this box later.
+
+71
+00:05:05,010 --> 00:05:06,000
+This is the IoT box.
+
+72
+00:05:06,060 --> 00:05:07,110
+So this is that Delphi.
+
+73
+00:05:07,680 --> 00:05:15,330
+This should point to a new area which has column number of columns at Delphi should be called NEWID
+
+74
+00:05:15,930 --> 00:05:17,400
+on each boxes of the table.
+
+75
+00:05:17,400 --> 00:05:19,110
+And that's it.
+
+76
+00:05:20,340 --> 00:05:25,140
+So this is how we allocate memory for each at all.
+
+77
+00:05:25,860 --> 00:05:26,190
+OK.
+
+78
+00:05:26,640 --> 00:05:34,590
+And maybe we also want to initialize this array with some value or give in, let's say, increasing
+
+79
+00:05:34,590 --> 00:05:35,580
+list of numbers.
+
+80
+00:05:36,750 --> 00:05:39,990
+So maybe I can see value equals zero and then I can.
+
+81
+00:05:39,990 --> 00:05:42,510
+I dread over the city for individuals to zero.
+
+82
+00:05:43,050 --> 00:05:51,150
+I less than the number of rows I + + + four and Jake will do zero j less than the number of columns.
+
+83
+00:05:51,780 --> 00:05:55,590
+Duplex plus the creation bar doesn't belong.
+
+84
+00:05:55,590 --> 00:05:57,750
+OK, so Creation Bar does this much.
+
+85
+00:05:57,750 --> 00:06:00,970
+Only are now we're just putting some values it.
+
+86
+00:06:01,000 --> 00:06:06,930
+So we are saying at F I and G, this is going to be called the value.
+
+87
+00:06:08,090 --> 00:06:09,500
+And they do valuable as plus.
+
+88
+00:06:10,250 --> 00:06:12,560
+And from here, I can return the city.
+
+89
+00:06:13,430 --> 00:06:20,580
+I've done this run this my third way because I want to tell you, even if you even if this function
+
+90
+00:06:20,580 --> 00:06:21,290
+call is over.
+
+91
+00:06:21,380 --> 00:06:27,300
+Since this ad is dynamically allocated, you can still access these values inside the main method.
+
+92
+00:06:27,320 --> 00:06:27,650
+OK.
+
+93
+00:06:28,160 --> 00:06:29,690
+So let us dig in.
+
+94
+00:06:29,690 --> 00:06:38,180
+But the number of roads and columns from the user and rose columns seen rows, columns and let's create
+
+95
+00:06:38,180 --> 00:06:43,910
+a variable and dart area that makes this function called create two D.A.R.E..
+
+96
+00:06:44,300 --> 00:06:47,780
+I give rows and columns here and then I can.
+
+97
+00:06:47,780 --> 00:06:51,550
+I trade and print all the elements of the city for into equal to zero.
+
+98
+00:06:51,560 --> 00:06:59,870
+I left the number of rows I + + four and equal to zero less than the number of columns, tables plus
+
+99
+00:07:00,350 --> 00:07:08,090
+I can the code area of I and G, followed by space and followed by new line here.
+
+100
+00:07:12,940 --> 00:07:16,600
+So let's build Discord and let's try to run it.
+
+101
+00:07:20,890 --> 00:07:27,520
+Maybe four or three columns, so I have four rows, three columns, and I can see this city OK, maybe
+
+102
+00:07:27,520 --> 00:07:29,440
+seven rows and six columns.
+
+103
+00:07:29,590 --> 00:07:31,490
+So this is how it looks like.
+
+104
+00:07:31,960 --> 00:07:32,260
+OK.
+
+105
+00:07:32,830 --> 00:07:36,680
+So I hope this initialization is clear.
+
+106
+00:07:36,710 --> 00:07:43,480
+So one important thing that we learned from this lecture is that if it was a static area, then you
+
+107
+00:07:43,480 --> 00:07:45,160
+cannot access the content in men.
+
+108
+00:07:45,160 --> 00:07:51,060
+But it's a dynamic area that means it is not the memories outside the scope of the goldstuck.
+
+109
+00:07:51,070 --> 00:07:55,240
+OK, so we called mean that had a variable known as error.
+
+110
+00:07:55,600 --> 00:08:01,060
+It called another method that was created already this method.
+
+111
+00:08:02,120 --> 00:08:07,020
+Created a variable error, which pointed to a.
+
+112
+00:08:08,430 --> 00:08:13,410
+To the area and this slide in the hip memory, once this function call is over.
+
+113
+00:08:14,030 --> 00:08:15,460
+This area is gone.
+
+114
+00:08:15,510 --> 00:08:19,190
+But later this address was handed, which was stored in error.
+
+115
+00:08:19,590 --> 00:08:21,870
+And this was returned to the mine.
+
+116
+00:08:21,890 --> 00:08:25,560
+So now man is able to point to this memory and this connection is gone.
+
+117
+00:08:26,730 --> 00:08:32,640
+And we are able to print the elements of this memory from the mine and we are able to do it because
+
+118
+00:08:32,640 --> 00:08:35,490
+it is a dynamic memory.
+
+119
+00:08:36,960 --> 00:08:43,770
+I hope now the concept of dynamic memory allocation are crystal clear to you, and that's all for this
+
+120
+00:08:43,770 --> 00:08:44,310
+module.
+
+121
+00:08:44,310 --> 00:08:44,890
+Thank you.
+
+122
+00:08:44,910 --> 00:08:45,390
+Bye bye.

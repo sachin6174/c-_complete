@@ -1,0 +1,687 @@
+1
+00:00:01,000 --> 00:00:04,660
+Everyone in this lecture, we're going to talk about the and basics.
+
+2
+00:00:05,050 --> 00:00:10,750
+So many people get fear when they hear the word recording because it's a pretty confusing technique,
+
+3
+00:00:10,750 --> 00:00:11,950
+especially for the beginners.
+
+4
+00:00:12,430 --> 00:00:18,520
+But we will try to explain it in a simplified manner with the help of certain examples, and we will
+
+5
+00:00:18,520 --> 00:00:20,800
+do a lot of problem-solving undergraduate as well.
+
+6
+00:00:21,220 --> 00:00:22,120
+Let's see what is it?
+
+7
+00:00:22,120 --> 00:00:23,130
+A guidance, as they say.
+
+8
+00:00:23,140 --> 00:00:27,430
+It's a technique in computer science with a solution to a problem.
+
+9
+00:00:27,520 --> 00:00:27,810
+OK.
+
+10
+00:00:28,730 --> 00:00:33,020
+Depends upon solution to smaller instances of the same problem.
+
+11
+00:00:33,100 --> 00:00:35,320
+OK, this is something that what you need to remember.
+
+12
+00:00:35,650 --> 00:00:40,590
+Let's say you have a problem, and that problem is a complex problem.
+
+13
+00:00:40,600 --> 00:00:42,510
+That means it has a lot of in quality.
+
+14
+00:00:43,120 --> 00:00:48,400
+And you want to break this problem into maybe smaller instances of the same problem.
+
+15
+00:00:48,410 --> 00:00:54,880
+Or maybe you break this into three such problems of later size and by three and by three and by three
+
+16
+00:00:54,880 --> 00:00:55,180
+you'll get.
+
+17
+00:00:55,600 --> 00:01:01,450
+The other idea would be to solve this problems and combine the answers of some problems to get done
+
+18
+00:01:01,450 --> 00:01:02,500
+that for a bigger problem.
+
+19
+00:01:02,560 --> 00:01:05,350
+Guess that this is something what we would be doing.
+
+20
+00:01:05,800 --> 00:01:09,120
+And what is the meaning of smaller instances of the same problem?
+
+21
+00:01:09,130 --> 00:01:10,960
+Let's say we want to compute some function.
+
+22
+00:01:10,960 --> 00:01:17,470
+If then the smaller problem will also be on the same function if, OK, something like this.
+
+23
+00:01:18,480 --> 00:01:21,450
+So I'll try to explain with the help of one very simple example.
+
+24
+00:01:21,840 --> 00:01:25,890
+Let us see the most classical example that is taken to.
+
+25
+00:01:28,070 --> 00:01:33,380
+Deja goes into that is the factorial question, OK, so let's say I want to compute a factorial of a
+
+26
+00:01:33,380 --> 00:01:36,080
+number and OK, let's add that number and this five.
+
+27
+00:01:37,190 --> 00:01:41,380
+And I want to compute of an that is equal to end victory.
+
+28
+00:01:41,600 --> 00:01:47,120
+This is I'm doing what I want to compute now, although this is a easier problem, but still we can
+
+29
+00:01:47,120 --> 00:01:49,010
+break this problem recursively.
+
+30
+00:01:49,010 --> 00:01:50,330
+We can break it endosomal.
+
+31
+00:01:50,330 --> 00:01:51,860
+It's a problem of the same type.
+
+32
+00:01:52,430 --> 00:01:54,900
+So you know, what is the property of Victorians?
+
+33
+00:01:54,900 --> 00:02:00,660
+So Victoria is nothing, but it can be written as an indoor and minus one factorial.
+
+34
+00:02:01,250 --> 00:02:04,610
+And rather than minus one factor, it is nothing but f off and minus one.
+
+35
+00:02:04,860 --> 00:02:06,980
+So it can be written as like this.
+
+36
+00:02:08,650 --> 00:02:14,380
+So what we have done, we have done a lot of larger problem in terms of a smaller problem of the same
+
+37
+00:02:14,380 --> 00:02:14,650
+day.
+
+38
+00:02:14,830 --> 00:02:17,770
+Now how do we compute it algorithmically?
+
+39
+00:02:17,800 --> 00:02:25,580
+For example, if I want to compute five factorial, this will be written as 5.0 for this forward.
+
+40
+00:02:25,580 --> 00:02:28,660
+For Total can be written as 14 two three factorial.
+
+41
+00:02:29,050 --> 00:02:32,080
+This can be written as three into two factorial.
+
+42
+00:02:32,470 --> 00:02:35,170
+This can be written as doing two one factorial.
+
+43
+00:02:35,530 --> 00:02:39,750
+This can be written as one and two zero factorial i zero factorial.
+
+44
+00:02:39,760 --> 00:02:44,680
+We know we have reached a point where the problem cannot be broken down further.
+
+45
+00:02:44,710 --> 00:02:46,930
+So such a point is known as base case.
+
+46
+00:02:47,860 --> 00:02:50,680
+So let us see what are these dumps?
+
+47
+00:02:53,320 --> 00:02:59,440
+So at this point, we would say we have reached a guess which is known as base case, that means we
+
+48
+00:02:59,830 --> 00:03:05,140
+we cannot reduce our problem further and the basic, as is the case where we know the answer of this
+
+49
+00:03:05,230 --> 00:03:11,920
+problem gets zero effect or nothing, but one what we will do, then we will run one into one one and
+
+50
+00:03:11,920 --> 00:03:13,180
+this one will go bad kid.
+
+51
+00:03:13,300 --> 00:03:15,790
+So this would become two into one, that is do.
+
+52
+00:03:16,270 --> 00:03:17,680
+And this too will go back, kid.
+
+53
+00:03:18,310 --> 00:03:19,870
+This is nothing but trained to do.
+
+54
+00:03:19,900 --> 00:03:22,810
+That is equal to six under six will go ahead.
+
+55
+00:03:23,300 --> 00:03:25,460
+The three victories will get replaced by six.
+
+56
+00:03:25,480 --> 00:03:26,990
+This will become 5:46.
+
+57
+00:03:27,010 --> 00:03:27,940
+That is 24.
+
+58
+00:03:28,510 --> 00:03:32,980
+This 24 will go ahead and five and 24 will be 120.
+
+59
+00:03:34,710 --> 00:03:40,800
+So when we would be dealing with regulation, we will see two directions in one direction, we are breaking
+
+60
+00:03:41,460 --> 00:03:44,280
+the problem and we are trying to simplify it.
+
+61
+00:03:44,760 --> 00:03:50,910
+So that means we are moving towards the base case, OK, towards the base case.
+
+62
+00:03:51,630 --> 00:03:59,040
+And another direction would be in which we are again coming back from the base case towards the main
+
+63
+00:03:59,040 --> 00:03:59,490
+problem.
+
+64
+00:03:59,490 --> 00:04:02,010
+OK, so this is from top to down.
+
+65
+00:04:03,230 --> 00:04:05,320
+And this is from down Gadhafi.
+
+66
+00:04:05,730 --> 00:04:08,800
+OK, we would be doing work in two directions.
+
+67
+00:04:08,810 --> 00:04:11,420
+First, we will be breaking and simplifying the problem.
+
+68
+00:04:11,870 --> 00:04:17,930
+Then we would be combining the solutions to form the answers of the bigger problem that we have left.
+
+69
+00:04:18,020 --> 00:04:20,570
+So this is how this recording is going to work.
+
+70
+00:04:21,140 --> 00:04:25,100
+You may ask how does it will work in the form of a program?
+
+71
+00:04:25,400 --> 00:04:32,150
+Well, guess when we're going to write the code, we will take the help of call stock function, call
+
+72
+00:04:32,150 --> 00:04:32,540
+stack.
+
+73
+00:04:32,810 --> 00:04:33,080
+OK.
+
+74
+00:04:33,530 --> 00:04:37,250
+So I hope you remember those calls, that concept.
+
+75
+00:04:37,250 --> 00:04:44,390
+So what happens is, let's say you have a function mean and it makes a call to the function helo, which
+
+76
+00:04:44,390 --> 00:04:48,470
+further makes the function call to the, let's say, dual function height.
+
+77
+00:04:48,980 --> 00:04:55,460
+What happened is in the call SoC, you will see that these functions will get started on the top of
+
+78
+00:04:55,460 --> 00:04:55,910
+each other.
+
+79
+00:04:55,970 --> 00:04:56,270
+OK.
+
+80
+00:04:57,520 --> 00:05:02,530
+And in the order in which they're called, and once the function high is completed, it will go off.
+
+81
+00:05:02,680 --> 00:05:08,650
+Once the functional is completed, it will go off and once the mine is completed, it will also go off.
+
+82
+00:05:08,920 --> 00:05:15,790
+But it couldn't actually uses the concept of call stock to store all the states of these variables that
+
+83
+00:05:15,790 --> 00:05:16,600
+we are going to have.
+
+84
+00:05:17,560 --> 00:05:20,830
+So it will become more clear as we go through some more examples.
+
+85
+00:05:21,190 --> 00:05:27,430
+But for this video, the concept is, you understand at high level what recording is going to do.
+
+86
+00:05:27,430 --> 00:05:31,150
+It is going to break down your complex problems into smaller problems.
+
+87
+00:05:31,480 --> 00:05:34,780
+We are going to solve those problems and get back over answers.
+
+88
+00:05:34,780 --> 00:05:35,020
+OK?
+
+89
+00:05:35,290 --> 00:05:37,180
+So let us see another example.
+
+90
+00:05:37,660 --> 00:05:40,540
+For example, we want to define an operation.
+
+91
+00:05:40,540 --> 00:05:41,140
+Go to home.
+
+92
+00:05:41,260 --> 00:05:42,670
+Let's say you are standing at.
+
+93
+00:05:44,140 --> 00:05:51,670
+Some calling it, let's say, some ex guarding it on your home is add some value that is equal to end,
+
+94
+00:05:52,660 --> 00:05:56,080
+so you want to reach this home and what you will do.
+
+95
+00:05:56,470 --> 00:06:01,150
+One is you put a look and you can simply do take one step every day.
+
+96
+00:06:01,150 --> 00:06:05,410
+But another thing you're going to do is you will say, OK, you know, I'll just dig one step and I
+
+97
+00:06:05,410 --> 00:06:08,860
+will ask recursion to take me home from X plus one.
+
+98
+00:06:09,880 --> 00:06:10,200
+OK.
+
+99
+00:06:10,690 --> 00:06:15,790
+So the idea is you take one step and leave the rest of the work, for the record, know because at this
+
+100
+00:06:15,790 --> 00:06:18,260
+point can be solid recursively again.
+
+101
+00:06:18,260 --> 00:06:22,900
+And despite what you would be doing, take one step, leave the rest, work for the good and big one
+
+102
+00:06:22,900 --> 00:06:23,680
+step, leave the rest.
+
+103
+00:06:23,680 --> 00:06:24,430
+Work for the records.
+
+104
+00:06:24,550 --> 00:06:24,760
+OK?
+
+105
+00:06:25,000 --> 00:06:26,350
+And what would be the best guess?
+
+106
+00:06:26,350 --> 00:06:29,590
+The best course would be if you are at the home, stop moving.
+
+107
+00:06:29,800 --> 00:06:32,460
+You don't need to do any of it in the recursive case.
+
+108
+00:06:32,470 --> 00:06:37,900
+OK, the other case in which we defined that occurrence, like F11, is nothing but an index of and
+
+109
+00:06:37,900 --> 00:06:38,500
+minus one.
+
+110
+00:06:38,860 --> 00:06:44,290
+This case is known as a recursive case, but what would be a recursive case for this problem?
+
+111
+00:06:44,620 --> 00:06:50,660
+You will take one step towards home and you will call the same function go to home from X plus one.
+
+112
+00:06:50,680 --> 00:06:51,070
+OK.
+
+113
+00:06:51,250 --> 00:06:54,390
+So if I show you in the form of a little bit of a pseudo code?
+
+114
+00:06:55,380 --> 00:06:58,220
+So this is how the court would look like, so there is a method.
+
+115
+00:06:58,430 --> 00:07:01,620
+Go home, which gets the current location.
+
+116
+00:07:02,100 --> 00:07:04,460
+And it also gets where the home is located.
+
+117
+00:07:04,470 --> 00:07:07,260
+So you check if we have already reached the home.
+
+118
+00:07:07,650 --> 00:07:11,590
+We will say, OK, we have reached a home and we don't do anything further.
+
+119
+00:07:12,280 --> 00:07:16,680
+And the device what we do, we take one step and we call Go home.
+
+120
+00:07:17,010 --> 00:07:18,570
+But on that particular step, OK?
+
+121
+00:07:18,930 --> 00:07:23,130
+So this is how a recursive call would look like.
+
+122
+00:07:24,140 --> 00:07:31,190
+So you can see we're calling the same function because we said that we are going to break down the problem
+
+123
+00:07:31,970 --> 00:07:38,630
+in terms of a smaller problem here, although we have breaking down if we need any steps to reach the
+
+124
+00:07:38,630 --> 00:07:44,090
+homes that we have taken one step and we said, OK, the remaining and minus one steps will be taken
+
+125
+00:07:44,090 --> 00:07:45,980
+by the same recursive function.
+
+126
+00:07:46,460 --> 00:07:54,620
+So this is a local and the idea is, you understand at high level what is required is going to do so.
+
+127
+00:07:54,620 --> 00:07:55,430
+It it goes in all.
+
+128
+00:07:55,460 --> 00:07:59,300
+It's also related with the idea of principle of mathematical induction.
+
+129
+00:07:59,690 --> 00:08:03,440
+So you might have studied about this principle while in your school or in college.
+
+130
+00:08:03,980 --> 00:08:09,200
+So in this principle, what we actually try to do is we first figure out the smallest use.
+
+131
+00:08:09,200 --> 00:08:13,310
+Maybe we see what could be the smallest possible solution for the given problem.
+
+132
+00:08:13,310 --> 00:08:15,410
+Maybe what could be the value of f of zero?
+
+133
+00:08:15,650 --> 00:08:17,690
+Maybe what could be the value of a f of one?
+
+134
+00:08:18,020 --> 00:08:21,020
+So this really depends upon what kind of question it is, OK?
+
+135
+00:08:21,290 --> 00:08:25,070
+In some cases, we may have a four zero four one, maybe of of two as well.
+
+136
+00:08:25,640 --> 00:08:30,140
+We want to figure out what is the value of the smallest case, for example, in case of a factorial
+
+137
+00:08:30,650 --> 00:08:33,200
+the smallest cases, zero factorial, that is one.
+
+138
+00:08:33,500 --> 00:08:33,740
+OK.
+
+139
+00:08:33,920 --> 00:08:40,010
+In case of a Fibonacci, there would be two smallest cases because two, if you want A. We need two
+
+140
+00:08:40,010 --> 00:08:43,790
+initial values zero and one only, then we can build the next value.
+
+141
+00:08:44,570 --> 00:08:47,210
+So this we will look at later on as well.
+
+142
+00:08:47,720 --> 00:08:50,180
+What step is always figured out the smallest case?
+
+143
+00:08:50,750 --> 00:08:56,180
+Then, when you're writing code for the recursion, one assumption that you have always you always need
+
+144
+00:08:56,180 --> 00:08:56,780
+to take this.
+
+145
+00:08:57,440 --> 00:09:03,850
+Suppose you are breaking down your problem f often in maybe to solve problems f off, let's say, and
+
+146
+00:09:03,860 --> 00:09:06,050
+by three and maybe have to end by three.
+
+147
+00:09:06,560 --> 00:09:10,190
+What do you need to assume that such a problem can be solved?
+
+148
+00:09:10,190 --> 00:09:10,460
+OK?
+
+149
+00:09:10,850 --> 00:09:15,890
+So you have to assume that these two solve problems will be solved recursively.
+
+150
+00:09:16,010 --> 00:09:18,620
+Using this assumption, you have to write a reference.
+
+151
+00:09:18,710 --> 00:09:19,040
+OK?
+
+152
+00:09:19,340 --> 00:09:21,680
+You have to write a recurrence for the following.
+
+153
+00:09:21,710 --> 00:09:22,010
+OK.
+
+154
+00:09:22,310 --> 00:09:27,420
+How I can combine the solutions of the smallest of problems to get done to four f often.
+
+155
+00:09:27,440 --> 00:09:34,280
+So once you do this, your code will work fine and you can also verify and think by your code works.
+
+156
+00:09:34,430 --> 00:09:34,700
+OK.
+
+157
+00:09:35,000 --> 00:09:38,970
+So you have to solve the current problem, assuming there's a problem, solution exists.
+
+158
+00:09:38,990 --> 00:09:39,890
+OK, so this is.
+
+159
+00:09:41,590 --> 00:09:45,070
+Our assumption, but it will actually work and we will prove it, Wildwoods.
+
+160
+00:09:45,700 --> 00:09:47,120
+So we have to find out.
+
+161
+00:09:47,140 --> 00:09:47,530
+OK.
+
+162
+00:09:48,250 --> 00:09:52,300
+Let us assume that some f off and minus one is true.
+
+163
+00:09:52,870 --> 00:09:53,740
+Or do you think this?
+
+164
+00:09:53,740 --> 00:09:54,520
+We will find out.
+
+165
+00:09:54,520 --> 00:10:00,380
+OK, what is that for then in terms of a foreign minus one or minus or something?
+
+166
+00:10:00,430 --> 00:10:02,350
+OK, so it could be any other problem.
+
+167
+00:10:02,350 --> 00:10:05,290
+It can be broken down in any, any way.
+
+168
+00:10:05,590 --> 00:10:10,660
+And it will depend upon problem, the problem, how we break down the problem into the problems.
+
+169
+00:10:11,720 --> 00:10:18,260
+So this is a high level introduction about regulation, and in the next lecture, we will actually see
+
+170
+00:10:18,260 --> 00:10:19,610
+an example along with the code.
+
+171
+00:10:19,640 --> 00:10:20,910
+That's all for this lecture.
+
+172
+00:10:20,930 --> 00:10:21,410
+Thank you.

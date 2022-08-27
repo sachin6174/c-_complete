@@ -1,0 +1,463 @@
+1
+00:00:02,010 --> 00:00:07,260
+I in this lecture, I'm going to show you how you can actually work with the two dimensionality.
+
+2
+00:00:07,350 --> 00:00:10,050
+So let us start by creating it already.
+
+3
+00:00:10,650 --> 00:00:17,980
+So let's say we have it in which we can have a $200 on an columns, and maybe then we will ask the user
+
+4
+00:00:17,980 --> 00:00:26,070
+to give us the number of rows and columns and we will take put the number of rows and the number of
+
+5
+00:00:26,070 --> 00:00:26,520
+columns.
+
+6
+00:00:27,630 --> 00:00:36,040
+So and the notes, those on the note columns, and you can use any any video, but the one thing you
+
+7
+00:00:36,040 --> 00:00:45,460
+may ask is we have to find the initial days 100, so only in most questions it would be given the constraints
+
+8
+00:00:45,460 --> 00:00:46,030
+would be given.
+
+9
+00:00:46,030 --> 00:00:50,230
+Look at maybe the maximum value of an could be 1000.
+
+10
+00:00:50,230 --> 00:00:54,250
+In that case, you can just make it as one thousand five or something like this.
+
+11
+00:00:55,320 --> 00:00:56,010
+So.
+
+12
+00:00:57,370 --> 00:01:00,670
+OK, so now what we're going to do, we're going to take input.
+
+13
+00:01:01,120 --> 00:01:06,040
+Either we can make a method, not take input or we can directly dig input here as well.
+
+14
+00:01:06,550 --> 00:01:11,710
+Let us directly take input four and I call the zero I less than an A-plus.
+
+15
+00:01:12,040 --> 00:01:17,380
+So we are going to iterate over those and then we're going to iterate over the columns.
+
+16
+00:01:19,680 --> 00:01:25,470
+And we're going to take input on store the input in if I comma, Yeah.
+
+17
+00:01:26,190 --> 00:01:28,440
+So let me tell you what we are trying to do.
+
+18
+00:01:28,710 --> 00:01:30,150
+So the indexing of the city?
+
+19
+00:01:34,120 --> 00:01:35,190
+This should be a.
+
+20
+00:01:36,920 --> 00:01:37,300
+J.
+
+21
+00:01:42,760 --> 00:01:47,350
+The indexing of the Eddy died from index zero, OK, so if I have.
+
+22
+00:01:53,810 --> 00:01:54,710
+Something like this.
+
+23
+00:01:56,390 --> 00:02:02,210
+Then this index would be zero one one zero zero zero zero column, OK?
+
+24
+00:02:02,900 --> 00:02:07,640
+And this is again zero one two three, so this would be zero one zero two zero three.
+
+25
+00:02:08,210 --> 00:02:12,020
+This would be one zero one one one two one three.
+
+26
+00:02:12,860 --> 00:02:16,580
+On those zero two one, it will do on two three.
+
+27
+00:02:17,740 --> 00:02:20,350
+So effectively, you're going to be hard to reduce.
+
+28
+00:02:21,310 --> 00:02:25,300
+And we had four columns, and the last index is nothing but.
+
+29
+00:02:27,770 --> 00:02:35,750
+And minus one and minus one, it goes from zero zero, the metric starts from zero zero and it goes
+
+30
+00:02:35,750 --> 00:02:37,940
+still and minus one minus one.
+
+31
+00:02:38,060 --> 00:02:41,390
+That is why we have redone less denim and less denim.
+
+32
+00:02:41,750 --> 00:02:46,670
+We are going to iterate Roberto and we're going to take input these values.
+
+33
+00:02:47,120 --> 00:02:49,500
+And once we are done, we can also do the printing.
+
+34
+00:02:49,520 --> 00:02:56,510
+So let us write the print function and we before this, we are going to write the function print and
+
+35
+00:02:56,510 --> 00:02:59,450
+this will teach you how you can posture to the it to a method.
+
+36
+00:03:00,170 --> 00:03:02,990
+I can say, OK, I want to pass and it already.
+
+37
+00:03:03,470 --> 00:03:07,520
+They're not going to bother to read it, but I think the number of rows is optional.
+
+38
+00:03:07,580 --> 00:03:10,070
+But you must pass the number of columns.
+
+39
+00:03:10,550 --> 00:03:13,420
+The number of columns that we have defined it is under.
+
+40
+00:03:13,940 --> 00:03:15,290
+This must be fixed.
+
+41
+00:03:16,700 --> 00:03:25,850
+And then we pass in the value of an ID. Because from this information, we don't know how many rows
+
+42
+00:03:25,850 --> 00:03:27,810
+and columns we actually have.
+
+43
+00:03:27,830 --> 00:03:28,100
+OK.
+
+44
+00:03:28,340 --> 00:03:34,400
+So really, what is happening now is the ad is actually pretty big where we are just using a small part
+
+45
+00:03:34,400 --> 00:03:34,730
+of that.
+
+46
+00:03:34,790 --> 00:03:41,120
+Maybe we are just using this part of the edit and we are telling the method that when you are going
+
+47
+00:03:41,120 --> 00:03:45,420
+to ETRADE, you just iterate over this part of the.
+
+48
+00:03:45,980 --> 00:03:49,630
+OK, so we are not going to iterate on the entirety.
+
+49
+00:03:49,640 --> 00:03:56,480
+So that's why we tell, OK, we have number of columns and we have a number of rows and ideally the
+
+50
+00:03:56,660 --> 00:03:57,920
+data is actually big.
+
+51
+00:03:58,440 --> 00:04:00,010
+It is under cross.
+
+52
+00:04:01,520 --> 00:04:03,500
+We are just going to use, let's say, three cross.
+
+53
+00:04:04,630 --> 00:04:05,470
+Something like this.
+
+54
+00:04:07,310 --> 00:04:10,790
+So let's see what we are going to do now.
+
+55
+00:04:11,080 --> 00:04:12,770
+So it would be similar.
+
+56
+00:04:12,800 --> 00:04:19,540
+So we need to nested loops one the loop for which goes from zero less than an A-plus plus the first
+
+57
+00:04:19,550 --> 00:04:25,520
+we are on the we said bird always zero and then we get rid of all the columns of that particular rule.
+
+58
+00:04:25,530 --> 00:04:30,200
+So Jake was needle less than him C++.
+
+59
+00:04:30,680 --> 00:04:39,530
+And here we are, going to print the raw code at Delphi and be followed by some space.
+
+60
+00:04:40,710 --> 00:04:44,120
+And once it is done, we can simply do lead.
+
+61
+00:04:44,460 --> 00:04:48,870
+OK, the let's build the gold and now let's call the function.
+
+62
+00:04:49,380 --> 00:04:50,150
+It's Brenda.
+
+63
+00:04:51,390 --> 00:04:53,700
+And let me show it to you.
+
+64
+00:04:53,970 --> 00:04:59,900
+I can say Brent Eddy, which has andrews and gold.
+
+65
+00:05:00,390 --> 00:05:02,430
+So then you're passing this eddy.
+
+66
+00:05:02,520 --> 00:05:06,960
+It is again possible evidence that means we are sending the address of the area.
+
+67
+00:05:06,990 --> 00:05:09,510
+We are not making a copy of that.
+
+68
+00:05:09,600 --> 00:05:12,240
+So this is again like a one be added.
+
+69
+00:05:12,240 --> 00:05:14,440
+This is also passed by reference.
+
+70
+00:05:15,090 --> 00:05:18,660
+Any changes that you make here would be reflected in the mean as well.
+
+71
+00:05:19,110 --> 00:05:21,270
+This is something that you should note.
+
+72
+00:05:23,060 --> 00:05:30,140
+The let's test of record dodge slash its two DNA basic, a three rows, four columns, and I'm going
+
+73
+00:05:30,140 --> 00:05:35,160
+to give the input to input either we can give one by one or we can give Roberto.
+
+74
+00:05:35,180 --> 00:05:38,210
+OK, so it doesn't matter, or we can give all the elements in a single room.
+
+75
+00:05:38,630 --> 00:05:44,780
+They need to give 12 elements, maybe only to last for eight zero zero zero one.
+
+76
+00:05:45,830 --> 00:05:46,190
+OK.
+
+77
+00:05:46,310 --> 00:05:47,270
+I think we.
+
+78
+00:05:49,260 --> 00:05:50,790
+Forgot to.
+
+79
+00:05:51,800 --> 00:05:54,890
+While the print method now should work fine.
+
+80
+00:05:55,010 --> 00:05:56,540
+Three rows, four columns.
+
+81
+00:06:03,160 --> 00:06:03,550
+Yes.
+
+82
+00:06:03,700 --> 00:06:10,060
+So we can see this is the eddy and we are actually able to see to the area.
+
+83
+00:06:10,510 --> 00:06:17,320
+The one thing I want to talk about is how these areas are actually stored inside the memory so we can
+
+84
+00:06:17,320 --> 00:06:19,510
+see the output begins.
+
+85
+00:06:19,510 --> 00:06:25,110
+He is in the form of a 2D array because we have given a new line corrected after every rule.
+
+86
+00:06:25,690 --> 00:06:30,880
+But what happens in the memory level, how they are stored, so is memory to the other dwindling?
+
+87
+00:06:31,330 --> 00:06:37,420
+So basically, there are two ways in which the memory can handle the storage of two DNA.
+
+88
+00:06:37,420 --> 00:06:37,690
+OK?
+
+89
+00:06:38,110 --> 00:06:40,490
+This is something that you don't need to worry about.
+
+90
+00:06:40,510 --> 00:06:43,090
+This is something that the underlying paper takes care of.
+
+91
+00:06:43,690 --> 00:06:46,200
+So there are two common notations.
+
+92
+00:06:46,210 --> 00:06:49,840
+One is known as ruminated form, and another is known as column major form.
+
+93
+00:06:50,490 --> 00:06:53,710
+And let us talk about what is the difference between these two forms.
+
+94
+00:06:55,240 --> 00:07:03,270
+So Ramita form basically so stored everything that is in one room that is stored together like this,
+
+95
+00:07:04,150 --> 00:07:10,060
+then the next row is kept adjacent to the first row or the next row is like this one.
+
+96
+00:07:10,690 --> 00:07:13,990
+This is the room we have actually triggers for that.
+
+97
+00:07:14,410 --> 00:07:16,570
+But if in our case, we have.
+
+98
+00:07:18,390 --> 00:07:25,020
+Area of Let's 100 cross under, but we're using that four columns in that case, the columns are lying
+
+99
+00:07:25,140 --> 00:07:31,380
+and we are just using this part of the memory in the next 100 columns are lying here and we are just
+
+100
+00:07:31,380 --> 00:07:33,270
+using this part of the memory and so on.
+
+101
+00:07:33,310 --> 00:07:40,830
+OK, so this is what the dummy bombers, if this addresses, let's say, one zero one, this is one
+
+102
+00:07:40,830 --> 00:07:41,460
+zero four.
+
+103
+00:07:41,490 --> 00:07:44,070
+This is one zero eight, this is one one 12.
+
+104
+00:07:44,460 --> 00:07:48,470
+And the next day address this will be nothing but one one six.
+
+105
+00:07:48,750 --> 00:07:49,080
+OK.
+
+106
+00:07:49,380 --> 00:07:51,540
+Because it is part of a linear remedies.
+
+107
+00:07:51,600 --> 00:07:56,380
+This address is going to be 120x and this is going to be 100 immolated.
+
+108
+00:07:56,400 --> 00:08:00,120
+This address will be nothing but 132.
+
+109
+00:08:02,170 --> 00:08:10,330
+So I hope you understood what Rumi did promise in some systems, depending upon the architecture, the
+
+110
+00:08:10,350 --> 00:08:17,380
+array might be stored in the form of a column ID as well, in which each column is stored in it all.
+
+111
+00:08:17,800 --> 00:08:23,260
+And then the next column is water just into each this one, then the next column and so on.
+
+112
+00:08:24,100 --> 00:08:27,940
+So, yeah, so this is how these are actually stored in the memory.
+
+113
+00:08:27,940 --> 00:08:34,330
+But this form is the most common and most computers are going to use that only did form.
+
+114
+00:08:34,930 --> 00:08:35,680
+So that's it.
+
+115
+00:08:35,830 --> 00:08:38,370
+That's all for this lecture on.
+
+116
+00:08:38,380 --> 00:08:39,790
+Thank you for watching.

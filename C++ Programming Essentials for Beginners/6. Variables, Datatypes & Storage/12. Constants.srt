@@ -1,0 +1,303 @@
+1
+00:00:02,030 --> 00:00:06,950
+Everyone, so in this lecture, we are going to talk about consent to consent, as the name suggests.
+
+2
+00:00:06,980 --> 00:00:11,240
+They are the values in programming which cannot be modified once they are defined.
+
+3
+00:00:11,600 --> 00:00:14,420
+That means they are read only values.
+
+4
+00:00:14,420 --> 00:00:15,620
+They cannot be changed.
+
+5
+00:00:16,100 --> 00:00:18,890
+So there are two basic ways of creating consent.
+
+6
+00:00:18,920 --> 00:00:25,180
+One is using a preprocessor directive, which does create something which is known as a symbolic constant
+
+7
+00:00:25,190 --> 00:00:25,410
+OK.
+
+8
+00:00:26,330 --> 00:00:33,350
+And using a guns reward, this actually creates buckets in the memory, which are read only I took it.
+
+9
+00:00:33,650 --> 00:00:37,430
+So we'll talk about it always and we'll show you the demo as well.
+
+10
+00:00:37,500 --> 00:00:39,650
+We'll get these buckets are read only.
+
+11
+00:00:39,650 --> 00:00:42,380
+That means they can be created and initialized only once.
+
+12
+00:00:43,080 --> 00:00:45,680
+So what example Gonzales float by?
+
+13
+00:00:46,010 --> 00:00:51,950
+So you can use Gonski with a flawed guide on any other day today?
+
+14
+00:00:52,490 --> 00:00:55,220
+That means that particular bucket is read only.
+
+15
+00:00:55,220 --> 00:00:56,780
+We're not going to upgrade the value.
+
+16
+00:00:56,780 --> 00:01:00,470
+So if you try to upgrade the value of that bucket, you're going to get an error.
+
+17
+00:01:00,530 --> 00:01:00,860
+OK.
+
+18
+00:01:01,550 --> 00:01:02,180
+And.
+
+19
+00:01:03,530 --> 00:01:08,300
+Another thing is you cannot create a book that is concerned and later you're going to say no.
+
+20
+00:01:08,470 --> 00:01:13,370
+So this is not a valid operation that means you're forced to create a consent without defining the value.
+
+21
+00:01:14,300 --> 00:01:20,090
+Initialization is must for consent only then it will get some value in it, OK?
+
+22
+00:01:20,750 --> 00:01:23,600
+And another way is using a preprocessor directive.
+
+23
+00:01:23,600 --> 00:01:27,710
+So I will tell you the difference between the two types of constants in the code demo.
+
+24
+00:01:28,190 --> 00:01:33,680
+So maybe let me go to this code and going to find something like how you define.
+
+25
+00:01:35,060 --> 00:01:43,700
+And Isaac, my name is ready, or maybe I defined something like religious faith.
+
+26
+00:01:44,000 --> 00:01:44,270
+OK.
+
+27
+00:01:45,020 --> 00:01:46,610
+This is actually.
+
+28
+00:01:49,570 --> 00:01:52,450
+This is also known as a macros, we have created a macro.
+
+29
+00:01:52,840 --> 00:01:58,980
+So what does it means if you do something like out radius in the radius?
+
+30
+00:01:58,990 --> 00:02:04,870
+OK, so this is just by replacing this text with five, it is not storing five in the moment, it is
+
+31
+00:02:05,170 --> 00:02:06,730
+basically doing a calculation.
+
+32
+00:02:08,020 --> 00:02:14,410
+In this line, when gold is going to get executed, it is going to replace the value of already with
+
+33
+00:02:14,410 --> 00:02:14,860
+the fight.
+
+34
+00:02:14,890 --> 00:02:17,180
+So five is actually a replacement text.
+
+35
+00:02:17,200 --> 00:02:18,880
+It is not a bucket in the memory.
+
+36
+00:02:18,940 --> 00:02:23,170
+It's a replacement text for the word.
+
+37
+00:02:25,390 --> 00:02:25,680
+OK.
+
+38
+00:02:26,980 --> 00:02:33,370
+That is also one way of creating Ogun state, and this type of consent is known as a macro.
+
+39
+00:02:34,210 --> 00:02:38,260
+The other way of creating a consent is using a Gonski.
+
+40
+00:02:38,470 --> 00:02:43,360
+Maybe you define launched by Gonski, flawed by.
+
+41
+00:02:43,540 --> 00:02:48,610
+OK, so you have the data type, you have the variable name, and then you look at this should be three
+
+42
+00:02:48,610 --> 00:02:49,550
+point one four.
+
+43
+00:02:49,900 --> 00:02:51,910
+And this value of BI will not change.
+
+44
+00:02:52,300 --> 00:02:56,620
+If you do, bike was two by plus one, you're going to get an error.
+
+45
+00:02:56,620 --> 00:03:03,570
+OK, so you're going to cannot assign a variable by with a new value because it is of the type concept.
+
+46
+00:03:03,610 --> 00:03:09,160
+So this is a invalid operation, so you cannot do this operation on a constant value.
+
+47
+00:03:09,880 --> 00:03:10,630
+And what are you going to do?
+
+48
+00:03:10,660 --> 00:03:14,440
+You can use this constraint in some explanation you can see out.
+
+49
+00:03:15,700 --> 00:03:21,790
+Not yet, but we can do it see out by into radius and do radius.
+
+50
+00:03:21,790 --> 00:03:22,780
+Maybe something like this.
+
+51
+00:03:25,290 --> 00:03:30,480
+So if I run this code, I will show you the output as well, right?
+
+52
+00:03:31,620 --> 00:03:37,010
+Now you you can see that this is actually OK, we should also give a new line here.
+
+53
+00:03:39,880 --> 00:03:41,260
+And the list for new line.
+
+54
+00:03:49,170 --> 00:03:50,940
+So now you get audited and audit.
+
+55
+00:03:51,600 --> 00:03:54,540
+We are multiplying the cent and we are getting 25.
+
+56
+00:03:55,020 --> 00:03:58,410
+And this is defined using a macro.
+
+57
+00:03:58,800 --> 00:04:04,200
+And here we have used what we have defined by which is a consent, which is a read-only.
+
+58
+00:04:04,200 --> 00:04:08,350
+Consent created in the memory you get to by is actually a bucket.
+
+59
+00:04:08,370 --> 00:04:09,750
+It's it's a variable.
+
+60
+00:04:09,750 --> 00:04:12,230
+It's a constant variable.
+
+61
+00:04:13,740 --> 00:04:22,800
+Whereas this oddity is just a macro and where it supplies the replacement text when the program is being
+
+62
+00:04:23,070 --> 00:04:29,460
+getting compiled, this is similar to writing by into five into five look at it is not a book it.
+
+63
+00:04:29,460 --> 00:04:37,080
+Wherever buys a bucket to buy is a read only book it will give when I generally mean ActionScript.
+
+64
+00:04:37,080 --> 00:04:40,860
+It refers to this country to get drivers to the Gonski world.
+
+65
+00:04:41,670 --> 00:04:43,830
+I don't use macros that frequently.
+
+66
+00:04:43,830 --> 00:04:46,410
+I use one cent more frequently.
+
+67
+00:04:46,920 --> 00:04:54,720
+Macros are helpful when you want to define some shortcut, maybe you want to define that a little.
+
+68
+00:04:55,290 --> 00:04:57,600
+The meaning of a well means the keyword long.
+
+69
+00:04:57,600 --> 00:04:57,930
+Long.
+
+70
+00:04:58,140 --> 00:05:01,830
+Maybe I don't want to write long, long to create a bucket.
+
+71
+00:05:02,160 --> 00:05:08,730
+I want to write a little so I can say l l some big number and that is equal to one two three four five.
+
+72
+00:05:08,760 --> 00:05:15,820
+So what it is going to do, it is going to replace L-l with with the replacement text that is long long.
+
+73
+00:05:16,200 --> 00:05:18,750
+What if you have values which are constant?
+
+74
+00:05:18,750 --> 00:05:24,210
+I would recommend you to go with the Gonski, which I hope that clarifies the difference between the
+
+75
+00:05:24,210 --> 00:05:24,750
+two things.
+
+76
+00:05:25,260 --> 00:05:26,820
+And that's all for this video.

@@ -1,0 +1,435 @@
+1
+00:00:01,510 --> 00:00:07,780
+Everyone, so let us talk about pointers in the last lecture, we talked about the and operated, but
+
+2
+00:00:07,780 --> 00:00:12,310
+now we are going to talk about the pointed video, but look disappointed is a special kind of a variable
+
+3
+00:00:12,670 --> 00:00:15,940
+that holds the address of another variable look.
+
+4
+00:00:16,210 --> 00:00:23,140
+So earlier, what we saw, if we have a bucket X, this is of the type and then it has some value certain
+
+5
+00:00:23,140 --> 00:00:24,190
+and it has some address.
+
+6
+00:00:24,190 --> 00:00:26,650
+Let's say it was six eight zero four.
+
+7
+00:00:26,780 --> 00:00:31,630
+OK, then what we can do, we can store this address in some other bucket as well.
+
+8
+00:00:32,040 --> 00:00:37,510
+So this is two six eight zero four and this budget is, let's say, Expedia.
+
+9
+00:00:38,080 --> 00:00:45,100
+Then that means this bucket points to X or give you guys distorting the address of the budget X when
+
+10
+00:00:45,100 --> 00:00:46,660
+you're creating a pointed variable.
+
+11
+00:00:46,990 --> 00:00:47,830
+What do you need to do?
+
+12
+00:00:47,860 --> 00:00:53,980
+You need to have the same today as of for this bucket and put a start in between.
+
+13
+00:00:53,980 --> 00:00:56,950
+Okay, so you have to make the data tables instead.
+
+14
+00:00:57,580 --> 00:01:01,360
+If it is flawed, then you will make the point of the type lodestar.
+
+15
+00:01:01,480 --> 00:01:01,780
+OK.
+
+16
+00:01:03,310 --> 00:01:04,510
+So how do we do it?
+
+17
+00:01:04,570 --> 00:01:06,000
+So it's very simple.
+
+18
+00:01:06,010 --> 00:01:09,370
+So we have to create a x pointer, so let us define x pointer.
+
+19
+00:01:10,000 --> 00:01:14,550
+So instead, x pointed and it should contain some value.
+
+20
+00:01:14,560 --> 00:01:20,530
+OK, so either we can write it like this x point that should contain the value and of X.
+
+21
+00:01:20,620 --> 00:01:25,810
+That means it should contain this value, which is nothing but the address of this particular bucket
+
+22
+00:01:26,590 --> 00:01:27,730
+on what you can do.
+
+23
+00:01:27,940 --> 00:01:28,930
+So here what we have done.
+
+24
+00:01:28,930 --> 00:01:30,250
+We have done assignment.
+
+25
+00:01:30,340 --> 00:01:32,740
+We are assigning a value to this one variable.
+
+26
+00:01:33,160 --> 00:01:34,720
+We can also do initialization.
+
+27
+00:01:34,720 --> 00:01:38,440
+We can write and start Expedia.
+
+28
+00:01:38,830 --> 00:01:40,960
+And this is equal to and of X.
+
+29
+00:01:41,530 --> 00:01:43,090
+This is also valid.
+
+30
+00:01:43,450 --> 00:01:45,410
+So here we are using the address of variable.
+
+31
+00:01:45,430 --> 00:01:52,000
+And here we are using this dot to define the point that is index defined appointed data type.
+
+32
+00:01:52,550 --> 00:01:56,830
+OK, now you may also have seen started some other places.
+
+33
+00:01:57,250 --> 00:01:57,550
+OK.
+
+34
+00:01:57,880 --> 00:01:59,470
+So let us see where we have.
+
+35
+00:01:59,480 --> 00:02:00,370
+We are using start.
+
+36
+00:02:00,430 --> 00:02:03,100
+So one of this use gives us to multiply two numbers.
+
+37
+00:02:03,580 --> 00:02:05,320
+We do 515.
+
+38
+00:02:05,650 --> 00:02:07,990
+But here you can see we have to.
+
+39
+00:02:10,180 --> 00:02:11,770
+Two operators by the side, OK?
+
+40
+00:02:11,980 --> 00:02:14,800
+But here we have a day today, and here we have a variable name.
+
+41
+00:02:14,830 --> 00:02:19,720
+OK, so we can use stored as a pointer variable as well.
+
+42
+00:02:21,010 --> 00:02:26,980
+And one more use case that we will see is in the data print operator that we will see little, little
+
+43
+00:02:26,980 --> 00:02:27,520
+later on.
+
+44
+00:02:27,820 --> 00:02:28,000
+OK.
+
+45
+00:02:28,390 --> 00:02:31,040
+These are the two things we we will do later.
+
+46
+00:02:31,060 --> 00:02:33,850
+One is about reference variables and one is about data.
+
+47
+00:02:35,110 --> 00:02:39,010
+But for now, we are doing talking about this use case.
+
+48
+00:02:39,760 --> 00:02:40,060
+So what?
+
+49
+00:02:40,060 --> 00:02:42,040
+We have just seen winter.
+
+50
+00:02:43,660 --> 00:02:50,140
+To declare the point that we can use a streak that existed between the data type and the variable name,
+
+51
+00:02:50,620 --> 00:02:55,870
+here are few examples that show how you can create, appointed and hear this.
+
+52
+00:02:57,000 --> 00:03:01,170
+This is only the point that this is a double pointer, this is indeed the point that this is altering
+
+53
+00:03:01,180 --> 00:03:03,660
+disappointed regarding this basis.
+
+54
+00:03:03,780 --> 00:03:12,990
+You can have a space between Indian start and start and rebuild them as well, or you can ride it like
+
+55
+00:03:12,990 --> 00:03:15,870
+this and start followed by SpaceX and followed by VAR..
+
+56
+00:03:15,990 --> 00:03:18,570
+OK, so spacing is not important.
+
+57
+00:03:19,410 --> 00:03:20,620
+You can put space anywhere.
+
+58
+00:03:20,640 --> 00:03:20,910
+OK.
+
+59
+00:03:21,090 --> 00:03:23,820
+So that's what I wanted to tell you through this example.
+
+60
+00:03:25,420 --> 00:03:29,050
+So now let us see a quick demo of using appointed variable.
+
+61
+00:03:29,320 --> 00:03:31,450
+OK, so let's see.
+
+62
+00:03:31,990 --> 00:03:35,710
+I can see I want to store the address of X in a particular bucket.
+
+63
+00:03:36,130 --> 00:03:37,870
+The Great X Pointer.
+
+64
+00:03:38,500 --> 00:03:44,180
+And if I do, this is equal to and of X, this will store the address.
+
+65
+00:03:44,200 --> 00:03:49,310
+Now, if I do see out Expedia, then this value will be same as this value.
+
+66
+00:03:49,330 --> 00:03:52,330
+OK, this this these two outputs would be same.
+
+67
+00:03:52,810 --> 00:03:54,310
+Let me try to show it to you.
+
+68
+00:03:56,600 --> 00:03:59,420
+So you can see these two values are exactly same.
+
+69
+00:03:59,840 --> 00:04:03,080
+The one thing we can do is we can also do something like this.
+
+70
+00:04:04,470 --> 00:04:08,380
+We have x this list, and this is this is, let's say, ABC.
+
+71
+00:04:08,400 --> 00:04:09,900
+This address is stored here.
+
+72
+00:04:10,350 --> 00:04:16,780
+This is Expedia and now because it is stored inside the moment, and this may also have a certain address
+
+73
+00:04:16,950 --> 00:04:17,220
+later.
+
+74
+00:04:17,230 --> 00:04:25,020
+This addresses, if, I suppose, if I want to bring the address of appointed VAR. OK, then how I can
+
+75
+00:04:25,020 --> 00:04:25,340
+do it.
+
+76
+00:04:25,350 --> 00:04:26,160
+It's very simple.
+
+77
+00:04:26,160 --> 00:04:30,360
+We can again use the and operated followed by the name of the book.
+
+78
+00:04:30,360 --> 00:04:31,170
+It's the name of the book.
+
+79
+00:04:31,170 --> 00:04:32,060
+It is Expedia.
+
+80
+00:04:32,700 --> 00:04:35,580
+We can actually find out.
+
+81
+00:04:36,180 --> 00:04:38,130
+Address of a variable.
+
+82
+00:04:39,300 --> 00:04:41,960
+And begin to see out and off.
+
+83
+00:04:43,010 --> 00:04:46,190
+Expedia, OK, so this will give us a different address.
+
+84
+00:04:46,260 --> 00:04:51,380
+Now I should be willing to, if so, I should put the the.
+
+85
+00:04:56,820 --> 00:05:02,640
+OK, now let me run it again, and you can read the full two values, our theme, this values a little
+
+86
+00:05:02,640 --> 00:05:03,070
+different.
+
+87
+00:05:03,090 --> 00:05:03,360
+OK?
+
+88
+00:05:03,690 --> 00:05:05,790
+This fellow's little different.
+
+89
+00:05:07,330 --> 00:05:13,030
+So now you may ask or give what if I want to store this, if in some other bucket?
+
+90
+00:05:13,180 --> 00:05:15,030
+OK, then what?
+
+91
+00:05:15,040 --> 00:05:16,130
+What is going to happen?
+
+92
+00:05:16,180 --> 00:05:21,700
+You need to create maybe a pointer to a pointer so we can say x Expedia.
+
+93
+00:05:22,510 --> 00:05:25,490
+OK, so and what would be the data?
+
+94
+00:05:25,560 --> 00:05:30,770
+Whatever you have heard, you should have this data Typekit, followed by the start in between.
+
+95
+00:05:30,810 --> 00:05:34,000
+So it would be a pointer to a pointer variable.
+
+96
+00:05:34,120 --> 00:05:34,930
+So let's see.
+
+97
+00:05:35,290 --> 00:05:43,750
+Let's try to create a pointer to a pointer we can see in stats DOD, Expedia, Expedia.
+
+98
+00:05:44,380 --> 00:05:47,230
+This should be equal to and off Expedia.
+
+99
+00:05:47,620 --> 00:05:47,850
+OK.
+
+100
+00:05:48,340 --> 00:05:51,540
+And see out I can see x Expedia.
+
+101
+00:05:52,490 --> 00:05:52,690
+And.
+
+102
+00:05:55,340 --> 00:06:01,310
+Now, if I run this code, you can see the first to put that same, and the second reports are saying,
+
+103
+00:06:01,310 --> 00:06:05,750
+OK, that means in the first two outputs we are printing.
+
+104
+00:06:09,740 --> 00:06:14,300
+This value undervalued, these two are the same, then we are bringing this value in this value.
+
+105
+00:06:14,300 --> 00:06:20,150
+These two are saying, OK, so I hope these concepts of pointers are now clear to you.
+
+106
+00:06:20,660 --> 00:06:25,490
+We have seen how to create a pointer variable and we have also seen how to create a pointer to a pointer.
+
+107
+00:06:25,490 --> 00:06:27,980
+OK, so that's all for this lecture.
+
+108
+00:06:27,980 --> 00:06:28,460
+Thank you.
+
+109
+00:06:28,490 --> 00:06:29,630
+See you in the next lecture!

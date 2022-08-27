@@ -1,0 +1,555 @@
+1
+00:00:00,860 --> 00:00:05,780
+Hello, everyone, so let us start off our discussion from the car today that we have already seen couple
+
+2
+00:00:05,780 --> 00:00:10,520
+of times the card reader Typekit is used to store a single character.
+
+3
+00:00:10,520 --> 00:00:18,170
+OK, so generally we represent some got us, got name of the variable, let's see it, and it is going
+
+4
+00:00:18,170 --> 00:00:19,570
+to hold some character.
+
+5
+00:00:19,580 --> 00:00:27,940
+So maybe the character is a or maybe the character is Dollard, or the character could be a number or
+
+6
+00:00:27,970 --> 00:00:34,940
+a single digit to Canada, but the character might be something like a space if it can be white space
+
+7
+00:00:35,090 --> 00:00:35,240
+with.
+
+8
+00:00:36,240 --> 00:00:38,940
+The character must be surrounded by single goods.
+
+9
+00:00:39,180 --> 00:00:42,060
+That is how you define the value of a character.
+
+10
+00:00:43,020 --> 00:00:48,510
+And if you try to do something like this led to God, some later maybe.
+
+11
+00:00:49,200 --> 00:00:52,920
+And you put something like a inside.
+
+12
+00:00:53,140 --> 00:00:54,290
+So it is not valid.
+
+13
+00:00:54,360 --> 00:00:58,530
+It is going to give you an idea because this thing is not a character.
+
+14
+00:00:58,530 --> 00:01:05,870
+This thing is known as a string literal, and you cannot store something with the chords inside a character.
+
+15
+00:01:05,880 --> 00:01:06,110
+OK?
+
+16
+00:01:07,050 --> 00:01:12,930
+Let me show you a quick demo of working with the character, and let's see what we can do.
+
+17
+00:01:13,650 --> 00:01:15,970
+Now I want to hold a character.
+
+18
+00:01:16,010 --> 00:01:24,270
+I'd say this should work and I can do the basic output operation as well, so it will give me as well,
+
+19
+00:01:24,270 --> 00:01:24,540
+right?
+
+20
+00:01:24,990 --> 00:01:30,180
+So if I just run, the dogs got them so I can see the later.
+
+21
+00:01:30,180 --> 00:01:39,600
+Is it on if you want, you can put you can also bring some special characters like new lines or box
+
+22
+00:01:39,600 --> 00:01:40,020
+lésion.
+
+23
+00:01:40,500 --> 00:01:41,960
+It's not two characters.
+
+24
+00:01:41,970 --> 00:01:45,560
+It's known as a Newlyn character, it's a single character.
+
+25
+00:01:45,570 --> 00:01:50,400
+This is how it is defined, and now the output would be printed.
+
+26
+00:01:50,790 --> 00:01:57,030
+So you have a new line up again, that's where you don't see this person dead symbol in this case.
+
+27
+00:01:58,120 --> 00:02:01,600
+And so, yes, this is known as a new line, correct?
+
+28
+00:02:01,670 --> 00:02:02,680
+OK, so maybe.
+
+29
+00:02:03,770 --> 00:02:07,010
+Again, this is what a new line character is.
+
+30
+00:02:07,880 --> 00:02:10,810
+And you're going to go on to print two characters one.
+
+31
+00:02:10,880 --> 00:02:12,410
+And one new line character.
+
+32
+00:02:12,770 --> 00:02:14,990
+It will give us the same output again.
+
+33
+00:02:16,040 --> 00:02:21,380
+Now, one thing we want to talk about is how these characters are internally mapped.
+
+34
+00:02:22,390 --> 00:02:32,080
+So to store these characters in the form of memory, we know that everything is a binary and that means
+
+35
+00:02:32,080 --> 00:02:38,980
+the characters, they also need to be converted into binary so you cannot create a inside the memory
+
+36
+00:02:38,980 --> 00:02:41,410
+of the computer gets into how it is going to get stored.
+
+37
+00:02:42,100 --> 00:02:46,180
+We have the encoding standard, which is known as the.
+
+38
+00:02:47,470 --> 00:02:54,340
+Now, as they correctly said, it is the first correct decision or it defines the encoding standard
+
+39
+00:02:54,880 --> 00:02:57,470
+and it is widely used on computers and internet.
+
+40
+00:02:57,490 --> 00:03:02,560
+It's a seven bit characters requisite containing 128 characters.
+
+41
+00:03:02,560 --> 00:03:10,780
+Look on these characters include 029, The Upper and the lower case English letters from A2Z, and there
+
+42
+00:03:10,780 --> 00:03:12,250
+are some special characters as well.
+
+43
+00:03:12,400 --> 00:03:23,080
+So you have A2Z A2Z digits from zero to nine whitespace backslash in all, including the operators plus
+
+44
+00:03:23,080 --> 00:03:24,190
+minus multiply.
+
+45
+00:03:25,030 --> 00:03:29,930
+All of these are part of the ASCII could a classic.
+
+46
+00:03:32,380 --> 00:03:36,490
+And the Oscars dance for American Standard Code.
+
+47
+00:03:40,300 --> 00:03:46,060
+For information interchange or information.
+
+48
+00:03:47,190 --> 00:03:48,030
+Interchange.
+
+49
+00:03:48,940 --> 00:03:56,350
+Now you may ask, how does it represent because of what this ask encoding does it maps?
+
+50
+00:03:57,350 --> 00:04:03,620
+Each letter, whether indeed, for example, the capital aid, this is mobbed with 65.
+
+51
+00:04:04,500 --> 00:04:05,340
+A capital B.
+
+52
+00:04:05,520 --> 00:04:09,870
+This is Margaret, 66, the capital theaters mob with 67 and so on.
+
+53
+00:04:10,620 --> 00:04:15,150
+Similarly, the smallest mob with 97, this Molby is mob with 98.
+
+54
+00:04:16,310 --> 00:04:16,830
+And so on.
+
+55
+00:04:16,880 --> 00:04:22,550
+Similarly, the digits, the operators are also mobbed with some indigent.
+
+56
+00:04:23,240 --> 00:04:32,840
+And since we have 128 characters, 11, which aren't sufficient to store any greater, OK, so we need
+
+57
+00:04:32,840 --> 00:04:34,510
+a storage box of seven bricks.
+
+58
+00:04:34,820 --> 00:04:41,810
+But what happens is the compiler actually gives us a standard box, which is of one bite.
+
+59
+00:04:42,210 --> 00:04:42,470
+OK.
+
+60
+00:04:42,890 --> 00:04:49,430
+One way would mean Edwards if this is the minimum allocation the compiler can do on a machine.
+
+61
+00:04:50,000 --> 00:04:50,420
+The what?
+
+62
+00:04:50,900 --> 00:04:52,730
+What happened is the characters.
+
+63
+00:04:52,730 --> 00:04:59,150
+They are stored in eight buckets and hence if you look at how much size each character is going to take,
+
+64
+00:04:59,570 --> 00:05:00,830
+it is going to be one byte.
+
+65
+00:05:00,830 --> 00:05:09,410
+So maybe you can to see out size of operated on you tell me what is the size of a character today or
+
+66
+00:05:09,410 --> 00:05:13,340
+how much storage you're using to store the letter in.
+
+67
+00:05:14,040 --> 00:05:17,340
+So in the both the cases, the output would be one.
+
+68
+00:05:17,360 --> 00:05:19,460
+So let us see what we can see.
+
+69
+00:05:19,460 --> 00:05:23,630
+We are getting one because what that is, the reason the ask holds.
+
+70
+00:05:23,630 --> 00:05:31,430
+It needs seven bits to get stored, but the compiler says I cannot allocate a box, which is less than
+
+71
+00:05:31,430 --> 00:05:32,030
+eight bits.
+
+72
+00:05:32,030 --> 00:05:35,390
+That means one byte and hence each letter.
+
+73
+00:05:35,660 --> 00:05:39,200
+It does take eight by itself, eight bits of storage.
+
+74
+00:05:39,200 --> 00:05:45,100
+That is one vital storage that is about the ask requisite are.
+
+75
+00:05:45,110 --> 00:05:51,870
+Now you may ask, OK, show us how how these numbers, they are represented as invaders.
+
+76
+00:05:51,890 --> 00:05:54,310
+So one thing we can do is we can it.
+
+77
+00:05:54,920 --> 00:05:56,540
+I want to print this correct.
+
+78
+00:05:57,110 --> 00:06:04,670
+But I want to interpret this correctly as indeed, I don't want to look this as a or something.
+
+79
+00:06:05,210 --> 00:06:09,200
+So let us try to understand why this is getting printed.
+
+80
+00:06:10,040 --> 00:06:17,960
+But it is getting stored as a 60 is why it happens to basically see out, get to know that, OK, it's
+
+81
+00:06:17,960 --> 00:06:18,770
+going to print some.
+
+82
+00:06:18,770 --> 00:06:20,810
+No, it's going to print some value.
+
+83
+00:06:21,640 --> 00:06:23,360
+It is going to look at the data, right?
+
+84
+00:06:24,170 --> 00:06:28,760
+If the data type is correct for 65, it will be printed A-Z.
+
+85
+00:06:29,510 --> 00:06:35,720
+But if you tell code, no, this is not 65, this is this is not a corrected what it is indeed.
+
+86
+00:06:36,110 --> 00:06:38,390
+OK, then it is going to print.
+
+87
+00:06:38,390 --> 00:06:39,560
+It does different.
+
+88
+00:06:40,160 --> 00:06:47,390
+What I'm trying to tell you is you can do the implicit type conversion while printing it.
+
+89
+00:06:47,510 --> 00:06:49,700
+So you can do explicit type cost.
+
+90
+00:06:49,730 --> 00:06:54,710
+You can tell to Oh no, I'm not printing uncorrected, but I'm printing something which is in.
+
+91
+00:06:55,400 --> 00:07:02,120
+OK, so you are saying interpret this character as indeed it and then you print it OK?
+
+92
+00:07:02,120 --> 00:07:05,360
+And maybe for New Line as well, we can do the same thing.
+
+93
+00:07:06,460 --> 00:07:14,650
+Let me first tell you the output for it, and you're going to is not printed us, but let us also see.
+
+94
+00:07:16,480 --> 00:07:17,680
+What does the.
+
+95
+00:07:20,670 --> 00:07:21,910
+Ask for a new line.
+
+96
+00:07:22,090 --> 00:07:22,390
+OK.
+
+97
+00:07:22,750 --> 00:07:25,660
+What is how is the backslash and stood?
+
+98
+00:07:27,980 --> 00:07:29,390
+OK, it's a new line gas.
+
+99
+00:07:30,950 --> 00:07:38,360
+We are printing first, the immediate bond, followed by the new line, which will actually do the work
+
+100
+00:07:38,360 --> 00:07:39,110
+of A..
+
+101
+00:07:39,160 --> 00:07:47,070
+OK, now if I do, you can see the Oscar of a new line corrected is actually so that means the box less.
+
+102
+00:07:47,330 --> 00:07:50,300
+It is getting stored as an inside your memory.
+
+103
+00:07:50,720 --> 00:07:52,880
+Let us do it for some of the numbers as well.
+
+104
+00:07:52,910 --> 00:08:00,220
+Maybe I can say four in the equal to zero I less than equal roulette.
+
+105
+00:08:00,220 --> 00:08:04,730
+Wolitzer Then maybe let me start from sixty five.
+
+106
+00:08:06,330 --> 00:08:09,000
+And I want to go to, let's say.
+
+107
+00:08:10,170 --> 00:08:11,900
+R26, that is a Pulitzer.
+
+108
+00:08:12,830 --> 00:08:12,980
+OK.
+
+109
+00:08:13,910 --> 00:08:18,140
+What I wanted to do, I want to print all the letters from A to Z.
+
+110
+00:08:18,170 --> 00:08:22,010
+OK, so maybe I can to see out letters and then.
+
+111
+00:08:23,210 --> 00:08:30,740
+And what I will do is I'm reading from Orange that is 65 to 91.
+
+112
+00:08:31,080 --> 00:08:40,250
+That means I should be able to see the letters A, B, C, D and so up to Z because they are 26 letters
+
+113
+00:08:40,250 --> 00:08:40,940
+in a b, c d.
+
+114
+00:08:41,720 --> 00:08:50,240
+What I'm trying to do is or you can simply say, 65 plus 26, that is also OK, if that makes more sense
+
+115
+00:08:50,240 --> 00:08:50,600
+to you.
+
+116
+00:08:51,770 --> 00:08:57,860
+What I'm going to unfold, going to print the integers and then I'm going to soak it, I also want to
+
+117
+00:08:57,860 --> 00:09:04,340
+see what this value would be if you try to interpret this in digit as a correct.
+
+118
+00:09:04,610 --> 00:09:07,160
+So here we are going to do the conversion.
+
+119
+00:09:07,160 --> 00:09:14,030
+Either way, I don't we are going to say, OK, if you interpret the numbers 66 as a character, what
+
+120
+00:09:14,030 --> 00:09:14,850
+value it would be.
+
+121
+00:09:14,870 --> 00:09:20,810
+So basically, I'm going to see a mapping between the numbers and the corresponding letters, OK?
+
+122
+00:09:22,770 --> 00:09:30,020
+Now, what you can see here is we started from 65, which is a B C D up to A to Z.
+
+123
+00:09:30,060 --> 00:09:32,700
+So we are able to get up to nine B.
+
+124
+00:09:32,700 --> 00:09:33,840
+We have actually Z.
+
+125
+00:09:34,590 --> 00:09:42,390
+And since 65 is already included, eight, the 91 is for the Square Records.
+
+126
+00:09:42,390 --> 00:09:45,590
+It's it's not for the nine days for Z, right?
+
+127
+00:09:45,840 --> 00:09:48,630
+Ninety one you can see it is four square records.
+
+128
+00:09:48,630 --> 00:09:54,510
+So maybe what you can you can rent to less than ninety one that will do the work for you.
+
+129
+00:09:55,470 --> 00:09:58,380
+You can also run from zero to 128.
+
+130
+00:09:59,810 --> 00:10:05,220
+And you can see what as the number mobbed with each agent.
+
+131
+00:10:05,550 --> 00:10:07,900
+OK, so if I know, then this could.
+
+132
+00:10:10,030 --> 00:10:10,930
+Now you can see.
+
+133
+00:10:13,470 --> 00:10:18,780
+Starting from zero, although there are certain numbers there, ma'am, but they might not be not printable
+
+134
+00:10:18,780 --> 00:10:21,630
+format, okay, so the terminal might not be able to print it.
+
+135
+00:10:22,080 --> 00:10:29,240
+The 33 is for X laboratory, 39 is for like single code and so on.
+
+136
+00:10:29,250 --> 00:10:30,780
+So you can see there are digits.
+
+137
+00:10:31,080 --> 00:10:41,810
+There are operators, they are A2Z and there is also a 2D starting from 97 until like 122.
+
+138
+00:10:41,820 --> 00:10:46,710
+OK, so this is what the Oscar table looks like.
+
+139
+00:10:47,520 --> 00:10:53,220
+I hope you have understood the concept of ASCII and I'll see you in the next read you.

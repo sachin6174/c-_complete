@@ -1,0 +1,287 @@
+1
+00:00:01,690 --> 00:00:07,330
+Hello, everyone, so in this video, we're going to talk about privacy, and I'll just give you a quick
+
+2
+00:00:07,330 --> 00:00:13,700
+idea of how we can a voice on a connectivity vs. traversal on a string.
+
+3
+00:00:13,720 --> 00:00:14,020
+OK.
+
+4
+00:00:14,590 --> 00:00:22,060
+First of all, let's I have some GoDaddy, and let's say this in this, we are storing a string, let's
+
+5
+00:00:22,060 --> 00:00:22,510
+say.
+
+6
+00:00:24,490 --> 00:00:32,500
+Inside an during the string, according minutes, and I suppose I won't do I dread over this entirely
+
+7
+00:00:32,500 --> 00:00:36,630
+on print everything later so I can default and I go lose it.
+
+8
+00:00:37,720 --> 00:00:43,660
+Tell what what lengths United, so either I compute the land of the city.
+
+9
+00:00:44,080 --> 00:00:48,160
+I can say I then is still alien of name.
+
+10
+00:00:48,790 --> 00:00:57,300
+I this place and I can to see out the name of why that is like one option of doing the iterations.
+
+11
+00:00:57,310 --> 00:01:00,910
+Let me just build a code and let me show you the output.
+
+12
+00:01:01,180 --> 00:01:01,690
+So.
+
+13
+00:01:04,310 --> 00:01:11,750
+We're going to we are able to iterate over all the strengths, which is what is actually happening at
+
+14
+00:01:11,750 --> 00:01:12,360
+the plant.
+
+15
+00:01:12,770 --> 00:01:13,760
+Let me just tell you.
+
+16
+00:01:15,640 --> 00:01:22,570
+It is during this string, hello, and that is getting stored inside your character, so you have zero
+
+17
+00:01:22,600 --> 00:01:31,300
+h one e two, you have the index, you have a water index, you have oil on on the fifth and next you
+
+18
+00:01:31,300 --> 00:01:35,590
+will actually have a which is created by the string copy function.
+
+19
+00:01:36,730 --> 00:01:42,280
+Now we are saying that we want to hydrate less than lend lend of this world is actually five.
+
+20
+00:01:42,670 --> 00:01:46,950
+We are saying that Ireland is vital when we want to trade less than land.
+
+21
+00:01:46,960 --> 00:01:50,040
+OK, so that means we are retreating from the index zero.
+
+22
+00:01:50,380 --> 00:01:54,150
+So that is what we are getting the right set of characters that we want.
+
+23
+00:01:54,190 --> 00:02:01,360
+We don't want to print none or the other way of doing it as you copy the same code and use it all.
+
+24
+00:02:02,050 --> 00:02:03,670
+I don't want to use the lend function.
+
+25
+00:02:03,670 --> 00:02:06,100
+I want to settle name of I.
+
+26
+00:02:06,100 --> 00:02:07,260
+This is not equal to.
+
+27
+00:02:08,700 --> 00:02:15,480
+This is also why so sometimes you will find this way of doing that reversal, and it will still produce
+
+28
+00:02:15,480 --> 00:02:16,560
+the same output.
+
+29
+00:02:17,800 --> 00:02:18,760
+Let me show it to you.
+
+30
+00:02:22,210 --> 00:02:24,240
+So both of them, they produce the same.
+
+31
+00:02:24,520 --> 00:02:30,340
+So what we are doing, we are iterating over an edit later, by later, and that's what the output is.
+
+32
+00:02:30,940 --> 00:02:34,580
+Now let us also discuss how we can trade over a string.
+
+33
+00:02:35,020 --> 00:02:40,770
+The one day theme, the string is actually a collection of characters that I've been a string object.
+
+34
+00:02:40,780 --> 00:02:45,670
+Or maybe I can do string name that is quoting minutes and I want to.
+
+35
+00:02:45,670 --> 00:02:49,020
+I trade it so I can do for intake will do zero starting from zero.
+
+36
+00:02:49,030 --> 00:02:49,140
+The.
+
+37
+00:02:49,690 --> 00:02:52,690
+I want to go tell what I need.
+
+38
+00:02:52,910 --> 00:02:54,760
+And so what function we will use.
+
+39
+00:02:54,820 --> 00:02:59,860
+Instead of calling the Stirling Albion method, we will use named Portland.
+
+40
+00:03:00,120 --> 00:03:04,810
+Now this is a method that is built on string object.
+
+41
+00:03:05,200 --> 00:03:06,820
+And this is how we can use this method.
+
+42
+00:03:07,570 --> 00:03:08,710
+And I can see out.
+
+43
+00:03:10,060 --> 00:03:13,600
+Name of a and that again, we are going to get.
+
+44
+00:03:16,010 --> 00:03:19,760
+The same, so we cannot use the same video, but maybe I can say name.
+
+45
+00:03:20,870 --> 00:03:23,720
+One named one unnamed one, right?
+
+46
+00:03:24,860 --> 00:03:25,270
+So.
+
+47
+00:03:26,850 --> 00:03:27,150
+OK.
+
+48
+00:03:27,540 --> 00:03:32,250
+Instead of putting it in, we should put maybe a comma or whatever.
+
+49
+00:03:33,290 --> 00:03:37,520
+And you and I I'll tell you one more way of doing it.
+
+50
+00:03:37,910 --> 00:03:39,140
+Just hold on for a minute.
+
+51
+00:03:39,920 --> 00:03:41,200
+We are still getting the same.
+
+52
+00:03:41,630 --> 00:03:45,830
+You can see that reversal is pretty much the same, right?
+
+53
+00:03:46,950 --> 00:03:50,430
+And there is also a loop with Disney on ice for each loop.
+
+54
+00:03:51,330 --> 00:03:56,270
+What it does, it hydrates over all the letters on.
+
+55
+00:03:56,730 --> 00:04:00,480
+Let me show you this index right now you're iterating over correct.
+
+56
+00:04:00,580 --> 00:04:04,460
+So you will create a bucket which will temporary hold one letter at a time.
+
+57
+00:04:04,470 --> 00:04:10,320
+You can say some x and I want to iterate over name one, which is a string, right?
+
+58
+00:04:11,530 --> 00:04:12,750
+So I can to see outtakes.
+
+59
+00:04:14,190 --> 00:04:17,210
+So it's all going to hold one character at to it.
+
+60
+00:04:17,400 --> 00:04:26,490
+It is automatically going to iterate over each element of this object of this string, which is a character,
+
+61
+00:04:26,490 --> 00:04:26,790
+right?
+
+62
+00:04:28,140 --> 00:04:30,390
+And now you're going to still we are getting the same output.
+
+63
+00:04:31,060 --> 00:04:35,460
+So this is a faulty loop that is another way of doing the traversal, right?
+
+64
+00:04:36,330 --> 00:04:44,160
+And maybe if you say, no, I don't want to iterate over this as a character that I want to iterate,
+
+65
+00:04:44,190 --> 00:04:47,110
+but I will interpret everything as an integer.
+
+66
+00:04:47,130 --> 00:04:49,730
+So you're going to index that isn't right.
+
+67
+00:04:49,740 --> 00:04:50,280
+Name one.
+
+68
+00:04:50,640 --> 00:04:57,480
+Instead of getting the characters, we are going to get the ASCII values of all the letters right.
+
+69
+00:04:58,080 --> 00:04:59,070
+Let me show it to you.
+
+70
+00:05:01,580 --> 00:05:06,350
+Now we are getting the Oscar news off all the numbers with the president in this right.
+
+71
+00:05:07,070 --> 00:05:13,760
+These are a few ways in which you can reverse either on the character ready or on a string, and that's
+
+72
+00:05:13,760 --> 00:05:14,650
+all for this video.

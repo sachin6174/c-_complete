@@ -1,0 +1,311 @@
+1
+00:00:01,020 --> 00:00:07,810
+And welcome to this course on C++ essentials, and I'm very excited to welcome you on congratulations
+
+2
+00:00:07,810 --> 00:00:10,750
+on taking the first step into the world of programming.
+
+3
+00:00:11,440 --> 00:00:12,550
+So my name is pretty.
+
+4
+00:00:12,550 --> 00:00:14,890
+I've been a software engineer at Google.
+
+5
+00:00:14,890 --> 00:00:18,730
+I have co-founded two tech startups, including coding minutes.
+
+6
+00:00:19,270 --> 00:00:21,280
+I work with scalar academy as well.
+
+7
+00:00:21,580 --> 00:00:25,300
+And I've been instructor on Udemy for about one year now.
+
+8
+00:00:25,870 --> 00:00:31,910
+And if you want to learn more about me, so I created an interactive portfolio resumé website on that
+
+9
+00:00:31,930 --> 00:00:38,200
+igniting dot com, which you can visit and look at my journey of learning coding.
+
+10
+00:00:38,350 --> 00:00:40,420
+When did I start and what did I achieve?
+
+11
+00:00:41,970 --> 00:00:48,000
+So before we dive into the specific details, I would like to share my perspective on learning to code
+
+12
+00:00:48,000 --> 00:00:49,680
+on becoming a problem solver.
+
+13
+00:00:50,430 --> 00:00:58,050
+What we do is I break down the step into three parts, like the first step of learning programming is
+
+14
+00:00:58,050 --> 00:00:59,280
+learning to hold the knife.
+
+15
+00:00:59,550 --> 00:01:00,350
+What does it mean?
+
+16
+00:01:00,470 --> 00:01:06,600
+Get them translated with a real world analogy so that if you're a beginner, you understand the flaw
+
+17
+00:01:06,630 --> 00:01:07,800
+in a better sense, right?
+
+18
+00:01:08,430 --> 00:01:12,030
+The first step is always to learn to work with the programming language.
+
+19
+00:01:12,060 --> 00:01:18,030
+So programming language is our tool and will try to get comfortable with the programming language in
+
+20
+00:01:18,030 --> 00:01:18,660
+this course.
+
+21
+00:01:19,480 --> 00:01:25,080
+Once you're comfortable, the next step is you learn to use the knife by cutting a fruit.
+
+22
+00:01:25,560 --> 00:01:31,320
+It means you learn how to solve a problem and what solving problems you need something.
+
+23
+00:01:31,350 --> 00:01:37,920
+Already the researchers, which are basically the containers that you need to store data on, you need
+
+24
+00:01:37,920 --> 00:01:41,850
+to learn algorithms which are basically their techniques to solve the problem, OK?
+
+25
+00:01:42,630 --> 00:01:46,530
+So then in the next step, you will learn about data centers an algorithm.
+
+26
+00:01:46,980 --> 00:01:52,110
+And the third step is, once you have learned to work with the researchers algorithms, you have to
+
+27
+00:01:52,110 --> 00:01:55,140
+apply them to newer kind of problems.
+
+28
+00:01:55,140 --> 00:02:00,000
+OK, so this is what is also observed in many interviews.
+
+29
+00:02:00,030 --> 00:02:05,040
+So you would be given a problem statement, which would be a newer, unseen problem, and it can be
+
+30
+00:02:05,040 --> 00:02:06,720
+a problem inspired from real world.
+
+31
+00:02:06,720 --> 00:02:13,290
+For example, you want to find the nearest hospital, or maybe you want to devise a route for the cab,
+
+32
+00:02:13,770 --> 00:02:17,640
+which works in a sharing model, something like that.
+
+33
+00:02:18,240 --> 00:02:23,130
+So the third step is about sharpening your knife and you have to cut your kind of route.
+
+34
+00:02:23,190 --> 00:02:26,940
+So that is one step ahead of these three steps.
+
+35
+00:02:27,300 --> 00:02:34,320
+I have created a problem solving track, and this is the first course of the track where you get comfortable
+
+36
+00:02:34,320 --> 00:02:38,010
+with the programming language in the next course, which is on data centers.
+
+37
+00:02:38,910 --> 00:02:43,770
+You learn how to work with different containers and their time complexities as well.
+
+38
+00:02:44,220 --> 00:02:49,590
+And in the third step, you learn how to sharpen your skills, how do you sharpen your knife and applied
+
+39
+00:02:49,590 --> 00:02:52,830
+algorithmic techniques to different type of problems, OK?
+
+40
+00:02:53,340 --> 00:03:01,170
+And so that's why I have devised three courses so that you go from zero to hero in in your journey of
+
+41
+00:03:01,170 --> 00:03:02,070
+solving problems.
+
+42
+00:03:02,490 --> 00:03:08,490
+I will be there in all three courses to help you the must become the master of problem solving.
+
+43
+00:03:09,060 --> 00:03:12,180
+And yeah, that is the problem solving track for you.
+
+44
+00:03:12,930 --> 00:03:18,480
+So before we discuss about this course, let me also tell you a little bit more about my professional
+
+45
+00:03:18,480 --> 00:03:19,050
+experience.
+
+46
+00:03:19,480 --> 00:03:25,080
+I've created several top rated online courses on did great coding minutes to bring high quality courses
+
+47
+00:03:25,080 --> 00:03:25,650
+on Udemy.
+
+48
+00:03:26,220 --> 00:03:31,440
+And a lot of my students who have gone through this journey of problem solving with me.
+
+49
+00:03:31,800 --> 00:03:37,500
+They're working in top product companies, including startups and companies like Google, Amazon, Microsoft
+
+50
+00:03:37,500 --> 00:03:38,100
+as well, right?
+
+51
+00:03:39,540 --> 00:03:41,450
+So what to expect after this course?
+
+52
+00:03:41,490 --> 00:03:46,890
+So I'm just going to talk about this course, so you'll get comfortable with the programming language.
+
+53
+00:03:46,890 --> 00:03:50,940
+It does not matter which programming language you start with, it can be C++.
+
+54
+00:03:50,940 --> 00:03:52,500
+It can be deployed, can be Python.
+
+55
+00:03:53,070 --> 00:04:00,840
+But for this course, I've picked C++ as the language, and it helps you to get into more details of
+
+56
+00:04:01,440 --> 00:04:05,760
+how the programs work, what happens at the binary level and all that stuff.
+
+57
+00:04:05,760 --> 00:04:12,210
+We do go in this course and you build solid programming foundations annually, radiological thinking
+
+58
+00:04:12,210 --> 00:04:14,640
+skills which are required to take the next step.
+
+59
+00:04:15,570 --> 00:04:20,850
+And you'll get familiar with concepts like loops, branching is string through cohesion, back dragging
+
+60
+00:04:20,850 --> 00:04:24,150
+on with masking and loops will cover these.
+
+61
+00:04:24,480 --> 00:04:26,890
+You can have a detailed look at the curriculum, right?
+
+62
+00:04:27,240 --> 00:04:32,340
+The first part is the logic building curriculum, which is again optional if you're already familiar
+
+63
+00:04:32,340 --> 00:04:33,210
+with logic building.
+
+64
+00:04:33,750 --> 00:04:34,800
+So I discuss.
+
+65
+00:04:35,940 --> 00:04:37,710
+Few things before you start writing good.
+
+66
+00:04:38,070 --> 00:04:43,260
+I discuss floor jokes and go dark, tell you how to think like a programmer given a small problem.
+
+67
+00:04:43,830 --> 00:04:46,910
+How do we break it down and how do we build logic for the same?
+
+68
+00:04:47,550 --> 00:04:53,850
+The second part of the course is more C++ specific, and we try to learn with various language constructs,
+
+69
+00:04:53,850 --> 00:05:02,310
+like how to write code that is using effects, ranging concepts, loops, operators, functions, pointers
+
+70
+00:05:02,310 --> 00:05:09,810
+et is Gutierrez Strings recursion and basics of object oriented programming so that the complete curriculum
+
+71
+00:05:09,810 --> 00:05:17,460
+of this course and um, and you know the good thing, there are no prerequisites to take this course.
+
+72
+00:05:17,520 --> 00:05:22,560
+So if you are an absolute beginner and if you have not worked with programming anywhere in your life,
+
+73
+00:05:23,040 --> 00:05:24,090
+you are at the right point.
+
+74
+00:05:24,120 --> 00:05:27,150
+This is the right step to start learning programming, right?
+
+75
+00:05:27,810 --> 00:05:34,260
+And so I hope you are ready to join me on this journey of learning coding and you will tighten your
+
+76
+00:05:34,530 --> 00:05:36,450
+seat belt and I will see you in the course.
+
+77
+00:05:36,810 --> 00:05:37,280
+Thank you.
+
+78
+00:05:37,290 --> 00:05:37,710
+Bye bye.

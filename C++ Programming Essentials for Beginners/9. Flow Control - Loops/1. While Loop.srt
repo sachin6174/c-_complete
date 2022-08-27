@@ -1,0 +1,299 @@
+1
+00:00:01,470 --> 00:00:07,260
+Everyone in this section, we are going to learn about loops, two loops are a very fundamental concept
+
+2
+00:00:07,260 --> 00:00:12,450
+in a programming language, and they're used when you want to repeat some work again and again.
+
+3
+00:00:12,450 --> 00:00:18,540
+OK, so the first example of a loop or the first kind of a loop that we will see is a value.
+
+4
+00:00:18,630 --> 00:00:18,960
+OK?
+
+5
+00:00:19,590 --> 00:00:21,110
+And we'll write a loop.
+
+6
+00:00:21,120 --> 00:00:25,410
+Suppose you're running on a treadmill and you want to 100 calories, OK?
+
+7
+00:00:25,950 --> 00:00:27,990
+So we'll see what are the components of the loop.
+
+8
+00:00:28,500 --> 00:00:34,380
+So in flowchart, if you remember what we did, if we wanted to repeat an operation again and again,
+
+9
+00:00:34,440 --> 00:00:36,360
+we'd draw something like this.
+
+10
+00:00:36,360 --> 00:00:38,970
+Physiology will have a starting value.
+
+11
+00:00:39,300 --> 00:00:40,950
+Let's say I start from one.
+
+12
+00:00:42,450 --> 00:00:49,620
+And we defined a stopping condition, took a little bit of an isolate, is I less than equal to 10?
+
+13
+00:00:49,840 --> 00:00:53,250
+OK, so if this is true, then we will talk.
+
+14
+00:00:53,250 --> 00:00:54,320
+It will do some work.
+
+15
+00:00:54,330 --> 00:00:56,550
+Maybe we will run on the machine.
+
+16
+00:00:57,640 --> 00:01:02,080
+And will increment the value of that is equal to this one.
+
+17
+00:01:02,680 --> 00:01:05,110
+And again, we connected back here, OK?
+
+18
+00:01:05,950 --> 00:01:11,920
+And if this condition is false, we actually came out of this flow and maybe we look at exit.
+
+19
+00:01:12,280 --> 00:01:13,450
+Our work is done right.
+
+20
+00:01:14,650 --> 00:01:15,730
+So now what is this?
+
+21
+00:01:16,270 --> 00:01:18,100
+This is actually a loop, right?
+
+22
+00:01:18,490 --> 00:01:27,190
+So if you go through this flow chart, you will observe that this process alone increment by Jack IRA
+
+23
+00:01:27,190 --> 00:01:28,570
+and increment by Jack.
+
+24
+00:01:29,230 --> 00:01:31,390
+This is going to happen 10 times, right?
+
+25
+00:01:31,390 --> 00:01:33,480
+So we are actually repeating some instruction.
+
+26
+00:01:35,720 --> 00:01:40,370
+Inside inside a look book is let's see how we can write this using a value.
+
+27
+00:01:41,680 --> 00:01:47,820
+So when you're going to use a value, we are going to define some initial condition, let's say like
+
+28
+00:01:47,820 --> 00:01:48,370
+equal to one.
+
+29
+00:01:48,460 --> 00:01:48,780
+OK.
+
+30
+00:01:49,120 --> 00:01:54,400
+So while the condition is so this loop is going to run all the time when the condition is true, let's
+
+31
+00:01:54,400 --> 00:01:57,090
+say delay is less than equal to 10, right?
+
+32
+00:01:57,100 --> 00:01:58,660
+So that condition will go ahead.
+
+33
+00:01:59,350 --> 00:02:01,720
+And then we will we are going to execute some stuff.
+
+34
+00:02:01,750 --> 00:02:03,130
+Maybe we we can look at.
+
+35
+00:02:03,160 --> 00:02:04,450
+We are running a one step.
+
+36
+00:02:05,050 --> 00:02:07,870
+We are running one step on the machine.
+
+37
+00:02:08,740 --> 00:02:09,010
+OK.
+
+38
+00:02:09,430 --> 00:02:10,300
+And update.
+
+39
+00:02:10,770 --> 00:02:12,600
+We also need to update the value of.
+
+40
+00:02:12,830 --> 00:02:14,950
+So that is your called libellous one.
+
+41
+00:02:15,130 --> 00:02:20,530
+To all these steps, go inside the blog of the do you have any condition?
+
+42
+00:02:20,530 --> 00:02:26,080
+You have a stopping criteria, you have the book that you want to do, the work that you want to repeat.
+
+43
+00:02:26,590 --> 00:02:29,020
+And this is the update condition.
+
+44
+00:02:29,020 --> 00:02:36,460
+OK, the way the public statement, actually the way you're going to update the value of I and I is
+
+45
+00:02:36,460 --> 00:02:39,460
+going to control when the loop should run or when it should stop.
+
+46
+00:02:40,460 --> 00:02:43,720
+So let me show you a quick demo of value.
+
+47
+00:02:44,350 --> 00:02:46,490
+So let's go into the good will, right?
+
+48
+00:02:46,510 --> 00:02:47,860
+A very basic program here.
+
+49
+00:02:57,230 --> 00:02:57,740
+And.
+
+50
+00:03:00,080 --> 00:03:08,060
+Will collect calories equal to one, so in calories equal to one, or maybe calories equal to zero.
+
+51
+00:03:08,600 --> 00:03:13,270
+So while calories is less than 10, what I'm going to do, I'm going to run on the machine.
+
+52
+00:03:13,280 --> 00:03:23,360
+Maybe I can say running a step and burning on many calories later, after burning a step, I actually
+
+53
+00:03:23,360 --> 00:03:31,340
+burn one calorie so I will print calorie plus one hit and I took calorie equal local groups, one in
+
+54
+00:03:31,340 --> 00:03:32,450
+the memory I'm updating.
+
+55
+00:03:32,870 --> 00:03:36,740
+The actual value of calorie has been implemented by one.
+
+56
+00:03:37,370 --> 00:03:39,460
+So let's see.
+
+57
+00:03:39,470 --> 00:03:40,610
+Let's see the output here.
+
+58
+00:03:41,600 --> 00:03:48,500
+So dogfish while loop, which is running a step on blending one gallery, two gallery three gallery
+
+59
+00:03:48,830 --> 00:03:49,670
+up to 10, right?
+
+60
+00:03:50,120 --> 00:03:54,680
+So we are out of the loop when the value of calories is actually golden.
+
+61
+00:03:54,710 --> 00:04:06,290
+OK, so maybe here you can print out of the look and see out the final value of calories, so that would
+
+62
+00:04:06,290 --> 00:04:11,450
+be the end to this loop would stop when the value of calories becomes equal to then, right?
+
+63
+00:04:12,890 --> 00:04:20,570
+So you can see out of the loop and the value of calories lost in this loop actually executed this statement
+
+64
+00:04:20,990 --> 00:04:21,860
+10 times, OK?
+
+65
+00:04:22,130 --> 00:04:24,350
+So this loop looked for band names.
+
+66
+00:04:24,620 --> 00:04:27,790
+And what would happen if you somehow forget this, OK?
+
+67
+00:04:28,310 --> 00:04:31,610
+In this case, you will end up in an infinite loop.
+
+68
+00:04:31,610 --> 00:04:37,590
+That means the value of calories would always remain zero and zero is always less than 10.
+
+69
+00:04:37,970 --> 00:04:40,400
+So it is going to run in finite times.
+
+70
+00:04:40,820 --> 00:04:46,280
+OK, so that is why this update statement is very important whenever you are writing a loop.
+
+71
+00:04:46,760 --> 00:04:53,360
+Similarly, this condition is also very important if you put something like calories greater than zero.
+
+72
+00:04:55,520 --> 00:04:57,590
+So what would happen in this case?
+
+73
+00:04:58,130 --> 00:05:02,870
+In that case, you will not enter the loop because the value of calories is initially zero.
+
+74
+00:05:03,740 --> 00:05:09,650
+OK, so you have to write these conditions very carefully, and that's all for the value.
+
+75
+00:05:09,950 --> 00:05:12,540
+And in the next part, we will discuss some examples.

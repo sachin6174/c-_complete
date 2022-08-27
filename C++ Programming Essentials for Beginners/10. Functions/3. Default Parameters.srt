@@ -1,0 +1,255 @@
+1
+00:00:01,040 --> 00:00:07,100
+Everyone's in this lecture, we're going to look at the concept of default parameters or default parameter
+
+2
+00:00:07,100 --> 00:00:10,590
+values, which we can give you any barometer.
+
+3
+00:00:11,300 --> 00:00:18,320
+For example, we have this method to play music and we are now sending song ideas from here, right?
+
+4
+00:00:18,830 --> 00:00:22,520
+What we can, we can also give some default value to us all night.
+
+5
+00:00:22,580 --> 00:00:25,520
+OK, so let me show you through a real working example.
+
+6
+00:00:26,770 --> 00:00:30,520
+Maybe let's copy this code and let's create a new.
+
+7
+00:00:33,030 --> 00:00:37,380
+By default values, but if you.
+
+8
+00:00:38,590 --> 00:00:40,690
+And we will let me just copy this one as well, right?
+
+9
+00:00:41,790 --> 00:00:47,970
+Now what we are going to do, we have seen that we can easily call the play music function without ending
+
+10
+00:00:47,970 --> 00:00:48,660
+any barometer.
+
+11
+00:00:49,170 --> 00:00:57,050
+One thing we can do is we can send some song I.D. and we can ask this to play this song with this I.D.
+
+12
+00:00:57,060 --> 00:00:57,310
+eight.
+
+13
+00:00:59,670 --> 00:01:06,420
+Now, this, if I believe, is called it will give me an error that there is no margin function, call
+
+14
+00:01:06,430 --> 00:01:11,520
+OK, so whenever you are calling this function, it requires you to send at least one parameter.
+
+15
+00:01:11,530 --> 00:01:14,280
+But in the function call, we are not sending any parameter right.
+
+16
+00:01:14,990 --> 00:01:17,050
+We have to give some numbers, maybe later.
+
+17
+00:01:17,050 --> 00:01:17,410
+Five.
+
+18
+00:01:17,980 --> 00:01:20,800
+And now if I build this code, it is going to be fine.
+
+19
+00:01:21,190 --> 00:01:21,460
+OK?
+
+20
+00:01:22,150 --> 00:01:26,440
+And what I can do is I can try to show you the output in this case.
+
+21
+00:01:28,320 --> 00:01:35,820
+Functions as the default values guide, so you can see that it's playing music with Song I.D., that
+
+22
+00:01:35,820 --> 00:01:37,620
+is five as expected.
+
+23
+00:01:38,190 --> 00:01:41,010
+And what I can do, I can see the default song or it is one.
+
+24
+00:01:41,250 --> 00:01:42,270
+Now what does it mean?
+
+25
+00:01:42,300 --> 00:01:47,100
+It basically means that this function now can be called in two ways.
+
+26
+00:01:47,520 --> 00:01:51,090
+The first is without giving any.
+
+27
+00:01:53,280 --> 00:01:54,420
+Barometer, OK.
+
+28
+00:01:55,560 --> 00:02:05,100
+And the second is by giving one song aid, for example, if I go call this function, play play music
+
+29
+00:02:05,580 --> 00:02:08,400
+and they don't specify any parameters, so what is going to happen?
+
+30
+00:02:09,060 --> 00:02:14,370
+The song lady is going to assume a default value of one, or maybe anything like three, something like
+
+31
+00:02:14,370 --> 00:02:14,700
+that.
+
+32
+00:02:15,360 --> 00:02:21,960
+Now, if I call this function, you will see it, says playing music three and playing music five.
+
+33
+00:02:22,420 --> 00:02:26,480
+What is happening in this case when we are sending this is the default.
+
+34
+00:02:26,490 --> 00:02:30,360
+Get over it and it gets the song, it becomes five.
+
+35
+00:02:30,660 --> 00:02:34,710
+And if I don't play anything by default, the song Ideas No.
+
+36
+00:02:34,860 --> 00:02:40,080
+Three, OK, so that is what is the concept of default values, right?
+
+37
+00:02:40,590 --> 00:02:44,370
+Maybe you're going to have another song idea which is let the song lady do.
+
+38
+00:02:45,560 --> 00:02:48,620
+And that is having a default value of six.
+
+39
+00:02:50,340 --> 00:02:53,180
+And maybe I can do something like this.
+
+40
+00:02:54,720 --> 00:03:02,640
+Play music and this song idea to write on, maybe you can just put it here on Song I.D. That is also
+
+41
+00:03:02,640 --> 00:03:03,030
+fine.
+
+42
+00:03:05,080 --> 00:03:11,920
+Now, if I call the first function, it will work as as expected, so it will say, OK, those playing
+
+43
+00:03:11,920 --> 00:03:18,400
+music with Song 83 and Song 86 because we are not sending any parameters to both of these would assume
+
+44
+00:03:18,400 --> 00:03:19,600
+their default values.
+
+45
+00:03:19,960 --> 00:03:21,900
+Let's use output.
+
+46
+00:03:23,110 --> 00:03:23,410
+Sorry.
+
+47
+00:03:24,260 --> 00:03:25,840
+Uh, no.
+
+48
+00:03:25,870 --> 00:03:27,880
+We should have records in eight.
+
+49
+00:03:30,760 --> 00:03:36,820
+To playing music with three and six on in the second case, when you're sending only five.
+
+50
+00:03:36,940 --> 00:03:42,970
+So in that value will go into the first barometer hit, we'll get that value will go hit on Song I.D.
+
+51
+00:03:42,970 --> 00:03:46,200
+one would become five and Song I.D. two will will remain six.
+
+52
+00:03:46,240 --> 00:03:48,690
+It will say playing music five and six.
+
+53
+00:03:48,700 --> 00:03:50,590
+That is what you're getting at playing music.
+
+54
+00:03:50,590 --> 00:03:51,430
+Vibrant, right?
+
+55
+00:03:52,330 --> 00:03:58,060
+And there is one more way not now to call this function by giving those young ladies right so I can
+
+56
+00:03:58,060 --> 00:03:58,180
+do.
+
+57
+00:03:58,180 --> 00:04:03,790
+No, I want to play music for the songs one, zero one and one zero two.
+
+58
+00:04:04,090 --> 00:04:06,840
+That is also fine, not this function.
+
+59
+00:04:06,850 --> 00:04:13,720
+We have two default parameters and this function now can be called in three different ways without no
+
+60
+00:04:13,720 --> 00:04:19,150
+barometer with one parameter on which two mandatory like parameters.
+
+61
+00:04:19,180 --> 00:04:26,350
+OK, now if I run this one again, now you can do playing music with one zero one and one zero two to
+
+62
+00:04:26,350 --> 00:04:28,090
+both these song IDs.
+
+63
+00:04:28,120 --> 00:04:34,120
+They get overridden by the values that we have supplied from the inside the function call OK.
+
+64
+00:04:34,700 --> 00:04:40,150
+So I hope you kind of understood the concept of default parameters, and that's all for this video.

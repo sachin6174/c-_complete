@@ -1,0 +1,395 @@
+1
+00:00:01,920 --> 00:00:07,590
+I so well, then you have made it so far and you have got a lot of knowledge about functions, but one
+
+2
+00:00:07,590 --> 00:00:12,700
+concept which is left now is the calls to aggregate.
+
+3
+00:00:12,730 --> 00:00:16,800
+So what actually happens at the memory level when you work with functions?
+
+4
+00:00:16,800 --> 00:00:18,440
+What happened to the local variables?
+
+5
+00:00:18,450 --> 00:00:25,340
+OK, so we are going to understand the concept of a goldstuck to the example that we have already done
+
+6
+00:00:25,350 --> 00:00:25,650
+right.
+
+7
+00:00:26,160 --> 00:00:30,190
+Let us try to understand the concept of Carlstadt through this example, right?
+
+8
+00:00:31,020 --> 00:00:37,850
+What happened is every time a function is called, it gets pushed in a memory that is known as stored
+
+9
+00:00:37,860 --> 00:00:38,190
+memory.
+
+10
+00:00:38,190 --> 00:00:39,690
+So there are two types of memory.
+
+11
+00:00:40,110 --> 00:00:45,600
+One is a stock memory and another is a heap memory, right?
+
+12
+00:00:46,880 --> 00:00:53,210
+So right now, we are not going to talk about deep memory because it deals with dynamic memory allocation.
+
+13
+00:00:53,810 --> 00:00:58,730
+And in our current programs, everything is a static memory allocation.
+
+14
+00:00:58,770 --> 00:01:00,500
+OK, so dynamic memory allocation.
+
+15
+00:01:01,450 --> 00:01:08,110
+This dynamic, dynamic allegation, we will do little later on, but what now will focus on stock memory?
+
+16
+00:01:08,710 --> 00:01:11,440
+The one thing to note is will make few notes here.
+
+17
+00:01:11,470 --> 00:01:15,520
+I will talk about stock memory, not next.
+
+18
+00:01:16,490 --> 00:01:22,100
+So every time our function is called, it gets created.
+
+19
+00:01:23,630 --> 00:01:32,120
+In the stock memory, OK, and all the local variables belonging to that function.
+
+20
+00:01:35,050 --> 00:01:37,120
+Are part of the stock frame.
+
+21
+00:01:38,030 --> 00:01:38,290
+OK?
+
+22
+00:01:39,190 --> 00:01:42,910
+And another point is once the function call is over.
+
+23
+00:01:45,770 --> 00:01:53,270
+The stock frame is cleared off, that means in all the memory that that is belonging to that function,
+
+24
+00:01:53,270 --> 00:01:56,690
+it gets cleared off and the function.
+
+25
+00:01:58,130 --> 00:01:59,870
+That is currently executing.
+
+26
+00:02:02,360 --> 00:02:05,390
+Is always at the top of the stack.
+
+27
+00:02:06,350 --> 00:02:09,110
+So now I'm going to explain you all of these points, one by one.
+
+28
+00:02:09,350 --> 00:02:10,280
+What happened, right?
+
+29
+00:02:11,340 --> 00:02:14,610
+Now your program starts from mean, let's see.
+
+30
+00:02:14,940 --> 00:02:15,220
+OK.
+
+31
+00:02:15,780 --> 00:02:21,000
+And you have some variability and and and you take input as well, you are here, right?
+
+32
+00:02:21,870 --> 00:02:23,110
+OK, so what happens?
+
+33
+00:02:23,940 --> 00:02:27,390
+The stock is stock memories.
+
+34
+00:02:27,570 --> 00:02:34,200
+OK, so everything is actually part of the RAM itself or the vision that is done by the compiler.
+
+35
+00:02:34,210 --> 00:02:37,300
+OK, so the compiler decided to get this part is in the stock.
+
+36
+00:02:37,320 --> 00:02:42,000
+This part is belonging to him, so it is a partition done by the compiler.
+
+37
+00:02:43,650 --> 00:02:46,620
+So a small part is a stock.
+
+38
+00:02:46,620 --> 00:02:48,510
+A bigger part is he and what?
+
+39
+00:02:48,510 --> 00:02:50,460
+The memories have some different properties.
+
+40
+00:02:50,460 --> 00:02:53,740
+OK, like stock, memory is only for memory.
+
+41
+00:02:53,760 --> 00:02:57,480
+That means last in, first out anything that comes into the stock.
+
+42
+00:02:58,460 --> 00:03:04,970
+For example, if you have a stack of books that you have a C++ book on the top of it, you put the Java
+
+43
+00:03:04,970 --> 00:03:07,460
+book on the top of it, you put the Python book.
+
+44
+00:03:07,740 --> 00:03:13,670
+OK, if I want to remove something, what what is the thing that would get removed?
+
+45
+00:03:14,090 --> 00:03:15,230
+It is actually the python.
+
+46
+00:03:15,470 --> 00:03:15,730
+OK?
+
+47
+00:03:16,160 --> 00:03:22,460
+That means the book, which was placed at the last, is the first one to get it removed.
+
+48
+00:03:23,170 --> 00:03:27,590
+The insertion and deletion in stock always happens at the top.
+
+49
+00:03:27,630 --> 00:03:30,980
+OK, so that is the property of this kind of data.
+
+50
+00:03:31,010 --> 00:03:34,460
+So it certainly does have its implicit start, I would say in this case.
+
+51
+00:03:34,850 --> 00:03:36,350
+You are not coding of the stack.
+
+52
+00:03:36,740 --> 00:03:40,670
+It automatically exists in the memory for the function calls.
+
+53
+00:03:40,670 --> 00:03:41,810
+It gets created right.
+
+54
+00:03:42,560 --> 00:03:46,070
+So whenever a function is called, it's get created in the stock memory.
+
+55
+00:03:46,070 --> 00:03:48,330
+So that means you are doing a new insertion in the stock.
+
+56
+00:03:48,350 --> 00:03:49,970
+So what would happen in this case?
+
+57
+00:03:51,020 --> 00:03:53,510
+Mean would get created in the stock memory.
+
+58
+00:03:54,310 --> 00:03:56,030
+So what is the meaning of it is getting created.
+
+59
+00:03:56,030 --> 00:04:01,550
+So there is a stock frame that belongs to me on all the local variables like and is a local variable.
+
+60
+00:04:01,550 --> 00:04:03,230
+It gets created in the stock memory.
+
+61
+00:04:03,260 --> 00:04:03,530
+OK.
+
+62
+00:04:05,710 --> 00:04:08,500
+And all the local variables are part of this doctrine.
+
+63
+00:04:08,530 --> 00:04:09,730
+This is what it means.
+
+64
+00:04:09,760 --> 00:04:14,480
+So if you have something like under equal, the faith that answered would be here, OK?
+
+65
+00:04:14,830 --> 00:04:20,530
+Or if you have an equal to some function call, it's a factorial and you're saying, Look, I want the
+
+66
+00:04:20,530 --> 00:04:22,270
+answer off victory loving.
+
+67
+00:04:23,080 --> 00:04:24,850
+And what happens in this case, right?
+
+68
+00:04:25,690 --> 00:04:26,800
+A new function call.
+
+69
+00:04:26,890 --> 00:04:27,250
+So.
+
+70
+00:04:28,320 --> 00:04:31,020
+Every time a function is called, it gets created in the stock market.
+
+71
+00:04:31,050 --> 00:04:35,460
+So a new stock frame would be created for the factorial function.
+
+72
+00:04:36,870 --> 00:04:41,760
+And it would have its own local variables later, we have Victoria, which is in then.
+
+73
+00:04:42,600 --> 00:04:46,230
+And here we have answered all we have in die.
+
+74
+00:04:46,470 --> 00:04:51,510
+So all those local variables would get created inside this memory, right?
+
+75
+00:04:54,600 --> 00:05:00,000
+So once the function call is over, the start frame is cleared off.
+
+76
+00:05:00,480 --> 00:05:06,360
+That means if you say, OK, I'm going to return, someone said to hear that it is getting stored and
+
+77
+00:05:06,360 --> 00:05:07,800
+you compute the answer, which is No.
+
+78
+00:05:07,810 --> 00:05:10,210
+120 unusual guy to return this answer.
+
+79
+00:05:10,560 --> 00:05:13,890
+This answer will go back to the place from where it is called.
+
+80
+00:05:14,580 --> 00:05:21,390
+And all the local variables in the memory which belong to this function, they will get destroyed.
+
+81
+00:05:21,910 --> 00:05:22,980
+You'll get the ones.
+
+82
+00:05:22,980 --> 00:05:24,660
+This function hates the written statement.
+
+83
+00:05:25,290 --> 00:05:30,020
+All the data that is local to this function, it will get destroyed from this document.
+
+84
+00:05:30,150 --> 00:05:37,350
+OK, so that means what is the function that is now executing the factorial function was executing it.
+
+85
+00:05:37,650 --> 00:05:38,610
+Now it is over.
+
+86
+00:05:39,120 --> 00:05:42,840
+This is the new top of the stack and maybe you are doing the old onset.
+
+87
+00:05:44,490 --> 00:05:51,660
+Basically mean God was at this line when the victory was executing, and once the victory function is
+
+88
+00:05:51,670 --> 00:05:58,450
+over, the control flow will again come back to me and you will see you'll get this line got executed.
+
+89
+00:05:58,470 --> 00:06:01,460
+Now this line will start getting executing it.
+
+90
+00:06:01,770 --> 00:06:03,510
+So now you'll get the answer on the screen.
+
+91
+00:06:03,720 --> 00:06:06,690
+It's the function that is currently at the top.
+
+92
+00:06:08,860 --> 00:06:12,310
+That is currently executing is always at the top of the stack.
+
+93
+00:06:12,530 --> 00:06:12,790
+OK.
+
+94
+00:06:13,450 --> 00:06:15,640
+That is the significance of the stark memory.
+
+95
+00:06:15,730 --> 00:06:22,030
+It basically controls what function is executing, what line of the function is executing, what part
+
+96
+00:06:22,030 --> 00:06:26,650
+of memory is where, what part of memory is getting created, what part of memory is getting destroyed,
+
+97
+00:06:26,650 --> 00:06:26,890
+OK?
+
+98
+00:06:27,580 --> 00:06:30,520
+That is what the significance of the stock memory is.
+
+99
+00:06:31,120 --> 00:06:37,540
+And I hope you got some high level idea about the stock memory in the next few days will see one example.

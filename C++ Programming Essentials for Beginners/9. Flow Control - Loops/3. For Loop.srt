@@ -1,0 +1,211 @@
+1
+00:00:01,310 --> 00:00:09,020
+We have seen how to work with the value in this example, we learned the about follow on for Luke basically
+
+2
+00:00:09,020 --> 00:00:13,570
+combines the three steps of the vie loop in a single line of code.
+
+3
+00:00:13,580 --> 00:00:21,260
+OK, so the three statements the initialization, the stopping criteria and an update statement.
+
+4
+00:00:21,260 --> 00:00:24,260
+Okay, so all of them get combined in this index of thought.
+
+5
+00:00:24,950 --> 00:00:29,540
+And here we will write whatever we want to execute again and again.
+
+6
+00:00:29,570 --> 00:00:29,870
+OK.
+
+7
+00:00:30,470 --> 00:00:35,480
+So let me show you an example for let's end calories equal to zero calories less than 100.
+
+8
+00:00:35,490 --> 00:00:38,660
+So this is your stopping criteria and this is your update statement.
+
+9
+00:00:38,660 --> 00:00:38,930
+OK, if?
+
+10
+00:00:40,100 --> 00:00:43,880
+And this is what we want to print again and again.
+
+11
+00:00:44,510 --> 00:00:48,650
+Now you may ask, what is the difference between fight for loop and why?
+
+12
+00:00:48,650 --> 00:00:51,650
+Look, the thing is they both are equal and took.
+
+13
+00:00:51,950 --> 00:00:59,920
+Everyone by loop can be converted into for loop on every value, can be converted into white look,
+
+14
+00:00:59,930 --> 00:01:02,180
+and every four can be converted into white.
+
+15
+00:01:02,180 --> 00:01:03,700
+So they are basically the same.
+
+16
+00:01:04,310 --> 00:01:05,960
+So they have the same speed.
+
+17
+00:01:05,960 --> 00:01:10,100
+They have the same time complexity only defenders.
+
+18
+00:01:11,240 --> 00:01:13,870
+The syntax of for loop is more come back to.
+
+19
+00:01:13,880 --> 00:01:20,480
+It is a more complex index, and a lot of programmers generally prefer working with a for loop.
+
+20
+00:01:20,780 --> 00:01:27,860
+But most scenarios instead of valuable get and the chances of making a mistake or missing some statement
+
+21
+00:01:27,860 --> 00:01:33,100
+are less because, you know you have to complete these three things when you are talking about a loop,
+
+22
+00:01:33,110 --> 00:01:33,380
+right?
+
+23
+00:01:33,960 --> 00:01:39,800
+So let me show you another good demo so will do for them.
+
+24
+00:01:41,300 --> 00:01:47,810
+And maybe I'm just going to copy one of the earlier code and we're going to convert this well into a
+
+25
+00:01:47,810 --> 00:01:48,500
+full plate.
+
+26
+00:01:49,100 --> 00:01:57,110
+What we need to do, we need to put forth statement to the initial condition that can be made inside
+
+27
+00:01:57,320 --> 00:01:58,280
+the four loop.
+
+28
+00:01:59,030 --> 00:02:04,790
+And I can say Gallery C++, so that is your update condition right now.
+
+29
+00:02:05,600 --> 00:02:13,460
+Everything is going to be same and no one one error that you're getting that use of undeclared identified
+
+30
+00:02:13,460 --> 00:02:13,790
+CAD.
+
+31
+00:02:14,300 --> 00:02:20,360
+So what happens when you declare galleries like this and you want to access this variable outside the
+
+32
+00:02:20,450 --> 00:02:20,840
+our loop?
+
+33
+00:02:21,650 --> 00:02:23,930
+So here comes the concept of a copyright.
+
+34
+00:02:24,830 --> 00:02:34,040
+So anything that is declared inside the for loop will give that variable is not accessible outside the
+
+35
+00:02:34,040 --> 00:02:35,030
+boundary of the volume.
+
+36
+00:02:35,180 --> 00:02:38,600
+That means this variable as a scope.
+
+37
+00:02:39,620 --> 00:02:45,920
+Bob is basically the region in which this variable is being existing, you can access this variable
+
+38
+00:02:46,310 --> 00:02:50,300
+only inside the boundaries of the up rate so you cannot access it outside.
+
+39
+00:02:50,310 --> 00:02:54,050
+So what you can do, you can define this variable in other scope.
+
+40
+00:02:54,050 --> 00:02:57,950
+For example, you can define this and declare this in mean, OK.
+
+41
+00:02:58,850 --> 00:03:05,360
+And now what happens if you declare it, it becomes a part of the scope of mean, OK, it becomes a
+
+42
+00:03:05,360 --> 00:03:09,560
+part of this method so you can use it anywhere inside this function, OK?
+
+43
+00:03:09,950 --> 00:03:15,320
+The one change I will do, I will say, OK, end galleries, and we are saying we'll get the initial
+
+44
+00:03:15,320 --> 00:03:16,700
+value of calories is zero.
+
+45
+00:03:17,300 --> 00:03:22,210
+While it is less than 10, I'm incrementing it and I'm printing it.
+
+46
+00:03:22,220 --> 00:03:25,070
+OK, so now it is getting compiled.
+
+47
+00:03:25,950 --> 00:03:27,710
+And now let us try to run this code.
+
+48
+00:03:31,150 --> 00:03:40,010
+And I can see a large, large Ford demo, you can see running one step and burning calories one, right?
+
+49
+00:03:40,110 --> 00:03:46,150
+So again, it is running 10 times and the output is exactly the same as the while loop.
+
+50
+00:03:46,420 --> 00:03:51,190
+But the thing is, it's more compact, according to index, right?
+
+51
+00:03:52,380 --> 00:03:55,010
+So that is what I wanted to discuss about the outlook.
+
+52
+00:03:55,680 --> 00:04:02,580
+But before jumping to the next part, I can show you that the four look and look a grilling and that
+
+53
+00:04:02,580 --> 00:04:03,780
+will see in the next picture.
