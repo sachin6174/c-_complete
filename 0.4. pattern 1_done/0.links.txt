@@ -1,0 +1,25 @@
+1
+12
+123
+1234
+
+
+1
+23
+456
+78910
+
+
+   1
+  234
+ 56789
+
+1
+23
+345
+4567
+
+https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+
+
+https://www.codingninjas.com/codestudio/problems?practice_topic[]=Patterns&difficulty[]=EASY

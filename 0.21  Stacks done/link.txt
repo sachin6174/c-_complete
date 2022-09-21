@@ -1,0 +1,9 @@
+https://www.codingninjas.com/codestudio/problems?practice_topic%5B%5D=Stacks%20%26%20Queues&difficulty%5B%5D=EASY&difficulty%5B%5D=MEDIUM
+
+Practice problems:
+12
+● https://www.spoj.com/problems/ADAQUEUE/
+● https://www.hackerearth.com/practice/data-structures/queues/basics-of-qu
+eues/practice-problems/algorithm/number-recovery-0b988eb2/
+● https://www.codechef.com/problems/SAVJEW
+● https://www.hackerrank.com/challenges/down-to-zero-ii/problem

@@ -12,9 +12,6 @@
 //os_base::sync_with_stdio(0); 
 //cin.tie(0);  
 using namespace std;
-
-
-
 void my_machine(){
 
     
@@ -28,6 +25,7 @@ int main()
 int i=1;
 while(i<5){
     int a=5;
+    cout<<a<<char(32);
     i++;
 }
 
