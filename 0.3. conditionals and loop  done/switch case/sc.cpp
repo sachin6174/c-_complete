@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-  int day = 6;
+  int day ;
+  cin>>day;
   switch (day) {
     case 6:
       cout << "Today is Saturday";

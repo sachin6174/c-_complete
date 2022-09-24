@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  int day = 6;
+  int day =6 ;
   switch (day) {
     case 6:
       cout << "Today is Saturday";

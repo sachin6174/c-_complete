@@ -1,0 +1,1 @@
+// https://www.codingninjas.com/codestudio/problems?practice_topic%5B%5D=Math&practice_topic%5B%5D=Arrays&practice_topic%5B%5D=Loops&company%5B%5D=Accenture&company%5B%5D=Acko&company%5B%5D=Amadeus&company%5B%5D=Adobe&difficulty%5B%5D=EASY
