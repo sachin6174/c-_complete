@@ -1,0 +1,10 @@
+// you will be given array of words you need to sort according to the dictionary
+input:
+sbji
+sachin 
+sackin
+sacki
+baki 
+bati
+chati 
+chatr
