@@ -1,0 +1,5 @@
+a = 5
+++a;          // a becomes 6
+a++;          // a becomes 7
+--a;          // a becomes 6	
+a--;          // a becomes 5

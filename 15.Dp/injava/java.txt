@@ -1,0 +1,7 @@
+to compile ->  javac filenmame.java
+to run->   java filename 
+int array me by default all values are 0
+Integer array me by default all  values are null
+
+int variable has no in it directly
+where as Integer has address of a location where we place values

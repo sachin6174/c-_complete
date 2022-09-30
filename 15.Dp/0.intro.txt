@@ -1,0 +1,14 @@
+// storage meaning assignment
+//direction identification 
+//travel and solve
+
+//recursion 
+//memoization 
+//tabulation
+//fibonacchi
+//climbing stairs
+//climbing stairs with variable k=jumps
+//climb stairs with minimum moves
+//min cost to reach a cell in matrix (including diagonal and not including it)
+//goldmine or mincost of travel by bus
+//subset sum

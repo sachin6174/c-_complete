@@ -1,0 +1,36 @@
+install ming w
+make selection as in image in the folder
+
+make bin folder of installed migw as path  in the variable of system variable or second path bottom one
+to run manually
+
+type g++ test.cpp
+then test.exe
+
+// all fine till
+// opeen in terminal 
+//clear previous output before each run
+// never make file name with wite spaces
+
+user snippit in c++
+{"Print to console": {
+		"prefix": "include2",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"int main()",
+			"{",
+			"$2",
+			"return 0;",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
+
+Warning: PowerShell detected that you might be using a screen reader and 
+has disabled PSReadLine for compatibility purposes.
+ If you want to re-enable it, run 'Import-Module PSReadLine'.
+
+
+if we just press ctrl+c any any location of curser it will copy complete line we not need to select the things and then ctrl+c

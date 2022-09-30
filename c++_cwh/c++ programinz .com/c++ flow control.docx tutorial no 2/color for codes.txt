@@ -1,0 +1,15 @@
+    border: 1px solid #d3dce6;
+    background-color: #f5f5f5;
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    color: #383a42;
+    background: #fafafa;
+}
+
+text to dark
+
+
+    color: #383a42;

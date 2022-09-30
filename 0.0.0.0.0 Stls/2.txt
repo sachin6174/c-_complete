@@ -1,0 +1,17 @@
+for (int  i =len; len<=n-1 ; i++)
+        {
+            sort(a,a+len-1);
+            sort(a+len,a+n);
+            for (int  i = 0; i < n; i++)
+            {
+                if(a[i]==b[i]){
+                    s=true;
+
+                }else{
+                    s=false;
+                    break;
+                }
+            }
+            
+           
+        }

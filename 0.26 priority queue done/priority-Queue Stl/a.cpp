@@ -26,7 +26,7 @@ const ld EPS = 1e-9;
 
 class comp{
     public:
-    bool compare(pair<int,int>p1,pair<int,int>p2) {
+    bool operator()(pair<int,int>p1,pair<int,int>p2) {
     return p1.first>p2.first;
 }
 };
