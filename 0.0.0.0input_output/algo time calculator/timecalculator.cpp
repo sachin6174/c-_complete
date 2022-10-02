@@ -17,7 +17,9 @@ int main()
 	vector<int> values(10000);
 
 	// Generate Random values
-	auto f = []() -> int { return rand() % 10000; };
+	auto f = []() -> int {
+		 return rand() % 10000; 
+	};
 
 	// Fill up the vector
 	generate(values.begin(), values.end(), f);

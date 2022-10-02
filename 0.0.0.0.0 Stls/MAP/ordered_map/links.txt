@@ -1,1 +1,4 @@
 https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+
+ordered map does not arrage order of comming elements but mainatains 
+the soring in increasing order of key by default lexigraphically (for characher) and noral increasing for numbers.
